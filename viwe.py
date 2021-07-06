@@ -32,7 +32,7 @@ class Windows(logic_capture.LogicCapture):
         self.windowTk.mainloop()
 
     def ThChengKeyBoard(self):
-        get_class = get_lang.GetLangeKeyboar()
+        get_class = get_lang.GetLangeKeyBoard()
         while logic_capture.LogicCapture.is_FlagLiveThread:
             newLang = get_class.get_keyboard_language()
             if newLang != self.langKeyBoard:
@@ -52,7 +52,3 @@ class Windows(logic_capture.LogicCapture):
 
     def __del__(self):
         logic_capture.LogicCapture.is_FlagLiveThread = False
-
-
-if __name__ == '__main__':
-    Windows()

@@ -1,3 +1,33 @@
+"""
+keyboard.is_pressed('ctrl') - проверка нажатия клавиатуры
+
+keyboard.send("space") - нажать клавиши
+
+keyboard.press("ctrl") - нажимаем кнопку CTRL
+
+keyboard.release("ctrl") - отпускаем кнопку CTRL
+
+keyboard.write("Программирование на Python - это всегда весело!", delay=0.1) - напечатать текст
+
+events = keyboard.record('esc') - записывать все нажатия на клавиатуру, пока не будет нажата клавиша esc
+
+keyboard.play(events) - проиграйте эти события
+
+list(keyboard.get_typed_strings(events)) - вывести нажатия
+
+keyboard.unhook_all() - выключить слушатель
+
+mouse.get_position() - получить полодение мыши
+
+mouse.move(100, 100, absolute=False, duration=0.2) - перетащить мышь
+
+mouse.on_click(lambda: print("Left Button clicked.")) - следить за нажатием выши и выполнять функцию
+
+mouse.wheel(-1) - прокрутка колесом мыши
+
+mouse.unhook_all() - выключить слушатель
+"""
+
 translation_key = {
     "q": "й",
     "w": "ц",

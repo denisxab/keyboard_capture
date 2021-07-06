@@ -3,7 +3,7 @@ import ctypes
 from dataconst import languages
 
 
-class GetLangeKeyboar:
+class GetLangeKeyBoard:
     def __init__(self):
 
         self.user32 = ctypes.WinDLL('user32', use_last_error=True)
@@ -30,7 +30,3 @@ class GetLangeKeyboar:
         else:
             # Return language id hexadecimal value if not found.
             return str(language_id_hex)
-
-
-if __name__ == '__main__':
-    pass

@@ -1,8 +1,4 @@
-﻿
-
-
-
-
+﻿from viwe import Windows
 
 if __name__ == '__main__':
-    pass
+    Windows()
