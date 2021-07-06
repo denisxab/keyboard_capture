@@ -1,5 +1,4 @@
 import sys
-import sys
 import threading
 import time
 from ctypes import windll
@@ -29,7 +28,6 @@ class LogicCapture:
     def ChangeLangeKeyBoard():
         # Сменить раскладку клавиотур
         keyboard.press("shift+alt")
-        LogicCapture.IdentifyLangeKeyBoar()
 
     # Перевод стороки сивлов на другой язык
     @staticmethod

@@ -12,12 +12,13 @@ class Windows(logic_capture.LogicCapture):
         super().__init__()
         # INIT
         self.windowTk = Tk()
-        self.windowTk.geometry('{}x{}'.format('170', '80'))
+        self.windowTk.geometry('{}x{}'.format('170', '50'))
+        self.windowTk.iconbitmap(default='data_image/none.icon')
+        self.windowTk.title = ""
         self.frameRoot = Frame(self.windowTk)
         self.langKeyBoard: str = ""
         self.ImageButtonLange: PhotoImage = PhotoImage()
-        self.ButtonLage = Button(self.frameRoot, height=50, width=10, bg='#AEAEAE',
-                                 command=logic_capture.LogicCapture.ChangeLangeKeyBoard)
+        self.ButtonLage = Button(self.frameRoot, height=50, width=10, bg='#AEAEAE')
 
         threading.Thread(name="ThChengKeyBoard", target=self.ThChengKeyBoard, daemon=True).start()
 
@@ -31,7 +32,6 @@ class Windows(logic_capture.LogicCapture):
         self.windowTk.mainloop()
 
     def ThChengKeyBoard(self):
-        newLang: str = ""
         get_class = get_lang.GetLangeKeyboar()
         while logic_capture.LogicCapture.is_FlagLiveThread:
             newLang = get_class.get_keyboard_language()
