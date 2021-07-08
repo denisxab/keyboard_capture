@@ -14,9 +14,6 @@ import viwe
 from pack import get_lang
 from pack.dataconst import *
 
-# logging.basicConfig(level="DEBUG", filename='log_file/logic_capture.log')
-
-
 logging.basicConfig(
     # handlers=[logging.FileHandler(filename="log_file/logic_capture.log", encoding='utf-8', mode='w')],
     format="%(asctime)s %(name)s:\t%(funcName)s:\t%(thread)d:\t%(levelname)s:\t%(message)s:",
@@ -175,6 +172,3 @@ class LogicCapture:
             mouse.on_click(lambda: cls.KeyPressDown.clear())
             time.sleep(10)
         mouse.unhook_all()
-
-    # def __del__(self):
-    #     LogicCapture.is_FlagLiveThread = False

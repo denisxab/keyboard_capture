@@ -1,5 +1,5 @@
 from tkinter import *
-from typing import Tuple, Optional
+from typing import Optional
 
 from logic_capture import LogicCapture
 
@@ -9,16 +9,14 @@ class Windows:
 
     def __init__(self):
         super().__init__()
-        # INITs
+        # INIT
         self.windowTk = Tk()
-        position = self.__get_position()
-        self.windowTk.geometry('170x50{}'.format(f"+{position[0]}+{position[1]}" if position else "+0+0"))
+        self.windowTk.geometry(f'{self.get_position()}')
         self.windowTk.iconbitmap(default='data_image/none.icon')
         self.windowTk.resizable(False, False)
         self.windowTk.title = ""
         self.frameRoot = Frame(self.windowTk)
         self.ButtonLage = Button(self.frameRoot, height=50, width=10, bg='#AEAEAE', command=self.OnClosed)
-        # self.windowTk.overrideredirect(1)
 
         # PACK
         self.frameRoot.pack(fill=BOTH, expand=True)
@@ -34,22 +32,21 @@ class Windows:
         # Start
         self.windowTk.mainloop()
 
-    def __save_position(self, x, y):
-        with open("data_image/config.txt", 'w') as f:
-            f.write(f"{x} {y}")
-
-    def __get_position(self) -> Optional[Tuple[int, int]]:
+    def get_position(self) -> str:
         try:
             with open("data_image/config.txt", 'r') as f:
                 x, y = f.read().split(" ")
-                return x, y
+                self.windowTk.overrideredirect(1)
+                return f"{80}x{50}+{x}+{y}"
         except FileNotFoundError:
-            return None
+            return f"{80}x{50}+{self.windowTk.winfo_screenwidth() - 90}+{self.windowTk.winfo_screenheight() // 2}"
+
+    @staticmethod
+    def save_position(x, y):
+        with open("data_image/config.txt", 'w') as f:
+            f.write(f"{x} {y}")
 
     def OnClosed(self):
-        self.__save_position(self.windowTk.winfo_x(), self.windowTk.winfo_y())
+        Windows.save_position(self.windowTk.winfo_x(), self.windowTk.winfo_y())
         LogicCapture.is_FlagLiveThread = False
         self.windowTk.destroy()
-
-    def __del__(self):
-        self.OnClosed()
