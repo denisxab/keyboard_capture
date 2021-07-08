@@ -1,6 +1,7 @@
 import threading
 import time
 from tkinter import *
+from typing import Tuple, Optional
 
 import logic_capture
 from pack import get_lang
@@ -12,13 +13,15 @@ class Windows(logic_capture.LogicCapture):
         super().__init__()
         # INITs
         self.windowTk = Tk()
-        self.windowTk.geometry('{}x{}'.format('170', '50'))
+        position = self.__get_position()
+        self.windowTk.geometry('170x50{}'.format(f"+{position[0]}+{position[1]}" if position else "+0+0"))
         self.windowTk.iconbitmap(default='data_image/none.icon')
+        self.windowTk.resizable(False, False)
         self.windowTk.title = ""
         self.frameRoot = Frame(self.windowTk)
         self.langKeyBoard: str = ""
         self.ImageButtonLange: PhotoImage = PhotoImage()
-        self.ButtonLage = Button(self.frameRoot, height=50, width=10, bg='#AEAEAE')
+        self.ButtonLage = Button(self.frameRoot, height=50, width=10, bg='#AEAEAE', command=self.OnClosed)
 
         threading.Thread(name="ThChengKeyBoard", target=self.ThChengKeyBoard, daemon=True).start()
 
@@ -31,7 +34,20 @@ class Windows(logic_capture.LogicCapture):
         # self.windowTk.overrideredirect(1)
         self.windowTk.mainloop()
 
+    def __save_position(self, x, y):
+        with open("data_image/config.txt", 'w') as f:
+            f.write(f"{x} {y}")
+
+    def __get_position(self) -> Optional[Tuple[int, int]]:
+        try:
+            with open("data_image/config.txt", 'r') as f:
+                x, y = f.read().split(" ")
+                return x, y
+        except FileNotFoundError:
+            return None
+
     def ThChengKeyBoard(self):
+
         GetLang = get_lang.GetLangeKeyBoard()
         while logic_capture.LogicCapture.is_FlagLiveThread:
             newLang = GetLang.get_keyboard_language()
@@ -47,8 +63,9 @@ class Windows(logic_capture.LogicCapture):
         time.sleep(1)
 
     def OnClosed(self):
+        self.__save_position(self.windowTk.winfo_x(), self.windowTk.winfo_y())
         logic_capture.LogicCapture.is_FlagLiveThread = False
         self.windowTk.destroy()
 
     def __del__(self):
-        logic_capture.LogicCapture.is_FlagLiveThread = False
+        self.OnClosed()

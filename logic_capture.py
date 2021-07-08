@@ -108,7 +108,6 @@ class LogicCapture:
                 # Отчиска массива при смене фокуса
                 LogicCapture.KeyPressDown.clear()
                 return None
-
             # Обработка печататния с зажатым shift
             if event.name == "shift" and event.event_type == 'down':  # обработать зжатия Shift -
                 ShiftTrigger = 1000
