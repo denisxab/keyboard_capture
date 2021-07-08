@@ -7,7 +7,7 @@ class GetLangeKeyBoard:
     def __init__(self):
         self.user32 = ctypes.WinDLL('user32', use_last_error=True)
 
-    def get_keyboard_language(self):
+    def get_keyboard_language(self) -> int:
         # Get the current active window handle
         handle = self.user32.GetForegroundWindow()
 
@@ -23,9 +23,17 @@ class GetLangeKeyBoard:
         # Convert the keyboard language id from decimal to hexadecimal
         language_id_hex = hex(language_id)
 
+        """
+        1 - Ru
+        2 - En
+        """
+
         # Check if the hex value is in the dictionary.
         if language_id_hex in languages.keys():
-            return languages[language_id_hex]
+            tmp = languages[language_id_hex]
+            if type(tmp) == int:
+                return tmp
+            else:
+                raise TypeError()
         else:
-            # Return language id hexadecimal value if not found.
-            return str(language_id_hex)
+            raise TypeError()

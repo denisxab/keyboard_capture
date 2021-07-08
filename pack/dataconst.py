@@ -28,7 +28,7 @@ mouse.wheel(-1) - прокрутка колесом мыши
 mouse.unhook_all() - выключить слушатель
 """
 
-translation_key = {
+translation_key_EN_RU = {
     "q": "й",
     "w": "ц",
     "e": "у",
@@ -99,6 +99,77 @@ translation_key = {
     "/": "/"
 }
 
+translation_key_RU_EN = {
+    "й": "q",
+    "ц": "w",
+    "у": "e",
+    "к": "r",
+    "е": "t",
+    "н": "y",
+    "г": "u",
+    "ш": "i",
+    "щ": "o",
+    "з": "p",
+    "х": "[",
+    "ъ": "]",
+    "ф": "a",
+    "ы": "s",
+    "в": "d",
+    "а": "f",
+    "п": "g",
+    "р": "h",
+    "о": "j",
+    "л": "k",
+    "д": "l",
+    "ж": ";",
+    "э": "'",
+    "я": "z",
+    "ч": "x",
+    "с": "c",
+    "м": "v",
+    "и": "b",
+    "т": "n",
+    "ь": "m",
+    "б": ",",
+    "ю": ".",
+    ###:###
+    "Й": "Q",
+    "Ц": "W",
+    "У": "E",
+    "К": "R",
+    "Е": "T",
+    "Н": "Y",
+    "Г": "U",
+    "Ш": "I",
+    "Щ": "O",
+    "З": "P",
+    "Х": "{",
+    "Ъ": "}",
+    "Ф": "A",
+    "Ы": "S",
+    "В": "D",
+    "А": "F",
+    "П": "G",
+    "Р": "H",
+    "О": "J",
+    "Л": "K",
+    "Д": "L",
+    "Ж": ":",
+    "Э": '"',
+    "Я": "Z",
+    "Ч": "X",
+    "С": "C",
+    "М": "V",
+    "И": "B",
+    "Т": "N",
+    "Ь": "M",
+    "Б": "<",
+    "Ю": ">",
+    ###:###
+    "#": "#",
+    "/": "/"
+}
+
 codeKey = {
     16: 'q',
     17: 'w',
@@ -134,7 +205,7 @@ codeKey = {
     52: '.',
     57: ' ',
     15: '\t',
-    4: '#'
+    4: '#',
 }
 
 languages = {'0x436': "Afrikaans - South Africa", '0x041c': "Albanian - Albania",
@@ -158,7 +229,7 @@ languages = {'0x436': "Afrikaans - South Africa", '0x041c': "Albanian - Albania"
              '0x101a': "Croatian (Bosnia/Herzegovina)", '0x405': "Czech", '0x406': "Danish",
              '0x465': "Divehi",
              '0x413': "Dutch - Netherlands", '0x813': "Dutch - Belgium",
-             '0x466': "Edo", '0x409': "English - United States", '0x809': "English - United Kingdom",
+             '0x466': "Edo", '0x409': 2, '0x809': "English - United Kingdom",
              '0x0c09': "English - Australia", '0x2809': "English - Belize",
              '0x1009': "English - Canada", '0x2409': "English - Caribbean",
              '0x3c09': "English - Hong Kong SAR",
@@ -208,7 +279,7 @@ languages = {'0x436': "Afrikaans - South Africa", '0x041c': "Albanian - Albania"
              '0x046B': "Quecha - Bolivia", '0x086B': "Quecha - Ecuador",
              '0x0C6B': "Quecha - Peru", '0x417': "Rhaeto-Romanic", '0x418': "Romanian",
              '0x818': "Romanian - Moldava",
-             '0x419': "Russian", '0x819': "Russian - Moldava",
+             '0x419': 1, '0x819': "Russian - Moldava",
              '0x043b': "Sami (Lappish)", '0x044f': "Sanskrit", '0x046c': "Sepedi",
              '0x0c1a': "Serbian (Cyrillic)",
              '0x081a': "Serbian (Latin)", '0x459': "Sindhi - India",

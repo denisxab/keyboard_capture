@@ -3,12 +3,15 @@ import sys
 import threading
 import time
 from ctypes import windll
+from tkinter import PhotoImage
 from typing import List, Set
 
 import keyboard
 import mouse
 import pyperclip
 
+import viwe
+from pack import get_lang
 from pack.dataconst import *
 
 # logging.basicConfig(level="DEBUG", filename='log_file/logic_capture.log')
@@ -34,6 +37,24 @@ class LogicCapture:
         # Поток по захвату мыши и отчистки KeyPressDown при нажатие ПКМ
         threading.Thread(name="ThClearKeyPressDownIfPressMouse", target=LogicCapture.ThClearKeyPressDownIfPressMouse,
                          daemon=True).start()
+        # Поток по поулчению раскладки клавиотурты
+        threading.Thread(name="ThChengKeyBoard", target=LogicCapture.ThChengKeyBoard, daemon=True).start()
+
+    @staticmethod
+    def ThChengKeyBoard():
+        GetLang = get_lang.GetLangeKeyBoard()
+        while LogicCapture.is_FlagLiveThread:
+            newLang = GetLang.get_keyboard_language()
+            if newLang != LogicCapture.MainLangeKeyboard:
+                LogicCapture.MainLangeKeyboard = newLang
+                fileImage: str = ""
+                if newLang == 1:
+                    fileImage = "data_image/ru.png"
+                elif newLang == 2:
+                    fileImage = "data_image/en.png"
+                ImageButtonLange = PhotoImage(file=fileImage)
+                viwe.Windows.BUTTON["image"] = ImageButtonLange
+            time.sleep(1)
 
     @staticmethod
     def ChangeLangeKeyBoard():
@@ -44,11 +65,16 @@ class LogicCapture:
     @staticmethod
     def SimblTranslation(false_text: str) -> str:
         res_text: str = ""
-        for symbol in false_text:
-            try:
-                res_text += translation_key[symbol]
-            except KeyError:
-                res_text += symbol
+
+        if LogicCapture.MainLangeKeyboard == 2:  # En
+            for symbol in false_text:
+                try:
+                    res_text += translation_key_EN_RU[symbol]
+                except KeyError:
+                    res_text += symbol
+
+        elif LogicCapture.MainLangeKeyboard == 1:  # Ru
+            res_text = false_text
 
         return res_text
 
@@ -69,6 +95,7 @@ class LogicCapture:
 
     @staticmethod
     def SetTranslateText(text: str):
+
         # перевод раскалки
         NewTranslateKey: str = LogicCapture.SimblTranslation(text)
         # Стиреть слова на неправильной раскладки
@@ -77,7 +104,7 @@ class LogicCapture:
         # Запись новыйх слов
         keyboard.write(NewTranslateKey, delay=0.05)
 
-        log.debug(NewTranslateKey)
+        log.debug(NewTranslateKey)  # DEBUG
 
         # Отчистить массив
         LogicCapture.KeyPressDown.clear()
@@ -132,7 +159,7 @@ class LogicCapture:
                 if event.event_type == "up":
                     LogicCapture.KeyPressDown.append(event.scan_code + ShiftTrigger)
 
-            log.debug(LogicCapture.CodeKeyTranslation(LogicCapture.KeyPressDown))
+            log.debug(LogicCapture.CodeKeyTranslation(LogicCapture.KeyPressDown))  # DEBUG
 
         # Отчитстка буфера обмена
         if windll.user32.OpenClipboard(None):
@@ -149,5 +176,5 @@ class LogicCapture:
             time.sleep(10)
         mouse.unhook_all()
 
-    def __del__(self):
-        LogicCapture.is_FlagLiveThread = False
+    # def __del__(self):
+    #     LogicCapture.is_FlagLiveThread = False
