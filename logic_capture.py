@@ -96,7 +96,7 @@ class LogicCapture:
         # перевод раскалки
         NewTranslateKey: str = LogicCapture.SimblTranslation(text)
 
-        # Удалть по символьно только кода напечанно вручную
+        # Удалть по символьно только когдаа текст напечанно вручную а не взят из буфера когда выделен текст
         if delFlag:
             # Стиреть слова на неправильной раскладки
             for _ in range(len(NewTranslateKey)):
