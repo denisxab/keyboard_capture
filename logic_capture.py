@@ -4,7 +4,7 @@ import threading
 import time
 from ctypes import windll
 from tkinter import PhotoImage
-from typing import List, Set, Optional
+from typing import List, Set
 
 import keyboard
 import mouse
@@ -115,7 +115,6 @@ class LogicCapture:
     @classmethod
     def ThCaptureKeyBoard(cls):
         ShiftTrigger: int = 0
-        CopyLast: Optional[str] = ""
         TriggerChangeLang: float = 0.0
         TriggerCopy: int = 0
 
@@ -127,7 +126,7 @@ class LogicCapture:
             time - время когда нажата
             """
 
-            nonlocal ShiftTrigger, CopyLast, TriggerChangeLang, TriggerCopy
+            nonlocal ShiftTrigger, TriggerChangeLang, TriggerCopy
 
             # Принудительно зактрыть поток
             if not cls.is_FlagLiveThread:
