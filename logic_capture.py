@@ -15,8 +15,8 @@ from pack import get_lang
 from pack.dataconst import *
 
 logging.basicConfig(
-    # handlers=[logging.FileHandler(filename="log_file/logic_capture.log", encoding='utf-8', mode='w')],
-    format="%(asctime)s %(name)s:\t%(funcName)s:\t%(thread)d:\t%(levelname)s:\t%(message)s:",
+    handlers=[logging.FileHandler(filename="log_file/logic_capture.log", encoding='utf-8', mode='w')],
+    format="%(asctime)s %(name)s:\t%(funcName)s:\t%(thread)d:\t%(levelname)s:\t%(message)s",
     datefmt="%F %T",
     level=logging.DEBUG)
 log = logging.getLogger("logic")
@@ -156,7 +156,7 @@ class LogicCapture:
                 if event.event_type == "up":
                     LogicCapture.KeyPressDown.append(event.scan_code + ShiftTrigger)
 
-            log.debug(LogicCapture.CodeKeyTranslation(LogicCapture.KeyPressDown))  # DEBUG
+            # log.debug(LogicCapture.CodeKeyTranslation(LogicCapture.KeyPressDown))  # DEBUG
 
         # Отчитстка буфера обмена
         if windll.user32.OpenClipboard(None):
