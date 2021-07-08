@@ -10,9 +10,9 @@ import keyboard
 import mouse
 import pyperclip
 
-import viwe
-from pack import get_lang
-from pack.dataconst import *
+from viwe import Windows
+from assistant_pack import get_lang
+from assistant_pack.dataconst import *
 
 logging.basicConfig(
     handlers=[logging.FileHandler(filename="log_file/logic_capture.log", encoding='utf-8', mode='w')],
@@ -50,7 +50,7 @@ class LogicCapture:
                 elif newLang == 2:
                     fileImage = "data_image/en.png"
                 ImageButtonLange = PhotoImage(file=fileImage)
-                viwe.Windows.BUTTON["image"] = ImageButtonLange
+                Windows.BUTTON["image"] = ImageButtonLange
             time.sleep(1)
 
     @staticmethod

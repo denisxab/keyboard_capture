@@ -34,7 +34,7 @@ class Windows:
 
     def get_position(self) -> str:
         try:
-            with open("data_image/config.txt", 'r') as f:
+            with open("config.txt", 'r') as f:
                 x, y = f.read().split(" ")
                 self.windowTk.overrideredirect(1)
                 return f"{80}x{50}+{x}+{y}"
@@ -43,7 +43,7 @@ class Windows:
 
     @staticmethod
     def save_position(x, y):
-        with open("data_image/config.txt", 'w') as f:
+        with open("config.txt", 'w') as f:
             f.write(f"{x} {y}")
 
     def OnClosed(self):
