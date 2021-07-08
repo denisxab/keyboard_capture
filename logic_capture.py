@@ -1,3 +1,4 @@
+import logging
 import sys
 import threading
 import time
@@ -8,7 +9,17 @@ import keyboard
 import mouse
 import pyperclip
 
-from dataconst import *
+from pack.dataconst import *
+
+# logging.basicConfig(level="DEBUG", filename='log_file/logic_capture.log')
+
+
+logging.basicConfig(
+    # handlers=[logging.FileHandler(filename="log_file/logic_capture.log", encoding='utf-8', mode='w')],
+    format="%(asctime)s %(name)s:\t%(funcName)s:\t%(thread)d:\t%(levelname)s:\t%(message)s:",
+    datefmt="%F %T",
+    level=logging.DEBUG)
+log = logging.getLogger("logic")
 
 
 class LogicCapture:
@@ -65,15 +76,17 @@ class LogicCapture:
             keyboard.send("backspace")
         # Запись новыйх слов
         keyboard.write(NewTranslateKey, delay=0.05)
+
+        log.debug(NewTranslateKey)
+
         # Отчистить массив
         LogicCapture.KeyPressDown.clear()
 
     @classmethod
     def ThCaptureKeyBoard(cls):
-
-        TriggerChangeLang: int = 0
         ShiftTrigger: int = 0
         CopyLast: str = ""
+        Trigger: float = 0.0
 
         def pressed_keys(event: keyboard.KeyboardEvent):
             """
@@ -83,7 +96,7 @@ class LogicCapture:
             time - время когда нажата
             """
 
-            nonlocal TriggerChangeLang, ShiftTrigger, CopyLast
+            nonlocal ShiftTrigger, CopyLast, Trigger
 
             # Зактрыть поток
             if not cls.is_FlagLiveThread:
@@ -99,12 +112,12 @@ class LogicCapture:
             # Обработка печататния с зажатым shift
             if event.name == "shift" and event.event_type == 'down':  # обработать зжатия Shift -
                 ShiftTrigger = 1000
-
-            # Обработка тригера комбинации перевода текста
-            if event.name == 'shift' and event.event_type == 'up':
+            elif event.name == "shift" and event.event_type == 'up':
                 ShiftTrigger = 0
-                TriggerChangeLang += 1
-                if TriggerChangeLang == 2:
+            # Обработка тригера комбинации перевода текста с задержко по времни нажатия в 1 секунуд
+            if event.name == 'alt' and event.event_type == 'up':
+                ShiftTrigger = 0
+                if Trigger == int(time.time()):
                     # Перевод скопированного текста
                     tmp = pyperclip.paste()
                     if tmp != CopyLast:
@@ -112,18 +125,20 @@ class LogicCapture:
                         CopyLast = tmp
                     else:
                         LogicCapture.SetTranslateText(LogicCapture.CodeKeyTranslation(LogicCapture.KeyPressDown))
+                else:
+                    Trigger = int(time.time())
 
             else:
                 # Запись нажатых клавишь с учетом печатанью через Shift
                 if event.event_type == "up":
-                    TriggerChangeLang = 0
                     LogicCapture.KeyPressDown.append(event.scan_code + ShiftTrigger)
+
+            log.debug(LogicCapture.CodeKeyTranslation(LogicCapture.KeyPressDown))
 
         # Отчитстка буфера обмена
         if windll.user32.OpenClipboard(None):
             windll.user32.EmptyClipboard()
             windll.user32.CloseClipboard()
-
         keyboard.hook(pressed_keys)
         keyboard.wait()
 

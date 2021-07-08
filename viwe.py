@@ -2,15 +2,15 @@ import threading
 import time
 from tkinter import *
 
-import get_lang
 import logic_capture
+from pack import get_lang
 
 
 class Windows(logic_capture.LogicCapture):
 
     def __init__(self):
         super().__init__()
-        # INIT
+        # INITs
         self.windowTk = Tk()
         self.windowTk.geometry('{}x{}'.format('170', '50'))
         self.windowTk.iconbitmap(default='data_image/none.icon')
@@ -32,9 +32,9 @@ class Windows(logic_capture.LogicCapture):
         self.windowTk.mainloop()
 
     def ThChengKeyBoard(self):
-        get_class = get_lang.GetLangeKeyBoard()
+        GetLang = get_lang.GetLangeKeyBoard()
         while logic_capture.LogicCapture.is_FlagLiveThread:
-            newLang = get_class.get_keyboard_language()
+            newLang = GetLang.get_keyboard_language()
             if newLang != self.langKeyBoard:
                 self.langKeyBoard = newLang
                 fileImage: str = ""

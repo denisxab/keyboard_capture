@@ -1,11 +1,10 @@
 import ctypes
 
-from dataconst import languages
+from .dataconst import languages
 
 
 class GetLangeKeyBoard:
     def __init__(self):
-
         self.user32 = ctypes.WinDLL('user32', use_last_error=True)
 
     def get_keyboard_language(self):
