@@ -3,13 +3,6 @@ from typing import Optional, Tuple, List
 
 from logic_capture import LogicCapture
 
-"""
-Принажатие на флаг открываться окно сос трелками
-+   ^   +
-<   *   >
-+   v   +    
-"""
-
 
 class Windows:
     BUTTON: Optional[Button] = None
@@ -63,7 +56,7 @@ class Windows:
         self.bt5.grid(row=3, column=3)
 
         self.windowTk.geometry(
-            f"{160}x{160}+{self.windowTk.winfo_screenwidth() // 2 - 160}+{self.windowTk.winfo_screenheight() // 2 - 160}")
+            f"{160}x{160}+{self.windowTk.winfo_screenwidth() // 2 - 80}+{self.windowTk.winfo_screenheight() // 2 - 80}")
         self.windowTk.update()
 
     def __CreateButtonChangePosition(self):
@@ -133,6 +126,5 @@ class Windows:
         self.windowTk.update()
 
     def OnClosed(self):
-        Windows.save_position(self.windowTk.winfo_x(), self.windowTk.winfo_y())
         LogicCapture.is_FlagLiveThread = False
         self.windowTk.destroy()
