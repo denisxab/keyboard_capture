@@ -3,12 +3,15 @@ import time
 from tkinter import PhotoImage
 from typing import List, Set
 
-import keyboard
 import pyperclip
 
 import viwe
 from assistant_pack import get_lang, hunter_key
 from assistant_pack.dataconst import translation_key
+from pynput import keyboard
+
+from assistant_pack import log_debug as lg
+lg.DEBUG_PRINT = 0
 
 
 class LogicCapture:
@@ -96,9 +99,11 @@ class LogicCapture:
             cls.SkipTrigger = len(NewTranslateKey)
             # Стиреть слова на неправильной раскладки
             for _ in range(cls.SkipTrigger):
-                keyboard.send("backspace")
+                cls.KeyboardOdj.Click(keyboard.Key.backspace)
+                # keyboard.send("backspace")
         else:
-            keyboard.send("backspace")
+            cls.KeyboardOdj.Click(keyboard.Key.backspace)
+            # keyboard.send("backspace")
 
         print(f"[RESU]\t{''.join(cls.KeyPressDown)} > {NewTranslateKey}")
 
@@ -141,8 +146,8 @@ class LogicCapture:
             try:
                 cls.switchKey[str(key)]()
             except KeyError:
-                pass
-                # print(key)
+
+                lg.printDebug(key)
 
 
 if __name__ == '__main__':
