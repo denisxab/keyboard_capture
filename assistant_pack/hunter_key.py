@@ -1,4 +1,4 @@
-from typing import Union, Dict, Any
+from typing import Union, Dict, Any, List
 
 from pynput import keyboard, mouse
 
@@ -100,7 +100,7 @@ class KeyboardHunter:
 class MouseHunter:
 
     @staticmethod
-    def _on_move( x: int, y: int):
+    def _on_move(x: int, y: int):
         print(f"Pos: {x}, {y}")
 
     @staticmethod
@@ -161,11 +161,12 @@ def on_activate_h(*arg):
 
 
 if __name__ == '__main__':
-    k = KeyboardHunter()
-    t = k.ListenKeyboard(KeyboardHunter.on_press, KeyboardHunter.on_release)
-    print("!@313132")
+    pass
 
 """
-ssdsd
-asdsds
+
+ыфвф
+
+Ghdbtn vbh
+ываыва
 """
