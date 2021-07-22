@@ -34,6 +34,8 @@ class GetLangeKeyBoard:
             if type(tmp) == int:
                 return tmp
             else:
-                raise TypeError()
+                print("TypeError")
+                # raise TypeError()
         else:
-            raise TypeError()
+            print("TypeError")
+            # raise TypeError()
