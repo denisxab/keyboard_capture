@@ -208,6 +208,9 @@ codeKey = {
     4: '#',
 }
 
+
+
+
 languages = {'0x436': "Afrikaans - South Africa", '0x041c': "Albanian - Albania",
              '0x045e': "Amharic - Ethiopia",
              '0x401': "Arabic - Saudi Arabia",
