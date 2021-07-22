@@ -1,5 +1,4 @@
 import threading
-import threading
 import time
 from tkinter import PhotoImage
 from typing import List
@@ -18,6 +17,7 @@ from assistant_pack.dataconst import translation_key_EN_RU
 #     datefmt="%F %T",
 #     level=logging.DEBUG)
 # log = logging.getLogger("logic")
+
 
 
 class LogicCapture:
