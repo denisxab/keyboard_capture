@@ -1,0 +1,1642 @@
+[2021-07-23T12:20:03.156311 9148 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) base_dir = 
+[2021-07-23T12:20:03.156311 9148 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) compiler = 
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) compression = false
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) debug = false
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) disable = false
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) hard_link = false
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:03.156311 9148 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) max_files = 0
+[2021-07-23T12:20:03.156311 9148 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) path = 
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) read_only = false
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) recache = false
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) stats = true
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:03.156311 9148 ] Config: (default) umask = 
+[2021-07-23T12:20:03.157308 9148 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src __constants.c
+[2021-07-23T12:20:03.157308 9148 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:03.157308 9148 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:03.158309 9148 ] Source file: __constants.c
+[2021-07-23T12:20:03.158309 9148 ] Object file: __constants.o
+[2021-07-23T12:20:03.158309 9148 ] Trying direct lookup
+[2021-07-23T12:20:03.158309 9148 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/2/f99f709a9a10d52b96ef4411bb1325-5343.manifest
+[2021-07-23T12:20:03.199309 9328 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) base_dir = 
+[2021-07-23T12:20:03.199309 9328 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) compiler = 
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) compression = false
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) debug = false
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) disable = false
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) hard_link = false
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:03.199309 9328 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) max_files = 0
+[2021-07-23T12:20:03.199309 9328 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) path = 
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) read_only = false
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) recache = false
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) stats = true
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:03.199309 9328 ] Config: (default) umask = 
+[2021-07-23T12:20:03.199309 9328 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src __loader.c
+[2021-07-23T12:20:03.199309 9328 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:03.199309 9328 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:03.200313 9328 ] Source file: __loader.c
+[2021-07-23T12:20:03.200313 9328 ] Object file: __loader.o
+[2021-07-23T12:20:03.200313 9328 ] Trying direct lookup
+[2021-07-23T12:20:03.200313 9328 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/e/9917f0634edaa7626cd1df783d297b-6920.manifest
+[2021-07-23T12:20:03.200313 9328 ] No such manifest file
+[2021-07-23T12:20:03.200313 9328 ] Did not find object file hash in manifest
+[2021-07-23T12:20:03.201311 9328 ] Running preprocessor
+[2021-07-23T12:20:03.202312 12532] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:03.202312 12532] Config: (default) base_dir = 
+[2021-07-23T12:20:03.202312 12532] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:03.202312 12532] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:03.202312 12532] Config: (default) compiler = 
+[2021-07-23T12:20:03.202312 12532] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:03.202312 12532] Config: (default) compression = false
+[2021-07-23T12:20:03.202312 12532] Config: (default) compression_level = 6
+[2021-07-23T12:20:03.202312 12532] Config: (default) cpp_extension = 
+[2021-07-23T12:20:03.202312 12532] Config: (default) debug = false
+[2021-07-23T12:20:03.202312 12532] Config: (default) depend_mode = false
+[2021-07-23T12:20:03.202312 12532] Config: (default) direct_mode = true
+[2021-07-23T12:20:03.202312 12532] Config: (default) disable = false
+[2021-07-23T12:20:03.202312 12532] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:03.202312 12532] Config: (default) hard_link = false
+[2021-07-23T12:20:03.202312 12532] Config: (default) hash_dir = true
+[2021-07-23T12:20:03.202312 12532] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:03.202312 12532] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:03.202312 12532] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:03.202312 12532] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:03.202312 12532] Config: (default) max_files = 0
+[2021-07-23T12:20:03.202312 12532] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:03.202312 12532] Config: (default) path = 
+[2021-07-23T12:20:03.202312 12532] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:03.202312 12532] Config: (default) prefix_command = 
+[2021-07-23T12:20:03.202312 12532] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:03.202312 12532] Config: (default) read_only = false
+[2021-07-23T12:20:03.202312 12532] Config: (default) read_only_direct = false
+[2021-07-23T12:20:03.202312 12532] Config: (default) recache = false
+[2021-07-23T12:20:03.202312 12532] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:03.202312 12532] Config: (default) sloppiness = 
+[2021-07-23T12:20:03.202312 12532] Config: (default) stats = true
+[2021-07-23T12:20:03.202312 12532] Config: (default) temporary_dir = 
+[2021-07-23T12:20:03.202312 12532] Config: (default) umask = 
+[2021-07-23T12:20:03.203312 12532] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src __helpers.c
+[2021-07-23T12:20:03.203312 12532] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:03.203312 12532] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:03.203312 12532] Source file: __helpers.c
+[2021-07-23T12:20:03.203312 12532] Object file: __helpers.o
+[2021-07-23T12:20:03.203312 12532] Trying direct lookup
+[2021-07-23T12:20:03.204311 12532] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/5/ea81591aea25feb7aec53e78277947-108216.manifest
+[2021-07-23T12:20:03.204311 12532] No such manifest file
+[2021-07-23T12:20:03.204311 12532] Did not find object file hash in manifest
+[2021-07-23T12:20:03.205310 12532] Running preprocessor
+[2021-07-23T12:20:03.209317 2992 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) base_dir = 
+[2021-07-23T12:20:03.209317 2992 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) compiler = 
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) compression = false
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) debug = false
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) disable = false
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) hard_link = false
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:03.209317 2992 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) max_files = 0
+[2021-07-23T12:20:03.209317 2992 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) path = 
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) read_only = false
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) recache = false
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) stats = true
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:03.209317 2992 ] Config: (default) umask = 
+[2021-07-23T12:20:03.210309 2992 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2021-07-23T12:20:03.210309 2992 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:03.210309 2992 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:03.210309 2992 ] Source file: module.__main__.c
+[2021-07-23T12:20:03.210309 2992 ] Object file: module.__main__.o
+[2021-07-23T12:20:03.210309 2992 ] Trying direct lookup
+[2021-07-23T12:20:03.210309 9148 ] Got object file hash from manifest
+[2021-07-23T12:20:03.211310 9148 ] Copying C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/6/66dfb6702f3cd392d3b4958a6d2963-618072.o to __constants.o (uncompressed)
+[2021-07-23T12:20:03.211310 9148 ] Created from cache: C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/6/66dfb6702f3cd392d3b4958a6d2963-618072.o -> __constants.o
+
+[2021-07-23T12:20:03.211310 2992 ] No such manifest file
+[2021-07-23T12:20:03.211310 2992 ] Did not find object file hash in manifest
+[2021-07-23T12:20:03.212309 9148 ] Succeeded getting cached result
+[2021-07-23T12:20:03.212309 9148 ] Result: cache hit (direct)
+[2021-07-23T12:20:03.212309 9148 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-07-23T12:20:03.213309 9148 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-07-23T12:20:03.213309 2992 ] Running preprocessor
+[2021-07-23T12:20:03.247310 12820] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:03.247310 12820] Config: (default) base_dir = 
+[2021-07-23T12:20:03.247310 12820] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:03.247310 12820] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:03.247310 12820] Config: (default) compiler = 
+[2021-07-23T12:20:03.247310 12820] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:03.247310 12820] Config: (default) compression = false
+[2021-07-23T12:20:03.247310 12820] Config: (default) compression_level = 6
+[2021-07-23T12:20:03.247310 12820] Config: (default) cpp_extension = 
+[2021-07-23T12:20:03.247310 12820] Config: (default) debug = false
+[2021-07-23T12:20:03.247310 12820] Config: (default) depend_mode = false
+[2021-07-23T12:20:03.247310 12820] Config: (default) direct_mode = true
+[2021-07-23T12:20:03.247310 12820] Config: (default) disable = false
+[2021-07-23T12:20:03.247310 12820] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:03.247310 12820] Config: (default) hard_link = false
+[2021-07-23T12:20:03.247310 12820] Config: (default) hash_dir = true
+[2021-07-23T12:20:03.247310 12820] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:03.247310 12820] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:03.247310 12820] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:03.247310 12820] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:03.247310 12820] Config: (default) max_files = 0
+[2021-07-23T12:20:03.247310 12820] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:03.247310 12820] Config: (default) path = 
+[2021-07-23T12:20:03.247310 12820] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:03.247310 12820] Config: (default) prefix_command = 
+[2021-07-23T12:20:03.247310 12820] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:03.247310 12820] Config: (default) read_only = false
+[2021-07-23T12:20:03.247310 12820] Config: (default) read_only_direct = false
+[2021-07-23T12:20:03.247310 12820] Config: (default) recache = false
+[2021-07-23T12:20:03.247310 12820] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:03.247310 12820] Config: (default) sloppiness = 
+[2021-07-23T12:20:03.247310 12820] Config: (default) stats = true
+[2021-07-23T12:20:03.247310 12820] Config: (default) temporary_dir = 
+[2021-07-23T12:20:03.247310 12820] Config: (default) umask = 
+[2021-07-23T12:20:03.248308 12820] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.app.assistant_pack.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.app.assistant_pack.c
+[2021-07-23T12:20:03.248308 12820] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:03.248308 12820] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:03.248308 12820] Source file: module.app.assistant_pack.c
+[2021-07-23T12:20:03.248308 12820] Object file: module.app.assistant_pack.o
+[2021-07-23T12:20:03.248308 12820] Trying direct lookup
+[2021-07-23T12:20:03.249308 12820] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/3/743d5a41fb0f450a524473cdeee185-22339.manifest
+[2021-07-23T12:20:03.249308 12820] No such manifest file
+[2021-07-23T12:20:03.249308 12820] Did not find object file hash in manifest
+[2021-07-23T12:20:03.249308 12820] Running preprocessor
+[2021-07-23T12:20:03.457309 9328 ] Got object file hash from preprocessor
+[2021-07-23T12:20:03.457309 9328 ] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/cf151745bd0ec2c4b66e2d16fb641d-422387.o not in cache
+[2021-07-23T12:20:03.457309 9328 ] Running real compiler
+[2021-07-23T12:20:03.548308 12820] Got object file hash from preprocessor
+[2021-07-23T12:20:03.548308 12820] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/9c5ae5e78fd1d1f5116a8a1bd054ef-627673.o not in cache
+[2021-07-23T12:20:03.548308 12820] Running real compiler
+[2021-07-23T12:20:03.560308 12532] Got object file hash from preprocessor
+[2021-07-23T12:20:03.560308 12532] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/c3f8095ebcd04e001e3d8210b4c756-696261.o not in cache
+[2021-07-23T12:20:03.560308 12532] Running real compiler
+[2021-07-23T12:20:03.567309 2992 ] Got object file hash from preprocessor
+[2021-07-23T12:20:03.567309 2992 ] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/17a7cfb19763012a8e5474815d228f-930276.o not in cache
+[2021-07-23T12:20:03.567309 2992 ] Running real compiler
+[2021-07-23T12:20:03.775313 9328 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/cf151745bd0ec2c4b66e2d16fb641d-422387.o.tmp.stdout.DESKTOP-JEIKPE7.9328.1QBI6D
+[2021-07-23T12:20:03.775313 9328 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/cf151745bd0ec2c4b66e2d16fb641d-422387.o.tmp.stderr.DESKTOP-JEIKPE7.9328.SS92c3
+[2021-07-23T12:20:03.776309 9328 ] Copying __loader.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/cf151745bd0ec2c4b66e2d16fb641d-422387.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/cf151745bd0ec2c4b66e2d16fb641d-422387.o.DESKTOP-JEIKPE7.9328.1Apgjk (uncompressed)
+[2021-07-23T12:20:03.777311 9328 ] Stored in cache: __loader.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/cf151745bd0ec2c4b66e2d16fb641d-422387.o (copied)
+[2021-07-23T12:20:03.779311 9328 ] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/e/9917f0634edaa7626cd1df783d297b-6920.manifest
+[2021-07-23T12:20:03.780309 9328 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-07-23T12:20:03.780309 9328 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-07-23T12:20:03.781310 9328 ] Result: cache miss
+[2021-07-23T12:20:03.781310 9328 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-07-23T12:20:03.782309 9328 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-07-23T12:20:03.840311 12660] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:03.840311 12660] Config: (default) base_dir = 
+[2021-07-23T12:20:03.840311 12660] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:03.840311 12660] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:03.840311 12660] Config: (default) compiler = 
+[2021-07-23T12:20:03.840311 12660] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:03.840311 12660] Config: (default) compression = false
+[2021-07-23T12:20:03.840311 12660] Config: (default) compression_level = 6
+[2021-07-23T12:20:03.840311 12660] Config: (default) cpp_extension = 
+[2021-07-23T12:20:03.840311 12660] Config: (default) debug = false
+[2021-07-23T12:20:03.840311 12660] Config: (default) depend_mode = false
+[2021-07-23T12:20:03.840311 12660] Config: (default) direct_mode = true
+[2021-07-23T12:20:03.840311 12660] Config: (default) disable = false
+[2021-07-23T12:20:03.840311 12660] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:03.840311 12660] Config: (default) hard_link = false
+[2021-07-23T12:20:03.840311 12660] Config: (default) hash_dir = true
+[2021-07-23T12:20:03.840311 12660] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:03.840311 12660] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:03.840311 12660] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:03.840311 12660] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:03.840311 12660] Config: (default) max_files = 0
+[2021-07-23T12:20:03.840311 12660] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:03.840311 12660] Config: (default) path = 
+[2021-07-23T12:20:03.840311 12660] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:03.840311 12660] Config: (default) prefix_command = 
+[2021-07-23T12:20:03.840311 12660] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:03.840311 12660] Config: (default) read_only = false
+[2021-07-23T12:20:03.840311 12660] Config: (default) read_only_direct = false
+[2021-07-23T12:20:03.840311 12660] Config: (default) recache = false
+[2021-07-23T12:20:03.840311 12660] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:03.840311 12660] Config: (default) sloppiness = 
+[2021-07-23T12:20:03.840311 12660] Config: (default) stats = true
+[2021-07-23T12:20:03.840311 12660] Config: (default) temporary_dir = 
+[2021-07-23T12:20:03.840311 12660] Config: (default) umask = 
+[2021-07-23T12:20:03.841311 12660] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.app.assistant_pack.hunter_key.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.app.assistant_pack.hunter_key.c
+[2021-07-23T12:20:03.841311 12660] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:03.841311 12660] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:03.841311 12660] Source file: module.app.assistant_pack.hunter_key.c
+[2021-07-23T12:20:03.841311 12660] Object file: module.app.assistant_pack.hunter_key.o
+[2021-07-23T12:20:03.842313 12660] Trying direct lookup
+[2021-07-23T12:20:03.843313 12660] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/74d0b6dd4ccd02cef8cd3fe0e72570-389306.manifest
+[2021-07-23T12:20:03.843313 12660] No such manifest file
+[2021-07-23T12:20:03.843313 12660] Did not find object file hash in manifest
+[2021-07-23T12:20:03.844309 12660] Running preprocessor
+[2021-07-23T12:20:04.035311 12820] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/9c5ae5e78fd1d1f5116a8a1bd054ef-627673.o.tmp.stdout.DESKTOP-JEIKPE7.12820.1QBI6D
+[2021-07-23T12:20:04.036311 12820] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/9c5ae5e78fd1d1f5116a8a1bd054ef-627673.o.tmp.stderr.DESKTOP-JEIKPE7.12820.SS92c3
+[2021-07-23T12:20:04.036311 12820] Copying module.app.assistant_pack.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/9c5ae5e78fd1d1f5116a8a1bd054ef-627673.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/9c5ae5e78fd1d1f5116a8a1bd054ef-627673.o.DESKTOP-JEIKPE7.12820.1Apgjk (uncompressed)
+[2021-07-23T12:20:04.037309 12820] Stored in cache: module.app.assistant_pack.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/9c5ae5e78fd1d1f5116a8a1bd054ef-627673.o (copied)
+[2021-07-23T12:20:04.040311 12820] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/3/743d5a41fb0f450a524473cdeee185-22339.manifest
+[2021-07-23T12:20:04.040311 12820] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:04.041309 12820] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:04.042309 12820] Result: cache miss
+[2021-07-23T12:20:04.042309 12820] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-07-23T12:20:04.043311 12820] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-07-23T12:20:04.097311 6044 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) base_dir = 
+[2021-07-23T12:20:04.097311 6044 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) compiler = 
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) compression = false
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) debug = false
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) disable = false
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) hard_link = false
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:04.097311 6044 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) max_files = 0
+[2021-07-23T12:20:04.097311 6044 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) path = 
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) read_only = false
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) recache = false
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) stats = true
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:04.097311 6044 ] Config: (default) umask = 
+[2021-07-23T12:20:04.097311 6044 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.app.assistant_pack.log_debug.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.app.assistant_pack.log_debug.c
+[2021-07-23T12:20:04.097311 6044 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:04.097311 6044 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:04.097311 6044 ] Source file: module.app.assistant_pack.log_debug.c
+[2021-07-23T12:20:04.098312 6044 ] Object file: module.app.assistant_pack.log_debug.o
+[2021-07-23T12:20:04.098312 6044 ] Trying direct lookup
+[2021-07-23T12:20:04.098312 6044 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/5/c89714d18dd2e554d39bc247b4ff20-31120.manifest
+[2021-07-23T12:20:04.098312 6044 ] No such manifest file
+[2021-07-23T12:20:04.098312 6044 ] Did not find object file hash in manifest
+[2021-07-23T12:20:04.099310 6044 ] Running preprocessor
+[2021-07-23T12:20:04.175310 12660] Got object file hash from preprocessor
+[2021-07-23T12:20:04.175310 12660] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/7/0399b18e515ee41eced6c8e8c87cfb-1049483.o not in cache
+[2021-07-23T12:20:04.175310 12660] Running real compiler
+[2021-07-23T12:20:04.360310 6044 ] Got object file hash from preprocessor
+[2021-07-23T12:20:04.360310 6044 ] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/f044938be0be57aaed423e6112a370-637164.o not in cache
+[2021-07-23T12:20:04.360310 6044 ] Running real compiler
+[2021-07-23T12:20:04.844307 6044 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/f044938be0be57aaed423e6112a370-637164.o.tmp.stdout.DESKTOP-JEIKPE7.6044.1QBI6D
+[2021-07-23T12:20:04.845310 6044 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/f044938be0be57aaed423e6112a370-637164.o.tmp.stderr.DESKTOP-JEIKPE7.6044.SS92c3
+[2021-07-23T12:20:04.845310 6044 ] Copying module.app.assistant_pack.log_debug.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/f044938be0be57aaed423e6112a370-637164.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/f044938be0be57aaed423e6112a370-637164.o.DESKTOP-JEIKPE7.6044.1Apgjk (uncompressed)
+[2021-07-23T12:20:04.846309 6044 ] Stored in cache: module.app.assistant_pack.log_debug.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/f044938be0be57aaed423e6112a370-637164.o (copied)
+[2021-07-23T12:20:04.848311 6044 ] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/5/c89714d18dd2e554d39bc247b4ff20-31120.manifest
+[2021-07-23T12:20:04.849309 6044 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-07-23T12:20:04.849309 6044 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-07-23T12:20:04.850308 6044 ] Result: cache miss
+[2021-07-23T12:20:04.850308 6044 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-07-23T12:20:04.851310 6044 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-07-23T12:20:04.859308 12532] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/c3f8095ebcd04e001e3d8210b4c756-696261.o.tmp.stdout.DESKTOP-JEIKPE7.12532.1QBI6D
+[2021-07-23T12:20:04.861309 12532] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/c3f8095ebcd04e001e3d8210b4c756-696261.o.tmp.stderr.DESKTOP-JEIKPE7.12532.SS92c3
+[2021-07-23T12:20:04.861309 12532] Copying __helpers.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/c3f8095ebcd04e001e3d8210b4c756-696261.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/c3f8095ebcd04e001e3d8210b4c756-696261.o.DESKTOP-JEIKPE7.12532.1Apgjk (uncompressed)
+[2021-07-23T12:20:04.862310 12532] Stored in cache: __helpers.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/c3f8095ebcd04e001e3d8210b4c756-696261.o (copied)
+[2021-07-23T12:20:04.865315 12532] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/5/ea81591aea25feb7aec53e78277947-108216.manifest
+[2021-07-23T12:20:04.866310 12532] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-07-23T12:20:04.867309 12532] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-07-23T12:20:04.867309 12532] Result: cache miss
+[2021-07-23T12:20:04.868309 12532] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-07-23T12:20:04.868309 12532] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-07-23T12:20:04.921313 1036 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) base_dir = 
+[2021-07-23T12:20:04.921313 1036 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) compiler = 
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) compression = false
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) debug = false
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) disable = false
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) hard_link = false
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:04.921313 1036 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) max_files = 0
+[2021-07-23T12:20:04.921313 1036 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) path = 
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) read_only = false
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) recache = false
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) stats = true
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:04.921313 1036 ] Config: (default) umask = 
+[2021-07-23T12:20:04.921313 1036 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.app.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.app.c
+[2021-07-23T12:20:04.921313 1036 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:04.921313 1036 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:04.922313 1036 ] Source file: module.app.c
+[2021-07-23T12:20:04.922313 1036 ] Object file: module.app.o
+[2021-07-23T12:20:04.922313 1036 ] Trying direct lookup
+[2021-07-23T12:20:04.922313 1036 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/9/b98454e2a31ed38770b33a0697b08f-21634.manifest
+[2021-07-23T12:20:04.922313 1036 ] No such manifest file
+[2021-07-23T12:20:04.922313 1036 ] Did not find object file hash in manifest
+[2021-07-23T12:20:04.923309 1036 ] Running preprocessor
+[2021-07-23T12:20:04.946311 7976 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) base_dir = 
+[2021-07-23T12:20:04.946311 7976 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) compiler = 
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) compression = false
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) debug = false
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) disable = false
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) hard_link = false
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:04.946311 7976 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) max_files = 0
+[2021-07-23T12:20:04.946311 7976 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) path = 
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) read_only = false
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) recache = false
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) stats = true
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:04.946311 7976 ] Config: (default) umask = 
+[2021-07-23T12:20:04.947313 7976 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.app.logic.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.app.logic.c
+[2021-07-23T12:20:04.947313 7976 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:04.947313 7976 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:04.947313 7976 ] Source file: module.app.logic.c
+[2021-07-23T12:20:04.947313 7976 ] Object file: module.app.logic.o
+[2021-07-23T12:20:04.948314 7976 ] Trying direct lookup
+[2021-07-23T12:20:04.949315 7976 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/9702dbcd0b162365951f6365fc2ac9-352888.manifest
+[2021-07-23T12:20:04.949315 7976 ] No such manifest file
+[2021-07-23T12:20:04.949315 7976 ] Did not find object file hash in manifest
+[2021-07-23T12:20:04.950310 7976 ] Running preprocessor
+[2021-07-23T12:20:05.233307 1036 ] Got object file hash from preprocessor
+[2021-07-23T12:20:05.233307 1036 ] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/2/6ad116f958f9caf50b1a28931cf6b2-627088.o not in cache
+[2021-07-23T12:20:05.234308 1036 ] Running real compiler
+[2021-07-23T12:20:05.310309 7976 ] Got object file hash from preprocessor
+[2021-07-23T12:20:05.310309 7976 ] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/a0626b3234b9afaf1f937ee2c0d8cb-1006312.o not in cache
+[2021-07-23T12:20:05.310309 7976 ] Running real compiler
+[2021-07-23T12:20:05.667307 1036 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/2/6ad116f958f9caf50b1a28931cf6b2-627088.o.tmp.stdout.DESKTOP-JEIKPE7.1036.1QBI6D
+[2021-07-23T12:20:05.668309 1036 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/2/6ad116f958f9caf50b1a28931cf6b2-627088.o.tmp.stderr.DESKTOP-JEIKPE7.1036.SS92c3
+[2021-07-23T12:20:05.668309 1036 ] Copying module.app.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/2/6ad116f958f9caf50b1a28931cf6b2-627088.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/2/6ad116f958f9caf50b1a28931cf6b2-627088.o.DESKTOP-JEIKPE7.1036.1Apgjk (uncompressed)
+[2021-07-23T12:20:05.669310 1036 ] Stored in cache: module.app.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/2/6ad116f958f9caf50b1a28931cf6b2-627088.o (copied)
+[2021-07-23T12:20:05.672313 1036 ] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/9/b98454e2a31ed38770b33a0697b08f-21634.manifest
+[2021-07-23T12:20:05.672313 1036 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-07-23T12:20:05.673309 1036 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-07-23T12:20:05.674311 1036 ] Result: cache miss
+[2021-07-23T12:20:05.674311 1036 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-07-23T12:20:05.675309 1036 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-07-23T12:20:05.746312 10852] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:05.746312 10852] Config: (default) base_dir = 
+[2021-07-23T12:20:05.746312 10852] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:05.746312 10852] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:05.746312 10852] Config: (default) compiler = 
+[2021-07-23T12:20:05.746312 10852] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:05.746312 10852] Config: (default) compression = false
+[2021-07-23T12:20:05.746312 10852] Config: (default) compression_level = 6
+[2021-07-23T12:20:05.746312 10852] Config: (default) cpp_extension = 
+[2021-07-23T12:20:05.746312 10852] Config: (default) debug = false
+[2021-07-23T12:20:05.746312 10852] Config: (default) depend_mode = false
+[2021-07-23T12:20:05.746312 10852] Config: (default) direct_mode = true
+[2021-07-23T12:20:05.746312 10852] Config: (default) disable = false
+[2021-07-23T12:20:05.746312 10852] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:05.746312 10852] Config: (default) hard_link = false
+[2021-07-23T12:20:05.746312 10852] Config: (default) hash_dir = true
+[2021-07-23T12:20:05.746312 10852] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:05.746312 10852] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:05.746312 10852] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:05.746312 10852] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:05.746312 10852] Config: (default) max_files = 0
+[2021-07-23T12:20:05.746312 10852] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:05.746312 10852] Config: (default) path = 
+[2021-07-23T12:20:05.746312 10852] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:05.746312 10852] Config: (default) prefix_command = 
+[2021-07-23T12:20:05.746312 10852] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:05.746312 10852] Config: (default) read_only = false
+[2021-07-23T12:20:05.746312 10852] Config: (default) read_only_direct = false
+[2021-07-23T12:20:05.746312 10852] Config: (default) recache = false
+[2021-07-23T12:20:05.746312 10852] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:05.746312 10852] Config: (default) sloppiness = 
+[2021-07-23T12:20:05.746312 10852] Config: (default) stats = true
+[2021-07-23T12:20:05.746312 10852] Config: (default) temporary_dir = 
+[2021-07-23T12:20:05.746312 10852] Config: (default) umask = 
+[2021-07-23T12:20:05.747311 10852] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.app.viwe.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.app.viwe.c
+[2021-07-23T12:20:05.747311 10852] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:05.747311 10852] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:05.747311 10852] Source file: module.app.viwe.c
+[2021-07-23T12:20:05.747311 10852] Object file: module.app.viwe.o
+[2021-07-23T12:20:05.747311 10852] Trying direct lookup
+[2021-07-23T12:20:05.749313 10852] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/5/1aa2eb091ad3123e8be467f87a613f-393502.manifest
+[2021-07-23T12:20:05.749313 10852] No such manifest file
+[2021-07-23T12:20:05.749313 10852] Did not find object file hash in manifest
+[2021-07-23T12:20:05.750310 10852] Running preprocessor
+[2021-07-23T12:20:06.091313 10852] Got object file hash from preprocessor
+[2021-07-23T12:20:06.091313 10852] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/6/d563c65aa45f962cfa1e857fa14fe8-1068075.o not in cache
+[2021-07-23T12:20:06.092313 10852] Running real compiler
+[2021-07-23T12:20:06.845308 2992 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/17a7cfb19763012a8e5474815d228f-930276.o.tmp.stdout.DESKTOP-JEIKPE7.2992.FzP5tM
+[2021-07-23T12:20:06.845308 2992 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/17a7cfb19763012a8e5474815d228f-930276.o.tmp.stderr.DESKTOP-JEIKPE7.2992.1QBI6D
+[2021-07-23T12:20:06.846313 2992 ] Copying module.__main__.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/17a7cfb19763012a8e5474815d228f-930276.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/17a7cfb19763012a8e5474815d228f-930276.o.DESKTOP-JEIKPE7.2992.SS92c3 (uncompressed)
+[2021-07-23T12:20:06.847310 2992 ] Stored in cache: module.__main__.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/17a7cfb19763012a8e5474815d228f-930276.o (copied)
+[2021-07-23T12:20:06.850311 2992 ] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/c/c2e5d940953a8dbfb5a802fbdbdf59-234609.manifest
+[2021-07-23T12:20:06.850311 2992 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2021-07-23T12:20:06.851311 2992 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2021-07-23T12:20:06.851311 2992 ] Result: cache miss
+[2021-07-23T12:20:06.851311 2992 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:06.852309 2992 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:06.941313 8904 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) base_dir = 
+[2021-07-23T12:20:06.941313 8904 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) compiler = 
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) compression = false
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) debug = false
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) disable = false
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) hard_link = false
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:06.941313 8904 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) max_files = 0
+[2021-07-23T12:20:06.941313 8904 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) path = 
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) read_only = false
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) recache = false
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) stats = true
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:06.941313 8904 ] Config: (default) umask = 
+[2021-07-23T12:20:06.941313 8904 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pynput._util.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.pynput._util.c
+[2021-07-23T12:20:06.941313 8904 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:06.941313 8904 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:06.942312 8904 ] Source file: module.pynput._util.c
+[2021-07-23T12:20:06.942312 8904 ] Object file: module.pynput._util.o
+[2021-07-23T12:20:06.942312 8904 ] Trying direct lookup
+[2021-07-23T12:20:06.945312 8904 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/49c68385406466743849222167809c-789459.manifest
+[2021-07-23T12:20:06.945312 8904 ] No such manifest file
+[2021-07-23T12:20:06.945312 8904 ] Did not find object file hash in manifest
+[2021-07-23T12:20:06.945312 8904 ] Running preprocessor
+[2021-07-23T12:20:07.241315 8904 ] Got object file hash from preprocessor
+[2021-07-23T12:20:07.241315 8904 ] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/b/86038fac6dafce2fb687f103d8b672-1536129.o not in cache
+[2021-07-23T12:20:07.241315 8904 ] Running real compiler
+[2021-07-23T12:20:08.063311 12660] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/7/0399b18e515ee41eced6c8e8c87cfb-1049483.o.tmp.stdout.DESKTOP-JEIKPE7.12660.1QBI6D
+[2021-07-23T12:20:08.063311 12660] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/7/0399b18e515ee41eced6c8e8c87cfb-1049483.o.tmp.stderr.DESKTOP-JEIKPE7.12660.SS92c3
+[2021-07-23T12:20:08.064309 12660] Copying module.app.assistant_pack.hunter_key.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/7/0399b18e515ee41eced6c8e8c87cfb-1049483.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/7/0399b18e515ee41eced6c8e8c87cfb-1049483.o.DESKTOP-JEIKPE7.12660.1Apgjk (uncompressed)
+[2021-07-23T12:20:08.065308 12660] Stored in cache: module.app.assistant_pack.hunter_key.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/7/0399b18e515ee41eced6c8e8c87cfb-1049483.o (copied)
+[2021-07-23T12:20:08.067312 12660] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/74d0b6dd4ccd02cef8cd3fe0e72570-389306.manifest
+[2021-07-23T12:20:08.068310 12660] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-07-23T12:20:08.069309 12660] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-07-23T12:20:08.069309 12660] Result: cache miss
+[2021-07-23T12:20:08.070309 12660] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-07-23T12:20:08.070309 12660] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-07-23T12:20:08.186310 4184 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) base_dir = 
+[2021-07-23T12:20:08.186310 4184 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) compiler = 
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) compression = false
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) debug = false
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) disable = false
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) hard_link = false
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:08.186310 4184 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) max_files = 0
+[2021-07-23T12:20:08.186310 4184 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) path = 
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) read_only = false
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) recache = false
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) stats = true
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:08.186310 4184 ] Config: (default) umask = 
+[2021-07-23T12:20:08.186310 4184 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pynput._util.win32.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.pynput._util.win32.c
+[2021-07-23T12:20:08.187309 4184 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:08.187309 4184 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:08.187309 4184 ] Source file: module.pynput._util.win32.c
+[2021-07-23T12:20:08.187309 4184 ] Object file: module.pynput._util.win32.o
+[2021-07-23T12:20:08.187309 4184 ] Trying direct lookup
+[2021-07-23T12:20:08.190309 4184 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/1/7f074ad66c24efd90c9161e710dd4a-1017793.manifest
+[2021-07-23T12:20:08.191311 4184 ] No such manifest file
+[2021-07-23T12:20:08.191311 4184 ] Did not find object file hash in manifest
+[2021-07-23T12:20:08.191311 4184 ] Running preprocessor
+[2021-07-23T12:20:08.575311 4184 ] Got object file hash from preprocessor
+[2021-07-23T12:20:08.575311 4184 ] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/0/b2a92443b18c03071c8fbea92ab6b8-1828792.o not in cache
+[2021-07-23T12:20:08.575311 4184 ] Running real compiler
+[2021-07-23T12:20:08.982307 7976 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/a0626b3234b9afaf1f937ee2c0d8cb-1006312.o.tmp.stdout.DESKTOP-JEIKPE7.7976.1QBI6D
+[2021-07-23T12:20:08.983309 7976 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/a0626b3234b9afaf1f937ee2c0d8cb-1006312.o.tmp.stderr.DESKTOP-JEIKPE7.7976.SS92c3
+[2021-07-23T12:20:08.984311 7976 ] Copying module.app.logic.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/a0626b3234b9afaf1f937ee2c0d8cb-1006312.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/a0626b3234b9afaf1f937ee2c0d8cb-1006312.o.DESKTOP-JEIKPE7.7976.1Apgjk (uncompressed)
+[2021-07-23T12:20:08.984311 7976 ] Stored in cache: module.app.logic.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/a0626b3234b9afaf1f937ee2c0d8cb-1006312.o (copied)
+[2021-07-23T12:20:08.987313 7976 ] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/9702dbcd0b162365951f6365fc2ac9-352888.manifest
+[2021-07-23T12:20:08.988309 7976 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-07-23T12:20:08.988309 7976 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-07-23T12:20:08.989308 7976 ] Result: cache miss
+[2021-07-23T12:20:08.989308 7976 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-07-23T12:20:08.990309 7976 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-07-23T12:20:09.040390 12416] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:09.040390 12416] Config: (default) base_dir = 
+[2021-07-23T12:20:09.040390 12416] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:09.040390 12416] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:09.040390 12416] Config: (default) compiler = 
+[2021-07-23T12:20:09.040390 12416] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:09.040390 12416] Config: (default) compression = false
+[2021-07-23T12:20:09.040390 12416] Config: (default) compression_level = 6
+[2021-07-23T12:20:09.040390 12416] Config: (default) cpp_extension = 
+[2021-07-23T12:20:09.040390 12416] Config: (default) debug = false
+[2021-07-23T12:20:09.040390 12416] Config: (default) depend_mode = false
+[2021-07-23T12:20:09.040390 12416] Config: (default) direct_mode = true
+[2021-07-23T12:20:09.040390 12416] Config: (default) disable = false
+[2021-07-23T12:20:09.040390 12416] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:09.040390 12416] Config: (default) hard_link = false
+[2021-07-23T12:20:09.040390 12416] Config: (default) hash_dir = true
+[2021-07-23T12:20:09.040390 12416] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:09.040390 12416] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:09.040390 12416] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:09.040390 12416] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:09.040390 12416] Config: (default) max_files = 0
+[2021-07-23T12:20:09.040390 12416] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:09.040390 12416] Config: (default) path = 
+[2021-07-23T12:20:09.040390 12416] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:09.040390 12416] Config: (default) prefix_command = 
+[2021-07-23T12:20:09.040390 12416] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:09.040390 12416] Config: (default) read_only = false
+[2021-07-23T12:20:09.040390 12416] Config: (default) read_only_direct = false
+[2021-07-23T12:20:09.040390 12416] Config: (default) recache = false
+[2021-07-23T12:20:09.040390 12416] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:09.040390 12416] Config: (default) sloppiness = 
+[2021-07-23T12:20:09.040390 12416] Config: (default) stats = true
+[2021-07-23T12:20:09.040390 12416] Config: (default) temporary_dir = 
+[2021-07-23T12:20:09.040390 12416] Config: (default) umask = 
+[2021-07-23T12:20:09.040390 12416] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pynput._util.win32_vks.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.pynput._util.win32_vks.c
+[2021-07-23T12:20:09.040390 12416] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:09.041313 12416] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:09.041313 12416] Source file: module.pynput._util.win32_vks.c
+[2021-07-23T12:20:09.041313 12416] Object file: module.pynput._util.win32_vks.o
+[2021-07-23T12:20:09.041313 12416] Trying direct lookup
+[2021-07-23T12:20:09.042313 12416] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/f/3bbb95a78ab23ba2935559f63c6651-55568.manifest
+[2021-07-23T12:20:09.042313 12416] No such manifest file
+[2021-07-23T12:20:09.042313 12416] Did not find object file hash in manifest
+[2021-07-23T12:20:09.042313 12416] Running preprocessor
+[2021-07-23T12:20:09.320312 12416] Got object file hash from preprocessor
+[2021-07-23T12:20:09.320312 12416] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/7/e93714049ef5775e86e6bc989a5d42-661031.o not in cache
+[2021-07-23T12:20:09.320312 12416] Running real compiler
+[2021-07-23T12:20:09.703313 10852] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/6/d563c65aa45f962cfa1e857fa14fe8-1068075.o.tmp.stdout.DESKTOP-JEIKPE7.10852.1QBI6D
+[2021-07-23T12:20:09.703313 10852] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/6/d563c65aa45f962cfa1e857fa14fe8-1068075.o.tmp.stderr.DESKTOP-JEIKPE7.10852.SS92c3
+[2021-07-23T12:20:09.704310 10852] Copying module.app.viwe.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/6/d563c65aa45f962cfa1e857fa14fe8-1068075.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/6/d563c65aa45f962cfa1e857fa14fe8-1068075.o.DESKTOP-JEIKPE7.10852.1Apgjk (uncompressed)
+[2021-07-23T12:20:09.705310 10852] Stored in cache: module.app.viwe.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/6/d563c65aa45f962cfa1e857fa14fe8-1068075.o (copied)
+[2021-07-23T12:20:09.707311 10852] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/5/1aa2eb091ad3123e8be467f87a613f-393502.manifest
+[2021-07-23T12:20:09.707311 10852] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-07-23T12:20:09.708308 10852] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-07-23T12:20:09.709307 10852] Result: cache miss
+[2021-07-23T12:20:09.709307 10852] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-07-23T12:20:09.710308 10852] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-07-23T12:20:09.748309 12416] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/7/e93714049ef5775e86e6bc989a5d42-661031.o.tmp.stdout.DESKTOP-JEIKPE7.12416.1QBI6D
+[2021-07-23T12:20:09.748309 12416] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/7/e93714049ef5775e86e6bc989a5d42-661031.o.tmp.stderr.DESKTOP-JEIKPE7.12416.SS92c3
+[2021-07-23T12:20:09.749310 12416] Copying module.pynput._util.win32_vks.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/7/e93714049ef5775e86e6bc989a5d42-661031.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/7/e93714049ef5775e86e6bc989a5d42-661031.o.DESKTOP-JEIKPE7.12416.1Apgjk (uncompressed)
+[2021-07-23T12:20:09.749310 12416] Stored in cache: module.pynput._util.win32_vks.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/7/e93714049ef5775e86e6bc989a5d42-661031.o (copied)
+[2021-07-23T12:20:09.752310 12416] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/f/3bbb95a78ab23ba2935559f63c6651-55568.manifest
+[2021-07-23T12:20:09.752310 12416] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:09.753311 12416] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:09.754312 12416] Result: cache miss
+[2021-07-23T12:20:09.754312 12416] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2021-07-23T12:20:09.755310 12416] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/stats.lock
+[2021-07-23T12:20:09.772310 5824 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) base_dir = 
+[2021-07-23T12:20:09.772310 5824 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) compiler = 
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) compression = false
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) debug = false
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) disable = false
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) hard_link = false
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:09.772310 5824 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) max_files = 0
+[2021-07-23T12:20:09.772310 5824 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) path = 
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) read_only = false
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) recache = false
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) stats = true
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:09.772310 5824 ] Config: (default) umask = 
+[2021-07-23T12:20:09.772310 5824 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pynput.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.pynput.c
+[2021-07-23T12:20:09.772310 5824 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:09.773311 5824 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:09.773311 5824 ] Source file: module.pynput.c
+[2021-07-23T12:20:09.773311 5824 ] Object file: module.pynput.o
+[2021-07-23T12:20:09.773311 5824 ] Trying direct lookup
+[2021-07-23T12:20:09.773311 5824 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/0/f64d979188896f7d9441ef5a1e51e5-39266.manifest
+[2021-07-23T12:20:09.774313 5824 ] No such manifest file
+[2021-07-23T12:20:09.774313 5824 ] Did not find object file hash in manifest
+[2021-07-23T12:20:09.774313 5824 ] Running preprocessor
+[2021-07-23T12:20:09.832309 12544] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:09.832309 12544] Config: (default) base_dir = 
+[2021-07-23T12:20:09.832309 12544] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:09.832309 12544] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:09.832309 12544] Config: (default) compiler = 
+[2021-07-23T12:20:09.832309 12544] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:09.832309 12544] Config: (default) compression = false
+[2021-07-23T12:20:09.832309 12544] Config: (default) compression_level = 6
+[2021-07-23T12:20:09.832309 12544] Config: (default) cpp_extension = 
+[2021-07-23T12:20:09.832309 12544] Config: (default) debug = false
+[2021-07-23T12:20:09.832309 12544] Config: (default) depend_mode = false
+[2021-07-23T12:20:09.832309 12544] Config: (default) direct_mode = true
+[2021-07-23T12:20:09.832309 12544] Config: (default) disable = false
+[2021-07-23T12:20:09.832309 12544] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:09.832309 12544] Config: (default) hard_link = false
+[2021-07-23T12:20:09.832309 12544] Config: (default) hash_dir = true
+[2021-07-23T12:20:09.832309 12544] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:09.832309 12544] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:09.832309 12544] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:09.832309 12544] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:09.832309 12544] Config: (default) max_files = 0
+[2021-07-23T12:20:09.832309 12544] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:09.832309 12544] Config: (default) path = 
+[2021-07-23T12:20:09.832309 12544] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:09.832309 12544] Config: (default) prefix_command = 
+[2021-07-23T12:20:09.832309 12544] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:09.832309 12544] Config: (default) read_only = false
+[2021-07-23T12:20:09.832309 12544] Config: (default) read_only_direct = false
+[2021-07-23T12:20:09.832309 12544] Config: (default) recache = false
+[2021-07-23T12:20:09.832309 12544] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:09.832309 12544] Config: (default) sloppiness = 
+[2021-07-23T12:20:09.832309 12544] Config: (default) stats = true
+[2021-07-23T12:20:09.832309 12544] Config: (default) temporary_dir = 
+[2021-07-23T12:20:09.832309 12544] Config: (default) umask = 
+[2021-07-23T12:20:09.832309 12544] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pynput.keyboard._base.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.pynput.keyboard._base.c
+[2021-07-23T12:20:09.832309 12544] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:09.832309 12544] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:09.833313 12544] Source file: module.pynput.keyboard._base.c
+[2021-07-23T12:20:09.833313 12544] Object file: module.pynput.keyboard._base.o
+[2021-07-23T12:20:09.833313 12544] Trying direct lookup
+[2021-07-23T12:20:09.836308 12544] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/0/9cac2e31ae76fc7d4b21d8c91a65a9-879076.manifest
+[2021-07-23T12:20:09.836308 12544] No such manifest file
+[2021-07-23T12:20:09.836308 12544] Did not find object file hash in manifest
+[2021-07-23T12:20:09.836308 12544] Running preprocessor
+[2021-07-23T12:20:10.111309 5824 ] Got object file hash from preprocessor
+[2021-07-23T12:20:10.112309 5824 ] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/2/2706d30eca8d04ac81ba45e4dbab45-650576.o not in cache
+[2021-07-23T12:20:10.112309 5824 ] Running real compiler
+[2021-07-23T12:20:10.388309 12544] Got object file hash from preprocessor
+[2021-07-23T12:20:10.388309 12544] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/f/1b0c29dda494efea910f17580c1881-1641241.o not in cache
+[2021-07-23T12:20:10.388309 12544] Running real compiler
+[2021-07-23T12:20:10.883309 5824 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/2/2706d30eca8d04ac81ba45e4dbab45-650576.o.tmp.stdout.DESKTOP-JEIKPE7.5824.1QBI6D
+[2021-07-23T12:20:10.883309 5824 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/2/2706d30eca8d04ac81ba45e4dbab45-650576.o.tmp.stderr.DESKTOP-JEIKPE7.5824.SS92c3
+[2021-07-23T12:20:10.884309 5824 ] Copying module.pynput.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/2/2706d30eca8d04ac81ba45e4dbab45-650576.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/2/2706d30eca8d04ac81ba45e4dbab45-650576.o.DESKTOP-JEIKPE7.5824.1Apgjk (uncompressed)
+[2021-07-23T12:20:10.884309 5824 ] Stored in cache: module.pynput.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/2/2706d30eca8d04ac81ba45e4dbab45-650576.o (copied)
+[2021-07-23T12:20:10.887313 5824 ] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/0/f64d979188896f7d9441ef5a1e51e5-39266.manifest
+[2021-07-23T12:20:10.888313 5824 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-07-23T12:20:10.889309 5824 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-07-23T12:20:10.889309 5824 ] Result: cache miss
+[2021-07-23T12:20:10.890310 5824 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-07-23T12:20:10.890310 5824 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-07-23T12:20:10.991311 10088] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:10.991311 10088] Config: (default) base_dir = 
+[2021-07-23T12:20:10.991311 10088] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:10.991311 10088] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:10.991311 10088] Config: (default) compiler = 
+[2021-07-23T12:20:10.991311 10088] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:10.991311 10088] Config: (default) compression = false
+[2021-07-23T12:20:10.991311 10088] Config: (default) compression_level = 6
+[2021-07-23T12:20:10.991311 10088] Config: (default) cpp_extension = 
+[2021-07-23T12:20:10.991311 10088] Config: (default) debug = false
+[2021-07-23T12:20:10.991311 10088] Config: (default) depend_mode = false
+[2021-07-23T12:20:10.991311 10088] Config: (default) direct_mode = true
+[2021-07-23T12:20:10.991311 10088] Config: (default) disable = false
+[2021-07-23T12:20:10.991311 10088] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:10.991311 10088] Config: (default) hard_link = false
+[2021-07-23T12:20:10.991311 10088] Config: (default) hash_dir = true
+[2021-07-23T12:20:10.991311 10088] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:10.991311 10088] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:10.991311 10088] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:10.991311 10088] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:10.991311 10088] Config: (default) max_files = 0
+[2021-07-23T12:20:10.991311 10088] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:10.991311 10088] Config: (default) path = 
+[2021-07-23T12:20:10.991311 10088] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:10.991311 10088] Config: (default) prefix_command = 
+[2021-07-23T12:20:10.991311 10088] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:10.991311 10088] Config: (default) read_only = false
+[2021-07-23T12:20:10.991311 10088] Config: (default) read_only_direct = false
+[2021-07-23T12:20:10.991311 10088] Config: (default) recache = false
+[2021-07-23T12:20:10.991311 10088] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:10.991311 10088] Config: (default) sloppiness = 
+[2021-07-23T12:20:10.991311 10088] Config: (default) stats = true
+[2021-07-23T12:20:10.991311 10088] Config: (default) temporary_dir = 
+[2021-07-23T12:20:10.991311 10088] Config: (default) umask = 
+[2021-07-23T12:20:10.991311 10088] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pynput.keyboard._win32.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.pynput.keyboard._win32.c
+[2021-07-23T12:20:10.992311 10088] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:10.992311 10088] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:10.992311 10088] Source file: module.pynput.keyboard._win32.c
+[2021-07-23T12:20:10.992311 10088] Object file: module.pynput.keyboard._win32.o
+[2021-07-23T12:20:10.992311 10088] Trying direct lookup
+[2021-07-23T12:20:10.995311 10088] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/3/c7a153b29733aa2e99baef72925035-714534.manifest
+[2021-07-23T12:20:10.995311 10088] No such manifest file
+[2021-07-23T12:20:10.995311 10088] Did not find object file hash in manifest
+[2021-07-23T12:20:10.995311 10088] Running preprocessor
+[2021-07-23T12:20:11.311311 10088] Got object file hash from preprocessor
+[2021-07-23T12:20:11.311311 10088] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/e/0ac82958ff269735e9f2038c8c94f3-1483694.o not in cache
+[2021-07-23T12:20:11.311311 10088] Running real compiler
+[2021-07-23T12:20:14.838313 8904 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/b/86038fac6dafce2fb687f103d8b672-1536129.o.tmp.stdout.DESKTOP-JEIKPE7.8904.FzP5tM
+[2021-07-23T12:20:14.839310 8904 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/b/86038fac6dafce2fb687f103d8b672-1536129.o.tmp.stderr.DESKTOP-JEIKPE7.8904.1QBI6D
+[2021-07-23T12:20:14.839310 8904 ] Copying module.pynput._util.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/b/86038fac6dafce2fb687f103d8b672-1536129.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/b/86038fac6dafce2fb687f103d8b672-1536129.o.DESKTOP-JEIKPE7.8904.SS92c3 (uncompressed)
+[2021-07-23T12:20:14.840311 8904 ] Stored in cache: module.pynput._util.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/b/86038fac6dafce2fb687f103d8b672-1536129.o (copied)
+[2021-07-23T12:20:14.843310 8904 ] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/49c68385406466743849222167809c-789459.manifest
+[2021-07-23T12:20:14.844310 8904 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-07-23T12:20:14.845309 8904 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-07-23T12:20:14.846310 8904 ] Result: cache miss
+[2021-07-23T12:20:14.846310 8904 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-07-23T12:20:14.847310 8904 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-07-23T12:20:14.953314 2060 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) base_dir = 
+[2021-07-23T12:20:14.953314 2060 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) compiler = 
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) compression = false
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) debug = false
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) disable = false
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) hard_link = false
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:14.953314 2060 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) max_files = 0
+[2021-07-23T12:20:14.953314 2060 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) path = 
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) read_only = false
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) recache = false
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) stats = true
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:14.953314 2060 ] Config: (default) umask = 
+[2021-07-23T12:20:14.953314 2060 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pynput.keyboard.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.pynput.keyboard.c
+[2021-07-23T12:20:14.953314 2060 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:14.954311 2060 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:14.954311 2060 ] Source file: module.pynput.keyboard.c
+[2021-07-23T12:20:14.954311 2060 ] Object file: module.pynput.keyboard.o
+[2021-07-23T12:20:14.954311 2060 ] Trying direct lookup
+[2021-07-23T12:20:14.956312 2060 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/6/ba07286f0ab35e44947d8b693e6e2b-463790.manifest
+[2021-07-23T12:20:14.956312 2060 ] No such manifest file
+[2021-07-23T12:20:14.956312 2060 ] Did not find object file hash in manifest
+[2021-07-23T12:20:14.956312 2060 ] Running preprocessor
+[2021-07-23T12:20:15.212310 2060 ] Got object file hash from preprocessor
+[2021-07-23T12:20:15.212310 2060 ] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/6/f2d55805764f8a29ee9e5ce03f5d56-1149613.o not in cache
+[2021-07-23T12:20:15.212310 2060 ] Running real compiler
+[2021-07-23T12:20:18.704309 12544] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/f/1b0c29dda494efea910f17580c1881-1641241.o.tmp.stdout.DESKTOP-JEIKPE7.12544.1QBI6D
+[2021-07-23T12:20:18.704309 12544] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/f/1b0c29dda494efea910f17580c1881-1641241.o.tmp.stderr.DESKTOP-JEIKPE7.12544.SS92c3
+[2021-07-23T12:20:18.705309 12544] Copying module.pynput.keyboard._base.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/f/1b0c29dda494efea910f17580c1881-1641241.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/f/1b0c29dda494efea910f17580c1881-1641241.o.DESKTOP-JEIKPE7.12544.1Apgjk (uncompressed)
+[2021-07-23T12:20:18.706311 12544] Stored in cache: module.pynput.keyboard._base.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/f/1b0c29dda494efea910f17580c1881-1641241.o (copied)
+[2021-07-23T12:20:18.708314 12544] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/0/9cac2e31ae76fc7d4b21d8c91a65a9-879076.manifest
+[2021-07-23T12:20:18.709309 12544] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-07-23T12:20:18.709309 12544] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-07-23T12:20:18.710309 12544] Result: cache miss
+[2021-07-23T12:20:18.711311 12544] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2021-07-23T12:20:18.711311 12544] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2021-07-23T12:20:18.773313 8000 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) base_dir = 
+[2021-07-23T12:20:18.773313 8000 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) compiler = 
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) compression = false
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) debug = false
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) disable = false
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) hard_link = false
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:18.773313 8000 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) max_files = 0
+[2021-07-23T12:20:18.773313 8000 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) path = 
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) read_only = false
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) recache = false
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) stats = true
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:18.773313 8000 ] Config: (default) umask = 
+[2021-07-23T12:20:18.773313 8000 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pynput.mouse._base.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.pynput.mouse._base.c
+[2021-07-23T12:20:18.774311 8000 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:18.774311 8000 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:18.774311 8000 ] Source file: module.pynput.mouse._base.c
+[2021-07-23T12:20:18.774311 8000 ] Object file: module.pynput.mouse._base.o
+[2021-07-23T12:20:18.774311 8000 ] Trying direct lookup
+[2021-07-23T12:20:18.775309 8000 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/e/9c88f2c934b4af6185e2b35a948bf4-293703.manifest
+[2021-07-23T12:20:18.775309 8000 ] No such manifest file
+[2021-07-23T12:20:18.775309 8000 ] Did not find object file hash in manifest
+[2021-07-23T12:20:18.776310 8000 ] Running preprocessor
+[2021-07-23T12:20:19.288706 8000 ] Got object file hash from preprocessor
+[2021-07-23T12:20:19.288706 8000 ] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/f/ec62a8f6e36404a1e97273d5cb7a64-943557.o not in cache
+[2021-07-23T12:20:19.288706 8000 ] Running real compiler
+[2021-07-23T12:20:20.184821 2060 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/6/f2d55805764f8a29ee9e5ce03f5d56-1149613.o.tmp.stdout.DESKTOP-JEIKPE7.2060.1QBI6D
+[2021-07-23T12:20:20.184821 2060 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/6/f2d55805764f8a29ee9e5ce03f5d56-1149613.o.tmp.stderr.DESKTOP-JEIKPE7.2060.SS92c3
+[2021-07-23T12:20:20.185820 2060 ] Copying module.pynput.keyboard.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/6/f2d55805764f8a29ee9e5ce03f5d56-1149613.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/6/f2d55805764f8a29ee9e5ce03f5d56-1149613.o.DESKTOP-JEIKPE7.2060.1Apgjk (uncompressed)
+[2021-07-23T12:20:20.186820 2060 ] Stored in cache: module.pynput.keyboard.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/6/f2d55805764f8a29ee9e5ce03f5d56-1149613.o (copied)
+[2021-07-23T12:20:20.188822 2060 ] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/6/ba07286f0ab35e44947d8b693e6e2b-463790.manifest
+[2021-07-23T12:20:20.188822 2060 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-07-23T12:20:20.189819 2060 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-07-23T12:20:20.190821 2060 ] Result: cache miss
+[2021-07-23T12:20:20.190821 2060 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-07-23T12:20:20.191820 2060 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-07-23T12:20:20.306822 10176] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:20.306822 10176] Config: (default) base_dir = 
+[2021-07-23T12:20:20.306822 10176] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:20.306822 10176] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:20.306822 10176] Config: (default) compiler = 
+[2021-07-23T12:20:20.306822 10176] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:20.306822 10176] Config: (default) compression = false
+[2021-07-23T12:20:20.306822 10176] Config: (default) compression_level = 6
+[2021-07-23T12:20:20.306822 10176] Config: (default) cpp_extension = 
+[2021-07-23T12:20:20.306822 10176] Config: (default) debug = false
+[2021-07-23T12:20:20.306822 10176] Config: (default) depend_mode = false
+[2021-07-23T12:20:20.306822 10176] Config: (default) direct_mode = true
+[2021-07-23T12:20:20.306822 10176] Config: (default) disable = false
+[2021-07-23T12:20:20.306822 10176] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:20.306822 10176] Config: (default) hard_link = false
+[2021-07-23T12:20:20.306822 10176] Config: (default) hash_dir = true
+[2021-07-23T12:20:20.306822 10176] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:20.306822 10176] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:20.306822 10176] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:20.306822 10176] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:20.306822 10176] Config: (default) max_files = 0
+[2021-07-23T12:20:20.306822 10176] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:20.306822 10176] Config: (default) path = 
+[2021-07-23T12:20:20.306822 10176] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:20.306822 10176] Config: (default) prefix_command = 
+[2021-07-23T12:20:20.306822 10176] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:20.306822 10176] Config: (default) read_only = false
+[2021-07-23T12:20:20.306822 10176] Config: (default) read_only_direct = false
+[2021-07-23T12:20:20.306822 10176] Config: (default) recache = false
+[2021-07-23T12:20:20.306822 10176] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:20.306822 10176] Config: (default) sloppiness = 
+[2021-07-23T12:20:20.306822 10176] Config: (default) stats = true
+[2021-07-23T12:20:20.306822 10176] Config: (default) temporary_dir = 
+[2021-07-23T12:20:20.306822 10176] Config: (default) umask = 
+[2021-07-23T12:20:20.306822 10176] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pynput.mouse._win32.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.pynput.mouse._win32.c
+[2021-07-23T12:20:20.306822 10176] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:20.307822 10176] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:20.307822 10176] Source file: module.pynput.mouse._win32.c
+[2021-07-23T12:20:20.307822 10176] Object file: module.pynput.mouse._win32.o
+[2021-07-23T12:20:20.307822 10176] Trying direct lookup
+[2021-07-23T12:20:20.309820 10176] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/2/b0b230f23c865d727cbdac9c9bd1e6-485083.manifest
+[2021-07-23T12:20:20.309820 10176] No such manifest file
+[2021-07-23T12:20:20.309820 10176] Did not find object file hash in manifest
+[2021-07-23T12:20:20.309820 10176] Running preprocessor
+[2021-07-23T12:20:20.669822 10176] Got object file hash from preprocessor
+[2021-07-23T12:20:20.669822 10176] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/f7feb48cb6490f9090a86b955246eb-1201782.o not in cache
+[2021-07-23T12:20:20.669822 10176] Running real compiler
+[2021-07-23T12:20:21.215820 4184 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/0/b2a92443b18c03071c8fbea92ab6b8-1828792.o.tmp.stdout.DESKTOP-JEIKPE7.4184.1QBI6D
+[2021-07-23T12:20:21.215820 4184 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/0/b2a92443b18c03071c8fbea92ab6b8-1828792.o.tmp.stderr.DESKTOP-JEIKPE7.4184.SS92c3
+[2021-07-23T12:20:21.216822 4184 ] Copying module.pynput._util.win32.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/0/b2a92443b18c03071c8fbea92ab6b8-1828792.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/0/b2a92443b18c03071c8fbea92ab6b8-1828792.o.DESKTOP-JEIKPE7.4184.1Apgjk (uncompressed)
+[2021-07-23T12:20:21.217822 4184 ] Stored in cache: module.pynput._util.win32.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/0/b2a92443b18c03071c8fbea92ab6b8-1828792.o (copied)
+[2021-07-23T12:20:21.220822 4184 ] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/1/7f074ad66c24efd90c9161e710dd4a-1017793.manifest
+[2021-07-23T12:20:21.220822 4184 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-07-23T12:20:21.221822 4184 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-07-23T12:20:21.222822 4184 ] Result: cache miss
+[2021-07-23T12:20:21.222822 4184 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2021-07-23T12:20:21.223821 4184 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2021-07-23T12:20:21.297831 8380 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) base_dir = 
+[2021-07-23T12:20:21.297831 8380 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) compiler = 
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) compression = false
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) debug = false
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) disable = false
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) hard_link = false
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:21.297831 8380 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) max_files = 0
+[2021-07-23T12:20:21.297831 8380 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) path = 
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) read_only = false
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) recache = false
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) stats = true
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:21.297831 8380 ] Config: (default) umask = 
+[2021-07-23T12:20:21.298824 8380 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pynput.mouse.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.pynput.mouse.c
+[2021-07-23T12:20:21.298824 8380 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:21.298824 8380 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:21.298824 8380 ] Source file: module.pynput.mouse.c
+[2021-07-23T12:20:21.298824 8380 ] Object file: module.pynput.mouse.o
+[2021-07-23T12:20:21.298824 8380 ] Trying direct lookup
+[2021-07-23T12:20:21.299823 8380 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/5/65029cf4f82b866e7d3c42f289f3e5-191876.manifest
+[2021-07-23T12:20:21.299823 8380 ] No such manifest file
+[2021-07-23T12:20:21.300825 8380 ] Did not find object file hash in manifest
+[2021-07-23T12:20:21.300825 8380 ] Running preprocessor
+[2021-07-23T12:20:21.607822 8380 ] Got object file hash from preprocessor
+[2021-07-23T12:20:21.607822 8380 ] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/8/9f77e40efcf95aa8eb7740a37ffd06-818613.o not in cache
+[2021-07-23T12:20:21.607822 8380 ] Running real compiler
+[2021-07-23T12:20:21.994822 10088] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/e/0ac82958ff269735e9f2038c8c94f3-1483694.o.tmp.stdout.DESKTOP-JEIKPE7.10088.1QBI6D
+[2021-07-23T12:20:21.995821 10088] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/e/0ac82958ff269735e9f2038c8c94f3-1483694.o.tmp.stderr.DESKTOP-JEIKPE7.10088.SS92c3
+[2021-07-23T12:20:21.995821 10088] Copying module.pynput.keyboard._win32.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/e/0ac82958ff269735e9f2038c8c94f3-1483694.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/e/0ac82958ff269735e9f2038c8c94f3-1483694.o.DESKTOP-JEIKPE7.10088.1Apgjk (uncompressed)
+[2021-07-23T12:20:21.996822 10088] Stored in cache: module.pynput.keyboard._win32.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/e/0ac82958ff269735e9f2038c8c94f3-1483694.o (copied)
+[2021-07-23T12:20:21.999820 10088] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/3/c7a153b29733aa2e99baef72925035-714534.manifest
+[2021-07-23T12:20:21.999820 10088] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:22.000820 10088] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:22.001822 10088] Result: cache miss
+[2021-07-23T12:20:22.001822 10088] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-07-23T12:20:22.029820 10088] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-07-23T12:20:22.157824 12400] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:22.157824 12400] Config: (default) base_dir = 
+[2021-07-23T12:20:22.157824 12400] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:22.157824 12400] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:22.157824 12400] Config: (default) compiler = 
+[2021-07-23T12:20:22.157824 12400] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:22.157824 12400] Config: (default) compression = false
+[2021-07-23T12:20:22.157824 12400] Config: (default) compression_level = 6
+[2021-07-23T12:20:22.157824 12400] Config: (default) cpp_extension = 
+[2021-07-23T12:20:22.157824 12400] Config: (default) debug = false
+[2021-07-23T12:20:22.157824 12400] Config: (default) depend_mode = false
+[2021-07-23T12:20:22.157824 12400] Config: (default) direct_mode = true
+[2021-07-23T12:20:22.157824 12400] Config: (default) disable = false
+[2021-07-23T12:20:22.157824 12400] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:22.157824 12400] Config: (default) hard_link = false
+[2021-07-23T12:20:22.157824 12400] Config: (default) hash_dir = true
+[2021-07-23T12:20:22.157824 12400] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:22.157824 12400] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:22.157824 12400] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:22.157824 12400] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:22.157824 12400] Config: (default) max_files = 0
+[2021-07-23T12:20:22.157824 12400] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:22.157824 12400] Config: (default) path = 
+[2021-07-23T12:20:22.157824 12400] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:22.157824 12400] Config: (default) prefix_command = 
+[2021-07-23T12:20:22.157824 12400] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:22.157824 12400] Config: (default) read_only = false
+[2021-07-23T12:20:22.157824 12400] Config: (default) read_only_direct = false
+[2021-07-23T12:20:22.157824 12400] Config: (default) recache = false
+[2021-07-23T12:20:22.157824 12400] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:22.157824 12400] Config: (default) sloppiness = 
+[2021-07-23T12:20:22.157824 12400] Config: (default) stats = true
+[2021-07-23T12:20:22.157824 12400] Config: (default) temporary_dir = 
+[2021-07-23T12:20:22.157824 12400] Config: (default) umask = 
+[2021-07-23T12:20:22.157824 12400] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pyperclip.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.pyperclip.c
+[2021-07-23T12:20:22.158824 12400] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:22.158824 12400] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:22.158824 12400] Source file: module.pyperclip.c
+[2021-07-23T12:20:22.158824 12400] Object file: module.pyperclip.o
+[2021-07-23T12:20:22.158824 12400] Trying direct lookup
+[2021-07-23T12:20:22.162821 12400] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/8/3fd9a96937589f15b5710a23e68ee3-1139054.manifest
+[2021-07-23T12:20:22.162821 12400] No such manifest file
+[2021-07-23T12:20:22.162821 12400] Did not find object file hash in manifest
+[2021-07-23T12:20:22.162821 12400] Running preprocessor
+[2021-07-23T12:20:22.285822 8000 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/f/ec62a8f6e36404a1e97273d5cb7a64-943557.o.tmp.stdout.DESKTOP-JEIKPE7.8000.1QBI6D
+[2021-07-23T12:20:22.285822 8000 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/f/ec62a8f6e36404a1e97273d5cb7a64-943557.o.tmp.stderr.DESKTOP-JEIKPE7.8000.SS92c3
+[2021-07-23T12:20:22.286823 8000 ] Copying module.pynput.mouse._base.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/f/ec62a8f6e36404a1e97273d5cb7a64-943557.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/f/ec62a8f6e36404a1e97273d5cb7a64-943557.o.DESKTOP-JEIKPE7.8000.1Apgjk (uncompressed)
+[2021-07-23T12:20:22.286823 8000 ] Stored in cache: module.pynput.mouse._base.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/f/ec62a8f6e36404a1e97273d5cb7a64-943557.o (copied)
+[2021-07-23T12:20:22.287825 8000 ] can't rename file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/CACHEDIR.TAG to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/CACHEDIR.TAG.ccache.rm.tmp OS returned error: src/util.c failed with error 2: Не удается найти указанный файл.
+
+[2021-07-23T12:20:22.287825 8000 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/CACHEDIR.TAG via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/CACHEDIR.TAG.ccache.rm.tmp
+[2021-07-23T12:20:22.287825 8000 ] x_unlink failed: No such file or directory
+[2021-07-23T12:20:22.290820 8000 ] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/e/9c88f2c934b4af6185e2b35a948bf4-293703.manifest
+[2021-07-23T12:20:22.290820 8000 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-07-23T12:20:22.291822 8000 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-07-23T12:20:22.292819 8000 ] Result: cache miss
+[2021-07-23T12:20:22.292819 8000 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-07-23T12:20:22.293820 8000 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-07-23T12:20:22.369822 11928] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:22.369822 11928] Config: (default) base_dir = 
+[2021-07-23T12:20:22.369822 11928] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:22.369822 11928] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:22.369822 11928] Config: (default) compiler = 
+[2021-07-23T12:20:22.369822 11928] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:22.369822 11928] Config: (default) compression = false
+[2021-07-23T12:20:22.369822 11928] Config: (default) compression_level = 6
+[2021-07-23T12:20:22.369822 11928] Config: (default) cpp_extension = 
+[2021-07-23T12:20:22.369822 11928] Config: (default) debug = false
+[2021-07-23T12:20:22.369822 11928] Config: (default) depend_mode = false
+[2021-07-23T12:20:22.369822 11928] Config: (default) direct_mode = true
+[2021-07-23T12:20:22.369822 11928] Config: (default) disable = false
+[2021-07-23T12:20:22.369822 11928] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:22.369822 11928] Config: (default) hard_link = false
+[2021-07-23T12:20:22.369822 11928] Config: (default) hash_dir = true
+[2021-07-23T12:20:22.369822 11928] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:22.369822 11928] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:22.369822 11928] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:22.369822 11928] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:22.369822 11928] Config: (default) max_files = 0
+[2021-07-23T12:20:22.369822 11928] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:22.369822 11928] Config: (default) path = 
+[2021-07-23T12:20:22.369822 11928] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:22.369822 11928] Config: (default) prefix_command = 
+[2021-07-23T12:20:22.369822 11928] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:22.369822 11928] Config: (default) read_only = false
+[2021-07-23T12:20:22.369822 11928] Config: (default) read_only_direct = false
+[2021-07-23T12:20:22.369822 11928] Config: (default) recache = false
+[2021-07-23T12:20:22.369822 11928] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:22.369822 11928] Config: (default) sloppiness = 
+[2021-07-23T12:20:22.369822 11928] Config: (default) stats = true
+[2021-07-23T12:20:22.369822 11928] Config: (default) temporary_dir = 
+[2021-07-23T12:20:22.369822 11928] Config: (default) umask = 
+[2021-07-23T12:20:22.369822 11928] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.pywin32_bootstrap.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.pywin32_bootstrap.c
+[2021-07-23T12:20:22.369822 11928] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:22.370825 11928] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:22.370825 11928] Source file: module.pywin32_bootstrap.c
+[2021-07-23T12:20:22.370825 11928] Object file: module.pywin32_bootstrap.o
+[2021-07-23T12:20:22.370825 11928] Trying direct lookup
+[2021-07-23T12:20:22.371821 11928] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/7/3ac3d7bf7302fd12321e70db639c00-60900.manifest
+[2021-07-23T12:20:22.371821 11928] No such manifest file
+[2021-07-23T12:20:22.371821 11928] Did not find object file hash in manifest
+[2021-07-23T12:20:22.371821 11928] Running preprocessor
+[2021-07-23T12:20:22.562825 12400] Got object file hash from preprocessor
+[2021-07-23T12:20:22.562825 12400] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/7/489de7d0b901c8082b71d55dcaa4c9-1929213.o not in cache
+[2021-07-23T12:20:22.562825 12400] Running real compiler
+[2021-07-23T12:20:22.589820 11928] Got object file hash from preprocessor
+[2021-07-23T12:20:22.589820 11928] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/4/dca7c658bd8c33f90bbbce3e8e3025-677195.o not in cache
+[2021-07-23T12:20:22.589820 11928] Running real compiler
+[2021-07-23T12:20:23.403820 8380 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/8/9f77e40efcf95aa8eb7740a37ffd06-818613.o.tmp.stdout.DESKTOP-JEIKPE7.8380.1QBI6D
+[2021-07-23T12:20:23.404821 8380 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/8/9f77e40efcf95aa8eb7740a37ffd06-818613.o.tmp.stderr.DESKTOP-JEIKPE7.8380.SS92c3
+[2021-07-23T12:20:23.404821 8380 ] Copying module.pynput.mouse.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/8/9f77e40efcf95aa8eb7740a37ffd06-818613.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/8/9f77e40efcf95aa8eb7740a37ffd06-818613.o.DESKTOP-JEIKPE7.8380.1Apgjk (uncompressed)
+[2021-07-23T12:20:23.405821 8380 ] Stored in cache: module.pynput.mouse.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/8/9f77e40efcf95aa8eb7740a37ffd06-818613.o (copied)
+[2021-07-23T12:20:23.408820 8380 ] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/5/65029cf4f82b866e7d3c42f289f3e5-191876.manifest
+[2021-07-23T12:20:23.409821 8380 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:23.410821 8380 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:23.410821 8380 ] Result: cache miss
+[2021-07-23T12:20:23.410821 8380 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2021-07-23T12:20:23.411821 8380 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2021-07-23T12:20:23.467820 11928] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/4/dca7c658bd8c33f90bbbce3e8e3025-677195.o.tmp.stdout.DESKTOP-JEIKPE7.11928.1QBI6D
+[2021-07-23T12:20:23.467820 11928] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/4/dca7c658bd8c33f90bbbce3e8e3025-677195.o.tmp.stderr.DESKTOP-JEIKPE7.11928.SS92c3
+[2021-07-23T12:20:23.468820 11928] Copying module.pywin32_bootstrap.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/4/dca7c658bd8c33f90bbbce3e8e3025-677195.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/4/dca7c658bd8c33f90bbbce3e8e3025-677195.o.DESKTOP-JEIKPE7.11928.1Apgjk (uncompressed)
+[2021-07-23T12:20:23.468820 11928] Stored in cache: module.pywin32_bootstrap.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/4/dca7c658bd8c33f90bbbce3e8e3025-677195.o (copied)
+[2021-07-23T12:20:23.471819 11928] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/7/3ac3d7bf7302fd12321e70db639c00-60900.manifest
+[2021-07-23T12:20:23.472823 11928] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-07-23T12:20:23.473822 11928] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-07-23T12:20:23.473822 11928] Result: cache miss
+[2021-07-23T12:20:23.473822 11928] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-07-23T12:20:23.474820 11928] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-07-23T12:20:23.499827 6396 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) base_dir = 
+[2021-07-23T12:20:23.499827 6396 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) compiler = 
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) compression = false
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) debug = false
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) disable = false
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) hard_link = false
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:23.499827 6396 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) max_files = 0
+[2021-07-23T12:20:23.499827 6396 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) path = 
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) read_only = false
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) recache = false
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) stats = true
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:23.499827 6396 ] Config: (default) umask = 
+[2021-07-23T12:20:23.499827 6396 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o module.six.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src module.six.c
+[2021-07-23T12:20:23.499827 6396 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:23.499827 6396 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:23.500823 6396 ] Source file: module.six.c
+[2021-07-23T12:20:23.500823 6396 ] Object file: module.six.o
+[2021-07-23T12:20:23.500823 6396 ] Trying direct lookup
+[2021-07-23T12:20:23.505823 6396 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/3/dfbf2a1a1a3340f1eaad6f13a64745-1562126.manifest
+[2021-07-23T12:20:23.505823 6396 ] No such manifest file
+[2021-07-23T12:20:23.505823 6396 ] Did not find object file hash in manifest
+[2021-07-23T12:20:23.505823 6396 ] Running preprocessor
+[2021-07-23T12:20:23.519823 2788 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) base_dir = 
+[2021-07-23T12:20:23.519823 2788 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) compiler = 
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) compression = false
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) debug = false
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) disable = false
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) hard_link = false
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:23.519823 2788 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) max_files = 0
+[2021-07-23T12:20:23.519823 2788 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) path = 
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) read_only = false
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) recache = false
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) stats = true
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:23.519823 2788 ] Config: (default) umask = 
+[2021-07-23T12:20:23.519823 2788 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src static_src\MainProgram.c
+[2021-07-23T12:20:23.519823 2788 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:23.519823 2788 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:23.520823 2788 ] Source file: static_src\MainProgram.c
+[2021-07-23T12:20:23.520823 2788 ] Object file: static_src\MainProgram.o
+[2021-07-23T12:20:23.520823 2788 ] Trying direct lookup
+[2021-07-23T12:20:23.520823 2788 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/b/26028190aed862db14902ddcf752a7-26735.manifest
+[2021-07-23T12:20:23.632822 2788 ] Got object file hash from manifest
+[2021-07-23T12:20:23.632822 2788 ] Copying C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/f/3dec163eb434d60a06c69c5f1d677b-4104544.o to static_src\MainProgram.o (uncompressed)
+[2021-07-23T12:20:23.633821 2788 ] Created from cache: C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/f/3dec163eb434d60a06c69c5f1d677b-4104544.o -> static_src\MainProgram.o
+[2021-07-23T12:20:23.633821 2788 ] Succeeded getting cached result
+[2021-07-23T12:20:23.633821 2788 ] Result: cache hit (direct)
+[2021-07-23T12:20:23.633821 2788 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:23.634821 2788 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:23.731824 11320] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:23.731824 11320] Config: (default) base_dir = 
+[2021-07-23T12:20:23.731824 11320] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:23.731824 11320] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:23.731824 11320] Config: (default) compiler = 
+[2021-07-23T12:20:23.731824 11320] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:23.731824 11320] Config: (default) compression = false
+[2021-07-23T12:20:23.731824 11320] Config: (default) compression_level = 6
+[2021-07-23T12:20:23.731824 11320] Config: (default) cpp_extension = 
+[2021-07-23T12:20:23.731824 11320] Config: (default) debug = false
+[2021-07-23T12:20:23.731824 11320] Config: (default) depend_mode = false
+[2021-07-23T12:20:23.731824 11320] Config: (default) direct_mode = true
+[2021-07-23T12:20:23.731824 11320] Config: (default) disable = false
+[2021-07-23T12:20:23.731824 11320] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:23.731824 11320] Config: (default) hard_link = false
+[2021-07-23T12:20:23.731824 11320] Config: (default) hash_dir = true
+[2021-07-23T12:20:23.731824 11320] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:23.731824 11320] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:23.731824 11320] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:23.731824 11320] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:23.731824 11320] Config: (default) max_files = 0
+[2021-07-23T12:20:23.731824 11320] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:23.731824 11320] Config: (default) path = 
+[2021-07-23T12:20:23.731824 11320] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:23.731824 11320] Config: (default) prefix_command = 
+[2021-07-23T12:20:23.731824 11320] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:23.731824 11320] Config: (default) read_only = false
+[2021-07-23T12:20:23.731824 11320] Config: (default) read_only_direct = false
+[2021-07-23T12:20:23.731824 11320] Config: (default) recache = false
+[2021-07-23T12:20:23.731824 11320] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:23.731824 11320] Config: (default) sloppiness = 
+[2021-07-23T12:20:23.731824 11320] Config: (default) stats = true
+[2021-07-23T12:20:23.731824 11320] Config: (default) temporary_dir = 
+[2021-07-23T12:20:23.731824 11320] Config: (default) umask = 
+[2021-07-23T12:20:23.731824 11320] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCellType.c
+[2021-07-23T12:20:23.731824 11320] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:23.731824 11320] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:23.732823 11320] Source file: static_src\CompiledCellType.c
+[2021-07-23T12:20:23.732823 11320] Object file: static_src\CompiledCellType.o
+[2021-07-23T12:20:23.732823 11320] Trying direct lookup
+[2021-07-23T12:20:23.732823 11320] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/b/7daf982b0f8d69552cdfa82bc12dfc-8038.manifest
+[2021-07-23T12:20:23.779821 11320] Got object file hash from manifest
+[2021-07-23T12:20:23.780821 11320] Copying C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/1/eb62266a6d8453ddb1d2bb5e3718ca-622216.o to static_src\CompiledCellType.o (uncompressed)
+[2021-07-23T12:20:23.780821 11320] Created from cache: C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/1/eb62266a6d8453ddb1d2bb5e3718ca-622216.o -> static_src\CompiledCellType.o
+[2021-07-23T12:20:23.781822 11320] Succeeded getting cached result
+[2021-07-23T12:20:23.781822 11320] Result: cache hit (direct)
+[2021-07-23T12:20:23.781822 11320] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-07-23T12:20:23.782820 11320] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-07-23T12:20:23.824820 5680 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) base_dir = 
+[2021-07-23T12:20:23.824820 5680 ] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) compiler = 
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) compression = false
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) compression_level = 6
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) cpp_extension = 
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) debug = false
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) depend_mode = false
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) direct_mode = true
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) disable = false
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) hard_link = false
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) hash_dir = true
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:23.824820 5680 ] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) max_files = 0
+[2021-07-23T12:20:23.824820 5680 ] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) path = 
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) prefix_command = 
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) read_only = false
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) read_only_direct = false
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) recache = false
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) sloppiness = 
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) stats = true
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) temporary_dir = 
+[2021-07-23T12:20:23.824820 5680 ] Config: (default) umask = 
+[2021-07-23T12:20:23.825821 5680 ] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2021-07-23T12:20:23.825821 5680 ] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:23.825821 5680 ] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:23.826820 5680 ] Source file: static_src\CompiledFunctionType.c
+[2021-07-23T12:20:23.826820 5680 ] Object file: static_src\CompiledFunctionType.o
+[2021-07-23T12:20:23.826820 5680 ] Trying direct lookup
+[2021-07-23T12:20:23.826820 5680 ] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/3/219285144f6423502ebf47dfbe7863-79019.manifest
+[2021-07-23T12:20:23.871822 5680 ] Got object file hash from manifest
+[2021-07-23T12:20:23.873828 5680 ] Copying C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/63b7b830a06b26503317ca6f00f9aa-700771.o to static_src\CompiledFunctionType.o (uncompressed)
+[2021-07-23T12:20:23.874821 5680 ] Created from cache: C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/63b7b830a06b26503317ca6f00f9aa-700771.o -> static_src\CompiledFunctionType.o
+[2021-07-23T12:20:23.874821 5680 ] Succeeded getting cached result
+[2021-07-23T12:20:23.874821 5680 ] Result: cache hit (direct)
+[2021-07-23T12:20:23.874821 5680 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:23.875820 5680 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-07-23T12:20:23.947821 11700] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:23.947821 11700] Config: (default) base_dir = 
+[2021-07-23T12:20:23.947821 11700] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:23.947821 11700] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:23.947821 11700] Config: (default) compiler = 
+[2021-07-23T12:20:23.947821 11700] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:23.947821 11700] Config: (default) compression = false
+[2021-07-23T12:20:23.947821 11700] Config: (default) compression_level = 6
+[2021-07-23T12:20:23.947821 11700] Config: (default) cpp_extension = 
+[2021-07-23T12:20:23.947821 11700] Config: (default) debug = false
+[2021-07-23T12:20:23.947821 11700] Config: (default) depend_mode = false
+[2021-07-23T12:20:23.947821 11700] Config: (default) direct_mode = true
+[2021-07-23T12:20:23.947821 11700] Config: (default) disable = false
+[2021-07-23T12:20:23.947821 11700] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:23.947821 11700] Config: (default) hard_link = false
+[2021-07-23T12:20:23.947821 11700] Config: (default) hash_dir = true
+[2021-07-23T12:20:23.947821 11700] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:23.947821 11700] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:23.947821 11700] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:23.947821 11700] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:23.947821 11700] Config: (default) max_files = 0
+[2021-07-23T12:20:23.947821 11700] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:23.947821 11700] Config: (default) path = 
+[2021-07-23T12:20:23.947821 11700] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:23.947821 11700] Config: (default) prefix_command = 
+[2021-07-23T12:20:23.947821 11700] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:23.947821 11700] Config: (default) read_only = false
+[2021-07-23T12:20:23.947821 11700] Config: (default) read_only_direct = false
+[2021-07-23T12:20:23.947821 11700] Config: (default) recache = false
+[2021-07-23T12:20:23.947821 11700] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:23.947821 11700] Config: (default) sloppiness = 
+[2021-07-23T12:20:23.947821 11700] Config: (default) stats = true
+[2021-07-23T12:20:23.947821 11700] Config: (default) temporary_dir = 
+[2021-07-23T12:20:23.947821 11700] Config: (default) umask = 
+[2021-07-23T12:20:23.947821 11700] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledGeneratorType.c
+[2021-07-23T12:20:23.948820 11700] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:23.948820 11700] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:23.948820 11700] Source file: static_src\CompiledGeneratorType.c
+[2021-07-23T12:20:23.948820 11700] Object file: static_src\CompiledGeneratorType.o
+[2021-07-23T12:20:23.948820 11700] Trying direct lookup
+[2021-07-23T12:20:23.949823 11700] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/f/91fd8987aff6da96730e76002be5b1-57468.manifest
+[2021-07-23T12:20:23.988821 6396 ] Got object file hash from preprocessor
+[2021-07-23T12:20:23.988821 6396 ] Object file C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/3/b155b8e6767e6055d445f94876a710-2362696.o not in cache
+[2021-07-23T12:20:23.988821 6396 ] Running real compiler
+[2021-07-23T12:20:24.021824 11700] Got object file hash from manifest
+[2021-07-23T12:20:24.022822 11700] Copying C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/5/f5acdee9195ee9af37d58abc4f6c0b-832118.o to static_src\CompiledGeneratorType.o (uncompressed)
+[2021-07-23T12:20:24.022822 11700] Created from cache: C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/5/f5acdee9195ee9af37d58abc4f6c0b-832118.o -> static_src\CompiledGeneratorType.o
+[2021-07-23T12:20:24.022822 11700] Succeeded getting cached result
+[2021-07-23T12:20:24.023823 11700] Result: cache hit (direct)
+[2021-07-23T12:20:24.023823 11700] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-07-23T12:20:24.023823 11700] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-07-23T12:20:24.288825 12616] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:24.288825 12616] Config: (default) base_dir = 
+[2021-07-23T12:20:24.288825 12616] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:24.288825 12616] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:24.288825 12616] Config: (default) compiler = 
+[2021-07-23T12:20:24.288825 12616] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:24.288825 12616] Config: (default) compression = false
+[2021-07-23T12:20:24.288825 12616] Config: (default) compression_level = 6
+[2021-07-23T12:20:24.288825 12616] Config: (default) cpp_extension = 
+[2021-07-23T12:20:24.288825 12616] Config: (default) debug = false
+[2021-07-23T12:20:24.288825 12616] Config: (default) depend_mode = false
+[2021-07-23T12:20:24.288825 12616] Config: (default) direct_mode = true
+[2021-07-23T12:20:24.288825 12616] Config: (default) disable = false
+[2021-07-23T12:20:24.288825 12616] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:24.288825 12616] Config: (default) hard_link = false
+[2021-07-23T12:20:24.288825 12616] Config: (default) hash_dir = true
+[2021-07-23T12:20:24.288825 12616] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:24.288825 12616] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:24.288825 12616] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:24.288825 12616] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:24.288825 12616] Config: (default) max_files = 0
+[2021-07-23T12:20:24.288825 12616] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:24.288825 12616] Config: (default) path = 
+[2021-07-23T12:20:24.288825 12616] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:24.288825 12616] Config: (default) prefix_command = 
+[2021-07-23T12:20:24.288825 12616] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:24.288825 12616] Config: (default) read_only = false
+[2021-07-23T12:20:24.288825 12616] Config: (default) read_only_direct = false
+[2021-07-23T12:20:24.288825 12616] Config: (default) recache = false
+[2021-07-23T12:20:24.288825 12616] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:24.288825 12616] Config: (default) sloppiness = 
+[2021-07-23T12:20:24.288825 12616] Config: (default) stats = true
+[2021-07-23T12:20:24.288825 12616] Config: (default) temporary_dir = 
+[2021-07-23T12:20:24.288825 12616] Config: (default) umask = 
+[2021-07-23T12:20:24.288825 12616] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\CompiledCodeHelpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCodeHelpers.c
+[2021-07-23T12:20:24.288825 12616] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:24.288825 12616] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:24.289824 12616] Source file: static_src\CompiledCodeHelpers.c
+[2021-07-23T12:20:24.289824 12616] Object file: static_src\CompiledCodeHelpers.o
+[2021-07-23T12:20:24.289824 12616] Trying direct lookup
+[2021-07-23T12:20:24.290822 12616] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/3/fabb33e2cd1077001e8611a674e05f-55586.manifest
+[2021-07-23T12:20:24.444825 12616] Got object file hash from manifest
+[2021-07-23T12:20:24.444825 12616] Copying C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/b/33abaa11a35fa1912cb61ca6dcaef0-6060139.o to static_src\CompiledCodeHelpers.o (uncompressed)
+[2021-07-23T12:20:24.445821 12616] Created from cache: C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/b/33abaa11a35fa1912cb61ca6dcaef0-6060139.o -> static_src\CompiledCodeHelpers.o
+[2021-07-23T12:20:24.446823 12616] Succeeded getting cached result
+[2021-07-23T12:20:24.446823 12616] Result: cache hit (direct)
+[2021-07-23T12:20:24.446823 12616] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-07-23T12:20:24.447822 12616] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-07-23T12:20:24.490824 12052] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:24.490824 12052] Config: (default) base_dir = 
+[2021-07-23T12:20:24.490824 12052] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:24.490824 12052] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:24.490824 12052] Config: (default) compiler = 
+[2021-07-23T12:20:24.490824 12052] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:24.490824 12052] Config: (default) compression = false
+[2021-07-23T12:20:24.490824 12052] Config: (default) compression_level = 6
+[2021-07-23T12:20:24.490824 12052] Config: (default) cpp_extension = 
+[2021-07-23T12:20:24.490824 12052] Config: (default) debug = false
+[2021-07-23T12:20:24.490824 12052] Config: (default) depend_mode = false
+[2021-07-23T12:20:24.490824 12052] Config: (default) direct_mode = true
+[2021-07-23T12:20:24.490824 12052] Config: (default) disable = false
+[2021-07-23T12:20:24.490824 12052] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:24.490824 12052] Config: (default) hard_link = false
+[2021-07-23T12:20:24.490824 12052] Config: (default) hash_dir = true
+[2021-07-23T12:20:24.490824 12052] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:24.490824 12052] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:24.490824 12052] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:24.490824 12052] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:24.490824 12052] Config: (default) max_files = 0
+[2021-07-23T12:20:24.490824 12052] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:24.490824 12052] Config: (default) path = 
+[2021-07-23T12:20:24.490824 12052] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:24.490824 12052] Config: (default) prefix_command = 
+[2021-07-23T12:20:24.490824 12052] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:24.490824 12052] Config: (default) read_only = false
+[2021-07-23T12:20:24.490824 12052] Config: (default) read_only_direct = false
+[2021-07-23T12:20:24.490824 12052] Config: (default) recache = false
+[2021-07-23T12:20:24.490824 12052] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:24.490824 12052] Config: (default) sloppiness = 
+[2021-07-23T12:20:24.490824 12052] Config: (default) stats = true
+[2021-07-23T12:20:24.490824 12052] Config: (default) temporary_dir = 
+[2021-07-23T12:20:24.490824 12052] Config: (default) umask = 
+[2021-07-23T12:20:24.491824 12052] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src static_src\InspectPatcher.c
+[2021-07-23T12:20:24.491824 12052] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:24.491824 12052] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:24.492822 12052] Source file: static_src\InspectPatcher.c
+[2021-07-23T12:20:24.492822 12052] Object file: static_src\InspectPatcher.o
+[2021-07-23T12:20:24.492822 12052] Trying direct lookup
+[2021-07-23T12:20:24.492822 12052] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/b/1f77082fdf5d8ea7641fcb0d848836-13702.manifest
+[2021-07-23T12:20:24.545822 12052] Got object file hash from manifest
+[2021-07-23T12:20:24.546824 12052] Copying C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/5/2a7d6e1e1c169d2919cf2b35c18932-627576.o to static_src\InspectPatcher.o (uncompressed)
+[2021-07-23T12:20:24.554825 12052] Created from cache: C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/5/2a7d6e1e1c169d2919cf2b35c18932-627576.o -> static_src\InspectPatcher.o
+[2021-07-23T12:20:24.554825 12052] Succeeded getting cached result
+[2021-07-23T12:20:24.554825 12052] Result: cache hit (direct)
+[2021-07-23T12:20:24.554825 12052] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-07-23T12:20:24.555822 12052] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-07-23T12:20:24.591826 12464] === CCACHE 3.7.12 STARTED =========================================
+[2021-07-23T12:20:24.591826 12464] Config: (default) base_dir = 
+[2021-07-23T12:20:24.591826 12464] Config: (environment) cache_dir = C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-07-23T12:20:24.591826 12464] Config: (default) cache_dir_levels = 2
+[2021-07-23T12:20:24.591826 12464] Config: (default) compiler = 
+[2021-07-23T12:20:24.591826 12464] Config: (default) compiler_check = mtime
+[2021-07-23T12:20:24.591826 12464] Config: (default) compression = false
+[2021-07-23T12:20:24.591826 12464] Config: (default) compression_level = 6
+[2021-07-23T12:20:24.591826 12464] Config: (default) cpp_extension = 
+[2021-07-23T12:20:24.591826 12464] Config: (default) debug = false
+[2021-07-23T12:20:24.591826 12464] Config: (default) depend_mode = false
+[2021-07-23T12:20:24.591826 12464] Config: (default) direct_mode = true
+[2021-07-23T12:20:24.591826 12464] Config: (default) disable = false
+[2021-07-23T12:20:24.591826 12464] Config: (default) extra_files_to_hash = 
+[2021-07-23T12:20:24.591826 12464] Config: (default) hard_link = false
+[2021-07-23T12:20:24.591826 12464] Config: (default) hash_dir = true
+[2021-07-23T12:20:24.591826 12464] Config: (default) ignore_headers_in_manifest = 
+[2021-07-23T12:20:24.591826 12464] Config: (default) keep_comments_cpp = false
+[2021-07-23T12:20:24.591826 12464] Config: (default) limit_multiple = 0.8
+[2021-07-23T12:20:24.591826 12464] Config: (environment) log_file = C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build\ccache-7244.txt
+[2021-07-23T12:20:24.591826 12464] Config: (default) max_files = 0
+[2021-07-23T12:20:24.591826 12464] Config: (C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-07-23T12:20:24.591826 12464] Config: (default) path = 
+[2021-07-23T12:20:24.591826 12464] Config: (default) pch_external_checksum = false
+[2021-07-23T12:20:24.591826 12464] Config: (default) prefix_command = 
+[2021-07-23T12:20:24.591826 12464] Config: (default) prefix_command_cpp = 
+[2021-07-23T12:20:24.591826 12464] Config: (default) read_only = false
+[2021-07-23T12:20:24.591826 12464] Config: (default) read_only_direct = false
+[2021-07-23T12:20:24.591826 12464] Config: (default) recache = false
+[2021-07-23T12:20:24.591826 12464] Config: (default) run_second_cpp = true
+[2021-07-23T12:20:24.591826 12464] Config: (default) sloppiness = 
+[2021-07-23T12:20:24.591826 12464] Config: (default) stats = true
+[2021-07-23T12:20:24.591826 12464] Config: (default) temporary_dir = 
+[2021-07-23T12:20:24.591826 12464] Config: (default) umask = 
+[2021-07-23T12:20:24.592825 12464] Command line: C:\Users\denis\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\denis\AppData\Local\Nuitka\Nuitka\gcc\x86_64\10.2.0-11.0.0-8.0.0-r5\mingw64\bin\gcc.exe -o static_src\MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -IC:\Users\denis\AppData\Local\Programs\Python\Python37\include -I. -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\include -IC:\Users\denis\AppData\Local\Programs\Python\Python37\lib\SITE-P~1\nuitka\build\static_src static_src\MetaPathBasedLoader.c
+[2021-07-23T12:20:24.592825 12464] Hostname: DESKTOP-JEIKPE7
+[2021-07-23T12:20:24.592825 12464] Working directory: C:\Users\denis\PycharmProjects\keyboard_capture\build_exe\main.build
+[2021-07-23T12:20:24.593821 12464] Source file: static_src\MetaPathBasedLoader.c
+[2021-07-23T12:20:24.593821 12464] Object file: static_src\MetaPathBasedLoader.o
+[2021-07-23T12:20:24.593821 12464] Trying direct lookup
+[2021-07-23T12:20:24.593821 12464] Looking for object file hash in C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/a/2c9c44fbe6f32c4ac93077e01083e3-53961.manifest
+[2021-07-23T12:20:24.719826 12464] Got object file hash from manifest
+[2021-07-23T12:20:24.719826 12464] Copying C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/6/e28f106d784a8e35e0f50be4545273-4136199.o to static_src\MetaPathBasedLoader.o (uncompressed)
+[2021-07-23T12:20:24.720821 12464] Created from cache: C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/6/e28f106d784a8e35e0f50be4545273-4136199.o -> static_src\MetaPathBasedLoader.o
+[2021-07-23T12:20:24.720821 12464] Succeeded getting cached result
+[2021-07-23T12:20:24.720821 12464] Result: cache hit (direct)
+[2021-07-23T12:20:24.720821 12464] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-07-23T12:20:24.721821 12464] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-07-23T12:20:25.706822 10176] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/f7feb48cb6490f9090a86b955246eb-1201782.o.tmp.stdout.DESKTOP-JEIKPE7.10176.FzP5tM
+[2021-07-23T12:20:25.707820 10176] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/f7feb48cb6490f9090a86b955246eb-1201782.o.tmp.stderr.DESKTOP-JEIKPE7.10176.1QBI6D
+[2021-07-23T12:20:25.707820 10176] Copying module.pynput.mouse._win32.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/f7feb48cb6490f9090a86b955246eb-1201782.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/f7feb48cb6490f9090a86b955246eb-1201782.o.DESKTOP-JEIKPE7.10176.SS92c3 (uncompressed)
+[2021-07-23T12:20:25.708819 10176] Stored in cache: module.pynput.mouse._win32.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/f7feb48cb6490f9090a86b955246eb-1201782.o (copied)
+[2021-07-23T12:20:25.710818 10176] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/2/b0b230f23c865d727cbdac9c9bd1e6-485083.manifest
+[2021-07-23T12:20:25.710818 10176] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-07-23T12:20:25.711821 10176] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-07-23T12:20:25.712818 10176] Result: cache miss
+[2021-07-23T12:20:25.712818 10176] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-07-23T12:20:25.713819 10176] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/stats.lock
+[2021-07-23T12:20:29.684820 12400] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/7/489de7d0b901c8082b71d55dcaa4c9-1929213.o.tmp.stdout.DESKTOP-JEIKPE7.12400.1QBI6D
+[2021-07-23T12:20:29.684820 12400] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/7/489de7d0b901c8082b71d55dcaa4c9-1929213.o.tmp.stderr.DESKTOP-JEIKPE7.12400.SS92c3
+[2021-07-23T12:20:29.685822 12400] Copying module.pyperclip.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/7/489de7d0b901c8082b71d55dcaa4c9-1929213.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/7/489de7d0b901c8082b71d55dcaa4c9-1929213.o.DESKTOP-JEIKPE7.12400.1Apgjk (uncompressed)
+[2021-07-23T12:20:29.685822 12400] Stored in cache: module.pyperclip.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/7/489de7d0b901c8082b71d55dcaa4c9-1929213.o (copied)
+[2021-07-23T12:20:29.688852 12400] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/8/3fd9a96937589f15b5710a23e68ee3-1139054.manifest
+[2021-07-23T12:20:29.688852 12400] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-07-23T12:20:29.689819 12400] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-07-23T12:20:29.690820 12400] Result: cache miss
+[2021-07-23T12:20:29.690820 12400] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-07-23T12:20:29.691821 12400] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-07-23T12:20:35.034541 6396 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/3/b155b8e6767e6055d445f94876a710-2362696.o.tmp.stdout.DESKTOP-JEIKPE7.6396.1QBI6D
+[2021-07-23T12:20:35.034541 6396 ] Unlink C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/3/b155b8e6767e6055d445f94876a710-2362696.o.tmp.stderr.DESKTOP-JEIKPE7.6396.SS92c3
+[2021-07-23T12:20:35.035542 6396 ] Copying module.six.o to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/3/b155b8e6767e6055d445f94876a710-2362696.o via C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/3/b155b8e6767e6055d445f94876a710-2362696.o.DESKTOP-JEIKPE7.6396.1Apgjk (uncompressed)
+[2021-07-23T12:20:35.035542 6396 ] Stored in cache: module.six.o -> C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/3/b155b8e6767e6055d445f94876a710-2362696.o (copied)
+[2021-07-23T12:20:35.037571 6396 ] Added object file hash to C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/3/dfbf2a1a1a3340f1eaad6f13a64745-1562126.manifest
+[2021-07-23T12:20:35.037571 6396 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-07-23T12:20:35.038542 6396 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-07-23T12:20:35.038542 6396 ] Result: cache miss
+[2021-07-23T12:20:35.039542 6396 ] Acquired lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-07-23T12:20:35.039542 6396 ] Releasing lock C:\Users\denis\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock

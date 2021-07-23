@@ -1,1 +1,1 @@
-python  -m nuitka --mingw64 ../main.pyw
+python  -m  nuitka --follow-imports --mingw64 ../main.pyw

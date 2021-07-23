@@ -23,9 +23,47 @@ static unsigned char **bytecode_data = NULL;
  * our own loading for each of these.
  */
 extern PyObject *modulecode___main__(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_app(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_app$assistant_pack(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_app$assistant_pack$hunter_key(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_app$assistant_pack$log_debug(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_app$logic(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_app$viwe(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_pynput(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_pynput$_util(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_pynput$_util$win32(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_pynput$_util$win32_vks(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_pynput$keyboard(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_pynput$keyboard$_base(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_pynput$keyboard$_win32(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_pynput$mouse(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_pynput$mouse$_base(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_pynput$mouse$_win32(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_pyperclip(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_pywin32_bootstrap(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_six(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 
 static struct Nuitka_MetaPathBasedLoaderEntry meta_path_loader_entries[] = {
     {"__main__", modulecode___main__, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"app", modulecode_app, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
+    {"app.assistant_pack", modulecode_app$assistant_pack, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
+    {"app.assistant_pack.hunter_key", modulecode_app$assistant_pack$hunter_key, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"app.assistant_pack.log_debug", modulecode_app$assistant_pack$log_debug, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"app.logic", modulecode_app$logic, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"app.viwe", modulecode_app$viwe, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"pynput", modulecode_pynput, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
+    {"pynput._util", modulecode_pynput$_util, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
+    {"pynput._util.win32", modulecode_pynput$_util$win32, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"pynput._util.win32_vks", modulecode_pynput$_util$win32_vks, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"pynput.keyboard", modulecode_pynput$keyboard, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
+    {"pynput.keyboard._base", modulecode_pynput$keyboard$_base, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"pynput.keyboard._win32", modulecode_pynput$keyboard$_win32, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"pynput.mouse", modulecode_pynput$mouse, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
+    {"pynput.mouse._base", modulecode_pynput$mouse$_base, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"pynput.mouse._win32", modulecode_pynput$mouse$_win32, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"pyperclip", modulecode_pyperclip, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
+    {"pywin32_bootstrap", modulecode_pywin32_bootstrap, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"six", modulecode_six, 0, 0, NUITKA_TRANSLATED_FLAG},
     {NULL, NULL, 0, 0, 0}
 };
 

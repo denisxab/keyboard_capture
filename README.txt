@@ -7,4 +7,4 @@ Bild to exe
 3) Install Nuitka
     pip install Nuitka
 4) Build to exe
-    python  -m nuitka --mingw64 C:\Users\denis\PycharmProjects\keyboard_capture\main.pyw
+    python  -m  nuitka --follow-imports --mingw64 ../main.pyw
