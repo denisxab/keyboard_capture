@@ -1,7 +1,10 @@
+import threading
+import time
 from tkinter import *
 from typing import Optional, Tuple, List
 
-from logic_capture import LogicCapture
+from app.assistant_pack import hunter_key
+from app.logic import LogicCapture
 
 
 class Windows:
@@ -10,18 +13,17 @@ class Windows:
     WT = 50
 
     def __init__(self):
-        super().__init__()
         # INIT
         self.windowTk = Tk()
         self.windowTk.geometry(
             f"{160}x{160}+{self.windowTk.winfo_screenwidth() // 2 - 160}+{self.windowTk.winfo_screenheight() // 2 - 160}")
         self.frameRoot = Frame(self.windowTk)
         self.ButtonLage = Button(self.frameRoot, height=50, width=10, bg='#AEAEAE',
-                                 command=self.__ShowPositionButtonAndHideButtonLange)
+                                 command=self.__ShowPositionButtonAndHideButtonLang)
         self.__CreateButtonChangePosition()
 
         # PACK
-        self.__ShowPositionButtonAndHideButtonLange()
+        self.__ShowPositionButtonAndHideButtonLang()
 
         # Setting
         self.windowTk.protocol("WM_DELETE_self.windosTkW", self.OnClosed)
@@ -33,12 +35,29 @@ class Windows:
 
         # Logic
         Windows.BUTTON = self.ButtonLage
+        threading.Thread(name="ThChangeKeyBoard", target=Windows.ThChangKeyBoard, daemon=True).start()
         LogicCapture()
 
         # Start
         self.windowTk.mainloop()
 
-    def __ShowPositionButtonAndHideButtonLange(self):
+    @classmethod
+    def ThChangKeyBoard(cls):
+        # Поток по поулчению раскладки клавиотурты
+        while LogicCapture.is_FlagLiveThread:
+            newLang = hunter_key.GetLangKeyBoard.get()
+            if newLang != LogicCapture.MainLangKeyboard:
+                LogicCapture.MainLangKeyboard = newLang
+                fileImage: str = ""
+                if newLang == "ru":
+                    fileImage = "data_image/ru.png"
+                elif newLang == "en":
+                    fileImage = "data_image/en.png"
+                ImageButtonLang = PhotoImage(file=fileImage)
+                cls.BUTTON["image"] = ImageButtonLang
+            time.sleep(1)
+
+    def __ShowPositionButtonAndHideButtonLang(self):
         self.frameRoot.pack_forget()
         self.ButtonLage.pack_forget()
 
@@ -85,28 +104,28 @@ class Windows:
         w = 6
         color = '#BDFFD1'
         self.bt1 = Button(self.TableFrame, height=h, width=w, bg=color, text="+",
-                          command=lambda: self.ChangePositionAndShowButtonLange(positionArr[0]))
+                          command=lambda: self.ChangePositionAndShowButtonLang(positionArr[0]))
         self.bt2 = Button(self.TableFrame, height=h, width=w, bg=color, text="<",
-                          command=lambda: self.ChangePositionAndShowButtonLange(positionArr[1]))
+                          command=lambda: self.ChangePositionAndShowButtonLang(positionArr[1]))
 
         self.bt3 = Button(self.TableFrame, height=h, width=w, bg=color, text="+",
-                          command=lambda: self.ChangePositionAndShowButtonLange(positionArr[2]))
+                          command=lambda: self.ChangePositionAndShowButtonLang(positionArr[2]))
 
         self.bt4 = Button(self.TableFrame, height=h, width=w, bg=color, text="v",
-                          command=lambda: self.ChangePositionAndShowButtonLange(positionArr[3]))
+                          command=lambda: self.ChangePositionAndShowButtonLang(positionArr[3]))
         self.bt5 = Button(self.TableFrame, height=h, width=w, bg=color, text="+",
-                          command=lambda: self.ChangePositionAndShowButtonLange(positionArr[4]))
+                          command=lambda: self.ChangePositionAndShowButtonLang(positionArr[4]))
         self.bt6 = Button(self.TableFrame, height=h, width=w, bg=color, text=">",
-                          command=lambda: self.ChangePositionAndShowButtonLange(positionArr[5]))
+                          command=lambda: self.ChangePositionAndShowButtonLang(positionArr[5]))
         self.bt7 = Button(self.TableFrame, height=h, width=w, bg=color, text="+",
-                          command=lambda: self.ChangePositionAndShowButtonLange(positionArr[6]))
+                          command=lambda: self.ChangePositionAndShowButtonLang(positionArr[6]))
         self.bt8 = Button(self.TableFrame, height=h, width=w, bg=color, text="^",
-                          command=lambda: self.ChangePositionAndShowButtonLange(positionArr[7]))
+                          command=lambda: self.ChangePositionAndShowButtonLang(positionArr[7]))
 
         self.btClose = Button(self.TableFrame, height=h, width=w, bg="#FF9C83", text="x",
                               command=lambda: self.OnClosed())
 
-    def ChangePositionAndShowButtonLange(self, pos: Tuple[int, int]):
+    def ChangePositionAndShowButtonLang(self, pos: Tuple[int, int]):
         self.TableFrame.pack_forget()
         self.bt1.grid_forget()
         self.bt8.grid_forget()

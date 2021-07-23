@@ -1,16 +1,14 @@
+import sys
 import threading
 import time
-from tkinter import PhotoImage
-from typing import List, Set
+from typing import List
 
-import pyperclip
-
-import viwe
-from assistant_pack import get_lang, hunter_key
-from assistant_pack.dataconst import translation_key
+from pyperclip import paste
 from pynput import keyboard
 
-from assistant_pack import log_debug as lg
+from app.assistant_pack import log_debug as lg
+from app.assistant_pack.hunter_key import translation_key, MouseHunter, KeyboardHunter
+
 lg.DEBUG_PRINT = 0
 
 
@@ -21,7 +19,6 @@ class LogicCapture:
     TriggerCopy: bool = False
     TriggerChangeLang: int = 0
     is_FlagLiveThread: bool = True
-    ErrorListCodeKey: Set[int] = set()
     SkipTrigger: int = 0
     switchKey = {
         # Отчиска массива при смене фокуса
@@ -41,39 +38,22 @@ class LogicCapture:
         "Key.ctrl_l": lambda: LogicCapture.CopyTrigger()
     }
 
-    KeyboardOdj = hunter_key.KeyboardHunter()
-    MouseObj = hunter_key.MouseHunter()
+    KeyboardOdj = KeyboardHunter()
+    MouseObj = MouseHunter()
 
     def __init__(self):
 
         # Поток по завхату нажатий клавишь
         threading.Thread(name="ThCaptureKeyBoard",
-                         target=hunter_key.KeyboardHunter.ListenKeyboard,
-                         args=(lambda *args: 0, self.ThCaptureKeyBoard2)).start()
+                         target=KeyboardHunter.ListenKeyboard,
+                         args=(lambda *args: 0, self.ThCaptureKeyBoard2),
+                         daemon=True).start()
 
         # Поток по захвату мыши и отчистки KeyPressDown при нажатие ПКМ
         threading.Thread(name="ThCaptureMouse",
-                         target=hunter_key.MouseHunter.ListenMouse,
-                         args=(lambda *args: 0, lambda *args: LogicCapture.KeyPressDown.clear())).start()
-
-        # Поток по поулчению раскладки клавиотурты
-        threading.Thread(name="ThChangeKeyBoard", target=LogicCapture.ThChangKeyBoard, daemon=True).start()
-
-    @staticmethod
-    def ThChangKeyBoard():
-        GetLang = get_lang.GetLangeKeyBoard()
-        while LogicCapture.is_FlagLiveThread:
-            newLang = GetLang.get_keyboard_language()
-            if newLang != LogicCapture.MainLangKeyboard:
-                LogicCapture.MainLangKeyboard = newLang
-                fileImage: str = ""
-                if newLang == 1:
-                    fileImage = "data_image/ru.png"
-                elif newLang == 2:
-                    fileImage = "data_image/en.png"
-                ImageButtonLang = PhotoImage(file=fileImage)
-                viwe.Windows.BUTTON["image"] = ImageButtonLang
-            time.sleep(1)
+                         target=MouseHunter.ListenMouse,
+                         args=(lambda *args: 0, self.PressMouse),
+                         daemon=True).start()
 
     @staticmethod
     def SibelTranslation(false_text: str) -> str:
@@ -131,23 +111,33 @@ class LogicCapture:
         cls.TriggerCopy = True
 
     @classmethod
+    def PressMouse(cls, *args):
+        if cls.is_FlagLiveThread:
+            LogicCapture.KeyPressDown.clear()
+        else:
+            sys.exit(0)
+
+    @classmethod
     def ThCaptureKeyBoard2(cls, key):
-        try:
-            if key.char:
-                if cls.TriggerCopy and key.vk == 67:
-                    cls.KeyPressDown = list(item for item in pyperclip.paste())
-                    print(f"[COPY]\t{''.join(cls.KeyPressDown)}")
-                elif cls.SkipTrigger == 0:
-                    cls.KeyPressDown.append(key.char)
-                else:
-                    cls.SkipTrigger -= 1
-
-        except AttributeError:
+        if LogicCapture.is_FlagLiveThread:
             try:
-                cls.switchKey[str(key)]()
-            except KeyError:
+                if key.char:
+                    if cls.TriggerCopy and key.vk == 67:
+                        cls.KeyPressDown = list(item for item in paste())
+                        print(f"[COPY]\t{''.join(cls.KeyPressDown)}")
+                    elif cls.SkipTrigger == 0:
+                        cls.KeyPressDown.append(key.char)
+                    else:
+                        cls.SkipTrigger -= 1
 
-                lg.printDebug(key)
+            except AttributeError:
+                try:
+                    cls.switchKey[str(key)]()
+                except KeyError:
+
+                    lg.printDebug(key)
+        else:
+            sys.exit(0)
 
 
 if __name__ == '__main__':
