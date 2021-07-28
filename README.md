@@ -41,9 +41,9 @@ pyperclip~=1.8.2
 ## Examples
 
 1.
-    >[П1](https://i.imgur.com/gZNsziH.gif)
+    >![П1](https://i.imgur.com/gZNsziH.gif)
     >
-    >[П2](https://i.imgur.com/4ngSiFV.gif)
+    >![П2](https://i.imgur.com/4ngSiFV.gif)
 2.
     - Написать "Ghdbtn vbh" нажать Alt_l + Alt_l 
     ```cmd
