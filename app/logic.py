@@ -26,10 +26,30 @@ class LogicCapture:
     TriggerCopy: bool = False
 
     is_FlagLiveThread: bool = True
-    CopyBuffer: str = ""
 
-    KeyboardOdj = KeyboardHunter()
     MouseObj = MouseHunter()
+
+    SpecialSelectKey: List = [False, -1]
+    ArrKeySpecialKeys = {29: "crt_l",
+                         42: "shift",
+                         56: "alt",
+                         14: "backspace",
+                         83: "del",
+                         75: "<",
+                         77: ">",
+                         72: "^",
+                         80: "^",
+                         28: "enter",
+                         1: "esc",
+                         61: "f3",
+                         }
+    HotKey: List[str] = []
+    CopyBuffer: str = ""
+    ArrHotKey: Dict = {
+        (29, 46): lambda: LogicCapture._CopyTrigger(),
+        (61,): lambda: printDebug(f"{LogicCapture._ConversionListCodeKeyToSir()}"),
+        (56, 44): lambda: LogicCapture._SetTranslateText(LogicCapture._ConversionListCodeKeyToSir())
+    }
 
     def __init__(self, ):
 
@@ -83,31 +103,13 @@ class LogicCapture:
             for _ in range(ln):
                 kb.send("backspace")
 
-        kb.write(NewTranslateKey, delay=0.05)
-        cls.KeyLettersAlphabet.clear()
-        cls.CopyBuffer = ""
+        try:
+            kb.write(NewTranslateKey, delay=0.05)
+            cls.KeyLettersAlphabet.clear()
+            cls.CopyBuffer = ""
+        except ValueError:
+            printDebug(f"Warning RES Empty !")
 
-    # @classmethod
-    # def _PressDualAlt(cls):
-    #     if cls.is_pressAlt and cls.TriggerConvectionLang == int(time.time()):
-    #         if cls.TriggerCopy:
-    #             cls._SetTranslateText(paste(), delFlag=False)
-    #             cls.TriggerCopy = False
-    #             printDebug(f"120: Copy")
-    #
-    #         else:
-    #             printDebug(f"123 {cls._ConversionListCodeKeyToSir()}")
-    #             cls._SetTranslateText(cls._ConversionListCodeKeyToSir())
-    #
-    #         cls.is_pressAlt = False
-    #
-    #     else:
-    #         cls.is_pressAlt = True
-    #         cls.TriggerConvectionLang = int(time.time())
-    # @classmethod
-    # def _ChangeLang(cls):
-    #     cls.TriggerChangeLang = True
-    #
     @classmethod
     def _CopyTrigger(cls):
         cls.CopyBuffer = paste()
@@ -133,106 +135,83 @@ class LogicCapture:
             return ""
 
     @classmethod
-    def ThCaptorFeKeyBoard(cls, key):
+    def pressed_keys(cls, event):
 
-        SpecialSelectKey: List = [False, -1]
-        ArrKeySpecialKeys = {29: "crt_l",
-                             42: "shift",
-                             56: "alt",
-                             14: "backspace",
-                             83: "del",
-                             75: "<",
-                             77: ">",
-                             72: "^",
-                             80: "^",
-                             28: "enter",
-                             1: "esc",
-                             61: "f3",
-                             }
-        HotKey: List[str] = []
+        """
+        event_type - нажати || отжатие
+        name - имя клавиши
+        scan_code - номер клавиши
+        time - время когда нажата
+        """
 
-        ArrHotKey: Dict = {
-            (29, 46): lambda: LogicCapture._CopyTrigger(),
-            (61,): lambda: printDebug(f"{LogicCapture._ConversionListCodeKeyToSir()}"),
-            (56, 44): lambda: LogicCapture._SetTranslateText(LogicCapture._ConversionListCodeKeyToSir())
-        }
+        sc = event.scan_code
+        et = 1 if event.event_type == 'down' else 0
 
-        def pressed_keys(event):
-            nonlocal SpecialSelectKey, HotKey, ArrKeySpecialKeys
-            """
-            event_type - нажати || отжатие
-            name - имя клавиши
-            scan_code - номер клавиши
-            time - время когда нажата
-            """
+        if cls.SpecialSelectKey[1] != sc:
 
-            sc = event.scan_code
-            et = 1 if event.event_type == 'down' else 0
-
-            if SpecialSelectKey[1] != sc:
-
-                if sc in (541,):
-                    # 541 alt up вредная клавиша неизвестного происхождения
-                    return None
-
-                if ArrKeySpecialKeys.get(sc, False):
-                    if et and SpecialSelectKey[0] == False:
-                        SpecialSelectKey[0] = True
-                        SpecialSelectKey[1] = sc
-                        HotKey.clear()
-                        HotKey.append(sc)
-                        printDebug(f"[SelectKey]\t{SpecialSelectKey}")
-                        return None
-
-                    elif et:
-                        HotKey.append(sc)
-
-                    if not sc in (61, 42, 56):  # Если это не F3, Alt_l, Shift_l
-                        LogicCapture.KeyLettersAlphabet.clear()
-
-                    return None
-
-                elif not et and SpecialSelectKey[0] == True:
-                    HotKey.append(sc)
-                    printDebug(f"[Hot]\t\t{sc}")
-                    return None
-
-            elif not et:
-                SpecialSelectKey[0] = False
-                SpecialSelectKey[1] = -1
-                printDebug(f"[SelectKey]\t{SpecialSelectKey}")
-                printDebug(f"[HotKey]\t{HotKey}")
-                printDebug(f"[LKA 2]\t{LogicCapture.KeyLettersAlphabet}")
-
-                # Верификация множественного нажатия на alt + shift
-                if len(HotKey) > 1 and HotKey[0] in (56, 42) and HotKey[1] in (56, 42):
-                    if len(HotKey[1:]) % 2 != 0:
-                        LogicCapture.MainLangKeyboard = 'en' if LogicCapture.MainLangKeyboard == 'ru' else 'ru'
-                    printDebug(f"[MainLangKeyboard]\t{LogicCapture.MainLangKeyboard}")
-
-                # Если печатали с зажатым shift
-                elif HotKey[0] == 42 and len(HotKey) > 1:
-                    printDebug(f"[Shift Key]\t{HotKey[1:]}")
-                    for key_iter in HotKey[1:]:
-                        if not ArrKeySpecialKeys.get(key_iter, False):
-                            LogicCapture.KeyLettersAlphabet.append(key_iter * -1)
-
-                else:
-                    if ArrHotKey.get(tuple(HotKey), False):
-                        ArrHotKey[tuple(HotKey)]()
-
+            if sc in (541,):
+                # 541 alt up вредная клавиша неизвестного происхождения
                 return None
 
-            if not et:
-                LogicCapture.KeyLettersAlphabet.append(sc)
-                printDebug(f"[KeyClick]\t{sc}")
-                printDebug(f"[LKA 1]\t{LogicCapture.KeyLettersAlphabet}")
+            if cls.ArrKeySpecialKeys.get(sc, False):
+                if et and cls.SpecialSelectKey[0] == False:
+                    cls.SpecialSelectKey[0] = True
+                    cls.SpecialSelectKey[1] = sc
+                    cls.HotKey.clear()
+                    cls.HotKey.append(sc)
+                    printDebug(f"[SelectKey]\t{cls.SpecialSelectKey}")
+                    return None
 
+                elif et:
+                    cls.HotKey.append(sc)
+
+                if not sc in (61, 42, 56):  # Если это не F3, Alt_l, Shift_l
+                    LogicCapture.KeyLettersAlphabet.clear()
+                return None
+
+            elif not et and cls.SpecialSelectKey[0] == True:
+                cls.HotKey.append(sc)
+                printDebug(f"[Hot]\t\t{sc}")
+                return None
+
+        elif not et:
+            cls.SpecialSelectKey[0] = False
+            cls.SpecialSelectKey[1] = -1
+            printDebug(f"[SelectKey]\t{cls.SpecialSelectKey}")
+            printDebug(f"[HotKey]\t{cls.HotKey}")
+            printDebug(f"[LKA 2]\t{cls.KeyLettersAlphabet}")
+
+            # Верификация множественного нажатия на alt + shift
+            if len(cls.HotKey) > 1 and cls.HotKey[0] in (56, 42) and cls.HotKey[1] in (56, 42):
+                if len(cls.HotKey[1:]) % 2 != 0:
+                    LogicCapture.MainLangKeyboard = 'en' if cls.MainLangKeyboard == 'ru' else 'ru'
+                printDebug(f"[MainLangKeyboard]\t{cls.MainLangKeyboard}")
+
+            # Если печатали с зажатым shift
+            elif cls.HotKey[0] == 42 and len(cls.HotKey) > 1:
+                printDebug(f"[Shift Key]\t{cls.HotKey[1:]}")
+                for key_iter in cls.HotKey[1:]:
+                    if not cls.ArrKeySpecialKeys.get(key_iter, False):
+                        cls.KeyLettersAlphabet.append(key_iter * -1)
+
+            else:
+                if cls.ArrHotKey.get(tuple(cls.HotKey), False):
+                    cls.ArrHotKey[tuple(cls.HotKey)]()
+
+            return None
+
+        if not et:
+            cls.KeyLettersAlphabet.append(sc)
+            printDebug(f"[KeyClick]\t{sc}")
+            printDebug(f"[LKA 1]\t{cls.KeyLettersAlphabet}")
+
+    @classmethod
+    def ThCaptorFeKeyBoard(cls, key):
         # Отчистка буфера обмена
         if windll.user32.OpenClipboard(None):
             windll.user32.EmptyClipboard()
             windll.user32.CloseClipboard()
-        kb.hook(pressed_keys)
+        kb.hook(LogicCapture.pressed_keys)
         kb.wait()
 
 
