@@ -6,6 +6,11 @@ from pynput import keyboard, mouse
 
 class KeyboardHunter:
 
+    # print("{")
+    # for i in sorted(keyCode):
+    #     print(f"{i}: '{keyCode[i]}'", end=",\n")
+    # print("}")
+
     @staticmethod
     def on_press(key):
         try:
@@ -19,12 +24,13 @@ class KeyboardHunter:
         if key == keyboard.Key.esc:
             return False
 
-    def Click(self, key: Union[str, keyboard.Key]):
+    def Click(self, key: Union[str, keyboard.Key], count: int = 1):
         """
+        :param count: Сколько раз нажать
         :param key: Нажать и отпустить клавишу
         """
-        self.KeyBoard.press(key)
-        self.KeyBoard.release(key)
+        for _ in range(count):
+            self.KeyBoard.tap(key)
 
     def KeyPress(self, key: Union[str, keyboard.Key]):
         """
@@ -40,7 +46,7 @@ class KeyboardHunter:
 
     def TypeTextByKeyBoard(self, textPrint: str):
         """
-        Напечатаь текст на клавиотуре
+        Напечатать текст на клавиатуре
         """
         self.KeyBoard.type(textPrint)
 
@@ -167,6 +173,7 @@ class GetLangKeyBoard:
 
     languages = {68748313: "ru", 67699721: "en"}
 
+
     @classmethod
     def get(cls) -> str:
         cls.user32.GetForegroundWindow()
@@ -176,7 +183,7 @@ class GetLangKeyBoard:
         return cls.languages.get(layout_id, None)
 
 
-translation_key = {
+translation_key_En_Ru: Dict[str, str] = {
     "q": "й",
     "w": "ц",
     "e": "у",
@@ -242,6 +249,11 @@ translation_key = {
     "M": "Ь",
     "<": "Б",
     ">": "Ю",
+
+}
+
+translation_key_Ru_En: Dict[str, str] = {
+
     ########
     "й": "q",
     "ц": "w",
@@ -313,42 +325,55 @@ translation_key = {
     "/": "/"
 }
 
-codeKey = {
-    16: 'q',
-    17: 'w',
-    18: 'e',
-    19: 'r',
-    20: 't',
-    21: 'y',
-    22: 'u',
-    23: 'i',
-    24: 'o',
-    25: 'p',
-    26: '[',
-    27: ']',
-    30: 'a',
-    31: 's',
-    32: 'd',
-    33: 'f',
-    34: 'g',
-    35: 'h',
-    36: 'j',
-    37: 'k',
-    38: 'l',
-    39: ';',
-    40: "'",
-    44: 'z',
-    45: 'x',
-    46: 'c',
-    47: 'v',
-    48: 'b',
-    49: 'n',
-    50: 'm',
-    51: ',',
-    52: '.',
-    57: ' ',
-    15: '\t',
-    4: '#',
+keyCode: Dict[int, str] = {
+    0: " ",
+    48: '0',
+    49: '1',
+    50: '2',
+    51: '3',
+    52: '4',
+    53: '5',
+    54: '6',
+    55: '7',
+    56: '8',
+    57: '9',
+    65: 'a',
+    66: 'b',
+    67: 'c',
+    68: 'd',
+    69: 'e',
+    70: 'f',
+    71: 'g',
+    72: 'h',
+    73: 'i',
+    74: 'j',
+    75: 'k',
+    76: 'l',
+    77: 'm',
+    78: 'n',
+    79: 'o',
+    80: 'p',
+    81: 'q',
+    82: 'r',
+    83: 's',
+    84: 't',
+    85: 'u',
+    86: 'v',
+    87: 'w',
+    88: 'x',
+    89: 'y',
+    90: 'z',
+    186: ';',
+    187: '=',
+    188: ',',
+    189: '-',
+    190: '.',
+    191: '/',
+    192: '`',
+    219: '[',
+    220: '\\',
+    221: ']',
+    222: "'",
 }
 
 if __name__ == '__main__':

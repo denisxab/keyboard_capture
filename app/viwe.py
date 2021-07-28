@@ -3,7 +3,7 @@ import time
 from tkinter import *
 from typing import Optional, Tuple, List
 
-from app.assistant_pack import hunter_key
+from app.general_data import fileImage
 from app.logic import LogicCapture
 
 
@@ -43,19 +43,14 @@ class Windows:
 
     @classmethod
     def ThChangKeyBoard(cls):
-        # Поток по поулчению раскладки клавиотурты
+        # Поток по получению раскладки клавиатуры
+        lastLang = False
         while LogicCapture.is_FlagLiveThread:
-            newLang = hunter_key.GetLangKeyBoard.get()
-            if newLang != LogicCapture.MainLangKeyboard:
-                LogicCapture.MainLangKeyboard = newLang
-                fileImage: str = ""
-                if newLang == "ru":
-                    fileImage = "data_image/ru.png"
-                elif newLang == "en":
-                    fileImage = "data_image/en.png"
-                ImageButtonLang = PhotoImage(file=fileImage)
+            if lastLang != LogicCapture.MainLangKeyboard:
+                lastLang = LogicCapture.MainLangKeyboard
+                ImageButtonLang = PhotoImage(file=fileImage[LogicCapture.MainLangKeyboard])
                 cls.BUTTON["image"] = ImageButtonLang
-            time.sleep(1)
+            time.sleep(0.5)
 
     def __ShowPositionButtonAndHideButtonLang(self):
         self.frameRoot.pack_forget()
