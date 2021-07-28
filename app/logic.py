@@ -51,6 +51,8 @@ class LogicCapture:
         (56, 44): lambda: LogicCapture._SetTranslateText(LogicCapture._ConversionListCodeKeyToSir())
     }
 
+    Result: List[str] = []
+
     def __init__(self, ):
 
         # Поток по захвату нажатий клавиш
@@ -71,11 +73,14 @@ class LogicCapture:
         res_text: List[str] = []
 
         select_transected = {
-            "ru": translation_key_Ru_En,
             "en": translation_key_En_Ru,
+            "ru": translation_key_Ru_En,
         }[cls.MainLangKeyboard]
+
+        # [select_transected.get(symbol, symbol) for symbol in text]
         for symbol in text:
-            res_text.append(select_transected.get(symbol, ""))
+            res_text.append(select_transected.get(symbol, symbol))
+
         return res_text
 
     @classmethod
@@ -84,10 +89,11 @@ class LogicCapture:
         if cls.CopyBuffer:
             printDebug(f"[INPUT COPY]\t{cls.CopyBuffer}")
             # перевод раскладки
-            NewTranslateKey: List[str] = cls._SibelTranslation(cls.CopyBuffer)
-            ln = len(NewTranslateKey)
+            cls.Result = cls._SibelTranslation(cls.CopyBuffer)
+
+            ln = len(cls.Result)
             printDebug(f"[ LEN]\t{ln}")
-            printDebug(f"[ RES]\t{NewTranslateKey}")
+            printDebug(f"[ RES]\t{cls.Result}")
             # Стереть слова на неправильной раскладки
             kb.send("backspace")
 
@@ -95,17 +101,17 @@ class LogicCapture:
         else:
             printDebug(f"[INPUT]\t{text}")
             # перевод раскладки
-            NewTranslateKey: List[str] = cls._SibelTranslation(text)
-            ln = len(NewTranslateKey)
+            cls.Result = cls._SibelTranslation(text)
+            ln = len(cls.Result)
             printDebug(f"[ LEN]\t{ln}")
-            printDebug(f"[ RES]\t{NewTranslateKey}")
+            printDebug(f"[ RES]\t{cls.Result}")
             # Стереть слова на неправильной раскладки
             for _ in range(ln):
                 kb.send("backspace")
 
         try:
-            kb.write(NewTranslateKey, delay=0.05)
-            cls.KeyLettersAlphabet.clear()
+            kb.write(cls.Result, delay=0.05)
+            # cls.KeyLettersAlphabet.clear()
             cls.CopyBuffer = ""
         except ValueError:
             printDebug(f"Warning RES Empty !")
@@ -155,12 +161,14 @@ class LogicCapture:
 
             if cls.ArrKeySpecialKeys.get(sc, False):
                 if et and cls.SpecialSelectKey[0] == False:
+
                     cls.SpecialSelectKey[0] = True
                     cls.SpecialSelectKey[1] = sc
+
                     cls.HotKey.clear()
                     cls.HotKey.append(sc)
                     printDebug(f"[SelectKey]\t{cls.SpecialSelectKey}")
-                    return None
+                    # return None
 
                 elif et:
                     cls.HotKey.append(sc)
@@ -201,6 +209,7 @@ class LogicCapture:
             return None
 
         if not et:
+            cls.HotKey.clear()
             cls.KeyLettersAlphabet.append(sc)
             printDebug(f"[KeyClick]\t{sc}")
             printDebug(f"[LKA 1]\t{cls.KeyLettersAlphabet}")
