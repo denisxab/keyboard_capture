@@ -1,9 +1,9 @@
 import unittest
 from typing import List
 
-from app.logic import LogicCapture
 import app.logic
 from app.assistant_pack import log_debug
+from app.logic import LogicCapture
 
 log_debug.DEBUG_PRINT = 1
 
@@ -35,7 +35,7 @@ class Event:
         self.event_type = "down" if event_type == 1 else "up"
 
 
-class MyTestCase(unittest.TestCase):
+class Test_LogicCapture(unittest.TestCase):
     """
     cls.KeyLettersAlphabet = Массив с нажатыми клавишами из алфавита
     cls.HotKey = Массив с нажатыми горячими клавишами
@@ -44,7 +44,11 @@ class MyTestCase(unittest.TestCase):
     cls.CopyBuffer = копированные текст
     """
 
-    def resetData(self):
+    @staticmethod
+    def resetData():
+        """
+        Обновление всех проверяемых данных
+        """
         LogicCapture.KeyLettersAlphabet = []
         LogicCapture.HotKey = []
         LogicCapture.MainLangKeyboard = "en"
@@ -54,9 +58,12 @@ class MyTestCase(unittest.TestCase):
         FakeClass.ArrPress = []
 
     def setUp(self):
-        self.resetData()
+        Test_LogicCapture.resetData()
 
     def test_HotKey_Ctr_C(self):
+        """
+        Проверка нажатия горячей клавиши - например Ctr+c
+        """
         # Ctr + C
         dataTest = [
             Event(29, 1),
@@ -83,7 +90,9 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(LogicCapture.Result, [])
 
     def test_Ctr_C_And_Press_Key_Alphabet(self):
-
+        """
+        Проверка ввода алфавитных клавиш после комбинаций клавиш
+        """
         dataTest = [
 
             # Ctr + C
@@ -129,7 +138,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(LogicCapture.Result, [])
 
     def test_Press_Key_Alphabet_And_Down_Shift(self):
-
+        """
+        Проверка нажатия клавиш при ззажатомShift
+        :rtype: object
+        """
         dataTest = [
 
             # Ctr + C
@@ -181,7 +193,9 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(LogicCapture.Result, [])
 
     def test_Translate_Text_EN_RU(self):
-
+        """
+        Проверка перевода Английские букв в Русских
+        """
         LogicCapture.MainLangKeyboard = "en"
         dataTest = [
 
@@ -251,7 +265,9 @@ class MyTestCase(unittest.TestCase):
                           'backspace', 'backspace', 'П', 'Р', 'в', 'е', 'т', ' ', 'м', 'и', 'р'])
 
     def test_Translate_Text_RU_EN(self):
-
+        """
+        Проверка перевода Русских букв в Английские
+        """
         LogicCapture.MainLangKeyboard = "ru"
         dataTest = [
 
@@ -321,6 +337,9 @@ class MyTestCase(unittest.TestCase):
                           'backspace', 'backspace', 'G', 'H', 'd', 't', 'n', ' ', 'v', 'b', 'h'])
 
     def test_Clear_KeyLettersAlphabet_If_Press_Backspace(self):
+        """
+        Проверка отчистки массива нажатых алфавитных клавиш при нажатии backspace специальных
+        """
         dataTest = [
 
             # Press Key Alphabet
@@ -363,7 +382,9 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(LogicCapture.Result, [])
 
     def test_Many_Change_Lang(self):
-
+        """
+        Проверка реакции программы на множественную и быструю смену раскладки клавиатуры
+        """
         LogicCapture.MainLangKeyboard = "en"
         dataTest = [
             # Press Key Alphabet
@@ -432,7 +453,9 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(FakeClass.ArrPress, [])
 
     def test_Ctr_C_And_Translate_Test(self):
-
+        """
+        Проверка копирование выделанного текста и перевод его по горячей клавише
+        """
         LogicCapture.MainLangKeyboard = "ru"
         dataTest = [
 
@@ -525,6 +548,60 @@ class MyTestCase(unittest.TestCase):
                          ['backspace', 'D', 'a', 't', 'a', ' ', 'i', 'n', ' ', 'B', 'u', 'f', 'f', 'e', 'r'])
         self.assertEqual(LogicCapture.CopyBuffer, '')
         self.assertEqual(LogicCapture.Result, ['D', 'a', 't', 'a', ' ', 'i', 'n', ' ', 'B', 'u', 'f', 'f', 'e', 'r'])
+
+    def test_Strange_Key(self):
+        """
+        Проверка игнорирования нажатия странных кнопок которых нет в документации библиотеки
+        и которые рушат всю систему
+        """
+        dataTest = [
+            # alt up
+            Event(541, 1),
+            Event(541, 0),
+        ]
+
+        for Dt in dataTest:
+            LogicCapture.pressed_keys(Dt)
+            self.assertEqual(LogicCapture.KeyLettersAlphabet, [])
+            self.assertEqual(LogicCapture.HotKey, [])
+            self.assertEqual(LogicCapture.MainLangKeyboard, "en")
+            self.assertEqual(LogicCapture.SpecialSelectKey, [False, -1])
+            self.assertEqual(FakeClass.ArrPress, [])
+            self.assertEqual(LogicCapture.CopyBuffer, '')
+            self.assertEqual(LogicCapture.Result, [])
+
+    @unittest.skip("-")
+    def test_Info_Key(self):
+
+        dataTest = [
+
+            # Press Key Alphabet
+            Event(42, 1),  # Shift Down
+            Event(34, 1),
+            Event(34, 0),
+
+            Event(35, 1),
+            Event(35, 0),
+            Event(42, 0),  # Shift Up
+
+            Event(32, 1),
+            Event(32, 0),
+
+            Event(61, 1),
+            Event(61, 0),
+
+        ]
+
+        for Dt in dataTest:
+            LogicCapture.pressed_keys(Dt)
+
+        self.assertEqual(LogicCapture.KeyLettersAlphabet, [])
+        self.assertEqual(LogicCapture.HotKey, [])
+        self.assertEqual(LogicCapture.MainLangKeyboard, "en")
+        self.assertEqual(LogicCapture.SpecialSelectKey, [False, -1])
+        self.assertEqual(FakeClass.ArrPress, [])
+        self.assertEqual(LogicCapture.CopyBuffer, '')
+        self.assertEqual(LogicCapture.Result, [])
 
 
 if __name__ == '__main__':

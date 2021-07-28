@@ -1,19 +1,15 @@
 import sys
 import threading
-import time
+from ctypes import windll
 from typing import List, Dict
 
 import keyboard as kb
-
 from pyperclip import paste
-from pynput import keyboard
-from ctypes import windll
 
-from app.assistant_pack.log_debug import printDebug
 from app.assistant_pack import hunter_key
-from app.general_data import keyCode
-
-from app.assistant_pack.hunter_key import translation_key_En_Ru, translation_key_Ru_En, MouseHunter, KeyboardHunter
+from app.assistant_pack.hunter_key import MouseHunter
+from app.assistant_pack.log_debug import printDebug
+from app.general_data import keyCode, translation_key_Ru_En, translation_key_En_Ru
 
 
 class LogicCapture:
@@ -57,8 +53,7 @@ class LogicCapture:
 
         # Поток по захвату нажатий клавиш
         threading.Thread(name="ThCaptureKeyBoard",
-                         target=KeyboardHunter.ListenKeyboard,
-                         args=(lambda *args: 0, self.ThCaptorFeKeyBoard),
+                         target=self.ThCaptorFeKeyBoard,
                          daemon=True).start()
 
         # Поток по захвату мыши и отчистки PressedKeys при нажатии ПКМ
@@ -109,12 +104,9 @@ class LogicCapture:
             for _ in range(ln):
                 kb.send("backspace")
 
-        try:
-            kb.write(cls.Result, delay=0.05)
-            # cls.KeyLettersAlphabet.clear()
-            cls.CopyBuffer = ""
-        except ValueError:
-            printDebug(f"Warning RES Empty !")
+        kb.write(cls.Result, delay=0.05)
+        # cls.KeyLettersAlphabet.clear()
+        cls.CopyBuffer = ""
 
     @classmethod
     def _CopyTrigger(cls):
@@ -131,12 +123,9 @@ class LogicCapture:
     @classmethod
     def _ConversionListCodeKeyToSir(cls) -> str:
         if cls.KeyLettersAlphabet:
-            try:
-                return "".join(
-                    [keyCode[key * -1].upper() if key < 0 else keyCode[key] for key in
-                     cls.KeyLettersAlphabet])
-            except Exception as  e:
-                print(f"{e} == {cls.KeyLettersAlphabet}")
+            return "".join(
+                [keyCode[key * -1].upper() if key < 0 else keyCode[key] for key in
+                 cls.KeyLettersAlphabet])
         else:
             return ""
 
@@ -214,8 +203,8 @@ class LogicCapture:
             printDebug(f"[KeyClick]\t{sc}")
             printDebug(f"[LKA 1]\t{cls.KeyLettersAlphabet}")
 
-    @classmethod
-    def ThCaptorFeKeyBoard(cls, key):
+    @staticmethod
+    def ThCaptorFeKeyBoard():
         # Отчистка буфера обмена
         if windll.user32.OpenClipboard(None):
             windll.user32.EmptyClipboard()
