@@ -249,6 +249,7 @@ translation_key_En_Ru: Dict[str, str] = {
     "M": "Ь",
     "<": "Б",
     ">": "Ю",
+    " ": " "
 
 }
 
@@ -322,8 +323,10 @@ translation_key_Ru_En: Dict[str, str] = {
     "Ю": ">",
     ###:###
     "#": "#",
-    "/": "/"
+    "/": "/",
+    " ": " "
 }
+
 
 keyCode: Dict[int, str] = {
     0: " ",
@@ -375,6 +378,8 @@ keyCode: Dict[int, str] = {
     221: ']',
     222: "'",
 }
+
+
 
 if __name__ == '__main__':
     pass

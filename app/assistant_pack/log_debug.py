@@ -4,7 +4,7 @@ import time
 from typing import List, Set, Dict
 
 DEBUG_PRINT: int = 0
-DEBUG_MAIN: Set[str] = {"Ошибки"}
+DEBUG_MAIN: Set[str] = {}
 NAME_PRINT_DEBUG: Dict[str, int] = {}
 
 
@@ -12,22 +12,23 @@ def printDebug(*values: object, key: str = "", sep=' ', end='\n'):
     global DEBUG_PRINT, DEBUG_MAIN, NAME_PRINT_DEBUG
 
     if DEBUG_PRINT:  # If permitted
+        print(*values, sep=sep, end=end)
 
-        k = key.split(";")
-        for key in k:
-            key = key.strip()
-            if NAME_PRINT_DEBUG.get(key, False):
-                NAME_PRINT_DEBUG[key] += 1
-            else:
-                NAME_PRINT_DEBUG[key] = 1
-
-        if not DEBUG_MAIN:  # Print all
-            print(*values, sep=sep, end=end)
-
-        else:
-            if key in NAME_PRINT_DEBUG:
-                print(f"[{key}]", end="\t")
-                print({*values}, sep=sep, end=end)
+        # k = key.split(";")
+        # for key in k:
+        #     key = key.strip()
+        #     if NAME_PRINT_DEBUG.get(key, False):
+        #         NAME_PRINT_DEBUG[key] += 1
+        #     else:
+        #         NAME_PRINT_DEBUG[key] = 1
+        #
+        # if not DEBUG_MAIN:  # Print all
+        #     print(*values, sep=sep, end=end)
+        #
+        # else:
+        #     if key in NAME_PRINT_DEBUG:
+        #         print(f"[{key}]", end="\t")
+        #         print({*values}, sep=sep, end=end)
 
 # from loguru import logger
 #
