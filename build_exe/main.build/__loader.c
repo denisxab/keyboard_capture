@@ -27,8 +27,17 @@ extern PyObject *modulecode_app(PyObject *, struct Nuitka_MetaPathBasedLoaderEnt
 extern PyObject *modulecode_app$assistant_pack(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_app$assistant_pack$hunter_key(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_app$assistant_pack$log_debug(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_app$general_data(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_app$logic(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_app$viwe(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_keyboard(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_keyboard$_canonical_names(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_keyboard$_darwinkeyboard(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_keyboard$_generic(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_keyboard$_keyboard_event(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_keyboard$_nixcommon(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_keyboard$_nixkeyboard(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_keyboard$_winkeyboard(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_pynput(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_pynput$_util(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_pynput$_util$win32(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
@@ -49,8 +58,17 @@ static struct Nuitka_MetaPathBasedLoaderEntry meta_path_loader_entries[] = {
     {"app.assistant_pack", modulecode_app$assistant_pack, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
     {"app.assistant_pack.hunter_key", modulecode_app$assistant_pack$hunter_key, 0, 0, NUITKA_TRANSLATED_FLAG},
     {"app.assistant_pack.log_debug", modulecode_app$assistant_pack$log_debug, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"app.general_data", modulecode_app$general_data, 0, 0, NUITKA_TRANSLATED_FLAG},
     {"app.logic", modulecode_app$logic, 0, 0, NUITKA_TRANSLATED_FLAG},
     {"app.viwe", modulecode_app$viwe, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"keyboard", modulecode_keyboard, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
+    {"keyboard._canonical_names", modulecode_keyboard$_canonical_names, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"keyboard._darwinkeyboard", modulecode_keyboard$_darwinkeyboard, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"keyboard._generic", modulecode_keyboard$_generic, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"keyboard._keyboard_event", modulecode_keyboard$_keyboard_event, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"keyboard._nixcommon", modulecode_keyboard$_nixcommon, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"keyboard._nixkeyboard", modulecode_keyboard$_nixkeyboard, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"keyboard._winkeyboard", modulecode_keyboard$_winkeyboard, 0, 0, NUITKA_TRANSLATED_FLAG},
     {"pynput", modulecode_pynput, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
     {"pynput._util", modulecode_pynput$_util, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
     {"pynput._util.win32", modulecode_pynput$_util$win32, 0, 0, NUITKA_TRANSLATED_FLAG},

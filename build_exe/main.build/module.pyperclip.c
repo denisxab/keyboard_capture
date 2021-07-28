@@ -192,10 +192,10 @@ static PyObject *MAKE_GENERATOR_pyperclip$$$function__17_init_windows_clipboard$
 static PyObject *MAKE_GENERATOR_pyperclip$$$function__17_init_windows_clipboard$$$function__2_clipboard$$$genobj__1_clipboard(struct Nuitka_CellObject **closure);
 
 
-NUITKA_CROSS_MODULE PyObject *impl___main__$$$function__1__mro_entries_conversion(PyObject **python_pars);
+NUITKA_CROSS_MODULE PyObject *impl___main__$$$function__3__mro_entries_conversion(PyObject **python_pars);
 
 
-NUITKA_CROSS_MODULE PyObject *impl___main__$$$function__2_complex_call_helper_star_list(PyObject **python_pars);
+NUITKA_CROSS_MODULE PyObject *impl___main__$$$function__4_complex_call_helper_star_list(PyObject **python_pars);
 
 
 static PyObject *MAKE_FUNCTION_pyperclip$$$function__10_init_wl_clipboard();
@@ -10853,7 +10853,7 @@ static PyObject *impl_pyperclip$$$function__13_init_no_clipboard(struct Nuitka_F
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_1};
-            tmp_assign_source_2 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+            tmp_assign_source_2 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
         }
         if (tmp_assign_source_2 == NULL) {
             assert(ERROR_OCCURRED());
@@ -12340,7 +12340,7 @@ static PyObject *impl_pyperclip$$$function__15___call__(struct Nuitka_FunctionOb
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_1, tmp_dircall_arg2_1};
-            tmp_assign_source_1 = impl___main__$$$function__2_complex_call_helper_star_list(dir_call_args);
+            tmp_assign_source_1 = impl___main__$$$function__4_complex_call_helper_star_list(dir_call_args);
         }
         if (tmp_assign_source_1 == NULL) {
             assert(ERROR_OCCURRED());
@@ -28993,7 +28993,7 @@ PyObject *modulecode_pyperclip(PyObject *module, struct Nuitka_MetaPathBasedLoad
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_1};
-            tmp_assign_source_29 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+            tmp_assign_source_29 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
         }
         if (tmp_assign_source_29 == NULL) {
             assert(ERROR_OCCURRED());
@@ -29575,7 +29575,7 @@ PyObject *modulecode_pyperclip(PyObject *module, struct Nuitka_MetaPathBasedLoad
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_2};
-            tmp_assign_source_37 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+            tmp_assign_source_37 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
         }
         if (tmp_assign_source_37 == NULL) {
             assert(ERROR_OCCURRED());
@@ -30262,7 +30262,7 @@ PyObject *modulecode_pyperclip(PyObject *module, struct Nuitka_MetaPathBasedLoad
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_3};
-            tmp_assign_source_45 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+            tmp_assign_source_45 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
         }
         if (tmp_assign_source_45 == NULL) {
             assert(ERROR_OCCURRED());
@@ -30914,7 +30914,7 @@ PyObject *modulecode_pyperclip(PyObject *module, struct Nuitka_MetaPathBasedLoad
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_4};
-            tmp_assign_source_63 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+            tmp_assign_source_63 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
         }
         if (tmp_assign_source_63 == NULL) {
             assert(ERROR_OCCURRED());

@@ -119,7 +119,7 @@ static void createModuleCodeObjects(void) {
 static PyObject *MAKE_GENERATOR_pynput$mouse$_base$$$function__7_move$$$genexpr__1_genexpr(struct Nuitka_CellObject **closure);
 
 
-NUITKA_CROSS_MODULE PyObject *impl___main__$$$function__1__mro_entries_conversion(PyObject **python_pars);
+NUITKA_CROSS_MODULE PyObject *impl___main__$$$function__3__mro_entries_conversion(PyObject **python_pars);
 
 
 static PyObject *MAKE_FUNCTION_pynput$mouse$_base$$$function__10___exit__();
@@ -5813,7 +5813,7 @@ PyObject *modulecode_pynput$mouse$_base(PyObject *module, struct Nuitka_MetaPath
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_1};
-            tmp_assign_source_8 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+            tmp_assign_source_8 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
         }
         if (tmp_assign_source_8 == NULL) {
             assert(ERROR_OCCURRED());
@@ -6519,7 +6519,7 @@ PyObject *modulecode_pynput$mouse$_base(PyObject *module, struct Nuitka_MetaPath
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_2};
-            tmp_assign_source_15 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+            tmp_assign_source_15 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
         }
         if (tmp_assign_source_15 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7565,7 +7565,7 @@ PyObject *modulecode_pynput$mouse$_base(PyObject *module, struct Nuitka_MetaPath
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_3};
-            tmp_assign_source_23 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+            tmp_assign_source_23 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
         }
         if (tmp_assign_source_23 == NULL) {
             assert(ERROR_OCCURRED());

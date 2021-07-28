@@ -33,7 +33,7 @@ PyObject *module_app$viwe;
 PyDictObject *moduledict_app$viwe;
 
 /* The declarations of module constants used, if any. */
-static PyObject *mod_consts[166];
+static PyObject *mod_consts[161];
 
 static PyObject *module_filename_obj = NULL;
 
@@ -66,43 +66,43 @@ void checkModuleConstants_app$viwe(void) {
 #endif
 
 // The module code objects.
-static PyCodeObject *codeobj_c63351138a99a2e83d6e2632f9adb667;
+static PyCodeObject *codeobj_7278757a8b1fdee2684018109d2565a5;
+static PyCodeObject *codeobj_1a8592eb9c4b9d2ed8eaf1f876da7497;
+static PyCodeObject *codeobj_e7cdc9f5b2f8153609a24da34289592e;
 static PyCodeObject *codeobj_8d5bd7fd102121dc1b2ad8bfb60d7935;
-static PyCodeObject *codeobj_adbbf26421d1380b4138894cfd52e5b4;
+static PyCodeObject *codeobj_a2709d73dbc910fb6cbc6a9a2a12dce9;
 static PyCodeObject *codeobj_b75daf85f169989cb272de489e23d8aa;
-static PyCodeObject *codeobj_614505bc8d139f8cb6b4c09fbd382d18;
-static PyCodeObject *codeobj_84851f2814f653563b55815c1ed21855;
-static PyCodeObject *codeobj_d64fc8d7e62058d5cfbfa2d9655d559d;
-static PyCodeObject *codeobj_92cca0ee7a16242bd52de0e878c74272;
-static PyCodeObject *codeobj_cf15cfcff13dab2892ae6d644049c048;
+static PyCodeObject *codeobj_81591cdc31759b3b177699f1879dbad3;
+static PyCodeObject *codeobj_c48f296632502bbb1b2ba67f0e816f6f;
+static PyCodeObject *codeobj_31c00271018a1c90138bf596ddb6a9e8;
 static PyCodeObject *codeobj_0d0056312d302b118372fb504e722a98;
-static PyCodeObject *codeobj_ce82f9fd80b54c7578ffdcc2258cf8fa;
-static PyCodeObject *codeobj_32e94710f37e8409162e50d4dd659688;
-static PyCodeObject *codeobj_6f689a7ed02166b3541f76ffa9dd91ff;
+static PyCodeObject *codeobj_df86c4f3ef1a141672b930a600133b52;
+static PyCodeObject *codeobj_17536ed411f538e049cf84e898755747;
+static PyCodeObject *codeobj_5d7442806273b8b515213a49574e5362;
 static PyCodeObject *codeobj_53061a3e85b12c9bc187c66fba2b2bf0;
-static PyCodeObject *codeobj_5d164d98b33fb431bffc202941b27186;
-static PyCodeObject *codeobj_c5a8ec066f9dd69e8ce4500aa0713f2c;
+static PyCodeObject *codeobj_8ddf848fe6dbb1f6e7e11e052de2b85a;
+static PyCodeObject *codeobj_44dfc5a66c5f525d61293b4a6a8481f2;
 static PyCodeObject *codeobj_40af9d87c690dee6efd7915602dd8717;
 
 static void createModuleCodeObjects(void) {
-    module_filename_obj = mod_consts[117]; CHECK_OBJECT(module_filename_obj);
-    codeobj_c63351138a99a2e83d6e2632f9adb667 = MAKE_CODEOBJECT(module_filename_obj, 126, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[96], mod_consts[158], mod_consts[158], 0, 0, 0);
-    codeobj_8d5bd7fd102121dc1b2ad8bfb60d7935 = MAKE_CODEOBJECT(module_filename_obj, 107, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[96], mod_consts[159], mod_consts[160], 0, 0, 0);
-    codeobj_adbbf26421d1380b4138894cfd52e5b4 = MAKE_CODEOBJECT(module_filename_obj, 109, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[96], mod_consts[159], mod_consts[160], 0, 0, 0);
-    codeobj_b75daf85f169989cb272de489e23d8aa = MAKE_CODEOBJECT(module_filename_obj, 112, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[96], mod_consts[159], mod_consts[160], 0, 0, 0);
-    codeobj_614505bc8d139f8cb6b4c09fbd382d18 = MAKE_CODEOBJECT(module_filename_obj, 115, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[96], mod_consts[159], mod_consts[160], 0, 0, 0);
-    codeobj_84851f2814f653563b55815c1ed21855 = MAKE_CODEOBJECT(module_filename_obj, 117, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[96], mod_consts[159], mod_consts[160], 0, 0, 0);
-    codeobj_d64fc8d7e62058d5cfbfa2d9655d559d = MAKE_CODEOBJECT(module_filename_obj, 119, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[96], mod_consts[159], mod_consts[160], 0, 0, 0);
-    codeobj_92cca0ee7a16242bd52de0e878c74272 = MAKE_CODEOBJECT(module_filename_obj, 121, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[96], mod_consts[159], mod_consts[160], 0, 0, 0);
-    codeobj_cf15cfcff13dab2892ae6d644049c048 = MAKE_CODEOBJECT(module_filename_obj, 123, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[96], mod_consts[159], mod_consts[160], 0, 0, 0);
-    codeobj_0d0056312d302b118372fb504e722a98 = MAKE_CODEOBJECT(module_filename_obj, 1, CO_NOFREE, mod_consts[161], NULL, NULL, 0, 0, 0);
-    codeobj_ce82f9fd80b54c7578ffdcc2258cf8fa = MAKE_CODEOBJECT(module_filename_obj, 128, CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE, mod_consts[104], mod_consts[162], NULL, 2, 0, 0);
-    codeobj_32e94710f37e8409162e50d4dd659688 = MAKE_CODEOBJECT(module_filename_obj, 147, CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE, mod_consts[26], mod_consts[158], NULL, 1, 0, 0);
-    codeobj_6f689a7ed02166b3541f76ffa9dd91ff = MAKE_CODEOBJECT(module_filename_obj, 44, CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE, mod_consts[43], mod_consts[163], NULL, 1, 0, 0);
-    codeobj_53061a3e85b12c9bc187c66fba2b2bf0 = MAKE_CODEOBJECT(module_filename_obj, 10, CO_NOFREE, mod_consts[36], mod_consts[164], NULL, 0, 0, 0);
-    codeobj_5d164d98b33fb431bffc202941b27186 = MAKE_CODEOBJECT(module_filename_obj, 81, CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE, mod_consts[152], mod_consts[165], NULL, 1, 0, 0);
-    codeobj_c5a8ec066f9dd69e8ce4500aa0713f2c = MAKE_CODEOBJECT(module_filename_obj, 60, CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE, mod_consts[150], mod_consts[158], NULL, 1, 0, 0);
-    codeobj_40af9d87c690dee6efd7915602dd8717 = MAKE_CODEOBJECT(module_filename_obj, 15, CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE, mod_consts[146], mod_consts[158], NULL, 1, 0, 0);
+    module_filename_obj = mod_consts[112]; CHECK_OBJECT(module_filename_obj);
+    codeobj_7278757a8b1fdee2684018109d2565a5 = MAKE_CODEOBJECT(module_filename_obj, 121, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[91], mod_consts[153], mod_consts[153], 0, 0, 0);
+    codeobj_1a8592eb9c4b9d2ed8eaf1f876da7497 = MAKE_CODEOBJECT(module_filename_obj, 102, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[91], mod_consts[154], mod_consts[155], 0, 0, 0);
+    codeobj_e7cdc9f5b2f8153609a24da34289592e = MAKE_CODEOBJECT(module_filename_obj, 104, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[91], mod_consts[154], mod_consts[155], 0, 0, 0);
+    codeobj_8d5bd7fd102121dc1b2ad8bfb60d7935 = MAKE_CODEOBJECT(module_filename_obj, 107, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[91], mod_consts[154], mod_consts[155], 0, 0, 0);
+    codeobj_a2709d73dbc910fb6cbc6a9a2a12dce9 = MAKE_CODEOBJECT(module_filename_obj, 110, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[91], mod_consts[154], mod_consts[155], 0, 0, 0);
+    codeobj_b75daf85f169989cb272de489e23d8aa = MAKE_CODEOBJECT(module_filename_obj, 112, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[91], mod_consts[154], mod_consts[155], 0, 0, 0);
+    codeobj_81591cdc31759b3b177699f1879dbad3 = MAKE_CODEOBJECT(module_filename_obj, 114, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[91], mod_consts[154], mod_consts[155], 0, 0, 0);
+    codeobj_c48f296632502bbb1b2ba67f0e816f6f = MAKE_CODEOBJECT(module_filename_obj, 116, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[91], mod_consts[154], mod_consts[155], 0, 0, 0);
+    codeobj_31c00271018a1c90138bf596ddb6a9e8 = MAKE_CODEOBJECT(module_filename_obj, 118, CO_OPTIMIZED | CO_NEWLOCALS, mod_consts[91], mod_consts[154], mod_consts[155], 0, 0, 0);
+    codeobj_0d0056312d302b118372fb504e722a98 = MAKE_CODEOBJECT(module_filename_obj, 1, CO_NOFREE, mod_consts[156], NULL, NULL, 0, 0, 0);
+    codeobj_df86c4f3ef1a141672b930a600133b52 = MAKE_CODEOBJECT(module_filename_obj, 123, CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE, mod_consts[99], mod_consts[157], NULL, 2, 0, 0);
+    codeobj_17536ed411f538e049cf84e898755747 = MAKE_CODEOBJECT(module_filename_obj, 142, CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE, mod_consts[26], mod_consts[153], NULL, 1, 0, 0);
+    codeobj_5d7442806273b8b515213a49574e5362 = MAKE_CODEOBJECT(module_filename_obj, 44, CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE, mod_consts[43], mod_consts[158], NULL, 1, 0, 0);
+    codeobj_53061a3e85b12c9bc187c66fba2b2bf0 = MAKE_CODEOBJECT(module_filename_obj, 10, CO_NOFREE, mod_consts[36], mod_consts[159], NULL, 0, 0, 0);
+    codeobj_8ddf848fe6dbb1f6e7e11e052de2b85a = MAKE_CODEOBJECT(module_filename_obj, 76, CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE, mod_consts[147], mod_consts[160], NULL, 1, 0, 0);
+    codeobj_44dfc5a66c5f525d61293b4a6a8481f2 = MAKE_CODEOBJECT(module_filename_obj, 55, CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE, mod_consts[145], mod_consts[153], NULL, 1, 0, 0);
+    codeobj_40af9d87c690dee6efd7915602dd8717 = MAKE_CODEOBJECT(module_filename_obj, 15, CO_OPTIMIZED | CO_NEWLOCALS | CO_NOFREE, mod_consts[141], mod_consts[153], NULL, 1, 0, 0);
 }
 
 // The module function declarations.
@@ -1514,10 +1514,9 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
 
     // Local variable declarations.
     PyObject *par_cls = python_pars[0];
-    PyObject *var_fileImage = NULL;
-    PyObject *var_newLang = NULL;
+    PyObject *var_lastLang = NULL;
     PyObject *var_ImageButtonLang = NULL;
-    struct Nuitka_FrameObject *frame_6f689a7ed02166b3541f76ffa9dd91ff;
+    struct Nuitka_FrameObject *frame_5d7442806273b8b515213a49574e5362;
     NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
     PyObject *exception_type = NULL;
     PyObject *exception_value = NULL;
@@ -1526,7 +1525,7 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
     int tmp_res;
     bool tmp_result;
     NUITKA_MAY_BE_UNUSED nuitka_void tmp_unused;
-    static struct Nuitka_FrameObject *cache_frame_6f689a7ed02166b3541f76ffa9dd91ff = NULL;
+    static struct Nuitka_FrameObject *cache_frame_5d7442806273b8b515213a49574e5362 = NULL;
     PyObject *tmp_return_value = NULL;
     PyObject *exception_keeper_type_1;
     PyObject *exception_keeper_value_1;
@@ -1534,32 +1533,39 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
     NUITKA_MAY_BE_UNUSED int exception_keeper_lineno_1;
 
     // Actual function body.
+    {
+        PyObject *tmp_assign_source_1;
+        tmp_assign_source_1 = Py_False;
+        assert(var_lastLang == NULL);
+        Py_INCREF(tmp_assign_source_1);
+        var_lastLang = tmp_assign_source_1;
+    }
     // Tried code:
-    if (isFrameUnusable(cache_frame_6f689a7ed02166b3541f76ffa9dd91ff)) {
-        Py_XDECREF(cache_frame_6f689a7ed02166b3541f76ffa9dd91ff);
+    if (isFrameUnusable(cache_frame_5d7442806273b8b515213a49574e5362)) {
+        Py_XDECREF(cache_frame_5d7442806273b8b515213a49574e5362);
 
 #if _DEBUG_REFCOUNTS
-        if (cache_frame_6f689a7ed02166b3541f76ffa9dd91ff == NULL) {
+        if (cache_frame_5d7442806273b8b515213a49574e5362 == NULL) {
             count_active_frame_cache_instances += 1;
         } else {
             count_released_frame_cache_instances += 1;
         }
         count_allocated_frame_cache_instances += 1;
 #endif
-        cache_frame_6f689a7ed02166b3541f76ffa9dd91ff = MAKE_FUNCTION_FRAME(codeobj_6f689a7ed02166b3541f76ffa9dd91ff, module_app$viwe, sizeof(void *)+sizeof(void *)+sizeof(void *)+sizeof(void *));
+        cache_frame_5d7442806273b8b515213a49574e5362 = MAKE_FUNCTION_FRAME(codeobj_5d7442806273b8b515213a49574e5362, module_app$viwe, sizeof(void *)+sizeof(void *)+sizeof(void *));
 #if _DEBUG_REFCOUNTS
     } else {
         count_hit_frame_cache_instances += 1;
 #endif
     }
-    assert(cache_frame_6f689a7ed02166b3541f76ffa9dd91ff->m_type_description == NULL);
-    frame_6f689a7ed02166b3541f76ffa9dd91ff = cache_frame_6f689a7ed02166b3541f76ffa9dd91ff;
+    assert(cache_frame_5d7442806273b8b515213a49574e5362->m_type_description == NULL);
+    frame_5d7442806273b8b515213a49574e5362 = cache_frame_5d7442806273b8b515213a49574e5362;
 
     // Push the new frame as the currently active one.
-    pushFrameStack(frame_6f689a7ed02166b3541f76ffa9dd91ff);
+    pushFrameStack(frame_5d7442806273b8b515213a49574e5362);
 
     // Mark the frame object as in use, ref count 1 will be up for reuse.
-    assert(Py_REFCNT(frame_6f689a7ed02166b3541f76ffa9dd91ff) == 2); // Frame stack
+    assert(Py_REFCNT(frame_5d7442806273b8b515213a49574e5362) == 2); // Frame stack
 
     // Framed code:
     loop_start_1:;
@@ -1579,8 +1585,8 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 47;
-            type_description_1 = "oooo";
+            exception_lineno = 48;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
         tmp_operand_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[48]);
@@ -1590,8 +1596,8 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 47;
-            type_description_1 = "oooo";
+            exception_lineno = 48;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
         tmp_res = CHECK_IF_TRUE(tmp_operand_name_1);
@@ -1602,8 +1608,8 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 47;
-            type_description_1 = "oooo";
+            exception_lineno = 48;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
         tmp_condition_result_1 = (tmp_res == 0) ? NUITKA_BOOL_TRUE : NUITKA_BOOL_FALSE;
@@ -1617,13 +1623,27 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
     goto loop_end_1;
     branch_no_1:;
     {
-        PyObject *tmp_assign_source_1;
-        PyObject *tmp_called_instance_1;
+        nuitka_bool tmp_condition_result_2;
+        PyObject *tmp_compexpr_left_1;
+        PyObject *tmp_compexpr_right_1;
         PyObject *tmp_expression_name_2;
-        tmp_expression_name_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[49]);
+        if (var_lastLang == NULL) {
+
+            FORMAT_UNBOUND_LOCAL_ERROR(&exception_type, &exception_value, mod_consts[49]);
+            exception_tb = NULL;
+            NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
+            CHAIN_EXCEPTION(exception_value);
+
+            exception_lineno = 49;
+            type_description_1 = "ooo";
+            goto frame_exception_exit_1;
+        }
+
+        tmp_compexpr_left_1 = var_lastLang;
+        tmp_expression_name_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[46]);
 
         if (unlikely(tmp_expression_name_2 == NULL)) {
-            tmp_expression_name_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[49]);
+            tmp_expression_name_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[46]);
         }
 
         if (tmp_expression_name_2 == NULL) {
@@ -1632,48 +1652,44 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 48;
-            type_description_1 = "oooo";
+            exception_lineno = 49;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
-        tmp_called_instance_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_2, mod_consts[50]);
-        if (tmp_called_instance_1 == NULL) {
+        tmp_compexpr_right_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_2, mod_consts[50]);
+        if (tmp_compexpr_right_1 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 48;
-            type_description_1 = "oooo";
+            exception_lineno = 49;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
-        frame_6f689a7ed02166b3541f76ffa9dd91ff->m_frame.f_lineno = 48;
-        tmp_assign_source_1 = CALL_METHOD_NO_ARGS(tmp_called_instance_1, mod_consts[51]);
-        Py_DECREF(tmp_called_instance_1);
-        if (tmp_assign_source_1 == NULL) {
+        tmp_condition_result_2 = RICH_COMPARE_NE_NBOOL_OBJECT_OBJECT(tmp_compexpr_left_1, tmp_compexpr_right_1);
+        Py_DECREF(tmp_compexpr_right_1);
+        if (tmp_condition_result_2 == NUITKA_BOOL_EXCEPTION) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 48;
-            type_description_1 = "oooo";
+            exception_lineno = 49;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
-        {
-            PyObject *old = var_newLang;
-            var_newLang = tmp_assign_source_1;
-            Py_XDECREF(old);
+        if (tmp_condition_result_2 == NUITKA_BOOL_TRUE) {
+            goto branch_yes_2;
+        } else {
+            goto branch_no_2;
         }
-
+        assert(tmp_condition_result_2 != NUITKA_BOOL_UNASSIGNED);
     }
+    branch_yes_2:;
     {
-        nuitka_bool tmp_condition_result_2;
-        PyObject *tmp_compexpr_left_1;
-        PyObject *tmp_compexpr_right_1;
+        PyObject *tmp_assign_source_2;
         PyObject *tmp_expression_name_3;
-        CHECK_OBJECT(var_newLang);
-        tmp_compexpr_left_1 = var_newLang;
         tmp_expression_name_3 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[46]);
 
         if (unlikely(tmp_expression_name_3 == NULL)) {
@@ -1686,203 +1702,41 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 49;
-            type_description_1 = "oooo";
+            exception_lineno = 50;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
-        tmp_compexpr_right_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_3, mod_consts[52]);
-        if (tmp_compexpr_right_1 == NULL) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-
-
-            exception_lineno = 49;
-            type_description_1 = "oooo";
-            goto frame_exception_exit_1;
-        }
-        tmp_condition_result_2 = RICH_COMPARE_NE_NBOOL_OBJECT_OBJECT(tmp_compexpr_left_1, tmp_compexpr_right_1);
-        Py_DECREF(tmp_compexpr_right_1);
-        if (tmp_condition_result_2 == NUITKA_BOOL_EXCEPTION) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-
-
-            exception_lineno = 49;
-            type_description_1 = "oooo";
-            goto frame_exception_exit_1;
-        }
-        if (tmp_condition_result_2 == NUITKA_BOOL_TRUE) {
-            goto branch_yes_2;
-        } else {
-            goto branch_no_2;
-        }
-        assert(tmp_condition_result_2 != NUITKA_BOOL_UNASSIGNED);
-    }
-    branch_yes_2:;
-    {
-        PyObject *tmp_assattr_name_1;
-        PyObject *tmp_assattr_target_1;
-        CHECK_OBJECT(var_newLang);
-        tmp_assattr_name_1 = var_newLang;
-        tmp_assattr_target_1 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[46]);
-
-        if (unlikely(tmp_assattr_target_1 == NULL)) {
-            tmp_assattr_target_1 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[46]);
-        }
-
-        if (tmp_assattr_target_1 == NULL) {
+        tmp_assign_source_2 = LOOKUP_ATTRIBUTE(tmp_expression_name_3, mod_consts[50]);
+        if (tmp_assign_source_2 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
             exception_lineno = 50;
-            type_description_1 = "oooo";
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_1, mod_consts[52], tmp_assattr_name_1);
-        if (tmp_result == false) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-
-
-            exception_lineno = 50;
-            type_description_1 = "oooo";
-            goto frame_exception_exit_1;
-        }
-    }
-    {
-        PyObject *tmp_assign_source_2;
-        tmp_assign_source_2 = mod_consts[4];
         {
-            PyObject *old = var_fileImage;
-            var_fileImage = tmp_assign_source_2;
-            Py_INCREF(var_fileImage);
+            PyObject *old = var_lastLang;
+            var_lastLang = tmp_assign_source_2;
             Py_XDECREF(old);
         }
 
     }
     {
-        nuitka_bool tmp_condition_result_3;
-        PyObject *tmp_compexpr_left_2;
-        PyObject *tmp_compexpr_right_2;
-        PyObject *tmp_tmp_condition_result_3_object_1;
-        int tmp_truth_name_1;
-        CHECK_OBJECT(var_newLang);
-        tmp_compexpr_left_2 = var_newLang;
-        tmp_compexpr_right_2 = mod_consts[53];
-        tmp_tmp_condition_result_3_object_1 = RICH_COMPARE_EQ_OBJECT_OBJECT_OBJECT(tmp_compexpr_left_2, tmp_compexpr_right_2);
-        if (tmp_tmp_condition_result_3_object_1 == NULL) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-
-
-            exception_lineno = 52;
-            type_description_1 = "oooo";
-            goto frame_exception_exit_1;
-        }
-        tmp_truth_name_1 = CHECK_IF_TRUE(tmp_tmp_condition_result_3_object_1);
-        if (tmp_truth_name_1 == -1) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-            Py_DECREF(tmp_tmp_condition_result_3_object_1);
-
-            exception_lineno = 52;
-            type_description_1 = "oooo";
-            goto frame_exception_exit_1;
-        }
-        tmp_condition_result_3 = tmp_truth_name_1 == 0 ? NUITKA_BOOL_FALSE : NUITKA_BOOL_TRUE;
-        Py_DECREF(tmp_tmp_condition_result_3_object_1);
-        if (tmp_condition_result_3 == NUITKA_BOOL_TRUE) {
-            goto branch_yes_3;
-        } else {
-            goto branch_no_3;
-        }
-    }
-    branch_yes_3:;
-    {
         PyObject *tmp_assign_source_3;
-        tmp_assign_source_3 = mod_consts[54];
-        {
-            PyObject *old = var_fileImage;
-            assert(old != NULL);
-            var_fileImage = tmp_assign_source_3;
-            Py_INCREF(var_fileImage);
-            Py_DECREF(old);
-        }
-
-    }
-    goto branch_end_3;
-    branch_no_3:;
-    {
-        nuitka_bool tmp_condition_result_4;
-        PyObject *tmp_compexpr_left_3;
-        PyObject *tmp_compexpr_right_3;
-        PyObject *tmp_tmp_condition_result_4_object_1;
-        int tmp_truth_name_2;
-        CHECK_OBJECT(var_newLang);
-        tmp_compexpr_left_3 = var_newLang;
-        tmp_compexpr_right_3 = mod_consts[55];
-        tmp_tmp_condition_result_4_object_1 = RICH_COMPARE_EQ_OBJECT_OBJECT_OBJECT(tmp_compexpr_left_3, tmp_compexpr_right_3);
-        if (tmp_tmp_condition_result_4_object_1 == NULL) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-
-
-            exception_lineno = 54;
-            type_description_1 = "oooo";
-            goto frame_exception_exit_1;
-        }
-        tmp_truth_name_2 = CHECK_IF_TRUE(tmp_tmp_condition_result_4_object_1);
-        if (tmp_truth_name_2 == -1) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-            Py_DECREF(tmp_tmp_condition_result_4_object_1);
-
-            exception_lineno = 54;
-            type_description_1 = "oooo";
-            goto frame_exception_exit_1;
-        }
-        tmp_condition_result_4 = tmp_truth_name_2 == 0 ? NUITKA_BOOL_FALSE : NUITKA_BOOL_TRUE;
-        Py_DECREF(tmp_tmp_condition_result_4_object_1);
-        if (tmp_condition_result_4 == NUITKA_BOOL_TRUE) {
-            goto branch_yes_4;
-        } else {
-            goto branch_no_4;
-        }
-    }
-    branch_yes_4:;
-    {
-        PyObject *tmp_assign_source_4;
-        tmp_assign_source_4 = mod_consts[56];
-        {
-            PyObject *old = var_fileImage;
-            assert(old != NULL);
-            var_fileImage = tmp_assign_source_4;
-            Py_INCREF(var_fileImage);
-            Py_DECREF(old);
-        }
-
-    }
-    branch_no_4:;
-    branch_end_3:;
-    {
-        PyObject *tmp_assign_source_5;
         PyObject *tmp_called_name_1;
         PyObject *tmp_kwargs_name_1;
         PyObject *tmp_dict_key_1;
         PyObject *tmp_dict_value_1;
-        tmp_called_name_1 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[57]);
+        PyObject *tmp_expression_name_4;
+        PyObject *tmp_subscript_name_1;
+        PyObject *tmp_expression_name_5;
+        tmp_called_name_1 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[51]);
 
         if (unlikely(tmp_called_name_1 == NULL)) {
-            tmp_called_name_1 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[57]);
+            tmp_called_name_1 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[51]);
         }
 
         if (tmp_called_name_1 == NULL) {
@@ -1891,43 +1745,86 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 56;
-            type_description_1 = "oooo";
+            exception_lineno = 51;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
-        tmp_dict_key_1 = mod_consts[58];
-        if (var_fileImage == NULL) {
+        tmp_dict_key_1 = mod_consts[52];
+        tmp_expression_name_4 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[53]);
 
-            FORMAT_UNBOUND_LOCAL_ERROR(&exception_type, &exception_value, mod_consts[59]);
-            exception_tb = NULL;
-            NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
-            CHAIN_EXCEPTION(exception_value);
-
-            exception_lineno = 56;
-            type_description_1 = "oooo";
-            goto frame_exception_exit_1;
+        if (unlikely(tmp_expression_name_4 == NULL)) {
+            tmp_expression_name_4 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[53]);
         }
 
-        tmp_dict_value_1 = var_fileImage;
-        tmp_kwargs_name_1 = _PyDict_NewPresized( 1 );
-        tmp_res = PyDict_SetItem(tmp_kwargs_name_1, tmp_dict_key_1, tmp_dict_value_1);
-        assert(!(tmp_res != 0));
-        frame_6f689a7ed02166b3541f76ffa9dd91ff->m_frame.f_lineno = 56;
-        tmp_assign_source_5 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_1, tmp_kwargs_name_1);
-        Py_DECREF(tmp_kwargs_name_1);
-        if (tmp_assign_source_5 == NULL) {
+        if (tmp_expression_name_4 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 56;
-            type_description_1 = "oooo";
+            exception_lineno = 51;
+            type_description_1 = "ooo";
+            goto frame_exception_exit_1;
+        }
+        tmp_expression_name_5 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[46]);
+
+        if (unlikely(tmp_expression_name_5 == NULL)) {
+            tmp_expression_name_5 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[46]);
+        }
+
+        if (tmp_expression_name_5 == NULL) {
+            assert(ERROR_OCCURRED());
+
+            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 51;
+            type_description_1 = "ooo";
+            goto frame_exception_exit_1;
+        }
+        tmp_subscript_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_5, mod_consts[50]);
+        if (tmp_subscript_name_1 == NULL) {
+            assert(ERROR_OCCURRED());
+
+            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 51;
+            type_description_1 = "ooo";
+            goto frame_exception_exit_1;
+        }
+        tmp_dict_value_1 = LOOKUP_SUBSCRIPT(tmp_expression_name_4, tmp_subscript_name_1);
+        Py_DECREF(tmp_subscript_name_1);
+        if (tmp_dict_value_1 == NULL) {
+            assert(ERROR_OCCURRED());
+
+            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 51;
+            type_description_1 = "ooo";
+            goto frame_exception_exit_1;
+        }
+        tmp_kwargs_name_1 = _PyDict_NewPresized( 1 );
+        tmp_res = PyDict_SetItem(tmp_kwargs_name_1, tmp_dict_key_1, tmp_dict_value_1);
+        Py_DECREF(tmp_dict_value_1);
+        assert(!(tmp_res != 0));
+        frame_5d7442806273b8b515213a49574e5362->m_frame.f_lineno = 51;
+        tmp_assign_source_3 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_1, tmp_kwargs_name_1);
+        Py_DECREF(tmp_kwargs_name_1);
+        if (tmp_assign_source_3 == NULL) {
+            assert(ERROR_OCCURRED());
+
+            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 51;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
         {
             PyObject *old = var_ImageButtonLang;
-            var_ImageButtonLang = tmp_assign_source_5;
+            var_ImageButtonLang = tmp_assign_source_3;
             Py_XDECREF(old);
         }
 
@@ -1935,35 +1832,35 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
     {
         PyObject *tmp_ass_subvalue_1;
         PyObject *tmp_ass_subscribed_1;
-        PyObject *tmp_expression_name_4;
+        PyObject *tmp_expression_name_6;
         PyObject *tmp_ass_subscript_1;
         CHECK_OBJECT(var_ImageButtonLang);
         tmp_ass_subvalue_1 = var_ImageButtonLang;
         if (par_cls == NULL) {
 
-            FORMAT_UNBOUND_LOCAL_ERROR(&exception_type, &exception_value, mod_consts[60]);
+            FORMAT_UNBOUND_LOCAL_ERROR(&exception_type, &exception_value, mod_consts[54]);
             exception_tb = NULL;
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 57;
-            type_description_1 = "oooo";
+            exception_lineno = 52;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
 
-        tmp_expression_name_4 = par_cls;
-        tmp_ass_subscribed_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_4, mod_consts[37]);
+        tmp_expression_name_6 = par_cls;
+        tmp_ass_subscribed_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_6, mod_consts[37]);
         if (tmp_ass_subscribed_1 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 57;
-            type_description_1 = "oooo";
+            exception_lineno = 52;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
-        tmp_ass_subscript_1 = mod_consts[61];
+        tmp_ass_subscript_1 = mod_consts[55];
         tmp_result = SET_SUBSCRIPT(tmp_ass_subscribed_1, tmp_ass_subscript_1, tmp_ass_subvalue_1);
         Py_DECREF(tmp_ass_subscribed_1);
         if (tmp_result == false) {
@@ -1972,36 +1869,36 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 57;
-            type_description_1 = "oooo";
+            exception_lineno = 52;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
     }
     branch_no_2:;
     {
-        PyObject *tmp_called_instance_2;
+        PyObject *tmp_called_instance_1;
         PyObject *tmp_call_result_1;
-        tmp_called_instance_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[62]);
+        tmp_called_instance_1 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[56]);
 
-        if (unlikely(tmp_called_instance_2 == NULL)) {
-            tmp_called_instance_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[62]);
+        if (unlikely(tmp_called_instance_1 == NULL)) {
+            tmp_called_instance_1 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[56]);
         }
 
-        if (tmp_called_instance_2 == NULL) {
+        if (tmp_called_instance_1 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 58;
-            type_description_1 = "oooo";
+            exception_lineno = 53;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
-        frame_6f689a7ed02166b3541f76ffa9dd91ff->m_frame.f_lineno = 58;
+        frame_5d7442806273b8b515213a49574e5362->m_frame.f_lineno = 53;
         tmp_call_result_1 = CALL_METHOD_WITH_ARGS1(
-            tmp_called_instance_2,
-            mod_consts[63],
-            &PyTuple_GET_ITEM(mod_consts[30], 0)
+            tmp_called_instance_1,
+            mod_consts[57],
+            &PyTuple_GET_ITEM(mod_consts[58], 0)
         );
 
         if (tmp_call_result_1 == NULL) {
@@ -2010,8 +1907,8 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 58;
-            type_description_1 = "oooo";
+            exception_lineno = 53;
+            type_description_1 = "ooo";
             goto frame_exception_exit_1;
         }
         Py_DECREF(tmp_call_result_1);
@@ -2022,15 +1919,15 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
         FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-        exception_lineno = 47;
-        type_description_1 = "oooo";
+        exception_lineno = 48;
+        type_description_1 = "ooo";
         goto frame_exception_exit_1;
     }
     goto loop_start_1;
     loop_end_1:;
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_6f689a7ed02166b3541f76ffa9dd91ff);
+    RESTORE_FRAME_EXCEPTION(frame_5d7442806273b8b515213a49574e5362);
 #endif
 
     // Put the previous frame back on top.
@@ -2041,38 +1938,37 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
     frame_exception_exit_1:;
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_6f689a7ed02166b3541f76ffa9dd91ff);
+    RESTORE_FRAME_EXCEPTION(frame_5d7442806273b8b515213a49574e5362);
 #endif
 
     if (exception_tb == NULL) {
-        exception_tb = MAKE_TRACEBACK(frame_6f689a7ed02166b3541f76ffa9dd91ff, exception_lineno);
-    } else if (exception_tb->tb_frame != &frame_6f689a7ed02166b3541f76ffa9dd91ff->m_frame) {
-        exception_tb = ADD_TRACEBACK(exception_tb, frame_6f689a7ed02166b3541f76ffa9dd91ff, exception_lineno);
+        exception_tb = MAKE_TRACEBACK(frame_5d7442806273b8b515213a49574e5362, exception_lineno);
+    } else if (exception_tb->tb_frame != &frame_5d7442806273b8b515213a49574e5362->m_frame) {
+        exception_tb = ADD_TRACEBACK(exception_tb, frame_5d7442806273b8b515213a49574e5362, exception_lineno);
     }
 
     // Attaches locals to frame if any.
     Nuitka_Frame_AttachLocals(
-        frame_6f689a7ed02166b3541f76ffa9dd91ff,
+        frame_5d7442806273b8b515213a49574e5362,
         type_description_1,
         par_cls,
-        var_fileImage,
-        var_newLang,
+        var_lastLang,
         var_ImageButtonLang
     );
 
 
     // Release cached frame if used for exception.
-    if (frame_6f689a7ed02166b3541f76ffa9dd91ff == cache_frame_6f689a7ed02166b3541f76ffa9dd91ff) {
+    if (frame_5d7442806273b8b515213a49574e5362 == cache_frame_5d7442806273b8b515213a49574e5362) {
 #if _DEBUG_REFCOUNTS
         count_active_frame_cache_instances -= 1;
         count_released_frame_cache_instances += 1;
 #endif
 
-        Py_DECREF(cache_frame_6f689a7ed02166b3541f76ffa9dd91ff);
-        cache_frame_6f689a7ed02166b3541f76ffa9dd91ff = NULL;
+        Py_DECREF(cache_frame_5d7442806273b8b515213a49574e5362);
+        cache_frame_5d7442806273b8b515213a49574e5362 = NULL;
     }
 
-    assertFrameObject(frame_6f689a7ed02166b3541f76ffa9dd91ff);
+    assertFrameObject(frame_5d7442806273b8b515213a49574e5362);
 
     // Put the previous frame back on top.
     popFrameStack();
@@ -2090,10 +1986,8 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
     try_return_handler_1:;
     Py_XDECREF(par_cls);
     par_cls = NULL;
-    Py_XDECREF(var_fileImage);
-    var_fileImage = NULL;
-    Py_XDECREF(var_newLang);
-    var_newLang = NULL;
+    Py_XDECREF(var_lastLang);
+    var_lastLang = NULL;
     Py_XDECREF(var_ImageButtonLang);
     var_ImageButtonLang = NULL;
     goto function_return_exit;
@@ -2110,10 +2004,8 @@ static PyObject *impl_app$viwe$$$function__2_ThChangKeyBoard(struct Nuitka_Funct
 
     Py_XDECREF(par_cls);
     par_cls = NULL;
-    Py_XDECREF(var_fileImage);
-    var_fileImage = NULL;
-    Py_XDECREF(var_newLang);
-    var_newLang = NULL;
+    Py_XDECREF(var_lastLang);
+    var_lastLang = NULL;
     Py_XDECREF(var_ImageButtonLang);
     var_ImageButtonLang = NULL;
     // Re-raise.
@@ -2154,14 +2046,14 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
 
     // Local variable declarations.
     PyObject *par_self = python_pars[0];
-    struct Nuitka_FrameObject *frame_c5a8ec066f9dd69e8ce4500aa0713f2c;
+    struct Nuitka_FrameObject *frame_44dfc5a66c5f525d61293b4a6a8481f2;
     NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
     NUITKA_MAY_BE_UNUSED nuitka_void tmp_unused;
     PyObject *exception_type = NULL;
     PyObject *exception_value = NULL;
     PyTracebackObject *exception_tb = NULL;
     NUITKA_MAY_BE_UNUSED int exception_lineno = 0;
-    static struct Nuitka_FrameObject *cache_frame_c5a8ec066f9dd69e8ce4500aa0713f2c = NULL;
+    static struct Nuitka_FrameObject *cache_frame_44dfc5a66c5f525d61293b4a6a8481f2 = NULL;
     PyObject *tmp_return_value = NULL;
     PyObject *exception_keeper_type_1;
     PyObject *exception_keeper_value_1;
@@ -2170,31 +2062,31 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
 
     // Actual function body.
     // Tried code:
-    if (isFrameUnusable(cache_frame_c5a8ec066f9dd69e8ce4500aa0713f2c)) {
-        Py_XDECREF(cache_frame_c5a8ec066f9dd69e8ce4500aa0713f2c);
+    if (isFrameUnusable(cache_frame_44dfc5a66c5f525d61293b4a6a8481f2)) {
+        Py_XDECREF(cache_frame_44dfc5a66c5f525d61293b4a6a8481f2);
 
 #if _DEBUG_REFCOUNTS
-        if (cache_frame_c5a8ec066f9dd69e8ce4500aa0713f2c == NULL) {
+        if (cache_frame_44dfc5a66c5f525d61293b4a6a8481f2 == NULL) {
             count_active_frame_cache_instances += 1;
         } else {
             count_released_frame_cache_instances += 1;
         }
         count_allocated_frame_cache_instances += 1;
 #endif
-        cache_frame_c5a8ec066f9dd69e8ce4500aa0713f2c = MAKE_FUNCTION_FRAME(codeobj_c5a8ec066f9dd69e8ce4500aa0713f2c, module_app$viwe, sizeof(void *));
+        cache_frame_44dfc5a66c5f525d61293b4a6a8481f2 = MAKE_FUNCTION_FRAME(codeobj_44dfc5a66c5f525d61293b4a6a8481f2, module_app$viwe, sizeof(void *));
 #if _DEBUG_REFCOUNTS
     } else {
         count_hit_frame_cache_instances += 1;
 #endif
     }
-    assert(cache_frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_type_description == NULL);
-    frame_c5a8ec066f9dd69e8ce4500aa0713f2c = cache_frame_c5a8ec066f9dd69e8ce4500aa0713f2c;
+    assert(cache_frame_44dfc5a66c5f525d61293b4a6a8481f2->m_type_description == NULL);
+    frame_44dfc5a66c5f525d61293b4a6a8481f2 = cache_frame_44dfc5a66c5f525d61293b4a6a8481f2;
 
     // Push the new frame as the currently active one.
-    pushFrameStack(frame_c5a8ec066f9dd69e8ce4500aa0713f2c);
+    pushFrameStack(frame_44dfc5a66c5f525d61293b4a6a8481f2);
 
     // Mark the frame object as in use, ref count 1 will be up for reuse.
-    assert(Py_REFCNT(frame_c5a8ec066f9dd69e8ce4500aa0713f2c) == 2); // Frame stack
+    assert(Py_REFCNT(frame_44dfc5a66c5f525d61293b4a6a8481f2) == 2); // Frame stack
 
     // Framed code:
     {
@@ -2210,12 +2102,12 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 61;
+            exception_lineno = 56;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 61;
-        tmp_call_result_1 = CALL_METHOD_NO_ARGS(tmp_called_instance_1, mod_consts[64]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 56;
+        tmp_call_result_1 = CALL_METHOD_NO_ARGS(tmp_called_instance_1, mod_consts[59]);
         Py_DECREF(tmp_called_instance_1);
         if (tmp_call_result_1 == NULL) {
             assert(ERROR_OCCURRED());
@@ -2223,7 +2115,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 61;
+            exception_lineno = 56;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2240,7 +2132,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 62;
+            exception_lineno = 57;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2253,12 +2145,12 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 62;
+            exception_lineno = 57;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 62;
-        tmp_call_result_2 = CALL_METHOD_NO_ARGS(tmp_called_instance_2, mod_consts[64]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 57;
+        tmp_call_result_2 = CALL_METHOD_NO_ARGS(tmp_called_instance_2, mod_consts[59]);
         Py_DECREF(tmp_called_instance_2);
         if (tmp_call_result_2 == NULL) {
             assert(ERROR_OCCURRED());
@@ -2266,7 +2158,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 62;
+            exception_lineno = 57;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2283,25 +2175,25 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 64;
+            exception_lineno = 59;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_3 = par_self;
-        tmp_called_instance_3 = LOOKUP_ATTRIBUTE(tmp_expression_name_3, mod_consts[65]);
+        tmp_called_instance_3 = LOOKUP_ATTRIBUTE(tmp_expression_name_3, mod_consts[60]);
         if (tmp_called_instance_3 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 64;
+            exception_lineno = 59;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 64;
-        tmp_call_result_3 = CALL_METHOD_NO_ARGS(tmp_called_instance_3, mod_consts[66]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 59;
+        tmp_call_result_3 = CALL_METHOD_NO_ARGS(tmp_called_instance_3, mod_consts[61]);
         Py_DECREF(tmp_called_instance_3);
         if (tmp_call_result_3 == NULL) {
             assert(ERROR_OCCURRED());
@@ -2309,7 +2201,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 64;
+            exception_lineno = 59;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2328,24 +2220,24 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 65;
+            exception_lineno = 60;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_5 = par_self;
-        tmp_expression_name_4 = LOOKUP_ATTRIBUTE(tmp_expression_name_5, mod_consts[67]);
+        tmp_expression_name_4 = LOOKUP_ATTRIBUTE(tmp_expression_name_5, mod_consts[62]);
         if (tmp_expression_name_4 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 65;
+            exception_lineno = 60;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_4, mod_consts[68]);
+        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_4, mod_consts[63]);
         Py_DECREF(tmp_expression_name_4);
         if (tmp_called_name_1 == NULL) {
             assert(ERROR_OCCURRED());
@@ -2353,12 +2245,12 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 65;
+            exception_lineno = 60;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_kwargs_name_1 = PyDict_Copy(mod_consts[69]);
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 65;
+        tmp_kwargs_name_1 = PyDict_Copy(mod_consts[64]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 60;
         tmp_call_result_4 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_1, tmp_kwargs_name_1);
         Py_DECREF(tmp_called_name_1);
         Py_DECREF(tmp_kwargs_name_1);
@@ -2368,7 +2260,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 65;
+            exception_lineno = 60;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2387,24 +2279,24 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 66;
+            exception_lineno = 61;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_7 = par_self;
-        tmp_expression_name_6 = LOOKUP_ATTRIBUTE(tmp_expression_name_7, mod_consts[70]);
+        tmp_expression_name_6 = LOOKUP_ATTRIBUTE(tmp_expression_name_7, mod_consts[65]);
         if (tmp_expression_name_6 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 66;
+            exception_lineno = 61;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_called_name_2 = LOOKUP_ATTRIBUTE(tmp_expression_name_6, mod_consts[68]);
+        tmp_called_name_2 = LOOKUP_ATTRIBUTE(tmp_expression_name_6, mod_consts[63]);
         Py_DECREF(tmp_expression_name_6);
         if (tmp_called_name_2 == NULL) {
             assert(ERROR_OCCURRED());
@@ -2412,12 +2304,12 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 66;
+            exception_lineno = 61;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_kwargs_name_2 = PyDict_Copy(mod_consts[71]);
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 66;
+        tmp_kwargs_name_2 = PyDict_Copy(mod_consts[66]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 61;
         tmp_call_result_5 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_2, tmp_kwargs_name_2);
         Py_DECREF(tmp_called_name_2);
         Py_DECREF(tmp_kwargs_name_2);
@@ -2427,7 +2319,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 66;
+            exception_lineno = 61;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2446,24 +2338,24 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 67;
+            exception_lineno = 62;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_9 = par_self;
-        tmp_expression_name_8 = LOOKUP_ATTRIBUTE(tmp_expression_name_9, mod_consts[72]);
+        tmp_expression_name_8 = LOOKUP_ATTRIBUTE(tmp_expression_name_9, mod_consts[67]);
         if (tmp_expression_name_8 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 67;
+            exception_lineno = 62;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_called_name_3 = LOOKUP_ATTRIBUTE(tmp_expression_name_8, mod_consts[68]);
+        tmp_called_name_3 = LOOKUP_ATTRIBUTE(tmp_expression_name_8, mod_consts[63]);
         Py_DECREF(tmp_expression_name_8);
         if (tmp_called_name_3 == NULL) {
             assert(ERROR_OCCURRED());
@@ -2471,12 +2363,12 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 67;
+            exception_lineno = 62;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_kwargs_name_3 = PyDict_Copy(mod_consts[73]);
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 67;
+        tmp_kwargs_name_3 = PyDict_Copy(mod_consts[68]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 62;
         tmp_call_result_6 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_3, tmp_kwargs_name_3);
         Py_DECREF(tmp_called_name_3);
         Py_DECREF(tmp_kwargs_name_3);
@@ -2486,7 +2378,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 67;
+            exception_lineno = 62;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2505,24 +2397,24 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 69;
+            exception_lineno = 64;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_11 = par_self;
-        tmp_expression_name_10 = LOOKUP_ATTRIBUTE(tmp_expression_name_11, mod_consts[74]);
+        tmp_expression_name_10 = LOOKUP_ATTRIBUTE(tmp_expression_name_11, mod_consts[69]);
         if (tmp_expression_name_10 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 69;
+            exception_lineno = 64;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_called_name_4 = LOOKUP_ATTRIBUTE(tmp_expression_name_10, mod_consts[68]);
+        tmp_called_name_4 = LOOKUP_ATTRIBUTE(tmp_expression_name_10, mod_consts[63]);
         Py_DECREF(tmp_expression_name_10);
         if (tmp_called_name_4 == NULL) {
             assert(ERROR_OCCURRED());
@@ -2530,12 +2422,12 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 69;
+            exception_lineno = 64;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_kwargs_name_4 = PyDict_Copy(mod_consts[75]);
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 69;
+        tmp_kwargs_name_4 = PyDict_Copy(mod_consts[70]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 64;
         tmp_call_result_7 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_4, tmp_kwargs_name_4);
         Py_DECREF(tmp_called_name_4);
         Py_DECREF(tmp_kwargs_name_4);
@@ -2545,7 +2437,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 69;
+            exception_lineno = 64;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2564,24 +2456,24 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 70;
+            exception_lineno = 65;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_13 = par_self;
-        tmp_expression_name_12 = LOOKUP_ATTRIBUTE(tmp_expression_name_13, mod_consts[76]);
+        tmp_expression_name_12 = LOOKUP_ATTRIBUTE(tmp_expression_name_13, mod_consts[71]);
         if (tmp_expression_name_12 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 70;
+            exception_lineno = 65;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_called_name_5 = LOOKUP_ATTRIBUTE(tmp_expression_name_12, mod_consts[68]);
+        tmp_called_name_5 = LOOKUP_ATTRIBUTE(tmp_expression_name_12, mod_consts[63]);
         Py_DECREF(tmp_expression_name_12);
         if (tmp_called_name_5 == NULL) {
             assert(ERROR_OCCURRED());
@@ -2589,12 +2481,12 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 70;
+            exception_lineno = 65;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_kwargs_name_5 = PyDict_Copy(mod_consts[77]);
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 70;
+        tmp_kwargs_name_5 = PyDict_Copy(mod_consts[72]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 65;
         tmp_call_result_8 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_5, tmp_kwargs_name_5);
         Py_DECREF(tmp_called_name_5);
         Py_DECREF(tmp_kwargs_name_5);
@@ -2604,7 +2496,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 70;
+            exception_lineno = 65;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2623,24 +2515,24 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 71;
+            exception_lineno = 66;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_15 = par_self;
-        tmp_expression_name_14 = LOOKUP_ATTRIBUTE(tmp_expression_name_15, mod_consts[78]);
+        tmp_expression_name_14 = LOOKUP_ATTRIBUTE(tmp_expression_name_15, mod_consts[73]);
         if (tmp_expression_name_14 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 71;
+            exception_lineno = 66;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_called_name_6 = LOOKUP_ATTRIBUTE(tmp_expression_name_14, mod_consts[68]);
+        tmp_called_name_6 = LOOKUP_ATTRIBUTE(tmp_expression_name_14, mod_consts[63]);
         Py_DECREF(tmp_expression_name_14);
         if (tmp_called_name_6 == NULL) {
             assert(ERROR_OCCURRED());
@@ -2648,12 +2540,12 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 71;
+            exception_lineno = 66;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_kwargs_name_6 = PyDict_Copy(mod_consts[79]);
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 71;
+        tmp_kwargs_name_6 = PyDict_Copy(mod_consts[74]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 66;
         tmp_call_result_9 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_6, tmp_kwargs_name_6);
         Py_DECREF(tmp_called_name_6);
         Py_DECREF(tmp_kwargs_name_6);
@@ -2663,7 +2555,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 71;
+            exception_lineno = 66;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2682,24 +2574,24 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 73;
+            exception_lineno = 68;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_17 = par_self;
-        tmp_expression_name_16 = LOOKUP_ATTRIBUTE(tmp_expression_name_17, mod_consts[80]);
+        tmp_expression_name_16 = LOOKUP_ATTRIBUTE(tmp_expression_name_17, mod_consts[75]);
         if (tmp_expression_name_16 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 73;
+            exception_lineno = 68;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_called_name_7 = LOOKUP_ATTRIBUTE(tmp_expression_name_16, mod_consts[68]);
+        tmp_called_name_7 = LOOKUP_ATTRIBUTE(tmp_expression_name_16, mod_consts[63]);
         Py_DECREF(tmp_expression_name_16);
         if (tmp_called_name_7 == NULL) {
             assert(ERROR_OCCURRED());
@@ -2707,12 +2599,12 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 73;
+            exception_lineno = 68;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_kwargs_name_7 = PyDict_Copy(mod_consts[81]);
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 73;
+        tmp_kwargs_name_7 = PyDict_Copy(mod_consts[76]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 68;
         tmp_call_result_10 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_7, tmp_kwargs_name_7);
         Py_DECREF(tmp_called_name_7);
         Py_DECREF(tmp_kwargs_name_7);
@@ -2722,7 +2614,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 73;
+            exception_lineno = 68;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2741,24 +2633,24 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 74;
+            exception_lineno = 69;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_19 = par_self;
-        tmp_expression_name_18 = LOOKUP_ATTRIBUTE(tmp_expression_name_19, mod_consts[82]);
+        tmp_expression_name_18 = LOOKUP_ATTRIBUTE(tmp_expression_name_19, mod_consts[77]);
         if (tmp_expression_name_18 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 74;
+            exception_lineno = 69;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_called_name_8 = LOOKUP_ATTRIBUTE(tmp_expression_name_18, mod_consts[68]);
+        tmp_called_name_8 = LOOKUP_ATTRIBUTE(tmp_expression_name_18, mod_consts[63]);
         Py_DECREF(tmp_expression_name_18);
         if (tmp_called_name_8 == NULL) {
             assert(ERROR_OCCURRED());
@@ -2766,12 +2658,12 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 74;
+            exception_lineno = 69;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_kwargs_name_8 = PyDict_Copy(mod_consts[83]);
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 74;
+        tmp_kwargs_name_8 = PyDict_Copy(mod_consts[78]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 69;
         tmp_call_result_11 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_8, tmp_kwargs_name_8);
         Py_DECREF(tmp_called_name_8);
         Py_DECREF(tmp_kwargs_name_8);
@@ -2781,7 +2673,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 74;
+            exception_lineno = 69;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2800,24 +2692,24 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 75;
+            exception_lineno = 70;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_21 = par_self;
-        tmp_expression_name_20 = LOOKUP_ATTRIBUTE(tmp_expression_name_21, mod_consts[84]);
+        tmp_expression_name_20 = LOOKUP_ATTRIBUTE(tmp_expression_name_21, mod_consts[79]);
         if (tmp_expression_name_20 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 75;
+            exception_lineno = 70;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_called_name_9 = LOOKUP_ATTRIBUTE(tmp_expression_name_20, mod_consts[68]);
+        tmp_called_name_9 = LOOKUP_ATTRIBUTE(tmp_expression_name_20, mod_consts[63]);
         Py_DECREF(tmp_expression_name_20);
         if (tmp_called_name_9 == NULL) {
             assert(ERROR_OCCURRED());
@@ -2825,12 +2717,12 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 75;
+            exception_lineno = 70;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        tmp_kwargs_name_9 = PyDict_Copy(mod_consts[85]);
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 75;
+        tmp_kwargs_name_9 = PyDict_Copy(mod_consts[80]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 70;
         tmp_call_result_12 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_9, tmp_kwargs_name_9);
         Py_DECREF(tmp_called_name_9);
         Py_DECREF(tmp_kwargs_name_9);
@@ -2840,7 +2732,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 75;
+            exception_lineno = 70;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2863,7 +2755,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 77;
+            exception_lineno = 72;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2876,7 +2768,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 77;
+            exception_lineno = 72;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2888,7 +2780,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 77;
+            exception_lineno = 72;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2901,7 +2793,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
             Py_DECREF(tmp_called_name_10);
 
-            exception_lineno = 78;
+            exception_lineno = 73;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -2937,7 +2829,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
@@ -2951,7 +2843,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
                 CHAIN_EXCEPTION(exception_value);
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
@@ -2964,11 +2856,11 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
-            frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 78;
+            frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 73;
             tmp_left_name_2 = CALL_METHOD_NO_ARGS(tmp_called_instance_4, mod_consts[8]);
             Py_DECREF(tmp_called_instance_4);
             if (tmp_left_name_2 == NULL) {
@@ -2977,7 +2869,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
@@ -2990,11 +2882,11 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
-            tmp_right_name_2 = mod_consts[86];
+            tmp_right_name_2 = mod_consts[81];
             tmp_format_value_3 = BINARY_OPERATION_SUB_OBJECT_OBJECT_LONG(tmp_left_name_1, tmp_right_name_2);
             Py_DECREF(tmp_left_name_1);
             if (tmp_format_value_3 == NULL) {
@@ -3003,7 +2895,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
@@ -3016,7 +2908,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
@@ -3030,7 +2922,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
                 CHAIN_EXCEPTION(exception_value);
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
@@ -3043,11 +2935,11 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
-            frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 78;
+            frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 73;
             tmp_left_name_4 = CALL_METHOD_NO_ARGS(tmp_called_instance_5, mod_consts[10]);
             Py_DECREF(tmp_called_instance_5);
             if (tmp_left_name_4 == NULL) {
@@ -3056,7 +2948,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
@@ -3069,11 +2961,11 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
-            tmp_right_name_4 = mod_consts[86];
+            tmp_right_name_4 = mod_consts[81];
             tmp_format_value_4 = BINARY_OPERATION_SUB_OBJECT_OBJECT_LONG(tmp_left_name_3, tmp_right_name_4);
             Py_DECREF(tmp_left_name_3);
             if (tmp_format_value_4 == NULL) {
@@ -3082,7 +2974,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
@@ -3095,7 +2987,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 78;
+                exception_lineno = 73;
                 type_description_1 = "o";
                 goto tuple_build_exception_1;
             }
@@ -3117,11 +3009,11 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
             Py_DECREF(tmp_called_name_10);
 
-            exception_lineno = 78;
+            exception_lineno = 73;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 77;
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 72;
         tmp_call_result_13 = CALL_FUNCTION_WITH_SINGLE_ARG(tmp_called_name_10, tmp_args_element_name_1);
         Py_DECREF(tmp_called_name_10);
         Py_DECREF(tmp_args_element_name_1);
@@ -3131,7 +3023,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 77;
+            exception_lineno = 72;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -3148,7 +3040,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 79;
+            exception_lineno = 74;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -3161,12 +3053,12 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 79;
+            exception_lineno = 74;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame.f_lineno = 79;
-        tmp_call_result_14 = CALL_METHOD_NO_ARGS(tmp_called_instance_6, mod_consts[87]);
+        frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame.f_lineno = 74;
+        tmp_call_result_14 = CALL_METHOD_NO_ARGS(tmp_called_instance_6, mod_consts[82]);
         Py_DECREF(tmp_called_instance_6);
         if (tmp_call_result_14 == NULL) {
             assert(ERROR_OCCURRED());
@@ -3174,7 +3066,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 79;
+            exception_lineno = 74;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -3182,7 +3074,7 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
     }
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_c5a8ec066f9dd69e8ce4500aa0713f2c);
+    RESTORE_FRAME_EXCEPTION(frame_44dfc5a66c5f525d61293b4a6a8481f2);
 #endif
 
     // Put the previous frame back on top.
@@ -3193,35 +3085,35 @@ static PyObject *impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLa
     frame_exception_exit_1:;
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_c5a8ec066f9dd69e8ce4500aa0713f2c);
+    RESTORE_FRAME_EXCEPTION(frame_44dfc5a66c5f525d61293b4a6a8481f2);
 #endif
 
     if (exception_tb == NULL) {
-        exception_tb = MAKE_TRACEBACK(frame_c5a8ec066f9dd69e8ce4500aa0713f2c, exception_lineno);
-    } else if (exception_tb->tb_frame != &frame_c5a8ec066f9dd69e8ce4500aa0713f2c->m_frame) {
-        exception_tb = ADD_TRACEBACK(exception_tb, frame_c5a8ec066f9dd69e8ce4500aa0713f2c, exception_lineno);
+        exception_tb = MAKE_TRACEBACK(frame_44dfc5a66c5f525d61293b4a6a8481f2, exception_lineno);
+    } else if (exception_tb->tb_frame != &frame_44dfc5a66c5f525d61293b4a6a8481f2->m_frame) {
+        exception_tb = ADD_TRACEBACK(exception_tb, frame_44dfc5a66c5f525d61293b4a6a8481f2, exception_lineno);
     }
 
     // Attaches locals to frame if any.
     Nuitka_Frame_AttachLocals(
-        frame_c5a8ec066f9dd69e8ce4500aa0713f2c,
+        frame_44dfc5a66c5f525d61293b4a6a8481f2,
         type_description_1,
         par_self
     );
 
 
     // Release cached frame if used for exception.
-    if (frame_c5a8ec066f9dd69e8ce4500aa0713f2c == cache_frame_c5a8ec066f9dd69e8ce4500aa0713f2c) {
+    if (frame_44dfc5a66c5f525d61293b4a6a8481f2 == cache_frame_44dfc5a66c5f525d61293b4a6a8481f2) {
 #if _DEBUG_REFCOUNTS
         count_active_frame_cache_instances -= 1;
         count_released_frame_cache_instances += 1;
 #endif
 
-        Py_DECREF(cache_frame_c5a8ec066f9dd69e8ce4500aa0713f2c);
-        cache_frame_c5a8ec066f9dd69e8ce4500aa0713f2c = NULL;
+        Py_DECREF(cache_frame_44dfc5a66c5f525d61293b4a6a8481f2);
+        cache_frame_44dfc5a66c5f525d61293b4a6a8481f2 = NULL;
     }
 
-    assertFrameObject(frame_c5a8ec066f9dd69e8ce4500aa0713f2c);
+    assertFrameObject(frame_44dfc5a66c5f525d61293b4a6a8481f2);
 
     // Put the previous frame back on top.
     popFrameStack();
@@ -3295,7 +3187,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
     PyObject *var_h = NULL;
     PyObject *var_w = NULL;
     PyObject *var_color = NULL;
-    struct Nuitka_FrameObject *frame_5d164d98b33fb431bffc202941b27186;
+    struct Nuitka_FrameObject *frame_8ddf848fe6dbb1f6e7e11e052de2b85a;
     NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
     PyObject *exception_type = NULL;
     PyObject *exception_value = NULL;
@@ -3303,7 +3195,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
     NUITKA_MAY_BE_UNUSED int exception_lineno = 0;
     bool tmp_result;
     int tmp_res;
-    static struct Nuitka_FrameObject *cache_frame_5d164d98b33fb431bffc202941b27186 = NULL;
+    static struct Nuitka_FrameObject *cache_frame_8ddf848fe6dbb1f6e7e11e052de2b85a = NULL;
     PyObject *tmp_return_value = NULL;
     PyObject *exception_keeper_type_1;
     PyObject *exception_keeper_value_1;
@@ -3312,37 +3204,37 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
 
     // Actual function body.
     // Tried code:
-    if (isFrameUnusable(cache_frame_5d164d98b33fb431bffc202941b27186)) {
-        Py_XDECREF(cache_frame_5d164d98b33fb431bffc202941b27186);
+    if (isFrameUnusable(cache_frame_8ddf848fe6dbb1f6e7e11e052de2b85a)) {
+        Py_XDECREF(cache_frame_8ddf848fe6dbb1f6e7e11e052de2b85a);
 
 #if _DEBUG_REFCOUNTS
-        if (cache_frame_5d164d98b33fb431bffc202941b27186 == NULL) {
+        if (cache_frame_8ddf848fe6dbb1f6e7e11e052de2b85a == NULL) {
             count_active_frame_cache_instances += 1;
         } else {
             count_released_frame_cache_instances += 1;
         }
         count_allocated_frame_cache_instances += 1;
 #endif
-        cache_frame_5d164d98b33fb431bffc202941b27186 = MAKE_FUNCTION_FRAME(codeobj_5d164d98b33fb431bffc202941b27186, module_app$viwe, sizeof(void *)+sizeof(void *)+sizeof(void *)+sizeof(void *)+sizeof(void *));
+        cache_frame_8ddf848fe6dbb1f6e7e11e052de2b85a = MAKE_FUNCTION_FRAME(codeobj_8ddf848fe6dbb1f6e7e11e052de2b85a, module_app$viwe, sizeof(void *)+sizeof(void *)+sizeof(void *)+sizeof(void *)+sizeof(void *));
 #if _DEBUG_REFCOUNTS
     } else {
         count_hit_frame_cache_instances += 1;
 #endif
     }
-    assert(cache_frame_5d164d98b33fb431bffc202941b27186->m_type_description == NULL);
-    frame_5d164d98b33fb431bffc202941b27186 = cache_frame_5d164d98b33fb431bffc202941b27186;
+    assert(cache_frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_type_description == NULL);
+    frame_8ddf848fe6dbb1f6e7e11e052de2b85a = cache_frame_8ddf848fe6dbb1f6e7e11e052de2b85a;
 
     // Push the new frame as the currently active one.
-    pushFrameStack(frame_5d164d98b33fb431bffc202941b27186);
+    pushFrameStack(frame_8ddf848fe6dbb1f6e7e11e052de2b85a);
 
     // Mark the frame object as in use, ref count 1 will be up for reuse.
-    assert(Py_REFCNT(frame_5d164d98b33fb431bffc202941b27186) == 2); // Frame stack
+    assert(Py_REFCNT(frame_8ddf848fe6dbb1f6e7e11e052de2b85a) == 2); // Frame stack
 
     // Framed code:
     {
         PyObject *tmp_assign_source_1;
         PyObject *tmp_list_element_1;
-        tmp_list_element_1 = mod_consts[88];
+        tmp_list_element_1 = mod_consts[83];
         tmp_assign_source_1 = PyList_New(8);
         {
             PyObject *tmp_tuple_element_1;
@@ -3376,7 +3268,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             PyObject *tmp_expression_name_16;
             PyObject *tmp_right_name_10;
             PyList_SET_ITEM0(tmp_assign_source_1, 0, tmp_list_element_1);
-            tmp_tuple_element_1 = mod_consts[89];
+            tmp_tuple_element_1 = mod_consts[84];
             tmp_list_element_1 = PyTuple_New(2);
             {
                 PyObject *tmp_left_name_1;
@@ -3393,11 +3285,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 90;
+                    exception_lineno = 85;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_1;
                 }
-                frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 90;
+                frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 85;
                 tmp_left_name_1 = CALL_METHOD_NO_ARGS(tmp_called_instance_1, mod_consts[10]);
                 Py_DECREF(tmp_called_instance_1);
                 if (tmp_left_name_1 == NULL) {
@@ -3406,7 +3298,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 90;
+                    exception_lineno = 85;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_1;
                 }
@@ -3419,7 +3311,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 90;
+                    exception_lineno = 85;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_1;
                 }
@@ -3433,7 +3325,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             // Finished with no exception for tuple_build:
             tuple_build_noexception_1:;
             PyList_SET_ITEM(tmp_assign_source_1, 1, tmp_list_element_1);
-            tmp_tuple_element_2 = mod_consts[89];
+            tmp_tuple_element_2 = mod_consts[84];
             tmp_list_element_1 = PyTuple_New(2);
             {
                 PyObject *tmp_left_name_2;
@@ -3449,7 +3341,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
                     CHAIN_EXCEPTION(exception_value);
 
-                    exception_lineno = 91;
+                    exception_lineno = 86;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_2;
                 }
@@ -3462,11 +3354,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 91;
+                    exception_lineno = 86;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_2;
                 }
-                frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 91;
+                frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 86;
                 tmp_left_name_2 = CALL_METHOD_NO_ARGS(tmp_called_instance_2, mod_consts[10]);
                 Py_DECREF(tmp_called_instance_2);
                 if (tmp_left_name_2 == NULL) {
@@ -3475,7 +3367,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 91;
+                    exception_lineno = 86;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_2;
                 }
@@ -3491,18 +3383,18 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                     Py_DECREF(tmp_left_name_2);
 
-                    exception_lineno = 91;
+                    exception_lineno = 86;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_2;
                 }
-                tmp_right_name_2 = LOOKUP_ATTRIBUTE(tmp_expression_name_3, mod_consts[90]);
+                tmp_right_name_2 = LOOKUP_ATTRIBUTE(tmp_expression_name_3, mod_consts[85]);
                 if (tmp_right_name_2 == NULL) {
                     assert(ERROR_OCCURRED());
 
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                     Py_DECREF(tmp_left_name_2);
 
-                    exception_lineno = 91;
+                    exception_lineno = 86;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_2;
                 }
@@ -3515,7 +3407,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 91;
+                    exception_lineno = 86;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_2;
                 }
@@ -3536,7 +3428,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
                 CHAIN_EXCEPTION(exception_value);
 
-                exception_lineno = 92;
+                exception_lineno = 87;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -3549,11 +3441,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 92;
+                exception_lineno = 87;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
-            frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 92;
+            frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 87;
             tmp_left_name_3 = CALL_METHOD_NO_ARGS(tmp_called_instance_3, mod_consts[8]);
             Py_DECREF(tmp_called_instance_3);
             if (tmp_left_name_3 == NULL) {
@@ -3562,7 +3454,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 92;
+                exception_lineno = 87;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -3575,7 +3467,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 92;
+                exception_lineno = 87;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -3594,7 +3486,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
                     CHAIN_EXCEPTION(exception_value);
 
-                    exception_lineno = 92;
+                    exception_lineno = 87;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_3;
                 }
@@ -3607,11 +3499,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 92;
+                    exception_lineno = 87;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_3;
                 }
-                frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 92;
+                frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 87;
                 tmp_left_name_4 = CALL_METHOD_NO_ARGS(tmp_called_instance_4, mod_consts[10]);
                 Py_DECREF(tmp_called_instance_4);
                 if (tmp_left_name_4 == NULL) {
@@ -3620,7 +3512,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 92;
+                    exception_lineno = 87;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_3;
                 }
@@ -3636,18 +3528,18 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                     Py_DECREF(tmp_left_name_4);
 
-                    exception_lineno = 92;
+                    exception_lineno = 87;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_3;
                 }
-                tmp_right_name_4 = LOOKUP_ATTRIBUTE(tmp_expression_name_6, mod_consts[90]);
+                tmp_right_name_4 = LOOKUP_ATTRIBUTE(tmp_expression_name_6, mod_consts[85]);
                 if (tmp_right_name_4 == NULL) {
                     assert(ERROR_OCCURRED());
 
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                     Py_DECREF(tmp_left_name_4);
 
-                    exception_lineno = 92;
+                    exception_lineno = 87;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_3;
                 }
@@ -3660,7 +3552,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 92;
+                    exception_lineno = 87;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_3;
                 }
@@ -3681,7 +3573,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
                 CHAIN_EXCEPTION(exception_value);
 
-                exception_lineno = 93;
+                exception_lineno = 88;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -3694,11 +3586,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 93;
+                exception_lineno = 88;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
-            frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 93;
+            frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 88;
             tmp_left_name_5 = CALL_METHOD_NO_ARGS(tmp_called_instance_5, mod_consts[8]);
             Py_DECREF(tmp_called_instance_5);
             if (tmp_left_name_5 == NULL) {
@@ -3707,7 +3599,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 93;
+                exception_lineno = 88;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -3723,18 +3615,18 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                 Py_DECREF(tmp_left_name_5);
 
-                exception_lineno = 93;
+                exception_lineno = 88;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
-            tmp_right_name_5 = LOOKUP_ATTRIBUTE(tmp_expression_name_8, mod_consts[91]);
+            tmp_right_name_5 = LOOKUP_ATTRIBUTE(tmp_expression_name_8, mod_consts[86]);
             if (tmp_right_name_5 == NULL) {
                 assert(ERROR_OCCURRED());
 
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                 Py_DECREF(tmp_left_name_5);
 
-                exception_lineno = 93;
+                exception_lineno = 88;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -3747,7 +3639,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 93;
+                exception_lineno = 88;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -3766,7 +3658,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
                     CHAIN_EXCEPTION(exception_value);
 
-                    exception_lineno = 93;
+                    exception_lineno = 88;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_4;
                 }
@@ -3779,11 +3671,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 93;
+                    exception_lineno = 88;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_4;
                 }
-                frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 93;
+                frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 88;
                 tmp_left_name_6 = CALL_METHOD_NO_ARGS(tmp_called_instance_6, mod_consts[10]);
                 Py_DECREF(tmp_called_instance_6);
                 if (tmp_left_name_6 == NULL) {
@@ -3792,7 +3684,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 93;
+                    exception_lineno = 88;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_4;
                 }
@@ -3808,18 +3700,18 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                     Py_DECREF(tmp_left_name_6);
 
-                    exception_lineno = 93;
+                    exception_lineno = 88;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_4;
                 }
-                tmp_right_name_6 = LOOKUP_ATTRIBUTE(tmp_expression_name_10, mod_consts[90]);
+                tmp_right_name_6 = LOOKUP_ATTRIBUTE(tmp_expression_name_10, mod_consts[85]);
                 if (tmp_right_name_6 == NULL) {
                     assert(ERROR_OCCURRED());
 
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                     Py_DECREF(tmp_left_name_6);
 
-                    exception_lineno = 93;
+                    exception_lineno = 88;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_4;
                 }
@@ -3832,7 +3724,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 93;
+                    exception_lineno = 88;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_4;
                 }
@@ -3853,7 +3745,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
                 CHAIN_EXCEPTION(exception_value);
 
-                exception_lineno = 95;
+                exception_lineno = 90;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -3866,11 +3758,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 95;
+                exception_lineno = 90;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
-            frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 95;
+            frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 90;
             tmp_left_name_7 = CALL_METHOD_NO_ARGS(tmp_called_instance_7, mod_consts[8]);
             Py_DECREF(tmp_called_instance_7);
             if (tmp_left_name_7 == NULL) {
@@ -3879,7 +3771,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 95;
+                exception_lineno = 90;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -3895,18 +3787,18 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                 Py_DECREF(tmp_left_name_7);
 
-                exception_lineno = 95;
+                exception_lineno = 90;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
-            tmp_right_name_7 = LOOKUP_ATTRIBUTE(tmp_expression_name_12, mod_consts[91]);
+            tmp_right_name_7 = LOOKUP_ATTRIBUTE(tmp_expression_name_12, mod_consts[86]);
             if (tmp_right_name_7 == NULL) {
                 assert(ERROR_OCCURRED());
 
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                 Py_DECREF(tmp_left_name_7);
 
-                exception_lineno = 95;
+                exception_lineno = 90;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -3919,7 +3811,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 95;
+                exception_lineno = 90;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -3937,7 +3829,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
                     CHAIN_EXCEPTION(exception_value);
 
-                    exception_lineno = 96;
+                    exception_lineno = 91;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_5;
                 }
@@ -3950,11 +3842,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 96;
+                    exception_lineno = 91;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_5;
                 }
-                frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 96;
+                frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 91;
                 tmp_left_name_8 = CALL_METHOD_NO_ARGS(tmp_called_instance_8, mod_consts[10]);
                 Py_DECREF(tmp_called_instance_8);
                 if (tmp_left_name_8 == NULL) {
@@ -3963,7 +3855,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 96;
+                    exception_lineno = 91;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_5;
                 }
@@ -3976,7 +3868,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                    exception_lineno = 96;
+                    exception_lineno = 91;
                     type_description_1 = "ccooo";
                     goto tuple_build_exception_5;
                 }
@@ -3997,7 +3889,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
                 CHAIN_EXCEPTION(exception_value);
 
-                exception_lineno = 98;
+                exception_lineno = 93;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -4010,11 +3902,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 98;
+                exception_lineno = 93;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
-            frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 98;
+            frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 93;
             tmp_left_name_9 = CALL_METHOD_NO_ARGS(tmp_called_instance_9, mod_consts[8]);
             Py_DECREF(tmp_called_instance_9);
             if (tmp_left_name_9 == NULL) {
@@ -4023,7 +3915,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 98;
+                exception_lineno = 93;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -4039,18 +3931,18 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                 Py_DECREF(tmp_left_name_9);
 
-                exception_lineno = 98;
+                exception_lineno = 93;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
-            tmp_right_name_9 = LOOKUP_ATTRIBUTE(tmp_expression_name_15, mod_consts[91]);
+            tmp_right_name_9 = LOOKUP_ATTRIBUTE(tmp_expression_name_15, mod_consts[86]);
             if (tmp_right_name_9 == NULL) {
                 assert(ERROR_OCCURRED());
 
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                 Py_DECREF(tmp_left_name_9);
 
-                exception_lineno = 98;
+                exception_lineno = 93;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -4063,13 +3955,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 98;
+                exception_lineno = 93;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
             tmp_list_element_1 = PyTuple_New(2);
             PyTuple_SET_ITEM(tmp_list_element_1, 0, tmp_tuple_element_6);
-            tmp_tuple_element_6 = mod_consts[89];
+            tmp_tuple_element_6 = mod_consts[84];
             PyTuple_SET_ITEM0(tmp_list_element_1, 1, tmp_tuple_element_6);
             PyList_SET_ITEM(tmp_assign_source_1, 6, tmp_list_element_1);
             if (Nuitka_Cell_GET(par_self) == NULL) {
@@ -4079,7 +3971,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
                 CHAIN_EXCEPTION(exception_value);
 
-                exception_lineno = 99;
+                exception_lineno = 94;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -4092,11 +3984,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 99;
+                exception_lineno = 94;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
-            frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 99;
+            frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 94;
             tmp_left_name_10 = CALL_METHOD_NO_ARGS(tmp_called_instance_10, mod_consts[8]);
             Py_DECREF(tmp_called_instance_10);
             if (tmp_left_name_10 == NULL) {
@@ -4105,7 +3997,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 99;
+                exception_lineno = 94;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
@@ -4118,13 +4010,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 99;
+                exception_lineno = 94;
                 type_description_1 = "ccooo";
                 goto list_build_exception_1;
             }
             tmp_list_element_1 = PyTuple_New(2);
             PyTuple_SET_ITEM(tmp_list_element_1, 0, tmp_tuple_element_7);
-            tmp_tuple_element_7 = mod_consts[89];
+            tmp_tuple_element_7 = mod_consts[84];
             PyTuple_SET_ITEM0(tmp_list_element_1, 1, tmp_tuple_element_7);
             PyList_SET_ITEM(tmp_assign_source_1, 7, tmp_list_element_1);
         }
@@ -4157,7 +4049,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 101;
+            exception_lineno = 96;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4168,7 +4060,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 101;
+            exception_lineno = 96;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4181,11 +4073,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 101;
+            exception_lineno = 96;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
-        frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 101;
+        frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 96;
         tmp_assattr_name_1 = CALL_FUNCTION_WITH_SINGLE_ARG(tmp_called_name_1, tmp_args_element_name_1);
         Py_DECREF(tmp_args_element_name_1);
         if (tmp_assattr_name_1 == NULL) {
@@ -4194,7 +4086,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 101;
+            exception_lineno = 96;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4205,13 +4097,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 101;
+            exception_lineno = 96;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_assattr_target_1 = Nuitka_Cell_GET(par_self);
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_1, mod_consts[65], tmp_assattr_name_1);
+        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_1, mod_consts[60], tmp_assattr_name_1);
         Py_DECREF(tmp_assattr_name_1);
         if (tmp_result == false) {
             assert(ERROR_OCCURRED());
@@ -4219,28 +4111,28 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 101;
+            exception_lineno = 96;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
     }
     {
         PyObject *tmp_assign_source_2;
-        tmp_assign_source_2 = mod_consts[92];
+        tmp_assign_source_2 = mod_consts[87];
         assert(var_h == NULL);
         Py_INCREF(tmp_assign_source_2);
         var_h = tmp_assign_source_2;
     }
     {
         PyObject *tmp_assign_source_3;
-        tmp_assign_source_3 = mod_consts[93];
+        tmp_assign_source_3 = mod_consts[88];
         assert(var_w == NULL);
         Py_INCREF(tmp_assign_source_3);
         var_w = tmp_assign_source_3;
     }
     {
         PyObject *tmp_assign_source_4;
-        tmp_assign_source_4 = mod_consts[94];
+        tmp_assign_source_4 = mod_consts[89];
         assert(var_color == NULL);
         Py_INCREF(tmp_assign_source_4);
         var_color = tmp_assign_source_4;
@@ -4267,7 +4159,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 106;
+            exception_lineno = 101;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4278,20 +4170,20 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 106;
+            exception_lineno = 101;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_18 = Nuitka_Cell_GET(par_self);
-        tmp_tuple_element_8 = LOOKUP_ATTRIBUTE(tmp_expression_name_18, mod_consts[65]);
+        tmp_tuple_element_8 = LOOKUP_ATTRIBUTE(tmp_expression_name_18, mod_consts[60]);
         if (tmp_tuple_element_8 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 106;
+            exception_lineno = 101;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4315,7 +4207,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             tmp_dict_value_1 = var_color;
             tmp_res = PyDict_SetItem(tmp_kwargs_name_1, tmp_dict_key_1, tmp_dict_value_1);
             assert(!(tmp_res != 0));
-            tmp_dict_key_1 = mod_consts[95];
+            tmp_dict_key_1 = mod_consts[90];
             tmp_dict_value_1 = mod_consts[6];
             tmp_res = PyDict_SetItem(tmp_kwargs_name_1, tmp_dict_key_1, tmp_dict_value_1);
             assert(!(tmp_res != 0));
@@ -4332,7 +4224,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             Py_DECREF(tmp_dict_value_1);
             assert(!(tmp_res != 0));
         }
-        frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 106;
+        frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 101;
         tmp_assattr_name_2 = CALL_FUNCTION(tmp_called_name_2, tmp_args_name_1, tmp_kwargs_name_1);
         Py_DECREF(tmp_args_name_1);
         Py_DECREF(tmp_kwargs_name_1);
@@ -4342,7 +4234,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 106;
+            exception_lineno = 101;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4353,13 +4245,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 106;
+            exception_lineno = 101;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_assattr_target_2 = Nuitka_Cell_GET(par_self);
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_2, mod_consts[67], tmp_assattr_name_2);
+        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_2, mod_consts[62], tmp_assattr_name_2);
         Py_DECREF(tmp_assattr_name_2);
         if (tmp_result == false) {
             assert(ERROR_OCCURRED());
@@ -4367,7 +4259,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 106;
+            exception_lineno = 101;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4394,7 +4286,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 108;
+            exception_lineno = 103;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4405,20 +4297,20 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 108;
+            exception_lineno = 103;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_19 = Nuitka_Cell_GET(par_self);
-        tmp_tuple_element_9 = LOOKUP_ATTRIBUTE(tmp_expression_name_19, mod_consts[65]);
+        tmp_tuple_element_9 = LOOKUP_ATTRIBUTE(tmp_expression_name_19, mod_consts[60]);
         if (tmp_tuple_element_9 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 108;
+            exception_lineno = 103;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4442,8 +4334,8 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             tmp_dict_value_2 = var_color;
             tmp_res = PyDict_SetItem(tmp_kwargs_name_2, tmp_dict_key_2, tmp_dict_value_2);
             assert(!(tmp_res != 0));
-            tmp_dict_key_2 = mod_consts[95];
-            tmp_dict_value_2 = mod_consts[98];
+            tmp_dict_key_2 = mod_consts[90];
+            tmp_dict_value_2 = mod_consts[93];
             tmp_res = PyDict_SetItem(tmp_kwargs_name_2, tmp_dict_key_2, tmp_dict_value_2);
             assert(!(tmp_res != 0));
             tmp_dict_key_2 = mod_consts[20];
@@ -4459,7 +4351,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             Py_DECREF(tmp_dict_value_2);
             assert(!(tmp_res != 0));
         }
-        frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 108;
+        frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 103;
         tmp_assattr_name_3 = CALL_FUNCTION(tmp_called_name_3, tmp_args_name_2, tmp_kwargs_name_2);
         Py_DECREF(tmp_args_name_2);
         Py_DECREF(tmp_kwargs_name_2);
@@ -4469,7 +4361,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 108;
+            exception_lineno = 103;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4480,13 +4372,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 108;
+            exception_lineno = 103;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_assattr_target_3 = Nuitka_Cell_GET(par_self);
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_3, mod_consts[74], tmp_assattr_name_3);
+        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_3, mod_consts[69], tmp_assattr_name_3);
         Py_DECREF(tmp_assattr_name_3);
         if (tmp_result == false) {
             assert(ERROR_OCCURRED());
@@ -4494,7 +4386,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 108;
+            exception_lineno = 103;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4521,7 +4413,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 111;
+            exception_lineno = 106;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4532,20 +4424,20 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 111;
+            exception_lineno = 106;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_20 = Nuitka_Cell_GET(par_self);
-        tmp_tuple_element_10 = LOOKUP_ATTRIBUTE(tmp_expression_name_20, mod_consts[65]);
+        tmp_tuple_element_10 = LOOKUP_ATTRIBUTE(tmp_expression_name_20, mod_consts[60]);
         if (tmp_tuple_element_10 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 111;
+            exception_lineno = 106;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4569,7 +4461,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             tmp_dict_value_3 = var_color;
             tmp_res = PyDict_SetItem(tmp_kwargs_name_3, tmp_dict_key_3, tmp_dict_value_3);
             assert(!(tmp_res != 0));
-            tmp_dict_key_3 = mod_consts[95];
+            tmp_dict_key_3 = mod_consts[90];
             tmp_dict_value_3 = mod_consts[6];
             tmp_res = PyDict_SetItem(tmp_kwargs_name_3, tmp_dict_key_3, tmp_dict_value_3);
             assert(!(tmp_res != 0));
@@ -4586,7 +4478,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             Py_DECREF(tmp_dict_value_3);
             assert(!(tmp_res != 0));
         }
-        frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 111;
+        frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 106;
         tmp_assattr_name_4 = CALL_FUNCTION(tmp_called_name_4, tmp_args_name_3, tmp_kwargs_name_3);
         Py_DECREF(tmp_args_name_3);
         Py_DECREF(tmp_kwargs_name_3);
@@ -4596,7 +4488,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 111;
+            exception_lineno = 106;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4607,13 +4499,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 111;
+            exception_lineno = 106;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_assattr_target_4 = Nuitka_Cell_GET(par_self);
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_4, mod_consts[80], tmp_assattr_name_4);
+        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_4, mod_consts[75], tmp_assattr_name_4);
         Py_DECREF(tmp_assattr_name_4);
         if (tmp_result == false) {
             assert(ERROR_OCCURRED());
@@ -4621,7 +4513,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 111;
+            exception_lineno = 106;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4648,7 +4540,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 114;
+            exception_lineno = 109;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4659,20 +4551,20 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 114;
+            exception_lineno = 109;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_21 = Nuitka_Cell_GET(par_self);
-        tmp_tuple_element_11 = LOOKUP_ATTRIBUTE(tmp_expression_name_21, mod_consts[65]);
+        tmp_tuple_element_11 = LOOKUP_ATTRIBUTE(tmp_expression_name_21, mod_consts[60]);
         if (tmp_tuple_element_11 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 114;
+            exception_lineno = 109;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4696,8 +4588,8 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             tmp_dict_value_4 = var_color;
             tmp_res = PyDict_SetItem(tmp_kwargs_name_4, tmp_dict_key_4, tmp_dict_value_4);
             assert(!(tmp_res != 0));
-            tmp_dict_key_4 = mod_consts[95];
-            tmp_dict_value_4 = mod_consts[99];
+            tmp_dict_key_4 = mod_consts[90];
+            tmp_dict_value_4 = mod_consts[94];
             tmp_res = PyDict_SetItem(tmp_kwargs_name_4, tmp_dict_key_4, tmp_dict_value_4);
             assert(!(tmp_res != 0));
             tmp_dict_key_4 = mod_consts[20];
@@ -4713,7 +4605,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             Py_DECREF(tmp_dict_value_4);
             assert(!(tmp_res != 0));
         }
-        frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 114;
+        frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 109;
         tmp_assattr_name_5 = CALL_FUNCTION(tmp_called_name_5, tmp_args_name_4, tmp_kwargs_name_4);
         Py_DECREF(tmp_args_name_4);
         Py_DECREF(tmp_kwargs_name_4);
@@ -4723,7 +4615,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 114;
+            exception_lineno = 109;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4734,13 +4626,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 114;
+            exception_lineno = 109;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_assattr_target_5 = Nuitka_Cell_GET(par_self);
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_5, mod_consts[82], tmp_assattr_name_5);
+        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_5, mod_consts[77], tmp_assattr_name_5);
         Py_DECREF(tmp_assattr_name_5);
         if (tmp_result == false) {
             assert(ERROR_OCCURRED());
@@ -4748,7 +4640,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 114;
+            exception_lineno = 109;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4775,7 +4667,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 116;
+            exception_lineno = 111;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4786,20 +4678,20 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 116;
+            exception_lineno = 111;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_22 = Nuitka_Cell_GET(par_self);
-        tmp_tuple_element_12 = LOOKUP_ATTRIBUTE(tmp_expression_name_22, mod_consts[65]);
+        tmp_tuple_element_12 = LOOKUP_ATTRIBUTE(tmp_expression_name_22, mod_consts[60]);
         if (tmp_tuple_element_12 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 116;
+            exception_lineno = 111;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4823,7 +4715,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             tmp_dict_value_5 = var_color;
             tmp_res = PyDict_SetItem(tmp_kwargs_name_5, tmp_dict_key_5, tmp_dict_value_5);
             assert(!(tmp_res != 0));
-            tmp_dict_key_5 = mod_consts[95];
+            tmp_dict_key_5 = mod_consts[90];
             tmp_dict_value_5 = mod_consts[6];
             tmp_res = PyDict_SetItem(tmp_kwargs_name_5, tmp_dict_key_5, tmp_dict_value_5);
             assert(!(tmp_res != 0));
@@ -4840,7 +4732,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             Py_DECREF(tmp_dict_value_5);
             assert(!(tmp_res != 0));
         }
-        frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 116;
+        frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 111;
         tmp_assattr_name_6 = CALL_FUNCTION(tmp_called_name_6, tmp_args_name_5, tmp_kwargs_name_5);
         Py_DECREF(tmp_args_name_5);
         Py_DECREF(tmp_kwargs_name_5);
@@ -4850,7 +4742,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 116;
+            exception_lineno = 111;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4861,13 +4753,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 116;
+            exception_lineno = 111;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_assattr_target_6 = Nuitka_Cell_GET(par_self);
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_6, mod_consts[84], tmp_assattr_name_6);
+        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_6, mod_consts[79], tmp_assattr_name_6);
         Py_DECREF(tmp_assattr_name_6);
         if (tmp_result == false) {
             assert(ERROR_OCCURRED());
@@ -4875,7 +4767,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 116;
+            exception_lineno = 111;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4902,7 +4794,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 118;
+            exception_lineno = 113;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4913,20 +4805,20 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 118;
+            exception_lineno = 113;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_23 = Nuitka_Cell_GET(par_self);
-        tmp_tuple_element_13 = LOOKUP_ATTRIBUTE(tmp_expression_name_23, mod_consts[65]);
+        tmp_tuple_element_13 = LOOKUP_ATTRIBUTE(tmp_expression_name_23, mod_consts[60]);
         if (tmp_tuple_element_13 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 118;
+            exception_lineno = 113;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4950,8 +4842,8 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             tmp_dict_value_6 = var_color;
             tmp_res = PyDict_SetItem(tmp_kwargs_name_6, tmp_dict_key_6, tmp_dict_value_6);
             assert(!(tmp_res != 0));
-            tmp_dict_key_6 = mod_consts[95];
-            tmp_dict_value_6 = mod_consts[100];
+            tmp_dict_key_6 = mod_consts[90];
+            tmp_dict_value_6 = mod_consts[95];
             tmp_res = PyDict_SetItem(tmp_kwargs_name_6, tmp_dict_key_6, tmp_dict_value_6);
             assert(!(tmp_res != 0));
             tmp_dict_key_6 = mod_consts[20];
@@ -4967,7 +4859,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             Py_DECREF(tmp_dict_value_6);
             assert(!(tmp_res != 0));
         }
-        frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 118;
+        frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 113;
         tmp_assattr_name_7 = CALL_FUNCTION(tmp_called_name_7, tmp_args_name_6, tmp_kwargs_name_6);
         Py_DECREF(tmp_args_name_6);
         Py_DECREF(tmp_kwargs_name_6);
@@ -4977,7 +4869,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 118;
+            exception_lineno = 113;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -4988,13 +4880,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 118;
+            exception_lineno = 113;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_assattr_target_7 = Nuitka_Cell_GET(par_self);
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_7, mod_consts[78], tmp_assattr_name_7);
+        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_7, mod_consts[73], tmp_assattr_name_7);
         Py_DECREF(tmp_assattr_name_7);
         if (tmp_result == false) {
             assert(ERROR_OCCURRED());
@@ -5002,7 +4894,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 118;
+            exception_lineno = 113;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -5029,7 +4921,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 120;
+            exception_lineno = 115;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -5040,20 +4932,20 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 120;
+            exception_lineno = 115;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_24 = Nuitka_Cell_GET(par_self);
-        tmp_tuple_element_14 = LOOKUP_ATTRIBUTE(tmp_expression_name_24, mod_consts[65]);
+        tmp_tuple_element_14 = LOOKUP_ATTRIBUTE(tmp_expression_name_24, mod_consts[60]);
         if (tmp_tuple_element_14 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 120;
+            exception_lineno = 115;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -5077,7 +4969,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             tmp_dict_value_7 = var_color;
             tmp_res = PyDict_SetItem(tmp_kwargs_name_7, tmp_dict_key_7, tmp_dict_value_7);
             assert(!(tmp_res != 0));
-            tmp_dict_key_7 = mod_consts[95];
+            tmp_dict_key_7 = mod_consts[90];
             tmp_dict_value_7 = mod_consts[6];
             tmp_res = PyDict_SetItem(tmp_kwargs_name_7, tmp_dict_key_7, tmp_dict_value_7);
             assert(!(tmp_res != 0));
@@ -5094,7 +4986,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             Py_DECREF(tmp_dict_value_7);
             assert(!(tmp_res != 0));
         }
-        frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 120;
+        frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 115;
         tmp_assattr_name_8 = CALL_FUNCTION(tmp_called_name_8, tmp_args_name_7, tmp_kwargs_name_7);
         Py_DECREF(tmp_args_name_7);
         Py_DECREF(tmp_kwargs_name_7);
@@ -5104,7 +4996,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 120;
+            exception_lineno = 115;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -5115,13 +5007,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 120;
+            exception_lineno = 115;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_assattr_target_8 = Nuitka_Cell_GET(par_self);
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_8, mod_consts[72], tmp_assattr_name_8);
+        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_8, mod_consts[67], tmp_assattr_name_8);
         Py_DECREF(tmp_assattr_name_8);
         if (tmp_result == false) {
             assert(ERROR_OCCURRED());
@@ -5129,7 +5021,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 120;
+            exception_lineno = 115;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -5156,7 +5048,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 122;
+            exception_lineno = 117;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -5167,20 +5059,20 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 122;
+            exception_lineno = 117;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_25 = Nuitka_Cell_GET(par_self);
-        tmp_tuple_element_15 = LOOKUP_ATTRIBUTE(tmp_expression_name_25, mod_consts[65]);
+        tmp_tuple_element_15 = LOOKUP_ATTRIBUTE(tmp_expression_name_25, mod_consts[60]);
         if (tmp_tuple_element_15 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 122;
+            exception_lineno = 117;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -5204,8 +5096,8 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             tmp_dict_value_8 = var_color;
             tmp_res = PyDict_SetItem(tmp_kwargs_name_8, tmp_dict_key_8, tmp_dict_value_8);
             assert(!(tmp_res != 0));
-            tmp_dict_key_8 = mod_consts[95];
-            tmp_dict_value_8 = mod_consts[101];
+            tmp_dict_key_8 = mod_consts[90];
+            tmp_dict_value_8 = mod_consts[96];
             tmp_res = PyDict_SetItem(tmp_kwargs_name_8, tmp_dict_key_8, tmp_dict_value_8);
             assert(!(tmp_res != 0));
             tmp_dict_key_8 = mod_consts[20];
@@ -5221,7 +5113,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             Py_DECREF(tmp_dict_value_8);
             assert(!(tmp_res != 0));
         }
-        frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 122;
+        frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 117;
         tmp_assattr_name_9 = CALL_FUNCTION(tmp_called_name_9, tmp_args_name_8, tmp_kwargs_name_8);
         Py_DECREF(tmp_args_name_8);
         Py_DECREF(tmp_kwargs_name_8);
@@ -5231,7 +5123,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 122;
+            exception_lineno = 117;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -5242,13 +5134,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 122;
+            exception_lineno = 117;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_assattr_target_9 = Nuitka_Cell_GET(par_self);
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_9, mod_consts[70], tmp_assattr_name_9);
+        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_9, mod_consts[65], tmp_assattr_name_9);
         Py_DECREF(tmp_assattr_name_9);
         if (tmp_result == false) {
             assert(ERROR_OCCURRED());
@@ -5256,7 +5148,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 122;
+            exception_lineno = 117;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -5283,7 +5175,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 125;
+            exception_lineno = 120;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -5294,20 +5186,20 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 125;
+            exception_lineno = 120;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_26 = Nuitka_Cell_GET(par_self);
-        tmp_tuple_element_16 = LOOKUP_ATTRIBUTE(tmp_expression_name_26, mod_consts[65]);
+        tmp_tuple_element_16 = LOOKUP_ATTRIBUTE(tmp_expression_name_26, mod_consts[60]);
         if (tmp_tuple_element_16 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 125;
+            exception_lineno = 120;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -5327,10 +5219,10 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             tmp_res = PyDict_SetItem(tmp_kwargs_name_9, tmp_dict_key_9, tmp_dict_value_9);
             assert(!(tmp_res != 0));
             tmp_dict_key_9 = mod_consts[18];
-            tmp_dict_value_9 = mod_consts[102];
+            tmp_dict_value_9 = mod_consts[97];
             tmp_res = PyDict_SetItem(tmp_kwargs_name_9, tmp_dict_key_9, tmp_dict_value_9);
             assert(!(tmp_res != 0));
-            tmp_dict_key_9 = mod_consts[95];
+            tmp_dict_key_9 = mod_consts[90];
             tmp_dict_value_9 = mod_consts[5];
             tmp_res = PyDict_SetItem(tmp_kwargs_name_9, tmp_dict_key_9, tmp_dict_value_9);
             assert(!(tmp_res != 0));
@@ -5345,7 +5237,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             Py_DECREF(tmp_dict_value_9);
             assert(!(tmp_res != 0));
         }
-        frame_5d164d98b33fb431bffc202941b27186->m_frame.f_lineno = 125;
+        frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame.f_lineno = 120;
         tmp_assattr_name_10 = CALL_FUNCTION(tmp_called_name_10, tmp_args_name_9, tmp_kwargs_name_9);
         Py_DECREF(tmp_args_name_9);
         Py_DECREF(tmp_kwargs_name_9);
@@ -5355,7 +5247,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 125;
+            exception_lineno = 120;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
@@ -5366,13 +5258,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 125;
+            exception_lineno = 120;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
 
         tmp_assattr_target_10 = Nuitka_Cell_GET(par_self);
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_10, mod_consts[76], tmp_assattr_name_10);
+        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_10, mod_consts[71], tmp_assattr_name_10);
         Py_DECREF(tmp_assattr_name_10);
         if (tmp_result == false) {
             assert(ERROR_OCCURRED());
@@ -5380,14 +5272,14 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 125;
+            exception_lineno = 120;
             type_description_1 = "ccooo";
             goto frame_exception_exit_1;
         }
     }
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_5d164d98b33fb431bffc202941b27186);
+    RESTORE_FRAME_EXCEPTION(frame_8ddf848fe6dbb1f6e7e11e052de2b85a);
 #endif
 
     // Put the previous frame back on top.
@@ -5398,18 +5290,18 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
     frame_exception_exit_1:;
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_5d164d98b33fb431bffc202941b27186);
+    RESTORE_FRAME_EXCEPTION(frame_8ddf848fe6dbb1f6e7e11e052de2b85a);
 #endif
 
     if (exception_tb == NULL) {
-        exception_tb = MAKE_TRACEBACK(frame_5d164d98b33fb431bffc202941b27186, exception_lineno);
-    } else if (exception_tb->tb_frame != &frame_5d164d98b33fb431bffc202941b27186->m_frame) {
-        exception_tb = ADD_TRACEBACK(exception_tb, frame_5d164d98b33fb431bffc202941b27186, exception_lineno);
+        exception_tb = MAKE_TRACEBACK(frame_8ddf848fe6dbb1f6e7e11e052de2b85a, exception_lineno);
+    } else if (exception_tb->tb_frame != &frame_8ddf848fe6dbb1f6e7e11e052de2b85a->m_frame) {
+        exception_tb = ADD_TRACEBACK(exception_tb, frame_8ddf848fe6dbb1f6e7e11e052de2b85a, exception_lineno);
     }
 
     // Attaches locals to frame if any.
     Nuitka_Frame_AttachLocals(
-        frame_5d164d98b33fb431bffc202941b27186,
+        frame_8ddf848fe6dbb1f6e7e11e052de2b85a,
         type_description_1,
         par_self,
         var_positionArr,
@@ -5420,17 +5312,17 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition(struct
 
 
     // Release cached frame if used for exception.
-    if (frame_5d164d98b33fb431bffc202941b27186 == cache_frame_5d164d98b33fb431bffc202941b27186) {
+    if (frame_8ddf848fe6dbb1f6e7e11e052de2b85a == cache_frame_8ddf848fe6dbb1f6e7e11e052de2b85a) {
 #if _DEBUG_REFCOUNTS
         count_active_frame_cache_instances -= 1;
         count_released_frame_cache_instances += 1;
 #endif
 
-        Py_DECREF(cache_frame_5d164d98b33fb431bffc202941b27186);
-        cache_frame_5d164d98b33fb431bffc202941b27186 = NULL;
+        Py_DECREF(cache_frame_8ddf848fe6dbb1f6e7e11e052de2b85a);
+        cache_frame_8ddf848fe6dbb1f6e7e11e052de2b85a = NULL;
     }
 
-    assertFrameObject(frame_5d164d98b33fb431bffc202941b27186);
+    assertFrameObject(frame_8ddf848fe6dbb1f6e7e11e052de2b85a);
 
     // Put the previous frame back on top.
     popFrameStack();
@@ -5522,6 +5414,402 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 #endif
 
     // Local variable declarations.
+    struct Nuitka_FrameObject *frame_1a8592eb9c4b9d2ed8eaf1f876da7497;
+    NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
+    PyObject *tmp_return_value = NULL;
+    PyObject *exception_type = NULL;
+    PyObject *exception_value = NULL;
+    PyTracebackObject *exception_tb = NULL;
+    NUITKA_MAY_BE_UNUSED int exception_lineno = 0;
+    static struct Nuitka_FrameObject *cache_frame_1a8592eb9c4b9d2ed8eaf1f876da7497 = NULL;
+
+    // Actual function body.
+    if (isFrameUnusable(cache_frame_1a8592eb9c4b9d2ed8eaf1f876da7497)) {
+        Py_XDECREF(cache_frame_1a8592eb9c4b9d2ed8eaf1f876da7497);
+
+#if _DEBUG_REFCOUNTS
+        if (cache_frame_1a8592eb9c4b9d2ed8eaf1f876da7497 == NULL) {
+            count_active_frame_cache_instances += 1;
+        } else {
+            count_released_frame_cache_instances += 1;
+        }
+        count_allocated_frame_cache_instances += 1;
+#endif
+        cache_frame_1a8592eb9c4b9d2ed8eaf1f876da7497 = MAKE_FUNCTION_FRAME(codeobj_1a8592eb9c4b9d2ed8eaf1f876da7497, module_app$viwe, sizeof(void *)+sizeof(void *));
+#if _DEBUG_REFCOUNTS
+    } else {
+        count_hit_frame_cache_instances += 1;
+#endif
+    }
+    assert(cache_frame_1a8592eb9c4b9d2ed8eaf1f876da7497->m_type_description == NULL);
+    frame_1a8592eb9c4b9d2ed8eaf1f876da7497 = cache_frame_1a8592eb9c4b9d2ed8eaf1f876da7497;
+
+    // Push the new frame as the currently active one.
+    pushFrameStack(frame_1a8592eb9c4b9d2ed8eaf1f876da7497);
+
+    // Mark the frame object as in use, ref count 1 will be up for reuse.
+    assert(Py_REFCNT(frame_1a8592eb9c4b9d2ed8eaf1f876da7497) == 2); // Frame stack
+
+    // Framed code:
+    {
+        PyObject *tmp_called_name_1;
+        PyObject *tmp_expression_name_1;
+        PyObject *tmp_args_element_name_1;
+        PyObject *tmp_expression_name_2;
+        PyObject *tmp_subscript_name_1;
+        if (Nuitka_Cell_GET(self->m_closure[1]) == NULL) {
+
+            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[7]);
+            exception_tb = NULL;
+            NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
+            CHAIN_EXCEPTION(exception_value);
+
+            exception_lineno = 102;
+            type_description_1 = "cc";
+            goto frame_exception_exit_1;
+        }
+
+        tmp_expression_name_1 = Nuitka_Cell_GET(self->m_closure[1]);
+        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[99]);
+        if (tmp_called_name_1 == NULL) {
+            assert(ERROR_OCCURRED());
+
+            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 102;
+            type_description_1 = "cc";
+            goto frame_exception_exit_1;
+        }
+        if (Nuitka_Cell_GET(self->m_closure[0]) == NULL) {
+            Py_DECREF(tmp_called_name_1);
+            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[100]);
+            exception_tb = NULL;
+            NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
+            CHAIN_EXCEPTION(exception_value);
+
+            exception_lineno = 102;
+            type_description_1 = "cc";
+            goto frame_exception_exit_1;
+        }
+
+        tmp_expression_name_2 = Nuitka_Cell_GET(self->m_closure[0]);
+        tmp_subscript_name_1 = mod_consts[84];
+        tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 0);
+        if (tmp_args_element_name_1 == NULL) {
+            assert(ERROR_OCCURRED());
+
+            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
+            Py_DECREF(tmp_called_name_1);
+
+            exception_lineno = 102;
+            type_description_1 = "cc";
+            goto frame_exception_exit_1;
+        }
+        frame_1a8592eb9c4b9d2ed8eaf1f876da7497->m_frame.f_lineno = 102;
+        tmp_return_value = CALL_FUNCTION_WITH_SINGLE_ARG(tmp_called_name_1, tmp_args_element_name_1);
+        Py_DECREF(tmp_called_name_1);
+        Py_DECREF(tmp_args_element_name_1);
+        if (tmp_return_value == NULL) {
+            assert(ERROR_OCCURRED());
+
+            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 102;
+            type_description_1 = "cc";
+            goto frame_exception_exit_1;
+        }
+        goto frame_return_exit_1;
+    }
+
+#if 0
+    RESTORE_FRAME_EXCEPTION(frame_1a8592eb9c4b9d2ed8eaf1f876da7497);
+#endif
+
+    // Put the previous frame back on top.
+    popFrameStack();
+
+    goto frame_no_exception_1;
+
+    frame_return_exit_1:;
+#if 0
+    RESTORE_FRAME_EXCEPTION(frame_1a8592eb9c4b9d2ed8eaf1f876da7497);
+#endif
+
+    // Put the previous frame back on top.
+    popFrameStack();
+
+    goto function_return_exit;
+
+    frame_exception_exit_1:;
+
+#if 0
+    RESTORE_FRAME_EXCEPTION(frame_1a8592eb9c4b9d2ed8eaf1f876da7497);
+#endif
+
+    if (exception_tb == NULL) {
+        exception_tb = MAKE_TRACEBACK(frame_1a8592eb9c4b9d2ed8eaf1f876da7497, exception_lineno);
+    } else if (exception_tb->tb_frame != &frame_1a8592eb9c4b9d2ed8eaf1f876da7497->m_frame) {
+        exception_tb = ADD_TRACEBACK(exception_tb, frame_1a8592eb9c4b9d2ed8eaf1f876da7497, exception_lineno);
+    }
+
+    // Attaches locals to frame if any.
+    Nuitka_Frame_AttachLocals(
+        frame_1a8592eb9c4b9d2ed8eaf1f876da7497,
+        type_description_1,
+        self->m_closure[1],
+        self->m_closure[0]
+    );
+
+
+    // Release cached frame if used for exception.
+    if (frame_1a8592eb9c4b9d2ed8eaf1f876da7497 == cache_frame_1a8592eb9c4b9d2ed8eaf1f876da7497) {
+#if _DEBUG_REFCOUNTS
+        count_active_frame_cache_instances -= 1;
+        count_released_frame_cache_instances += 1;
+#endif
+
+        Py_DECREF(cache_frame_1a8592eb9c4b9d2ed8eaf1f876da7497);
+        cache_frame_1a8592eb9c4b9d2ed8eaf1f876da7497 = NULL;
+    }
+
+    assertFrameObject(frame_1a8592eb9c4b9d2ed8eaf1f876da7497);
+
+    // Put the previous frame back on top.
+    popFrameStack();
+
+    // Return the error.
+    goto function_exception_exit;
+
+    frame_no_exception_1:;
+
+    NUITKA_CANNOT_GET_HERE("Return statement must have exited already.");
+    return NULL;
+
+function_exception_exit:
+    assert(exception_type);
+    RESTORE_ERROR_OCCURRED(exception_type, exception_value, exception_tb);
+
+    return NULL;
+
+function_return_exit:
+   // Function cleanup code if any.
+
+
+   // Actual function exit with return value, making sure we did not make
+   // the error status worse despite non-NULL return.
+   CHECK_OBJECT(tmp_return_value);
+   assert(had_error || !ERROR_OCCURRED());
+   return tmp_return_value;
+}
+
+
+static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__2_lambda(struct Nuitka_FunctionObject const *self, PyObject **python_pars) {
+    // Preserve error status for checks
+#ifndef __NUITKA_NO_ASSERT__
+    NUITKA_MAY_BE_UNUSED bool had_error = ERROR_OCCURRED();
+#endif
+
+    // Local variable declarations.
+    struct Nuitka_FrameObject *frame_e7cdc9f5b2f8153609a24da34289592e;
+    NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
+    PyObject *tmp_return_value = NULL;
+    PyObject *exception_type = NULL;
+    PyObject *exception_value = NULL;
+    PyTracebackObject *exception_tb = NULL;
+    NUITKA_MAY_BE_UNUSED int exception_lineno = 0;
+    static struct Nuitka_FrameObject *cache_frame_e7cdc9f5b2f8153609a24da34289592e = NULL;
+
+    // Actual function body.
+    if (isFrameUnusable(cache_frame_e7cdc9f5b2f8153609a24da34289592e)) {
+        Py_XDECREF(cache_frame_e7cdc9f5b2f8153609a24da34289592e);
+
+#if _DEBUG_REFCOUNTS
+        if (cache_frame_e7cdc9f5b2f8153609a24da34289592e == NULL) {
+            count_active_frame_cache_instances += 1;
+        } else {
+            count_released_frame_cache_instances += 1;
+        }
+        count_allocated_frame_cache_instances += 1;
+#endif
+        cache_frame_e7cdc9f5b2f8153609a24da34289592e = MAKE_FUNCTION_FRAME(codeobj_e7cdc9f5b2f8153609a24da34289592e, module_app$viwe, sizeof(void *)+sizeof(void *));
+#if _DEBUG_REFCOUNTS
+    } else {
+        count_hit_frame_cache_instances += 1;
+#endif
+    }
+    assert(cache_frame_e7cdc9f5b2f8153609a24da34289592e->m_type_description == NULL);
+    frame_e7cdc9f5b2f8153609a24da34289592e = cache_frame_e7cdc9f5b2f8153609a24da34289592e;
+
+    // Push the new frame as the currently active one.
+    pushFrameStack(frame_e7cdc9f5b2f8153609a24da34289592e);
+
+    // Mark the frame object as in use, ref count 1 will be up for reuse.
+    assert(Py_REFCNT(frame_e7cdc9f5b2f8153609a24da34289592e) == 2); // Frame stack
+
+    // Framed code:
+    {
+        PyObject *tmp_called_name_1;
+        PyObject *tmp_expression_name_1;
+        PyObject *tmp_args_element_name_1;
+        PyObject *tmp_expression_name_2;
+        PyObject *tmp_subscript_name_1;
+        if (Nuitka_Cell_GET(self->m_closure[1]) == NULL) {
+
+            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[7]);
+            exception_tb = NULL;
+            NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
+            CHAIN_EXCEPTION(exception_value);
+
+            exception_lineno = 104;
+            type_description_1 = "cc";
+            goto frame_exception_exit_1;
+        }
+
+        tmp_expression_name_1 = Nuitka_Cell_GET(self->m_closure[1]);
+        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[99]);
+        if (tmp_called_name_1 == NULL) {
+            assert(ERROR_OCCURRED());
+
+            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 104;
+            type_description_1 = "cc";
+            goto frame_exception_exit_1;
+        }
+        if (Nuitka_Cell_GET(self->m_closure[0]) == NULL) {
+            Py_DECREF(tmp_called_name_1);
+            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[100]);
+            exception_tb = NULL;
+            NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
+            CHAIN_EXCEPTION(exception_value);
+
+            exception_lineno = 104;
+            type_description_1 = "cc";
+            goto frame_exception_exit_1;
+        }
+
+        tmp_expression_name_2 = Nuitka_Cell_GET(self->m_closure[0]);
+        tmp_subscript_name_1 = mod_consts[101];
+        tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 1);
+        if (tmp_args_element_name_1 == NULL) {
+            assert(ERROR_OCCURRED());
+
+            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
+            Py_DECREF(tmp_called_name_1);
+
+            exception_lineno = 104;
+            type_description_1 = "cc";
+            goto frame_exception_exit_1;
+        }
+        frame_e7cdc9f5b2f8153609a24da34289592e->m_frame.f_lineno = 104;
+        tmp_return_value = CALL_FUNCTION_WITH_SINGLE_ARG(tmp_called_name_1, tmp_args_element_name_1);
+        Py_DECREF(tmp_called_name_1);
+        Py_DECREF(tmp_args_element_name_1);
+        if (tmp_return_value == NULL) {
+            assert(ERROR_OCCURRED());
+
+            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
+
+
+            exception_lineno = 104;
+            type_description_1 = "cc";
+            goto frame_exception_exit_1;
+        }
+        goto frame_return_exit_1;
+    }
+
+#if 0
+    RESTORE_FRAME_EXCEPTION(frame_e7cdc9f5b2f8153609a24da34289592e);
+#endif
+
+    // Put the previous frame back on top.
+    popFrameStack();
+
+    goto frame_no_exception_1;
+
+    frame_return_exit_1:;
+#if 0
+    RESTORE_FRAME_EXCEPTION(frame_e7cdc9f5b2f8153609a24da34289592e);
+#endif
+
+    // Put the previous frame back on top.
+    popFrameStack();
+
+    goto function_return_exit;
+
+    frame_exception_exit_1:;
+
+#if 0
+    RESTORE_FRAME_EXCEPTION(frame_e7cdc9f5b2f8153609a24da34289592e);
+#endif
+
+    if (exception_tb == NULL) {
+        exception_tb = MAKE_TRACEBACK(frame_e7cdc9f5b2f8153609a24da34289592e, exception_lineno);
+    } else if (exception_tb->tb_frame != &frame_e7cdc9f5b2f8153609a24da34289592e->m_frame) {
+        exception_tb = ADD_TRACEBACK(exception_tb, frame_e7cdc9f5b2f8153609a24da34289592e, exception_lineno);
+    }
+
+    // Attaches locals to frame if any.
+    Nuitka_Frame_AttachLocals(
+        frame_e7cdc9f5b2f8153609a24da34289592e,
+        type_description_1,
+        self->m_closure[1],
+        self->m_closure[0]
+    );
+
+
+    // Release cached frame if used for exception.
+    if (frame_e7cdc9f5b2f8153609a24da34289592e == cache_frame_e7cdc9f5b2f8153609a24da34289592e) {
+#if _DEBUG_REFCOUNTS
+        count_active_frame_cache_instances -= 1;
+        count_released_frame_cache_instances += 1;
+#endif
+
+        Py_DECREF(cache_frame_e7cdc9f5b2f8153609a24da34289592e);
+        cache_frame_e7cdc9f5b2f8153609a24da34289592e = NULL;
+    }
+
+    assertFrameObject(frame_e7cdc9f5b2f8153609a24da34289592e);
+
+    // Put the previous frame back on top.
+    popFrameStack();
+
+    // Return the error.
+    goto function_exception_exit;
+
+    frame_no_exception_1:;
+
+    NUITKA_CANNOT_GET_HERE("Return statement must have exited already.");
+    return NULL;
+
+function_exception_exit:
+    assert(exception_type);
+    RESTORE_ERROR_OCCURRED(exception_type, exception_value, exception_tb);
+
+    return NULL;
+
+function_return_exit:
+   // Function cleanup code if any.
+
+
+   // Actual function exit with return value, making sure we did not make
+   // the error status worse despite non-NULL return.
+   CHECK_OBJECT(tmp_return_value);
+   assert(had_error || !ERROR_OCCURRED());
+   return tmp_return_value;
+}
+
+
+static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__3_lambda(struct Nuitka_FunctionObject const *self, PyObject **python_pars) {
+    // Preserve error status for checks
+#ifndef __NUITKA_NO_ASSERT__
+    NUITKA_MAY_BE_UNUSED bool had_error = ERROR_OCCURRED();
+#endif
+
+    // Local variable declarations.
     struct Nuitka_FrameObject *frame_8d5bd7fd102121dc1b2ad8bfb60d7935;
     NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
     PyObject *tmp_return_value = NULL;
@@ -5578,7 +5866,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
         }
 
         tmp_expression_name_1 = Nuitka_Cell_GET(self->m_closure[1]);
-        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[104]);
+        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[99]);
         if (tmp_called_name_1 == NULL) {
             assert(ERROR_OCCURRED());
 
@@ -5591,7 +5879,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
         }
         if (Nuitka_Cell_GET(self->m_closure[0]) == NULL) {
             Py_DECREF(tmp_called_name_1);
-            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[105]);
+            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[100]);
             exception_tb = NULL;
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
@@ -5602,8 +5890,8 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
         }
 
         tmp_expression_name_2 = Nuitka_Cell_GET(self->m_closure[0]);
-        tmp_subscript_name_1 = mod_consts[89];
-        tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 0);
+        tmp_subscript_name_1 = mod_consts[9];
+        tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 2);
         if (tmp_args_element_name_1 == NULL) {
             assert(ERROR_OCCURRED());
 
@@ -5713,48 +6001,48 @@ function_return_exit:
 }
 
 
-static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__2_lambda(struct Nuitka_FunctionObject const *self, PyObject **python_pars) {
+static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__4_lambda(struct Nuitka_FunctionObject const *self, PyObject **python_pars) {
     // Preserve error status for checks
 #ifndef __NUITKA_NO_ASSERT__
     NUITKA_MAY_BE_UNUSED bool had_error = ERROR_OCCURRED();
 #endif
 
     // Local variable declarations.
-    struct Nuitka_FrameObject *frame_adbbf26421d1380b4138894cfd52e5b4;
+    struct Nuitka_FrameObject *frame_a2709d73dbc910fb6cbc6a9a2a12dce9;
     NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
     PyObject *tmp_return_value = NULL;
     PyObject *exception_type = NULL;
     PyObject *exception_value = NULL;
     PyTracebackObject *exception_tb = NULL;
     NUITKA_MAY_BE_UNUSED int exception_lineno = 0;
-    static struct Nuitka_FrameObject *cache_frame_adbbf26421d1380b4138894cfd52e5b4 = NULL;
+    static struct Nuitka_FrameObject *cache_frame_a2709d73dbc910fb6cbc6a9a2a12dce9 = NULL;
 
     // Actual function body.
-    if (isFrameUnusable(cache_frame_adbbf26421d1380b4138894cfd52e5b4)) {
-        Py_XDECREF(cache_frame_adbbf26421d1380b4138894cfd52e5b4);
+    if (isFrameUnusable(cache_frame_a2709d73dbc910fb6cbc6a9a2a12dce9)) {
+        Py_XDECREF(cache_frame_a2709d73dbc910fb6cbc6a9a2a12dce9);
 
 #if _DEBUG_REFCOUNTS
-        if (cache_frame_adbbf26421d1380b4138894cfd52e5b4 == NULL) {
+        if (cache_frame_a2709d73dbc910fb6cbc6a9a2a12dce9 == NULL) {
             count_active_frame_cache_instances += 1;
         } else {
             count_released_frame_cache_instances += 1;
         }
         count_allocated_frame_cache_instances += 1;
 #endif
-        cache_frame_adbbf26421d1380b4138894cfd52e5b4 = MAKE_FUNCTION_FRAME(codeobj_adbbf26421d1380b4138894cfd52e5b4, module_app$viwe, sizeof(void *)+sizeof(void *));
+        cache_frame_a2709d73dbc910fb6cbc6a9a2a12dce9 = MAKE_FUNCTION_FRAME(codeobj_a2709d73dbc910fb6cbc6a9a2a12dce9, module_app$viwe, sizeof(void *)+sizeof(void *));
 #if _DEBUG_REFCOUNTS
     } else {
         count_hit_frame_cache_instances += 1;
 #endif
     }
-    assert(cache_frame_adbbf26421d1380b4138894cfd52e5b4->m_type_description == NULL);
-    frame_adbbf26421d1380b4138894cfd52e5b4 = cache_frame_adbbf26421d1380b4138894cfd52e5b4;
+    assert(cache_frame_a2709d73dbc910fb6cbc6a9a2a12dce9->m_type_description == NULL);
+    frame_a2709d73dbc910fb6cbc6a9a2a12dce9 = cache_frame_a2709d73dbc910fb6cbc6a9a2a12dce9;
 
     // Push the new frame as the currently active one.
-    pushFrameStack(frame_adbbf26421d1380b4138894cfd52e5b4);
+    pushFrameStack(frame_a2709d73dbc910fb6cbc6a9a2a12dce9);
 
     // Mark the frame object as in use, ref count 1 will be up for reuse.
-    assert(Py_REFCNT(frame_adbbf26421d1380b4138894cfd52e5b4) == 2); // Frame stack
+    assert(Py_REFCNT(frame_a2709d73dbc910fb6cbc6a9a2a12dce9) == 2); // Frame stack
 
     // Framed code:
     {
@@ -5770,49 +6058,49 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 109;
+            exception_lineno = 110;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_1 = Nuitka_Cell_GET(self->m_closure[1]);
-        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[104]);
+        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[99]);
         if (tmp_called_name_1 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 109;
+            exception_lineno = 110;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
         if (Nuitka_Cell_GET(self->m_closure[0]) == NULL) {
             Py_DECREF(tmp_called_name_1);
-            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[105]);
+            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[100]);
             exception_tb = NULL;
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 109;
+            exception_lineno = 110;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_2 = Nuitka_Cell_GET(self->m_closure[0]);
-        tmp_subscript_name_1 = mod_consts[106];
-        tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 1);
+        tmp_subscript_name_1 = mod_consts[87];
+        tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 3);
         if (tmp_args_element_name_1 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
             Py_DECREF(tmp_called_name_1);
 
-            exception_lineno = 109;
+            exception_lineno = 110;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
-        frame_adbbf26421d1380b4138894cfd52e5b4->m_frame.f_lineno = 109;
+        frame_a2709d73dbc910fb6cbc6a9a2a12dce9->m_frame.f_lineno = 110;
         tmp_return_value = CALL_FUNCTION_WITH_SINGLE_ARG(tmp_called_name_1, tmp_args_element_name_1);
         Py_DECREF(tmp_called_name_1);
         Py_DECREF(tmp_args_element_name_1);
@@ -5822,7 +6110,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 109;
+            exception_lineno = 110;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
@@ -5830,7 +6118,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
     }
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_adbbf26421d1380b4138894cfd52e5b4);
+    RESTORE_FRAME_EXCEPTION(frame_a2709d73dbc910fb6cbc6a9a2a12dce9);
 #endif
 
     // Put the previous frame back on top.
@@ -5840,7 +6128,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 
     frame_return_exit_1:;
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_adbbf26421d1380b4138894cfd52e5b4);
+    RESTORE_FRAME_EXCEPTION(frame_a2709d73dbc910fb6cbc6a9a2a12dce9);
 #endif
 
     // Put the previous frame back on top.
@@ -5851,18 +6139,18 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
     frame_exception_exit_1:;
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_adbbf26421d1380b4138894cfd52e5b4);
+    RESTORE_FRAME_EXCEPTION(frame_a2709d73dbc910fb6cbc6a9a2a12dce9);
 #endif
 
     if (exception_tb == NULL) {
-        exception_tb = MAKE_TRACEBACK(frame_adbbf26421d1380b4138894cfd52e5b4, exception_lineno);
-    } else if (exception_tb->tb_frame != &frame_adbbf26421d1380b4138894cfd52e5b4->m_frame) {
-        exception_tb = ADD_TRACEBACK(exception_tb, frame_adbbf26421d1380b4138894cfd52e5b4, exception_lineno);
+        exception_tb = MAKE_TRACEBACK(frame_a2709d73dbc910fb6cbc6a9a2a12dce9, exception_lineno);
+    } else if (exception_tb->tb_frame != &frame_a2709d73dbc910fb6cbc6a9a2a12dce9->m_frame) {
+        exception_tb = ADD_TRACEBACK(exception_tb, frame_a2709d73dbc910fb6cbc6a9a2a12dce9, exception_lineno);
     }
 
     // Attaches locals to frame if any.
     Nuitka_Frame_AttachLocals(
-        frame_adbbf26421d1380b4138894cfd52e5b4,
+        frame_a2709d73dbc910fb6cbc6a9a2a12dce9,
         type_description_1,
         self->m_closure[1],
         self->m_closure[0]
@@ -5870,17 +6158,17 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 
 
     // Release cached frame if used for exception.
-    if (frame_adbbf26421d1380b4138894cfd52e5b4 == cache_frame_adbbf26421d1380b4138894cfd52e5b4) {
+    if (frame_a2709d73dbc910fb6cbc6a9a2a12dce9 == cache_frame_a2709d73dbc910fb6cbc6a9a2a12dce9) {
 #if _DEBUG_REFCOUNTS
         count_active_frame_cache_instances -= 1;
         count_released_frame_cache_instances += 1;
 #endif
 
-        Py_DECREF(cache_frame_adbbf26421d1380b4138894cfd52e5b4);
-        cache_frame_adbbf26421d1380b4138894cfd52e5b4 = NULL;
+        Py_DECREF(cache_frame_a2709d73dbc910fb6cbc6a9a2a12dce9);
+        cache_frame_a2709d73dbc910fb6cbc6a9a2a12dce9 = NULL;
     }
 
-    assertFrameObject(frame_adbbf26421d1380b4138894cfd52e5b4);
+    assertFrameObject(frame_a2709d73dbc910fb6cbc6a9a2a12dce9);
 
     // Put the previous frame back on top.
     popFrameStack();
@@ -5911,7 +6199,7 @@ function_return_exit:
 }
 
 
-static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__3_lambda(struct Nuitka_FunctionObject const *self, PyObject **python_pars) {
+static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__5_lambda(struct Nuitka_FunctionObject const *self, PyObject **python_pars) {
     // Preserve error status for checks
 #ifndef __NUITKA_NO_ASSERT__
     NUITKA_MAY_BE_UNUSED bool had_error = ERROR_OCCURRED();
@@ -5974,7 +6262,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
         }
 
         tmp_expression_name_1 = Nuitka_Cell_GET(self->m_closure[1]);
-        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[104]);
+        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[99]);
         if (tmp_called_name_1 == NULL) {
             assert(ERROR_OCCURRED());
 
@@ -5987,7 +6275,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
         }
         if (Nuitka_Cell_GET(self->m_closure[0]) == NULL) {
             Py_DECREF(tmp_called_name_1);
-            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[105]);
+            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[100]);
             exception_tb = NULL;
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
@@ -5998,8 +6286,8 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
         }
 
         tmp_expression_name_2 = Nuitka_Cell_GET(self->m_closure[0]);
-        tmp_subscript_name_1 = mod_consts[9];
-        tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 2);
+        tmp_subscript_name_1 = mod_consts[102];
+        tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 4);
         if (tmp_args_element_name_1 == NULL) {
             assert(ERROR_OCCURRED());
 
@@ -6109,402 +6397,6 @@ function_return_exit:
 }
 
 
-static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__4_lambda(struct Nuitka_FunctionObject const *self, PyObject **python_pars) {
-    // Preserve error status for checks
-#ifndef __NUITKA_NO_ASSERT__
-    NUITKA_MAY_BE_UNUSED bool had_error = ERROR_OCCURRED();
-#endif
-
-    // Local variable declarations.
-    struct Nuitka_FrameObject *frame_614505bc8d139f8cb6b4c09fbd382d18;
-    NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
-    PyObject *tmp_return_value = NULL;
-    PyObject *exception_type = NULL;
-    PyObject *exception_value = NULL;
-    PyTracebackObject *exception_tb = NULL;
-    NUITKA_MAY_BE_UNUSED int exception_lineno = 0;
-    static struct Nuitka_FrameObject *cache_frame_614505bc8d139f8cb6b4c09fbd382d18 = NULL;
-
-    // Actual function body.
-    if (isFrameUnusable(cache_frame_614505bc8d139f8cb6b4c09fbd382d18)) {
-        Py_XDECREF(cache_frame_614505bc8d139f8cb6b4c09fbd382d18);
-
-#if _DEBUG_REFCOUNTS
-        if (cache_frame_614505bc8d139f8cb6b4c09fbd382d18 == NULL) {
-            count_active_frame_cache_instances += 1;
-        } else {
-            count_released_frame_cache_instances += 1;
-        }
-        count_allocated_frame_cache_instances += 1;
-#endif
-        cache_frame_614505bc8d139f8cb6b4c09fbd382d18 = MAKE_FUNCTION_FRAME(codeobj_614505bc8d139f8cb6b4c09fbd382d18, module_app$viwe, sizeof(void *)+sizeof(void *));
-#if _DEBUG_REFCOUNTS
-    } else {
-        count_hit_frame_cache_instances += 1;
-#endif
-    }
-    assert(cache_frame_614505bc8d139f8cb6b4c09fbd382d18->m_type_description == NULL);
-    frame_614505bc8d139f8cb6b4c09fbd382d18 = cache_frame_614505bc8d139f8cb6b4c09fbd382d18;
-
-    // Push the new frame as the currently active one.
-    pushFrameStack(frame_614505bc8d139f8cb6b4c09fbd382d18);
-
-    // Mark the frame object as in use, ref count 1 will be up for reuse.
-    assert(Py_REFCNT(frame_614505bc8d139f8cb6b4c09fbd382d18) == 2); // Frame stack
-
-    // Framed code:
-    {
-        PyObject *tmp_called_name_1;
-        PyObject *tmp_expression_name_1;
-        PyObject *tmp_args_element_name_1;
-        PyObject *tmp_expression_name_2;
-        PyObject *tmp_subscript_name_1;
-        if (Nuitka_Cell_GET(self->m_closure[1]) == NULL) {
-
-            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[7]);
-            exception_tb = NULL;
-            NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
-            CHAIN_EXCEPTION(exception_value);
-
-            exception_lineno = 115;
-            type_description_1 = "cc";
-            goto frame_exception_exit_1;
-        }
-
-        tmp_expression_name_1 = Nuitka_Cell_GET(self->m_closure[1]);
-        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[104]);
-        if (tmp_called_name_1 == NULL) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-
-
-            exception_lineno = 115;
-            type_description_1 = "cc";
-            goto frame_exception_exit_1;
-        }
-        if (Nuitka_Cell_GET(self->m_closure[0]) == NULL) {
-            Py_DECREF(tmp_called_name_1);
-            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[105]);
-            exception_tb = NULL;
-            NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
-            CHAIN_EXCEPTION(exception_value);
-
-            exception_lineno = 115;
-            type_description_1 = "cc";
-            goto frame_exception_exit_1;
-        }
-
-        tmp_expression_name_2 = Nuitka_Cell_GET(self->m_closure[0]);
-        tmp_subscript_name_1 = mod_consts[92];
-        tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 3);
-        if (tmp_args_element_name_1 == NULL) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-            Py_DECREF(tmp_called_name_1);
-
-            exception_lineno = 115;
-            type_description_1 = "cc";
-            goto frame_exception_exit_1;
-        }
-        frame_614505bc8d139f8cb6b4c09fbd382d18->m_frame.f_lineno = 115;
-        tmp_return_value = CALL_FUNCTION_WITH_SINGLE_ARG(tmp_called_name_1, tmp_args_element_name_1);
-        Py_DECREF(tmp_called_name_1);
-        Py_DECREF(tmp_args_element_name_1);
-        if (tmp_return_value == NULL) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-
-
-            exception_lineno = 115;
-            type_description_1 = "cc";
-            goto frame_exception_exit_1;
-        }
-        goto frame_return_exit_1;
-    }
-
-#if 0
-    RESTORE_FRAME_EXCEPTION(frame_614505bc8d139f8cb6b4c09fbd382d18);
-#endif
-
-    // Put the previous frame back on top.
-    popFrameStack();
-
-    goto frame_no_exception_1;
-
-    frame_return_exit_1:;
-#if 0
-    RESTORE_FRAME_EXCEPTION(frame_614505bc8d139f8cb6b4c09fbd382d18);
-#endif
-
-    // Put the previous frame back on top.
-    popFrameStack();
-
-    goto function_return_exit;
-
-    frame_exception_exit_1:;
-
-#if 0
-    RESTORE_FRAME_EXCEPTION(frame_614505bc8d139f8cb6b4c09fbd382d18);
-#endif
-
-    if (exception_tb == NULL) {
-        exception_tb = MAKE_TRACEBACK(frame_614505bc8d139f8cb6b4c09fbd382d18, exception_lineno);
-    } else if (exception_tb->tb_frame != &frame_614505bc8d139f8cb6b4c09fbd382d18->m_frame) {
-        exception_tb = ADD_TRACEBACK(exception_tb, frame_614505bc8d139f8cb6b4c09fbd382d18, exception_lineno);
-    }
-
-    // Attaches locals to frame if any.
-    Nuitka_Frame_AttachLocals(
-        frame_614505bc8d139f8cb6b4c09fbd382d18,
-        type_description_1,
-        self->m_closure[1],
-        self->m_closure[0]
-    );
-
-
-    // Release cached frame if used for exception.
-    if (frame_614505bc8d139f8cb6b4c09fbd382d18 == cache_frame_614505bc8d139f8cb6b4c09fbd382d18) {
-#if _DEBUG_REFCOUNTS
-        count_active_frame_cache_instances -= 1;
-        count_released_frame_cache_instances += 1;
-#endif
-
-        Py_DECREF(cache_frame_614505bc8d139f8cb6b4c09fbd382d18);
-        cache_frame_614505bc8d139f8cb6b4c09fbd382d18 = NULL;
-    }
-
-    assertFrameObject(frame_614505bc8d139f8cb6b4c09fbd382d18);
-
-    // Put the previous frame back on top.
-    popFrameStack();
-
-    // Return the error.
-    goto function_exception_exit;
-
-    frame_no_exception_1:;
-
-    NUITKA_CANNOT_GET_HERE("Return statement must have exited already.");
-    return NULL;
-
-function_exception_exit:
-    assert(exception_type);
-    RESTORE_ERROR_OCCURRED(exception_type, exception_value, exception_tb);
-
-    return NULL;
-
-function_return_exit:
-   // Function cleanup code if any.
-
-
-   // Actual function exit with return value, making sure we did not make
-   // the error status worse despite non-NULL return.
-   CHECK_OBJECT(tmp_return_value);
-   assert(had_error || !ERROR_OCCURRED());
-   return tmp_return_value;
-}
-
-
-static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__5_lambda(struct Nuitka_FunctionObject const *self, PyObject **python_pars) {
-    // Preserve error status for checks
-#ifndef __NUITKA_NO_ASSERT__
-    NUITKA_MAY_BE_UNUSED bool had_error = ERROR_OCCURRED();
-#endif
-
-    // Local variable declarations.
-    struct Nuitka_FrameObject *frame_84851f2814f653563b55815c1ed21855;
-    NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
-    PyObject *tmp_return_value = NULL;
-    PyObject *exception_type = NULL;
-    PyObject *exception_value = NULL;
-    PyTracebackObject *exception_tb = NULL;
-    NUITKA_MAY_BE_UNUSED int exception_lineno = 0;
-    static struct Nuitka_FrameObject *cache_frame_84851f2814f653563b55815c1ed21855 = NULL;
-
-    // Actual function body.
-    if (isFrameUnusable(cache_frame_84851f2814f653563b55815c1ed21855)) {
-        Py_XDECREF(cache_frame_84851f2814f653563b55815c1ed21855);
-
-#if _DEBUG_REFCOUNTS
-        if (cache_frame_84851f2814f653563b55815c1ed21855 == NULL) {
-            count_active_frame_cache_instances += 1;
-        } else {
-            count_released_frame_cache_instances += 1;
-        }
-        count_allocated_frame_cache_instances += 1;
-#endif
-        cache_frame_84851f2814f653563b55815c1ed21855 = MAKE_FUNCTION_FRAME(codeobj_84851f2814f653563b55815c1ed21855, module_app$viwe, sizeof(void *)+sizeof(void *));
-#if _DEBUG_REFCOUNTS
-    } else {
-        count_hit_frame_cache_instances += 1;
-#endif
-    }
-    assert(cache_frame_84851f2814f653563b55815c1ed21855->m_type_description == NULL);
-    frame_84851f2814f653563b55815c1ed21855 = cache_frame_84851f2814f653563b55815c1ed21855;
-
-    // Push the new frame as the currently active one.
-    pushFrameStack(frame_84851f2814f653563b55815c1ed21855);
-
-    // Mark the frame object as in use, ref count 1 will be up for reuse.
-    assert(Py_REFCNT(frame_84851f2814f653563b55815c1ed21855) == 2); // Frame stack
-
-    // Framed code:
-    {
-        PyObject *tmp_called_name_1;
-        PyObject *tmp_expression_name_1;
-        PyObject *tmp_args_element_name_1;
-        PyObject *tmp_expression_name_2;
-        PyObject *tmp_subscript_name_1;
-        if (Nuitka_Cell_GET(self->m_closure[1]) == NULL) {
-
-            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[7]);
-            exception_tb = NULL;
-            NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
-            CHAIN_EXCEPTION(exception_value);
-
-            exception_lineno = 117;
-            type_description_1 = "cc";
-            goto frame_exception_exit_1;
-        }
-
-        tmp_expression_name_1 = Nuitka_Cell_GET(self->m_closure[1]);
-        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[104]);
-        if (tmp_called_name_1 == NULL) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-
-
-            exception_lineno = 117;
-            type_description_1 = "cc";
-            goto frame_exception_exit_1;
-        }
-        if (Nuitka_Cell_GET(self->m_closure[0]) == NULL) {
-            Py_DECREF(tmp_called_name_1);
-            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[105]);
-            exception_tb = NULL;
-            NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
-            CHAIN_EXCEPTION(exception_value);
-
-            exception_lineno = 117;
-            type_description_1 = "cc";
-            goto frame_exception_exit_1;
-        }
-
-        tmp_expression_name_2 = Nuitka_Cell_GET(self->m_closure[0]);
-        tmp_subscript_name_1 = mod_consts[107];
-        tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 4);
-        if (tmp_args_element_name_1 == NULL) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-            Py_DECREF(tmp_called_name_1);
-
-            exception_lineno = 117;
-            type_description_1 = "cc";
-            goto frame_exception_exit_1;
-        }
-        frame_84851f2814f653563b55815c1ed21855->m_frame.f_lineno = 117;
-        tmp_return_value = CALL_FUNCTION_WITH_SINGLE_ARG(tmp_called_name_1, tmp_args_element_name_1);
-        Py_DECREF(tmp_called_name_1);
-        Py_DECREF(tmp_args_element_name_1);
-        if (tmp_return_value == NULL) {
-            assert(ERROR_OCCURRED());
-
-            FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
-
-
-            exception_lineno = 117;
-            type_description_1 = "cc";
-            goto frame_exception_exit_1;
-        }
-        goto frame_return_exit_1;
-    }
-
-#if 0
-    RESTORE_FRAME_EXCEPTION(frame_84851f2814f653563b55815c1ed21855);
-#endif
-
-    // Put the previous frame back on top.
-    popFrameStack();
-
-    goto frame_no_exception_1;
-
-    frame_return_exit_1:;
-#if 0
-    RESTORE_FRAME_EXCEPTION(frame_84851f2814f653563b55815c1ed21855);
-#endif
-
-    // Put the previous frame back on top.
-    popFrameStack();
-
-    goto function_return_exit;
-
-    frame_exception_exit_1:;
-
-#if 0
-    RESTORE_FRAME_EXCEPTION(frame_84851f2814f653563b55815c1ed21855);
-#endif
-
-    if (exception_tb == NULL) {
-        exception_tb = MAKE_TRACEBACK(frame_84851f2814f653563b55815c1ed21855, exception_lineno);
-    } else if (exception_tb->tb_frame != &frame_84851f2814f653563b55815c1ed21855->m_frame) {
-        exception_tb = ADD_TRACEBACK(exception_tb, frame_84851f2814f653563b55815c1ed21855, exception_lineno);
-    }
-
-    // Attaches locals to frame if any.
-    Nuitka_Frame_AttachLocals(
-        frame_84851f2814f653563b55815c1ed21855,
-        type_description_1,
-        self->m_closure[1],
-        self->m_closure[0]
-    );
-
-
-    // Release cached frame if used for exception.
-    if (frame_84851f2814f653563b55815c1ed21855 == cache_frame_84851f2814f653563b55815c1ed21855) {
-#if _DEBUG_REFCOUNTS
-        count_active_frame_cache_instances -= 1;
-        count_released_frame_cache_instances += 1;
-#endif
-
-        Py_DECREF(cache_frame_84851f2814f653563b55815c1ed21855);
-        cache_frame_84851f2814f653563b55815c1ed21855 = NULL;
-    }
-
-    assertFrameObject(frame_84851f2814f653563b55815c1ed21855);
-
-    // Put the previous frame back on top.
-    popFrameStack();
-
-    // Return the error.
-    goto function_exception_exit;
-
-    frame_no_exception_1:;
-
-    NUITKA_CANNOT_GET_HERE("Return statement must have exited already.");
-    return NULL;
-
-function_exception_exit:
-    assert(exception_type);
-    RESTORE_ERROR_OCCURRED(exception_type, exception_value, exception_tb);
-
-    return NULL;
-
-function_return_exit:
-   // Function cleanup code if any.
-
-
-   // Actual function exit with return value, making sure we did not make
-   // the error status worse despite non-NULL return.
-   CHECK_OBJECT(tmp_return_value);
-   assert(had_error || !ERROR_OCCURRED());
-   return tmp_return_value;
-}
-
-
 static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__6_lambda(struct Nuitka_FunctionObject const *self, PyObject **python_pars) {
     // Preserve error status for checks
 #ifndef __NUITKA_NO_ASSERT__
@@ -6512,41 +6404,41 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 #endif
 
     // Local variable declarations.
-    struct Nuitka_FrameObject *frame_d64fc8d7e62058d5cfbfa2d9655d559d;
+    struct Nuitka_FrameObject *frame_81591cdc31759b3b177699f1879dbad3;
     NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
     PyObject *tmp_return_value = NULL;
     PyObject *exception_type = NULL;
     PyObject *exception_value = NULL;
     PyTracebackObject *exception_tb = NULL;
     NUITKA_MAY_BE_UNUSED int exception_lineno = 0;
-    static struct Nuitka_FrameObject *cache_frame_d64fc8d7e62058d5cfbfa2d9655d559d = NULL;
+    static struct Nuitka_FrameObject *cache_frame_81591cdc31759b3b177699f1879dbad3 = NULL;
 
     // Actual function body.
-    if (isFrameUnusable(cache_frame_d64fc8d7e62058d5cfbfa2d9655d559d)) {
-        Py_XDECREF(cache_frame_d64fc8d7e62058d5cfbfa2d9655d559d);
+    if (isFrameUnusable(cache_frame_81591cdc31759b3b177699f1879dbad3)) {
+        Py_XDECREF(cache_frame_81591cdc31759b3b177699f1879dbad3);
 
 #if _DEBUG_REFCOUNTS
-        if (cache_frame_d64fc8d7e62058d5cfbfa2d9655d559d == NULL) {
+        if (cache_frame_81591cdc31759b3b177699f1879dbad3 == NULL) {
             count_active_frame_cache_instances += 1;
         } else {
             count_released_frame_cache_instances += 1;
         }
         count_allocated_frame_cache_instances += 1;
 #endif
-        cache_frame_d64fc8d7e62058d5cfbfa2d9655d559d = MAKE_FUNCTION_FRAME(codeobj_d64fc8d7e62058d5cfbfa2d9655d559d, module_app$viwe, sizeof(void *)+sizeof(void *));
+        cache_frame_81591cdc31759b3b177699f1879dbad3 = MAKE_FUNCTION_FRAME(codeobj_81591cdc31759b3b177699f1879dbad3, module_app$viwe, sizeof(void *)+sizeof(void *));
 #if _DEBUG_REFCOUNTS
     } else {
         count_hit_frame_cache_instances += 1;
 #endif
     }
-    assert(cache_frame_d64fc8d7e62058d5cfbfa2d9655d559d->m_type_description == NULL);
-    frame_d64fc8d7e62058d5cfbfa2d9655d559d = cache_frame_d64fc8d7e62058d5cfbfa2d9655d559d;
+    assert(cache_frame_81591cdc31759b3b177699f1879dbad3->m_type_description == NULL);
+    frame_81591cdc31759b3b177699f1879dbad3 = cache_frame_81591cdc31759b3b177699f1879dbad3;
 
     // Push the new frame as the currently active one.
-    pushFrameStack(frame_d64fc8d7e62058d5cfbfa2d9655d559d);
+    pushFrameStack(frame_81591cdc31759b3b177699f1879dbad3);
 
     // Mark the frame object as in use, ref count 1 will be up for reuse.
-    assert(Py_REFCNT(frame_d64fc8d7e62058d5cfbfa2d9655d559d) == 2); // Frame stack
+    assert(Py_REFCNT(frame_81591cdc31759b3b177699f1879dbad3) == 2); // Frame stack
 
     // Framed code:
     {
@@ -6562,37 +6454,37 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 119;
+            exception_lineno = 114;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_1 = Nuitka_Cell_GET(self->m_closure[1]);
-        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[104]);
+        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[99]);
         if (tmp_called_name_1 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 119;
+            exception_lineno = 114;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
         if (Nuitka_Cell_GET(self->m_closure[0]) == NULL) {
             Py_DECREF(tmp_called_name_1);
-            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[105]);
+            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[100]);
             exception_tb = NULL;
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 119;
+            exception_lineno = 114;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_2 = Nuitka_Cell_GET(self->m_closure[0]);
-        tmp_subscript_name_1 = mod_consts[108];
+        tmp_subscript_name_1 = mod_consts[103];
         tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 5);
         if (tmp_args_element_name_1 == NULL) {
             assert(ERROR_OCCURRED());
@@ -6600,11 +6492,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
             Py_DECREF(tmp_called_name_1);
 
-            exception_lineno = 119;
+            exception_lineno = 114;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
-        frame_d64fc8d7e62058d5cfbfa2d9655d559d->m_frame.f_lineno = 119;
+        frame_81591cdc31759b3b177699f1879dbad3->m_frame.f_lineno = 114;
         tmp_return_value = CALL_FUNCTION_WITH_SINGLE_ARG(tmp_called_name_1, tmp_args_element_name_1);
         Py_DECREF(tmp_called_name_1);
         Py_DECREF(tmp_args_element_name_1);
@@ -6614,7 +6506,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 119;
+            exception_lineno = 114;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
@@ -6622,7 +6514,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
     }
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_d64fc8d7e62058d5cfbfa2d9655d559d);
+    RESTORE_FRAME_EXCEPTION(frame_81591cdc31759b3b177699f1879dbad3);
 #endif
 
     // Put the previous frame back on top.
@@ -6632,7 +6524,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 
     frame_return_exit_1:;
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_d64fc8d7e62058d5cfbfa2d9655d559d);
+    RESTORE_FRAME_EXCEPTION(frame_81591cdc31759b3b177699f1879dbad3);
 #endif
 
     // Put the previous frame back on top.
@@ -6643,18 +6535,18 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
     frame_exception_exit_1:;
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_d64fc8d7e62058d5cfbfa2d9655d559d);
+    RESTORE_FRAME_EXCEPTION(frame_81591cdc31759b3b177699f1879dbad3);
 #endif
 
     if (exception_tb == NULL) {
-        exception_tb = MAKE_TRACEBACK(frame_d64fc8d7e62058d5cfbfa2d9655d559d, exception_lineno);
-    } else if (exception_tb->tb_frame != &frame_d64fc8d7e62058d5cfbfa2d9655d559d->m_frame) {
-        exception_tb = ADD_TRACEBACK(exception_tb, frame_d64fc8d7e62058d5cfbfa2d9655d559d, exception_lineno);
+        exception_tb = MAKE_TRACEBACK(frame_81591cdc31759b3b177699f1879dbad3, exception_lineno);
+    } else if (exception_tb->tb_frame != &frame_81591cdc31759b3b177699f1879dbad3->m_frame) {
+        exception_tb = ADD_TRACEBACK(exception_tb, frame_81591cdc31759b3b177699f1879dbad3, exception_lineno);
     }
 
     // Attaches locals to frame if any.
     Nuitka_Frame_AttachLocals(
-        frame_d64fc8d7e62058d5cfbfa2d9655d559d,
+        frame_81591cdc31759b3b177699f1879dbad3,
         type_description_1,
         self->m_closure[1],
         self->m_closure[0]
@@ -6662,17 +6554,17 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 
 
     // Release cached frame if used for exception.
-    if (frame_d64fc8d7e62058d5cfbfa2d9655d559d == cache_frame_d64fc8d7e62058d5cfbfa2d9655d559d) {
+    if (frame_81591cdc31759b3b177699f1879dbad3 == cache_frame_81591cdc31759b3b177699f1879dbad3) {
 #if _DEBUG_REFCOUNTS
         count_active_frame_cache_instances -= 1;
         count_released_frame_cache_instances += 1;
 #endif
 
-        Py_DECREF(cache_frame_d64fc8d7e62058d5cfbfa2d9655d559d);
-        cache_frame_d64fc8d7e62058d5cfbfa2d9655d559d = NULL;
+        Py_DECREF(cache_frame_81591cdc31759b3b177699f1879dbad3);
+        cache_frame_81591cdc31759b3b177699f1879dbad3 = NULL;
     }
 
-    assertFrameObject(frame_d64fc8d7e62058d5cfbfa2d9655d559d);
+    assertFrameObject(frame_81591cdc31759b3b177699f1879dbad3);
 
     // Put the previous frame back on top.
     popFrameStack();
@@ -6710,41 +6602,41 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 #endif
 
     // Local variable declarations.
-    struct Nuitka_FrameObject *frame_92cca0ee7a16242bd52de0e878c74272;
+    struct Nuitka_FrameObject *frame_c48f296632502bbb1b2ba67f0e816f6f;
     NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
     PyObject *tmp_return_value = NULL;
     PyObject *exception_type = NULL;
     PyObject *exception_value = NULL;
     PyTracebackObject *exception_tb = NULL;
     NUITKA_MAY_BE_UNUSED int exception_lineno = 0;
-    static struct Nuitka_FrameObject *cache_frame_92cca0ee7a16242bd52de0e878c74272 = NULL;
+    static struct Nuitka_FrameObject *cache_frame_c48f296632502bbb1b2ba67f0e816f6f = NULL;
 
     // Actual function body.
-    if (isFrameUnusable(cache_frame_92cca0ee7a16242bd52de0e878c74272)) {
-        Py_XDECREF(cache_frame_92cca0ee7a16242bd52de0e878c74272);
+    if (isFrameUnusable(cache_frame_c48f296632502bbb1b2ba67f0e816f6f)) {
+        Py_XDECREF(cache_frame_c48f296632502bbb1b2ba67f0e816f6f);
 
 #if _DEBUG_REFCOUNTS
-        if (cache_frame_92cca0ee7a16242bd52de0e878c74272 == NULL) {
+        if (cache_frame_c48f296632502bbb1b2ba67f0e816f6f == NULL) {
             count_active_frame_cache_instances += 1;
         } else {
             count_released_frame_cache_instances += 1;
         }
         count_allocated_frame_cache_instances += 1;
 #endif
-        cache_frame_92cca0ee7a16242bd52de0e878c74272 = MAKE_FUNCTION_FRAME(codeobj_92cca0ee7a16242bd52de0e878c74272, module_app$viwe, sizeof(void *)+sizeof(void *));
+        cache_frame_c48f296632502bbb1b2ba67f0e816f6f = MAKE_FUNCTION_FRAME(codeobj_c48f296632502bbb1b2ba67f0e816f6f, module_app$viwe, sizeof(void *)+sizeof(void *));
 #if _DEBUG_REFCOUNTS
     } else {
         count_hit_frame_cache_instances += 1;
 #endif
     }
-    assert(cache_frame_92cca0ee7a16242bd52de0e878c74272->m_type_description == NULL);
-    frame_92cca0ee7a16242bd52de0e878c74272 = cache_frame_92cca0ee7a16242bd52de0e878c74272;
+    assert(cache_frame_c48f296632502bbb1b2ba67f0e816f6f->m_type_description == NULL);
+    frame_c48f296632502bbb1b2ba67f0e816f6f = cache_frame_c48f296632502bbb1b2ba67f0e816f6f;
 
     // Push the new frame as the currently active one.
-    pushFrameStack(frame_92cca0ee7a16242bd52de0e878c74272);
+    pushFrameStack(frame_c48f296632502bbb1b2ba67f0e816f6f);
 
     // Mark the frame object as in use, ref count 1 will be up for reuse.
-    assert(Py_REFCNT(frame_92cca0ee7a16242bd52de0e878c74272) == 2); // Frame stack
+    assert(Py_REFCNT(frame_c48f296632502bbb1b2ba67f0e816f6f) == 2); // Frame stack
 
     // Framed code:
     {
@@ -6760,37 +6652,37 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 121;
+            exception_lineno = 116;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_1 = Nuitka_Cell_GET(self->m_closure[1]);
-        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[104]);
+        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[99]);
         if (tmp_called_name_1 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 121;
+            exception_lineno = 116;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
         if (Nuitka_Cell_GET(self->m_closure[0]) == NULL) {
             Py_DECREF(tmp_called_name_1);
-            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[105]);
+            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[100]);
             exception_tb = NULL;
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 121;
+            exception_lineno = 116;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_2 = Nuitka_Cell_GET(self->m_closure[0]);
-        tmp_subscript_name_1 = mod_consts[93];
+        tmp_subscript_name_1 = mod_consts[88];
         tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 6);
         if (tmp_args_element_name_1 == NULL) {
             assert(ERROR_OCCURRED());
@@ -6798,11 +6690,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
             Py_DECREF(tmp_called_name_1);
 
-            exception_lineno = 121;
+            exception_lineno = 116;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
-        frame_92cca0ee7a16242bd52de0e878c74272->m_frame.f_lineno = 121;
+        frame_c48f296632502bbb1b2ba67f0e816f6f->m_frame.f_lineno = 116;
         tmp_return_value = CALL_FUNCTION_WITH_SINGLE_ARG(tmp_called_name_1, tmp_args_element_name_1);
         Py_DECREF(tmp_called_name_1);
         Py_DECREF(tmp_args_element_name_1);
@@ -6812,7 +6704,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 121;
+            exception_lineno = 116;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
@@ -6820,7 +6712,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
     }
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_92cca0ee7a16242bd52de0e878c74272);
+    RESTORE_FRAME_EXCEPTION(frame_c48f296632502bbb1b2ba67f0e816f6f);
 #endif
 
     // Put the previous frame back on top.
@@ -6830,7 +6722,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 
     frame_return_exit_1:;
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_92cca0ee7a16242bd52de0e878c74272);
+    RESTORE_FRAME_EXCEPTION(frame_c48f296632502bbb1b2ba67f0e816f6f);
 #endif
 
     // Put the previous frame back on top.
@@ -6841,18 +6733,18 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
     frame_exception_exit_1:;
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_92cca0ee7a16242bd52de0e878c74272);
+    RESTORE_FRAME_EXCEPTION(frame_c48f296632502bbb1b2ba67f0e816f6f);
 #endif
 
     if (exception_tb == NULL) {
-        exception_tb = MAKE_TRACEBACK(frame_92cca0ee7a16242bd52de0e878c74272, exception_lineno);
-    } else if (exception_tb->tb_frame != &frame_92cca0ee7a16242bd52de0e878c74272->m_frame) {
-        exception_tb = ADD_TRACEBACK(exception_tb, frame_92cca0ee7a16242bd52de0e878c74272, exception_lineno);
+        exception_tb = MAKE_TRACEBACK(frame_c48f296632502bbb1b2ba67f0e816f6f, exception_lineno);
+    } else if (exception_tb->tb_frame != &frame_c48f296632502bbb1b2ba67f0e816f6f->m_frame) {
+        exception_tb = ADD_TRACEBACK(exception_tb, frame_c48f296632502bbb1b2ba67f0e816f6f, exception_lineno);
     }
 
     // Attaches locals to frame if any.
     Nuitka_Frame_AttachLocals(
-        frame_92cca0ee7a16242bd52de0e878c74272,
+        frame_c48f296632502bbb1b2ba67f0e816f6f,
         type_description_1,
         self->m_closure[1],
         self->m_closure[0]
@@ -6860,17 +6752,17 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 
 
     // Release cached frame if used for exception.
-    if (frame_92cca0ee7a16242bd52de0e878c74272 == cache_frame_92cca0ee7a16242bd52de0e878c74272) {
+    if (frame_c48f296632502bbb1b2ba67f0e816f6f == cache_frame_c48f296632502bbb1b2ba67f0e816f6f) {
 #if _DEBUG_REFCOUNTS
         count_active_frame_cache_instances -= 1;
         count_released_frame_cache_instances += 1;
 #endif
 
-        Py_DECREF(cache_frame_92cca0ee7a16242bd52de0e878c74272);
-        cache_frame_92cca0ee7a16242bd52de0e878c74272 = NULL;
+        Py_DECREF(cache_frame_c48f296632502bbb1b2ba67f0e816f6f);
+        cache_frame_c48f296632502bbb1b2ba67f0e816f6f = NULL;
     }
 
-    assertFrameObject(frame_92cca0ee7a16242bd52de0e878c74272);
+    assertFrameObject(frame_c48f296632502bbb1b2ba67f0e816f6f);
 
     // Put the previous frame back on top.
     popFrameStack();
@@ -6908,41 +6800,41 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 #endif
 
     // Local variable declarations.
-    struct Nuitka_FrameObject *frame_cf15cfcff13dab2892ae6d644049c048;
+    struct Nuitka_FrameObject *frame_31c00271018a1c90138bf596ddb6a9e8;
     NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
     PyObject *tmp_return_value = NULL;
     PyObject *exception_type = NULL;
     PyObject *exception_value = NULL;
     PyTracebackObject *exception_tb = NULL;
     NUITKA_MAY_BE_UNUSED int exception_lineno = 0;
-    static struct Nuitka_FrameObject *cache_frame_cf15cfcff13dab2892ae6d644049c048 = NULL;
+    static struct Nuitka_FrameObject *cache_frame_31c00271018a1c90138bf596ddb6a9e8 = NULL;
 
     // Actual function body.
-    if (isFrameUnusable(cache_frame_cf15cfcff13dab2892ae6d644049c048)) {
-        Py_XDECREF(cache_frame_cf15cfcff13dab2892ae6d644049c048);
+    if (isFrameUnusable(cache_frame_31c00271018a1c90138bf596ddb6a9e8)) {
+        Py_XDECREF(cache_frame_31c00271018a1c90138bf596ddb6a9e8);
 
 #if _DEBUG_REFCOUNTS
-        if (cache_frame_cf15cfcff13dab2892ae6d644049c048 == NULL) {
+        if (cache_frame_31c00271018a1c90138bf596ddb6a9e8 == NULL) {
             count_active_frame_cache_instances += 1;
         } else {
             count_released_frame_cache_instances += 1;
         }
         count_allocated_frame_cache_instances += 1;
 #endif
-        cache_frame_cf15cfcff13dab2892ae6d644049c048 = MAKE_FUNCTION_FRAME(codeobj_cf15cfcff13dab2892ae6d644049c048, module_app$viwe, sizeof(void *)+sizeof(void *));
+        cache_frame_31c00271018a1c90138bf596ddb6a9e8 = MAKE_FUNCTION_FRAME(codeobj_31c00271018a1c90138bf596ddb6a9e8, module_app$viwe, sizeof(void *)+sizeof(void *));
 #if _DEBUG_REFCOUNTS
     } else {
         count_hit_frame_cache_instances += 1;
 #endif
     }
-    assert(cache_frame_cf15cfcff13dab2892ae6d644049c048->m_type_description == NULL);
-    frame_cf15cfcff13dab2892ae6d644049c048 = cache_frame_cf15cfcff13dab2892ae6d644049c048;
+    assert(cache_frame_31c00271018a1c90138bf596ddb6a9e8->m_type_description == NULL);
+    frame_31c00271018a1c90138bf596ddb6a9e8 = cache_frame_31c00271018a1c90138bf596ddb6a9e8;
 
     // Push the new frame as the currently active one.
-    pushFrameStack(frame_cf15cfcff13dab2892ae6d644049c048);
+    pushFrameStack(frame_31c00271018a1c90138bf596ddb6a9e8);
 
     // Mark the frame object as in use, ref count 1 will be up for reuse.
-    assert(Py_REFCNT(frame_cf15cfcff13dab2892ae6d644049c048) == 2); // Frame stack
+    assert(Py_REFCNT(frame_31c00271018a1c90138bf596ddb6a9e8) == 2); // Frame stack
 
     // Framed code:
     {
@@ -6958,37 +6850,37 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 123;
+            exception_lineno = 118;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_1 = Nuitka_Cell_GET(self->m_closure[1]);
-        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[104]);
+        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[99]);
         if (tmp_called_name_1 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 123;
+            exception_lineno = 118;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
         if (Nuitka_Cell_GET(self->m_closure[0]) == NULL) {
             Py_DECREF(tmp_called_name_1);
-            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[105]);
+            FORMAT_UNBOUND_CLOSURE_ERROR(&exception_type, &exception_value, mod_consts[100]);
             exception_tb = NULL;
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 123;
+            exception_lineno = 118;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_2 = Nuitka_Cell_GET(self->m_closure[0]);
-        tmp_subscript_name_1 = mod_consts[109];
+        tmp_subscript_name_1 = mod_consts[104];
         tmp_args_element_name_1 = LOOKUP_SUBSCRIPT_CONST(tmp_expression_name_2, tmp_subscript_name_1, 7);
         if (tmp_args_element_name_1 == NULL) {
             assert(ERROR_OCCURRED());
@@ -6996,11 +6888,11 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
             Py_DECREF(tmp_called_name_1);
 
-            exception_lineno = 123;
+            exception_lineno = 118;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
-        frame_cf15cfcff13dab2892ae6d644049c048->m_frame.f_lineno = 123;
+        frame_31c00271018a1c90138bf596ddb6a9e8->m_frame.f_lineno = 118;
         tmp_return_value = CALL_FUNCTION_WITH_SINGLE_ARG(tmp_called_name_1, tmp_args_element_name_1);
         Py_DECREF(tmp_called_name_1);
         Py_DECREF(tmp_args_element_name_1);
@@ -7010,7 +6902,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 123;
+            exception_lineno = 118;
             type_description_1 = "cc";
             goto frame_exception_exit_1;
         }
@@ -7018,7 +6910,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
     }
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_cf15cfcff13dab2892ae6d644049c048);
+    RESTORE_FRAME_EXCEPTION(frame_31c00271018a1c90138bf596ddb6a9e8);
 #endif
 
     // Put the previous frame back on top.
@@ -7028,7 +6920,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 
     frame_return_exit_1:;
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_cf15cfcff13dab2892ae6d644049c048);
+    RESTORE_FRAME_EXCEPTION(frame_31c00271018a1c90138bf596ddb6a9e8);
 #endif
 
     // Put the previous frame back on top.
@@ -7039,18 +6931,18 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
     frame_exception_exit_1:;
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_cf15cfcff13dab2892ae6d644049c048);
+    RESTORE_FRAME_EXCEPTION(frame_31c00271018a1c90138bf596ddb6a9e8);
 #endif
 
     if (exception_tb == NULL) {
-        exception_tb = MAKE_TRACEBACK(frame_cf15cfcff13dab2892ae6d644049c048, exception_lineno);
-    } else if (exception_tb->tb_frame != &frame_cf15cfcff13dab2892ae6d644049c048->m_frame) {
-        exception_tb = ADD_TRACEBACK(exception_tb, frame_cf15cfcff13dab2892ae6d644049c048, exception_lineno);
+        exception_tb = MAKE_TRACEBACK(frame_31c00271018a1c90138bf596ddb6a9e8, exception_lineno);
+    } else if (exception_tb->tb_frame != &frame_31c00271018a1c90138bf596ddb6a9e8->m_frame) {
+        exception_tb = ADD_TRACEBACK(exception_tb, frame_31c00271018a1c90138bf596ddb6a9e8, exception_lineno);
     }
 
     // Attaches locals to frame if any.
     Nuitka_Frame_AttachLocals(
-        frame_cf15cfcff13dab2892ae6d644049c048,
+        frame_31c00271018a1c90138bf596ddb6a9e8,
         type_description_1,
         self->m_closure[1],
         self->m_closure[0]
@@ -7058,17 +6950,17 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 
 
     // Release cached frame if used for exception.
-    if (frame_cf15cfcff13dab2892ae6d644049c048 == cache_frame_cf15cfcff13dab2892ae6d644049c048) {
+    if (frame_31c00271018a1c90138bf596ddb6a9e8 == cache_frame_31c00271018a1c90138bf596ddb6a9e8) {
 #if _DEBUG_REFCOUNTS
         count_active_frame_cache_instances -= 1;
         count_released_frame_cache_instances += 1;
 #endif
 
-        Py_DECREF(cache_frame_cf15cfcff13dab2892ae6d644049c048);
-        cache_frame_cf15cfcff13dab2892ae6d644049c048 = NULL;
+        Py_DECREF(cache_frame_31c00271018a1c90138bf596ddb6a9e8);
+        cache_frame_31c00271018a1c90138bf596ddb6a9e8 = NULL;
     }
 
-    assertFrameObject(frame_cf15cfcff13dab2892ae6d644049c048);
+    assertFrameObject(frame_31c00271018a1c90138bf596ddb6a9e8);
 
     // Put the previous frame back on top.
     popFrameStack();
@@ -7106,41 +6998,41 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 #endif
 
     // Local variable declarations.
-    struct Nuitka_FrameObject *frame_c63351138a99a2e83d6e2632f9adb667;
+    struct Nuitka_FrameObject *frame_7278757a8b1fdee2684018109d2565a5;
     NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
     PyObject *tmp_return_value = NULL;
     PyObject *exception_type = NULL;
     PyObject *exception_value = NULL;
     PyTracebackObject *exception_tb = NULL;
     NUITKA_MAY_BE_UNUSED int exception_lineno = 0;
-    static struct Nuitka_FrameObject *cache_frame_c63351138a99a2e83d6e2632f9adb667 = NULL;
+    static struct Nuitka_FrameObject *cache_frame_7278757a8b1fdee2684018109d2565a5 = NULL;
 
     // Actual function body.
-    if (isFrameUnusable(cache_frame_c63351138a99a2e83d6e2632f9adb667)) {
-        Py_XDECREF(cache_frame_c63351138a99a2e83d6e2632f9adb667);
+    if (isFrameUnusable(cache_frame_7278757a8b1fdee2684018109d2565a5)) {
+        Py_XDECREF(cache_frame_7278757a8b1fdee2684018109d2565a5);
 
 #if _DEBUG_REFCOUNTS
-        if (cache_frame_c63351138a99a2e83d6e2632f9adb667 == NULL) {
+        if (cache_frame_7278757a8b1fdee2684018109d2565a5 == NULL) {
             count_active_frame_cache_instances += 1;
         } else {
             count_released_frame_cache_instances += 1;
         }
         count_allocated_frame_cache_instances += 1;
 #endif
-        cache_frame_c63351138a99a2e83d6e2632f9adb667 = MAKE_FUNCTION_FRAME(codeobj_c63351138a99a2e83d6e2632f9adb667, module_app$viwe, sizeof(void *));
+        cache_frame_7278757a8b1fdee2684018109d2565a5 = MAKE_FUNCTION_FRAME(codeobj_7278757a8b1fdee2684018109d2565a5, module_app$viwe, sizeof(void *));
 #if _DEBUG_REFCOUNTS
     } else {
         count_hit_frame_cache_instances += 1;
 #endif
     }
-    assert(cache_frame_c63351138a99a2e83d6e2632f9adb667->m_type_description == NULL);
-    frame_c63351138a99a2e83d6e2632f9adb667 = cache_frame_c63351138a99a2e83d6e2632f9adb667;
+    assert(cache_frame_7278757a8b1fdee2684018109d2565a5->m_type_description == NULL);
+    frame_7278757a8b1fdee2684018109d2565a5 = cache_frame_7278757a8b1fdee2684018109d2565a5;
 
     // Push the new frame as the currently active one.
-    pushFrameStack(frame_c63351138a99a2e83d6e2632f9adb667);
+    pushFrameStack(frame_7278757a8b1fdee2684018109d2565a5);
 
     // Mark the frame object as in use, ref count 1 will be up for reuse.
-    assert(Py_REFCNT(frame_c63351138a99a2e83d6e2632f9adb667) == 2); // Frame stack
+    assert(Py_REFCNT(frame_7278757a8b1fdee2684018109d2565a5) == 2); // Frame stack
 
     // Framed code:
     {
@@ -7152,13 +7044,13 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 126;
+            exception_lineno = 121;
             type_description_1 = "c";
             goto frame_exception_exit_1;
         }
 
         tmp_called_instance_1 = Nuitka_Cell_GET(self->m_closure[0]);
-        frame_c63351138a99a2e83d6e2632f9adb667->m_frame.f_lineno = 126;
+        frame_7278757a8b1fdee2684018109d2565a5->m_frame.f_lineno = 121;
         tmp_return_value = CALL_METHOD_NO_ARGS(tmp_called_instance_1, mod_consts[26]);
         if (tmp_return_value == NULL) {
             assert(ERROR_OCCURRED());
@@ -7166,7 +7058,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 126;
+            exception_lineno = 121;
             type_description_1 = "c";
             goto frame_exception_exit_1;
         }
@@ -7174,7 +7066,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
     }
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_c63351138a99a2e83d6e2632f9adb667);
+    RESTORE_FRAME_EXCEPTION(frame_7278757a8b1fdee2684018109d2565a5);
 #endif
 
     // Put the previous frame back on top.
@@ -7184,7 +7076,7 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
 
     frame_return_exit_1:;
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_c63351138a99a2e83d6e2632f9adb667);
+    RESTORE_FRAME_EXCEPTION(frame_7278757a8b1fdee2684018109d2565a5);
 #endif
 
     // Put the previous frame back on top.
@@ -7195,35 +7087,35 @@ static PyObject *impl_app$viwe$$$function__4___CreateButtonChangePosition$$$func
     frame_exception_exit_1:;
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_c63351138a99a2e83d6e2632f9adb667);
+    RESTORE_FRAME_EXCEPTION(frame_7278757a8b1fdee2684018109d2565a5);
 #endif
 
     if (exception_tb == NULL) {
-        exception_tb = MAKE_TRACEBACK(frame_c63351138a99a2e83d6e2632f9adb667, exception_lineno);
-    } else if (exception_tb->tb_frame != &frame_c63351138a99a2e83d6e2632f9adb667->m_frame) {
-        exception_tb = ADD_TRACEBACK(exception_tb, frame_c63351138a99a2e83d6e2632f9adb667, exception_lineno);
+        exception_tb = MAKE_TRACEBACK(frame_7278757a8b1fdee2684018109d2565a5, exception_lineno);
+    } else if (exception_tb->tb_frame != &frame_7278757a8b1fdee2684018109d2565a5->m_frame) {
+        exception_tb = ADD_TRACEBACK(exception_tb, frame_7278757a8b1fdee2684018109d2565a5, exception_lineno);
     }
 
     // Attaches locals to frame if any.
     Nuitka_Frame_AttachLocals(
-        frame_c63351138a99a2e83d6e2632f9adb667,
+        frame_7278757a8b1fdee2684018109d2565a5,
         type_description_1,
         self->m_closure[0]
     );
 
 
     // Release cached frame if used for exception.
-    if (frame_c63351138a99a2e83d6e2632f9adb667 == cache_frame_c63351138a99a2e83d6e2632f9adb667) {
+    if (frame_7278757a8b1fdee2684018109d2565a5 == cache_frame_7278757a8b1fdee2684018109d2565a5) {
 #if _DEBUG_REFCOUNTS
         count_active_frame_cache_instances -= 1;
         count_released_frame_cache_instances += 1;
 #endif
 
-        Py_DECREF(cache_frame_c63351138a99a2e83d6e2632f9adb667);
-        cache_frame_c63351138a99a2e83d6e2632f9adb667 = NULL;
+        Py_DECREF(cache_frame_7278757a8b1fdee2684018109d2565a5);
+        cache_frame_7278757a8b1fdee2684018109d2565a5 = NULL;
     }
 
-    assertFrameObject(frame_c63351138a99a2e83d6e2632f9adb667);
+    assertFrameObject(frame_7278757a8b1fdee2684018109d2565a5);
 
     // Put the previous frame back on top.
     popFrameStack();
@@ -7268,7 +7160,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
     PyObject *tmp_tuple_unpack_1__element_1 = NULL;
     PyObject *tmp_tuple_unpack_1__element_2 = NULL;
     PyObject *tmp_tuple_unpack_1__source_iter = NULL;
-    struct Nuitka_FrameObject *frame_ce82f9fd80b54c7578ffdcc2258cf8fa;
+    struct Nuitka_FrameObject *frame_df86c4f3ef1a141672b930a600133b52;
     NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
     NUITKA_MAY_BE_UNUSED nuitka_void tmp_unused;
     PyObject *exception_type = NULL;
@@ -7285,7 +7177,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
     PyObject *exception_keeper_value_2;
     PyTracebackObject *exception_keeper_tb_2;
     NUITKA_MAY_BE_UNUSED int exception_keeper_lineno_2;
-    static struct Nuitka_FrameObject *cache_frame_ce82f9fd80b54c7578ffdcc2258cf8fa = NULL;
+    static struct Nuitka_FrameObject *cache_frame_df86c4f3ef1a141672b930a600133b52 = NULL;
     PyObject *tmp_return_value = NULL;
     PyObject *exception_keeper_type_3;
     PyObject *exception_keeper_value_3;
@@ -7294,31 +7186,31 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
 
     // Actual function body.
     // Tried code:
-    if (isFrameUnusable(cache_frame_ce82f9fd80b54c7578ffdcc2258cf8fa)) {
-        Py_XDECREF(cache_frame_ce82f9fd80b54c7578ffdcc2258cf8fa);
+    if (isFrameUnusable(cache_frame_df86c4f3ef1a141672b930a600133b52)) {
+        Py_XDECREF(cache_frame_df86c4f3ef1a141672b930a600133b52);
 
 #if _DEBUG_REFCOUNTS
-        if (cache_frame_ce82f9fd80b54c7578ffdcc2258cf8fa == NULL) {
+        if (cache_frame_df86c4f3ef1a141672b930a600133b52 == NULL) {
             count_active_frame_cache_instances += 1;
         } else {
             count_released_frame_cache_instances += 1;
         }
         count_allocated_frame_cache_instances += 1;
 #endif
-        cache_frame_ce82f9fd80b54c7578ffdcc2258cf8fa = MAKE_FUNCTION_FRAME(codeobj_ce82f9fd80b54c7578ffdcc2258cf8fa, module_app$viwe, sizeof(void *)+sizeof(void *)+sizeof(void *)+sizeof(void *));
+        cache_frame_df86c4f3ef1a141672b930a600133b52 = MAKE_FUNCTION_FRAME(codeobj_df86c4f3ef1a141672b930a600133b52, module_app$viwe, sizeof(void *)+sizeof(void *)+sizeof(void *)+sizeof(void *));
 #if _DEBUG_REFCOUNTS
     } else {
         count_hit_frame_cache_instances += 1;
 #endif
     }
-    assert(cache_frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_type_description == NULL);
-    frame_ce82f9fd80b54c7578ffdcc2258cf8fa = cache_frame_ce82f9fd80b54c7578ffdcc2258cf8fa;
+    assert(cache_frame_df86c4f3ef1a141672b930a600133b52->m_type_description == NULL);
+    frame_df86c4f3ef1a141672b930a600133b52 = cache_frame_df86c4f3ef1a141672b930a600133b52;
 
     // Push the new frame as the currently active one.
-    pushFrameStack(frame_ce82f9fd80b54c7578ffdcc2258cf8fa);
+    pushFrameStack(frame_df86c4f3ef1a141672b930a600133b52);
 
     // Mark the frame object as in use, ref count 1 will be up for reuse.
-    assert(Py_REFCNT(frame_ce82f9fd80b54c7578ffdcc2258cf8fa) == 2); // Frame stack
+    assert(Py_REFCNT(frame_df86c4f3ef1a141672b930a600133b52) == 2); // Frame stack
 
     // Framed code:
     {
@@ -7327,19 +7219,19 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
         PyObject *tmp_call_result_1;
         CHECK_OBJECT(par_self);
         tmp_expression_name_1 = par_self;
-        tmp_called_instance_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[65]);
+        tmp_called_instance_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_1, mod_consts[60]);
         if (tmp_called_instance_1 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 129;
+            exception_lineno = 124;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 129;
-        tmp_call_result_1 = CALL_METHOD_NO_ARGS(tmp_called_instance_1, mod_consts[64]);
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 124;
+        tmp_call_result_1 = CALL_METHOD_NO_ARGS(tmp_called_instance_1, mod_consts[59]);
         Py_DECREF(tmp_called_instance_1);
         if (tmp_call_result_1 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7347,7 +7239,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 129;
+            exception_lineno = 124;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7364,25 +7256,25 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 130;
+            exception_lineno = 125;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_2 = par_self;
-        tmp_called_instance_2 = LOOKUP_ATTRIBUTE(tmp_expression_name_2, mod_consts[67]);
+        tmp_called_instance_2 = LOOKUP_ATTRIBUTE(tmp_expression_name_2, mod_consts[62]);
         if (tmp_called_instance_2 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 130;
+            exception_lineno = 125;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 130;
-        tmp_call_result_2 = CALL_METHOD_NO_ARGS(tmp_called_instance_2, mod_consts[110]);
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 125;
+        tmp_call_result_2 = CALL_METHOD_NO_ARGS(tmp_called_instance_2, mod_consts[105]);
         Py_DECREF(tmp_called_instance_2);
         if (tmp_call_result_2 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7390,7 +7282,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 130;
+            exception_lineno = 125;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7407,25 +7299,25 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 131;
+            exception_lineno = 126;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_3 = par_self;
-        tmp_called_instance_3 = LOOKUP_ATTRIBUTE(tmp_expression_name_3, mod_consts[70]);
+        tmp_called_instance_3 = LOOKUP_ATTRIBUTE(tmp_expression_name_3, mod_consts[65]);
         if (tmp_called_instance_3 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 131;
+            exception_lineno = 126;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 131;
-        tmp_call_result_3 = CALL_METHOD_NO_ARGS(tmp_called_instance_3, mod_consts[110]);
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 126;
+        tmp_call_result_3 = CALL_METHOD_NO_ARGS(tmp_called_instance_3, mod_consts[105]);
         Py_DECREF(tmp_called_instance_3);
         if (tmp_call_result_3 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7433,7 +7325,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 131;
+            exception_lineno = 126;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7450,25 +7342,25 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 132;
+            exception_lineno = 127;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_4 = par_self;
-        tmp_called_instance_4 = LOOKUP_ATTRIBUTE(tmp_expression_name_4, mod_consts[72]);
+        tmp_called_instance_4 = LOOKUP_ATTRIBUTE(tmp_expression_name_4, mod_consts[67]);
         if (tmp_called_instance_4 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 132;
+            exception_lineno = 127;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 132;
-        tmp_call_result_4 = CALL_METHOD_NO_ARGS(tmp_called_instance_4, mod_consts[110]);
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 127;
+        tmp_call_result_4 = CALL_METHOD_NO_ARGS(tmp_called_instance_4, mod_consts[105]);
         Py_DECREF(tmp_called_instance_4);
         if (tmp_call_result_4 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7476,7 +7368,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 132;
+            exception_lineno = 127;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7493,25 +7385,25 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 133;
+            exception_lineno = 128;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_5 = par_self;
-        tmp_called_instance_5 = LOOKUP_ATTRIBUTE(tmp_expression_name_5, mod_consts[74]);
+        tmp_called_instance_5 = LOOKUP_ATTRIBUTE(tmp_expression_name_5, mod_consts[69]);
         if (tmp_called_instance_5 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 133;
+            exception_lineno = 128;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 133;
-        tmp_call_result_5 = CALL_METHOD_NO_ARGS(tmp_called_instance_5, mod_consts[110]);
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 128;
+        tmp_call_result_5 = CALL_METHOD_NO_ARGS(tmp_called_instance_5, mod_consts[105]);
         Py_DECREF(tmp_called_instance_5);
         if (tmp_call_result_5 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7519,7 +7411,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 133;
+            exception_lineno = 128;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7536,25 +7428,25 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 134;
+            exception_lineno = 129;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_6 = par_self;
-        tmp_called_instance_6 = LOOKUP_ATTRIBUTE(tmp_expression_name_6, mod_consts[76]);
+        tmp_called_instance_6 = LOOKUP_ATTRIBUTE(tmp_expression_name_6, mod_consts[71]);
         if (tmp_called_instance_6 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 134;
+            exception_lineno = 129;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 134;
-        tmp_call_result_6 = CALL_METHOD_NO_ARGS(tmp_called_instance_6, mod_consts[110]);
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 129;
+        tmp_call_result_6 = CALL_METHOD_NO_ARGS(tmp_called_instance_6, mod_consts[105]);
         Py_DECREF(tmp_called_instance_6);
         if (tmp_call_result_6 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7562,7 +7454,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 134;
+            exception_lineno = 129;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7579,25 +7471,25 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 135;
+            exception_lineno = 130;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_7 = par_self;
-        tmp_called_instance_7 = LOOKUP_ATTRIBUTE(tmp_expression_name_7, mod_consts[78]);
+        tmp_called_instance_7 = LOOKUP_ATTRIBUTE(tmp_expression_name_7, mod_consts[73]);
         if (tmp_called_instance_7 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 135;
+            exception_lineno = 130;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 135;
-        tmp_call_result_7 = CALL_METHOD_NO_ARGS(tmp_called_instance_7, mod_consts[110]);
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 130;
+        tmp_call_result_7 = CALL_METHOD_NO_ARGS(tmp_called_instance_7, mod_consts[105]);
         Py_DECREF(tmp_called_instance_7);
         if (tmp_call_result_7 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7605,7 +7497,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 135;
+            exception_lineno = 130;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7622,25 +7514,25 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 136;
+            exception_lineno = 131;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_8 = par_self;
-        tmp_called_instance_8 = LOOKUP_ATTRIBUTE(tmp_expression_name_8, mod_consts[80]);
+        tmp_called_instance_8 = LOOKUP_ATTRIBUTE(tmp_expression_name_8, mod_consts[75]);
         if (tmp_called_instance_8 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 136;
+            exception_lineno = 131;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 136;
-        tmp_call_result_8 = CALL_METHOD_NO_ARGS(tmp_called_instance_8, mod_consts[110]);
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 131;
+        tmp_call_result_8 = CALL_METHOD_NO_ARGS(tmp_called_instance_8, mod_consts[105]);
         Py_DECREF(tmp_called_instance_8);
         if (tmp_call_result_8 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7648,7 +7540,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 136;
+            exception_lineno = 131;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7665,25 +7557,25 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 137;
+            exception_lineno = 132;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_9 = par_self;
-        tmp_called_instance_9 = LOOKUP_ATTRIBUTE(tmp_expression_name_9, mod_consts[82]);
+        tmp_called_instance_9 = LOOKUP_ATTRIBUTE(tmp_expression_name_9, mod_consts[77]);
         if (tmp_called_instance_9 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 137;
+            exception_lineno = 132;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 137;
-        tmp_call_result_9 = CALL_METHOD_NO_ARGS(tmp_called_instance_9, mod_consts[110]);
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 132;
+        tmp_call_result_9 = CALL_METHOD_NO_ARGS(tmp_called_instance_9, mod_consts[105]);
         Py_DECREF(tmp_called_instance_9);
         if (tmp_call_result_9 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7691,7 +7583,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 137;
+            exception_lineno = 132;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7708,25 +7600,25 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 138;
+            exception_lineno = 133;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
 
         tmp_expression_name_10 = par_self;
-        tmp_called_instance_10 = LOOKUP_ATTRIBUTE(tmp_expression_name_10, mod_consts[84]);
+        tmp_called_instance_10 = LOOKUP_ATTRIBUTE(tmp_expression_name_10, mod_consts[79]);
         if (tmp_called_instance_10 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 138;
+            exception_lineno = 133;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 138;
-        tmp_call_result_10 = CALL_METHOD_NO_ARGS(tmp_called_instance_10, mod_consts[110]);
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 133;
+        tmp_call_result_10 = CALL_METHOD_NO_ARGS(tmp_called_instance_10, mod_consts[105]);
         Py_DECREF(tmp_called_instance_10);
         if (tmp_call_result_10 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7734,7 +7626,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 138;
+            exception_lineno = 133;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7755,7 +7647,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 140;
+            exception_lineno = 135;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7768,11 +7660,11 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 140;
+            exception_lineno = 135;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_11, mod_consts[66]);
+        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_11, mod_consts[61]);
         Py_DECREF(tmp_expression_name_11);
         if (tmp_called_name_1 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7780,15 +7672,15 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 140;
+            exception_lineno = 135;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        tmp_dict_key_1 = mod_consts[111];
-        tmp_dict_value_1 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[112]);
+        tmp_dict_key_1 = mod_consts[106];
+        tmp_dict_value_1 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[107]);
 
         if (unlikely(tmp_dict_value_1 == NULL)) {
-            tmp_dict_value_1 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[112]);
+            tmp_dict_value_1 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[107]);
         }
 
         if (tmp_dict_value_1 == NULL) {
@@ -7797,18 +7689,18 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
             Py_DECREF(tmp_called_name_1);
 
-            exception_lineno = 140;
+            exception_lineno = 135;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
         tmp_kwargs_name_1 = _PyDict_NewPresized( 2 );
         tmp_res = PyDict_SetItem(tmp_kwargs_name_1, tmp_dict_key_1, tmp_dict_value_1);
         assert(!(tmp_res != 0));
-        tmp_dict_key_1 = mod_consts[113];
+        tmp_dict_key_1 = mod_consts[108];
         tmp_dict_value_1 = Py_True;
         tmp_res = PyDict_SetItem(tmp_kwargs_name_1, tmp_dict_key_1, tmp_dict_value_1);
         assert(!(tmp_res != 0));
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 140;
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 135;
         tmp_call_result_11 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_1, tmp_kwargs_name_1);
         Py_DECREF(tmp_called_name_1);
         Py_DECREF(tmp_kwargs_name_1);
@@ -7818,7 +7710,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 140;
+            exception_lineno = 135;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7839,7 +7731,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 141;
+            exception_lineno = 136;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7852,11 +7744,11 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 141;
+            exception_lineno = 136;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        tmp_called_name_2 = LOOKUP_ATTRIBUTE(tmp_expression_name_13, mod_consts[66]);
+        tmp_called_name_2 = LOOKUP_ATTRIBUTE(tmp_expression_name_13, mod_consts[61]);
         Py_DECREF(tmp_expression_name_13);
         if (tmp_called_name_2 == NULL) {
             assert(ERROR_OCCURRED());
@@ -7864,15 +7756,15 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 141;
+            exception_lineno = 136;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        tmp_dict_key_2 = mod_consts[111];
-        tmp_dict_value_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[112]);
+        tmp_dict_key_2 = mod_consts[106];
+        tmp_dict_value_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[107]);
 
         if (unlikely(tmp_dict_value_2 == NULL)) {
-            tmp_dict_value_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[112]);
+            tmp_dict_value_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[107]);
         }
 
         if (tmp_dict_value_2 == NULL) {
@@ -7881,18 +7773,18 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
             Py_DECREF(tmp_called_name_2);
 
-            exception_lineno = 141;
+            exception_lineno = 136;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
         tmp_kwargs_name_2 = _PyDict_NewPresized( 2 );
         tmp_res = PyDict_SetItem(tmp_kwargs_name_2, tmp_dict_key_2, tmp_dict_value_2);
         assert(!(tmp_res != 0));
-        tmp_dict_key_2 = mod_consts[113];
+        tmp_dict_key_2 = mod_consts[108];
         tmp_dict_value_2 = Py_True;
         tmp_res = PyDict_SetItem(tmp_kwargs_name_2, tmp_dict_key_2, tmp_dict_value_2);
         assert(!(tmp_res != 0));
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 141;
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 136;
         tmp_call_result_12 = CALL_FUNCTION_WITH_KEYARGS(tmp_called_name_2, tmp_kwargs_name_2);
         Py_DECREF(tmp_called_name_2);
         Py_DECREF(tmp_kwargs_name_2);
@@ -7902,7 +7794,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 141;
+            exception_lineno = 136;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -7921,7 +7813,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 143;
+            exception_lineno = 138;
             type_description_1 = "oooo";
             goto try_except_handler_2;
         }
@@ -7947,7 +7839,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
 
 
             type_description_1 = "oooo";
-            exception_lineno = 143;
+            exception_lineno = 138;
             goto try_except_handler_3;
         }
         assert(tmp_tuple_unpack_1__element_1 == NULL);
@@ -7971,7 +7863,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
 
 
             type_description_1 = "oooo";
-            exception_lineno = 143;
+            exception_lineno = 138;
             goto try_except_handler_3;
         }
         assert(tmp_tuple_unpack_1__element_2 == NULL);
@@ -7996,7 +7888,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
                     FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
                     type_description_1 = "oooo";
-                    exception_lineno = 143;
+                    exception_lineno = 138;
                     goto try_except_handler_3;
                 }
             }
@@ -8005,12 +7897,12 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
 
             exception_type = PyExc_ValueError;
             Py_INCREF(PyExc_ValueError);
-            exception_value = mod_consts[114];
+            exception_value = mod_consts[109];
             Py_INCREF(exception_value);
             exception_tb = NULL;
 
             type_description_1 = "oooo";
-            exception_lineno = 143;
+            exception_lineno = 138;
             goto try_except_handler_3;
         }
     }
@@ -8108,7 +8000,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 144;
+            exception_lineno = 139;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -8121,7 +8013,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 144;
+            exception_lineno = 139;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -8133,7 +8025,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 144;
+            exception_lineno = 139;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -8149,18 +8041,18 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
             Py_DECREF(tmp_called_name_3);
 
-            exception_lineno = 144;
+            exception_lineno = 139;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        tmp_format_value_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_17, mod_consts[91]);
+        tmp_format_value_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_17, mod_consts[86]);
         if (tmp_format_value_1 == NULL) {
             assert(ERROR_OCCURRED());
 
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
             Py_DECREF(tmp_called_name_3);
 
-            exception_lineno = 144;
+            exception_lineno = 139;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -8173,7 +8065,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
             Py_DECREF(tmp_called_name_3);
 
-            exception_lineno = 144;
+            exception_lineno = 139;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -8201,18 +8093,18 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 144;
+                exception_lineno = 139;
                 type_description_1 = "oooo";
                 goto tuple_build_exception_1;
             }
-            tmp_format_value_2 = LOOKUP_ATTRIBUTE(tmp_expression_name_18, mod_consts[90]);
+            tmp_format_value_2 = LOOKUP_ATTRIBUTE(tmp_expression_name_18, mod_consts[85]);
             if (tmp_format_value_2 == NULL) {
                 assert(ERROR_OCCURRED());
 
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 144;
+                exception_lineno = 139;
                 type_description_1 = "oooo";
                 goto tuple_build_exception_1;
             }
@@ -8225,7 +8117,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 144;
+                exception_lineno = 139;
                 type_description_1 = "oooo";
                 goto tuple_build_exception_1;
             }
@@ -8242,7 +8134,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 144;
+                exception_lineno = 139;
                 type_description_1 = "oooo";
                 goto tuple_build_exception_1;
             }
@@ -8259,7 +8151,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 144;
+                exception_lineno = 139;
                 type_description_1 = "oooo";
                 goto tuple_build_exception_1;
             }
@@ -8281,11 +8173,11 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
             Py_DECREF(tmp_called_name_3);
 
-            exception_lineno = 144;
+            exception_lineno = 139;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 144;
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 139;
         tmp_call_result_13 = CALL_FUNCTION_WITH_SINGLE_ARG(tmp_called_name_3, tmp_args_element_name_1);
         Py_DECREF(tmp_called_name_3);
         Py_DECREF(tmp_args_element_name_1);
@@ -8295,7 +8187,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 144;
+            exception_lineno = 139;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -8312,7 +8204,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
             CHAIN_EXCEPTION(exception_value);
 
-            exception_lineno = 145;
+            exception_lineno = 140;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -8325,12 +8217,12 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 145;
+            exception_lineno = 140;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame.f_lineno = 145;
-        tmp_call_result_14 = CALL_METHOD_NO_ARGS(tmp_called_instance_11, mod_consts[87]);
+        frame_df86c4f3ef1a141672b930a600133b52->m_frame.f_lineno = 140;
+        tmp_call_result_14 = CALL_METHOD_NO_ARGS(tmp_called_instance_11, mod_consts[82]);
         Py_DECREF(tmp_called_instance_11);
         if (tmp_call_result_14 == NULL) {
             assert(ERROR_OCCURRED());
@@ -8338,7 +8230,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 145;
+            exception_lineno = 140;
             type_description_1 = "oooo";
             goto frame_exception_exit_1;
         }
@@ -8346,7 +8238,7 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
     }
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_ce82f9fd80b54c7578ffdcc2258cf8fa);
+    RESTORE_FRAME_EXCEPTION(frame_df86c4f3ef1a141672b930a600133b52);
 #endif
 
     // Put the previous frame back on top.
@@ -8357,18 +8249,18 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
     frame_exception_exit_1:;
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_ce82f9fd80b54c7578ffdcc2258cf8fa);
+    RESTORE_FRAME_EXCEPTION(frame_df86c4f3ef1a141672b930a600133b52);
 #endif
 
     if (exception_tb == NULL) {
-        exception_tb = MAKE_TRACEBACK(frame_ce82f9fd80b54c7578ffdcc2258cf8fa, exception_lineno);
-    } else if (exception_tb->tb_frame != &frame_ce82f9fd80b54c7578ffdcc2258cf8fa->m_frame) {
-        exception_tb = ADD_TRACEBACK(exception_tb, frame_ce82f9fd80b54c7578ffdcc2258cf8fa, exception_lineno);
+        exception_tb = MAKE_TRACEBACK(frame_df86c4f3ef1a141672b930a600133b52, exception_lineno);
+    } else if (exception_tb->tb_frame != &frame_df86c4f3ef1a141672b930a600133b52->m_frame) {
+        exception_tb = ADD_TRACEBACK(exception_tb, frame_df86c4f3ef1a141672b930a600133b52, exception_lineno);
     }
 
     // Attaches locals to frame if any.
     Nuitka_Frame_AttachLocals(
-        frame_ce82f9fd80b54c7578ffdcc2258cf8fa,
+        frame_df86c4f3ef1a141672b930a600133b52,
         type_description_1,
         par_self,
         par_pos,
@@ -8378,17 +8270,17 @@ static PyObject *impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang(str
 
 
     // Release cached frame if used for exception.
-    if (frame_ce82f9fd80b54c7578ffdcc2258cf8fa == cache_frame_ce82f9fd80b54c7578ffdcc2258cf8fa) {
+    if (frame_df86c4f3ef1a141672b930a600133b52 == cache_frame_df86c4f3ef1a141672b930a600133b52) {
 #if _DEBUG_REFCOUNTS
         count_active_frame_cache_instances -= 1;
         count_released_frame_cache_instances += 1;
 #endif
 
-        Py_DECREF(cache_frame_ce82f9fd80b54c7578ffdcc2258cf8fa);
-        cache_frame_ce82f9fd80b54c7578ffdcc2258cf8fa = NULL;
+        Py_DECREF(cache_frame_df86c4f3ef1a141672b930a600133b52);
+        cache_frame_df86c4f3ef1a141672b930a600133b52 = NULL;
     }
 
-    assertFrameObject(frame_ce82f9fd80b54c7578ffdcc2258cf8fa);
+    assertFrameObject(frame_df86c4f3ef1a141672b930a600133b52);
 
     // Put the previous frame back on top.
     popFrameStack();
@@ -8472,7 +8364,7 @@ static PyObject *impl_app$viwe$$$function__6_OnClosed(struct Nuitka_FunctionObje
 
     // Local variable declarations.
     PyObject *par_self = python_pars[0];
-    struct Nuitka_FrameObject *frame_32e94710f37e8409162e50d4dd659688;
+    struct Nuitka_FrameObject *frame_17536ed411f538e049cf84e898755747;
     NUITKA_MAY_BE_UNUSED char const *type_description_1 = NULL;
     PyObject *exception_type = NULL;
     PyObject *exception_value = NULL;
@@ -8480,7 +8372,7 @@ static PyObject *impl_app$viwe$$$function__6_OnClosed(struct Nuitka_FunctionObje
     NUITKA_MAY_BE_UNUSED int exception_lineno = 0;
     bool tmp_result;
     NUITKA_MAY_BE_UNUSED nuitka_void tmp_unused;
-    static struct Nuitka_FrameObject *cache_frame_32e94710f37e8409162e50d4dd659688 = NULL;
+    static struct Nuitka_FrameObject *cache_frame_17536ed411f538e049cf84e898755747 = NULL;
     PyObject *tmp_return_value = NULL;
     PyObject *exception_keeper_type_1;
     PyObject *exception_keeper_value_1;
@@ -8489,31 +8381,31 @@ static PyObject *impl_app$viwe$$$function__6_OnClosed(struct Nuitka_FunctionObje
 
     // Actual function body.
     // Tried code:
-    if (isFrameUnusable(cache_frame_32e94710f37e8409162e50d4dd659688)) {
-        Py_XDECREF(cache_frame_32e94710f37e8409162e50d4dd659688);
+    if (isFrameUnusable(cache_frame_17536ed411f538e049cf84e898755747)) {
+        Py_XDECREF(cache_frame_17536ed411f538e049cf84e898755747);
 
 #if _DEBUG_REFCOUNTS
-        if (cache_frame_32e94710f37e8409162e50d4dd659688 == NULL) {
+        if (cache_frame_17536ed411f538e049cf84e898755747 == NULL) {
             count_active_frame_cache_instances += 1;
         } else {
             count_released_frame_cache_instances += 1;
         }
         count_allocated_frame_cache_instances += 1;
 #endif
-        cache_frame_32e94710f37e8409162e50d4dd659688 = MAKE_FUNCTION_FRAME(codeobj_32e94710f37e8409162e50d4dd659688, module_app$viwe, sizeof(void *));
+        cache_frame_17536ed411f538e049cf84e898755747 = MAKE_FUNCTION_FRAME(codeobj_17536ed411f538e049cf84e898755747, module_app$viwe, sizeof(void *));
 #if _DEBUG_REFCOUNTS
     } else {
         count_hit_frame_cache_instances += 1;
 #endif
     }
-    assert(cache_frame_32e94710f37e8409162e50d4dd659688->m_type_description == NULL);
-    frame_32e94710f37e8409162e50d4dd659688 = cache_frame_32e94710f37e8409162e50d4dd659688;
+    assert(cache_frame_17536ed411f538e049cf84e898755747->m_type_description == NULL);
+    frame_17536ed411f538e049cf84e898755747 = cache_frame_17536ed411f538e049cf84e898755747;
 
     // Push the new frame as the currently active one.
-    pushFrameStack(frame_32e94710f37e8409162e50d4dd659688);
+    pushFrameStack(frame_17536ed411f538e049cf84e898755747);
 
     // Mark the frame object as in use, ref count 1 will be up for reuse.
-    assert(Py_REFCNT(frame_32e94710f37e8409162e50d4dd659688) == 2); // Frame stack
+    assert(Py_REFCNT(frame_17536ed411f538e049cf84e898755747) == 2); // Frame stack
 
     // Framed code:
     {
@@ -8532,7 +8424,7 @@ static PyObject *impl_app$viwe$$$function__6_OnClosed(struct Nuitka_FunctionObje
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 148;
+            exception_lineno = 143;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -8543,7 +8435,7 @@ static PyObject *impl_app$viwe$$$function__6_OnClosed(struct Nuitka_FunctionObje
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 148;
+            exception_lineno = 143;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -8561,12 +8453,12 @@ static PyObject *impl_app$viwe$$$function__6_OnClosed(struct Nuitka_FunctionObje
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 149;
+            exception_lineno = 144;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
-        frame_32e94710f37e8409162e50d4dd659688->m_frame.f_lineno = 149;
-        tmp_call_result_1 = CALL_METHOD_NO_ARGS(tmp_called_instance_1, mod_consts[115]);
+        frame_17536ed411f538e049cf84e898755747->m_frame.f_lineno = 144;
+        tmp_call_result_1 = CALL_METHOD_NO_ARGS(tmp_called_instance_1, mod_consts[110]);
         Py_DECREF(tmp_called_instance_1);
         if (tmp_call_result_1 == NULL) {
             assert(ERROR_OCCURRED());
@@ -8574,7 +8466,7 @@ static PyObject *impl_app$viwe$$$function__6_OnClosed(struct Nuitka_FunctionObje
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 149;
+            exception_lineno = 144;
             type_description_1 = "o";
             goto frame_exception_exit_1;
         }
@@ -8582,7 +8474,7 @@ static PyObject *impl_app$viwe$$$function__6_OnClosed(struct Nuitka_FunctionObje
     }
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_32e94710f37e8409162e50d4dd659688);
+    RESTORE_FRAME_EXCEPTION(frame_17536ed411f538e049cf84e898755747);
 #endif
 
     // Put the previous frame back on top.
@@ -8593,35 +8485,35 @@ static PyObject *impl_app$viwe$$$function__6_OnClosed(struct Nuitka_FunctionObje
     frame_exception_exit_1:;
 
 #if 0
-    RESTORE_FRAME_EXCEPTION(frame_32e94710f37e8409162e50d4dd659688);
+    RESTORE_FRAME_EXCEPTION(frame_17536ed411f538e049cf84e898755747);
 #endif
 
     if (exception_tb == NULL) {
-        exception_tb = MAKE_TRACEBACK(frame_32e94710f37e8409162e50d4dd659688, exception_lineno);
-    } else if (exception_tb->tb_frame != &frame_32e94710f37e8409162e50d4dd659688->m_frame) {
-        exception_tb = ADD_TRACEBACK(exception_tb, frame_32e94710f37e8409162e50d4dd659688, exception_lineno);
+        exception_tb = MAKE_TRACEBACK(frame_17536ed411f538e049cf84e898755747, exception_lineno);
+    } else if (exception_tb->tb_frame != &frame_17536ed411f538e049cf84e898755747->m_frame) {
+        exception_tb = ADD_TRACEBACK(exception_tb, frame_17536ed411f538e049cf84e898755747, exception_lineno);
     }
 
     // Attaches locals to frame if any.
     Nuitka_Frame_AttachLocals(
-        frame_32e94710f37e8409162e50d4dd659688,
+        frame_17536ed411f538e049cf84e898755747,
         type_description_1,
         par_self
     );
 
 
     // Release cached frame if used for exception.
-    if (frame_32e94710f37e8409162e50d4dd659688 == cache_frame_32e94710f37e8409162e50d4dd659688) {
+    if (frame_17536ed411f538e049cf84e898755747 == cache_frame_17536ed411f538e049cf84e898755747) {
 #if _DEBUG_REFCOUNTS
         count_active_frame_cache_instances -= 1;
         count_released_frame_cache_instances += 1;
 #endif
 
-        Py_DECREF(cache_frame_32e94710f37e8409162e50d4dd659688);
-        cache_frame_32e94710f37e8409162e50d4dd659688 = NULL;
+        Py_DECREF(cache_frame_17536ed411f538e049cf84e898755747);
+        cache_frame_17536ed411f538e049cf84e898755747 = NULL;
     }
 
-    assertFrameObject(frame_32e94710f37e8409162e50d4dd659688);
+    assertFrameObject(frame_17536ed411f538e049cf84e898755747);
 
     // Put the previous frame back on top.
     popFrameStack();
@@ -8687,9 +8579,9 @@ function_return_exit:
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__1___init__() {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__1___init__,
-        mod_consts[146],
+        mod_consts[141],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[147],
+        mod_consts[142],
 #endif
         codeobj_40af9d87c690dee6efd7915602dd8717,
         NULL,
@@ -8714,9 +8606,9 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__2_ThChangKeyBoard() {
         impl_app$viwe$$$function__2_ThChangKeyBoard,
         mod_consts[43],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[149],
+        mod_consts[144],
 #endif
-        codeobj_6f689a7ed02166b3541f76ffa9dd91ff,
+        codeobj_5d7442806273b8b515213a49574e5362,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -8737,11 +8629,11 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__2_ThChangKeyBoard() {
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLang() {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__3___ShowPositionButtonAndHideButtonLang,
-        mod_consts[150],
+        mod_consts[145],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[151],
+        mod_consts[146],
 #endif
-        codeobj_c5a8ec066f9dd69e8ce4500aa0713f2c,
+        codeobj_44dfc5a66c5f525d61293b4a6a8481f2,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -8762,18 +8654,18 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__3___ShowPositionButtonAndHid
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePosition() {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__4___CreateButtonChangePosition,
-        mod_consts[152],
+        mod_consts[147],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[153],
+        mod_consts[148],
 #endif
-        codeobj_5d164d98b33fb431bffc202941b27186,
+        codeobj_8ddf848fe6dbb1f6e7e11e052de2b85a,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
         NULL,
 #endif
         module_app$viwe,
-        mod_consts[103],
+        mod_consts[98],
         NULL,
         0
     );
@@ -8787,11 +8679,11 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePositi
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePosition$$$function__1_lambda(struct Nuitka_CellObject **closure) {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__1_lambda,
-        mod_consts[96],
+        mod_consts[91],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[97],
+        mod_consts[92],
 #endif
-        codeobj_8d5bd7fd102121dc1b2ad8bfb60d7935,
+        codeobj_1a8592eb9c4b9d2ed8eaf1f876da7497,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -8812,11 +8704,11 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePositi
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePosition$$$function__2_lambda(struct Nuitka_CellObject **closure) {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__2_lambda,
-        mod_consts[96],
+        mod_consts[91],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[97],
+        mod_consts[92],
 #endif
-        codeobj_adbbf26421d1380b4138894cfd52e5b4,
+        codeobj_e7cdc9f5b2f8153609a24da34289592e,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -8837,11 +8729,11 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePositi
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePosition$$$function__3_lambda(struct Nuitka_CellObject **closure) {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__3_lambda,
-        mod_consts[96],
+        mod_consts[91],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[97],
+        mod_consts[92],
 #endif
-        codeobj_b75daf85f169989cb272de489e23d8aa,
+        codeobj_8d5bd7fd102121dc1b2ad8bfb60d7935,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -8862,11 +8754,11 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePositi
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePosition$$$function__4_lambda(struct Nuitka_CellObject **closure) {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__4_lambda,
-        mod_consts[96],
+        mod_consts[91],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[97],
+        mod_consts[92],
 #endif
-        codeobj_614505bc8d139f8cb6b4c09fbd382d18,
+        codeobj_a2709d73dbc910fb6cbc6a9a2a12dce9,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -8887,11 +8779,11 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePositi
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePosition$$$function__5_lambda(struct Nuitka_CellObject **closure) {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__5_lambda,
-        mod_consts[96],
+        mod_consts[91],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[97],
+        mod_consts[92],
 #endif
-        codeobj_84851f2814f653563b55815c1ed21855,
+        codeobj_b75daf85f169989cb272de489e23d8aa,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -8912,11 +8804,11 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePositi
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePosition$$$function__6_lambda(struct Nuitka_CellObject **closure) {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__6_lambda,
-        mod_consts[96],
+        mod_consts[91],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[97],
+        mod_consts[92],
 #endif
-        codeobj_d64fc8d7e62058d5cfbfa2d9655d559d,
+        codeobj_81591cdc31759b3b177699f1879dbad3,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -8937,11 +8829,11 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePositi
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePosition$$$function__7_lambda(struct Nuitka_CellObject **closure) {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__7_lambda,
-        mod_consts[96],
+        mod_consts[91],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[97],
+        mod_consts[92],
 #endif
-        codeobj_92cca0ee7a16242bd52de0e878c74272,
+        codeobj_c48f296632502bbb1b2ba67f0e816f6f,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -8962,11 +8854,11 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePositi
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePosition$$$function__8_lambda(struct Nuitka_CellObject **closure) {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__8_lambda,
-        mod_consts[96],
+        mod_consts[91],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[97],
+        mod_consts[92],
 #endif
-        codeobj_cf15cfcff13dab2892ae6d644049c048,
+        codeobj_31c00271018a1c90138bf596ddb6a9e8,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -8987,11 +8879,11 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePositi
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePosition$$$function__9_lambda(struct Nuitka_CellObject **closure) {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__4___CreateButtonChangePosition$$$function__9_lambda,
-        mod_consts[96],
+        mod_consts[91],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[97],
+        mod_consts[92],
 #endif
-        codeobj_c63351138a99a2e83d6e2632f9adb667,
+        codeobj_7278757a8b1fdee2684018109d2565a5,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -9012,11 +8904,11 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__4___CreateButtonChangePositi
 static PyObject *MAKE_FUNCTION_app$viwe$$$function__5_ChangePositionAndShowButtonLang(PyObject *annotations) {
     struct Nuitka_FunctionObject *result = Nuitka_Function_New(
         impl_app$viwe$$$function__5_ChangePositionAndShowButtonLang,
-        mod_consts[104],
+        mod_consts[99],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[156],
+        mod_consts[151],
 #endif
-        codeobj_ce82f9fd80b54c7578ffdcc2258cf8fa,
+        codeobj_df86c4f3ef1a141672b930a600133b52,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -9039,9 +8931,9 @@ static PyObject *MAKE_FUNCTION_app$viwe$$$function__6_OnClosed() {
         impl_app$viwe$$$function__6_OnClosed,
         mod_consts[26],
 #if PYTHON_VERSION >= 0x300
-        mod_consts[157],
+        mod_consts[152],
 #endif
-        codeobj_32e94710f37e8409162e50d4dd659688,
+        codeobj_17536ed411f538e049cf84e898755747,
         NULL,
 #if PYTHON_VERSION >= 0x300
         NULL,
@@ -9456,12 +9348,12 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
     {
         PyObject *tmp_assign_source_1;
         tmp_assign_source_1 = Py_None;
-        UPDATE_STRING_DICT0(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[116], tmp_assign_source_1);
+        UPDATE_STRING_DICT0(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[111], tmp_assign_source_1);
     }
     {
         PyObject *tmp_assign_source_2;
-        tmp_assign_source_2 = mod_consts[117];
-        UPDATE_STRING_DICT0(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[118], tmp_assign_source_2);
+        tmp_assign_source_2 = mod_consts[112];
+        UPDATE_STRING_DICT0(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[113], tmp_assign_source_2);
     }
     // Frame without reuse.
     frame_0d0056312d302b118372fb504e722a98 = MAKE_MODULE_FRAME(codeobj_0d0056312d302b118372fb504e722a98, module_app$viwe);
@@ -9475,15 +9367,15 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
     {
         PyObject *tmp_assattr_name_1;
         PyObject *tmp_assattr_target_1;
-        tmp_assattr_name_1 = mod_consts[117];
-        tmp_assattr_target_1 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[119]);
+        tmp_assattr_name_1 = mod_consts[112];
+        tmp_assattr_target_1 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[114]);
 
         if (unlikely(tmp_assattr_target_1 == NULL)) {
-            tmp_assattr_target_1 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[119]);
+            tmp_assattr_target_1 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[114]);
         }
 
         assert(!(tmp_assattr_target_1 == NULL));
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_1, mod_consts[120], tmp_assattr_name_1);
+        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_1, mod_consts[115], tmp_assattr_name_1);
         if (tmp_result == false) {
             assert(ERROR_OCCURRED());
 
@@ -9499,14 +9391,14 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         PyObject *tmp_assattr_name_2;
         PyObject *tmp_assattr_target_2;
         tmp_assattr_name_2 = Py_True;
-        tmp_assattr_target_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[119]);
+        tmp_assattr_target_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[114]);
 
         if (unlikely(tmp_assattr_target_2 == NULL)) {
-            tmp_assattr_target_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[119]);
+            tmp_assattr_target_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[114]);
         }
 
         assert(!(tmp_assattr_target_2 == NULL));
-        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_2, mod_consts[121], tmp_assattr_name_2);
+        tmp_result = SET_ATTRIBUTE(tmp_assattr_target_2, mod_consts[116], tmp_assattr_name_2);
         if (tmp_result == false) {
             assert(ERROR_OCCURRED());
 
@@ -9521,7 +9413,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
     {
         PyObject *tmp_assign_source_3;
         tmp_assign_source_3 = Py_None;
-        UPDATE_STRING_DICT0(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[122], tmp_assign_source_3);
+        UPDATE_STRING_DICT0(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[117], tmp_assign_source_3);
     }
     {
         PyObject *tmp_assign_source_4;
@@ -9534,7 +9426,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         tmp_globals_arg_name_1 = (PyObject *)moduledict_app$viwe;
         tmp_locals_arg_name_1 = Py_None;
         tmp_fromlist_name_1 = Py_None;
-        tmp_level_name_1 = mod_consts[89];
+        tmp_level_name_1 = mod_consts[84];
         frame_0d0056312d302b118372fb504e722a98->m_frame.f_lineno = 1;
         tmp_assign_source_4 = IMPORT_MODULE5(tmp_name_name_1, tmp_globals_arg_name_1, tmp_locals_arg_name_1, tmp_fromlist_name_1, tmp_level_name_1);
         if (tmp_assign_source_4 == NULL) {
@@ -9556,15 +9448,15 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         PyObject *tmp_locals_arg_name_2;
         PyObject *tmp_fromlist_name_2;
         PyObject *tmp_level_name_2;
-        tmp_name_name_2 = mod_consts[62];
+        tmp_name_name_2 = mod_consts[56];
         tmp_globals_arg_name_2 = (PyObject *)moduledict_app$viwe;
         tmp_locals_arg_name_2 = Py_None;
         tmp_fromlist_name_2 = Py_None;
-        tmp_level_name_2 = mod_consts[89];
+        tmp_level_name_2 = mod_consts[84];
         frame_0d0056312d302b118372fb504e722a98->m_frame.f_lineno = 2;
         tmp_assign_source_5 = IMPORT_MODULE5(tmp_name_name_2, tmp_globals_arg_name_2, tmp_locals_arg_name_2, tmp_fromlist_name_2, tmp_level_name_2);
         assert(!(tmp_assign_source_5 == NULL));
-        UPDATE_STRING_DICT1(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[62], tmp_assign_source_5);
+        UPDATE_STRING_DICT1(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[56], tmp_assign_source_5);
     }
     {
         PyObject *tmp_star_imported_1;
@@ -9573,11 +9465,11 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         PyObject *tmp_locals_arg_name_3;
         PyObject *tmp_fromlist_name_3;
         PyObject *tmp_level_name_3;
-        tmp_name_name_3 = mod_consts[123];
+        tmp_name_name_3 = mod_consts[118];
         tmp_globals_arg_name_3 = (PyObject *)moduledict_app$viwe;
         tmp_locals_arg_name_3 = (PyObject *)moduledict_app$viwe;
-        tmp_fromlist_name_3 = mod_consts[124];
-        tmp_level_name_3 = mod_consts[89];
+        tmp_fromlist_name_3 = mod_consts[119];
+        tmp_level_name_3 = mod_consts[84];
         frame_0d0056312d302b118372fb504e722a98->m_frame.f_lineno = 3;
         tmp_star_imported_1 = IMPORT_MODULE5(tmp_name_name_3, tmp_globals_arg_name_3, tmp_locals_arg_name_3, tmp_fromlist_name_3, tmp_level_name_3);
         if (tmp_star_imported_1 == NULL) {
@@ -9610,11 +9502,11 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         PyObject *tmp_locals_arg_name_4;
         PyObject *tmp_fromlist_name_4;
         PyObject *tmp_level_name_4;
-        tmp_name_name_4 = mod_consts[125];
+        tmp_name_name_4 = mod_consts[120];
         tmp_globals_arg_name_4 = (PyObject *)moduledict_app$viwe;
         tmp_locals_arg_name_4 = Py_None;
-        tmp_fromlist_name_4 = mod_consts[126];
-        tmp_level_name_4 = mod_consts[89];
+        tmp_fromlist_name_4 = mod_consts[121];
+        tmp_level_name_4 = mod_consts[84];
         frame_0d0056312d302b118372fb504e722a98->m_frame.f_lineno = 4;
         tmp_assign_source_6 = IMPORT_MODULE5(tmp_name_name_4, tmp_globals_arg_name_4, tmp_locals_arg_name_4, tmp_fromlist_name_4, tmp_level_name_4);
         if (tmp_assign_source_6 == NULL) {
@@ -9640,11 +9532,11 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             tmp_assign_source_7 = IMPORT_NAME_OR_MODULE(
                 tmp_import_name_from_1,
                 (PyObject *)moduledict_app$viwe,
-                mod_consts[127],
-                mod_consts[89]
+                mod_consts[122],
+                mod_consts[84]
             );
         } else {
-            tmp_assign_source_7 = IMPORT_NAME(tmp_import_name_from_1, mod_consts[127]);
+            tmp_assign_source_7 = IMPORT_NAME(tmp_import_name_from_1, mod_consts[122]);
         }
 
         if (tmp_assign_source_7 == NULL) {
@@ -9657,7 +9549,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
 
             goto try_except_handler_1;
         }
-        UPDATE_STRING_DICT1(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[127], tmp_assign_source_7);
+        UPDATE_STRING_DICT1(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[122], tmp_assign_source_7);
     }
     {
         PyObject *tmp_assign_source_8;
@@ -9668,11 +9560,11 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             tmp_assign_source_8 = IMPORT_NAME_OR_MODULE(
                 tmp_import_name_from_2,
                 (PyObject *)moduledict_app$viwe,
-                mod_consts[128],
-                mod_consts[89]
+                mod_consts[123],
+                mod_consts[84]
             );
         } else {
-            tmp_assign_source_8 = IMPORT_NAME(tmp_import_name_from_2, mod_consts[128]);
+            tmp_assign_source_8 = IMPORT_NAME(tmp_import_name_from_2, mod_consts[123]);
         }
 
         if (tmp_assign_source_8 == NULL) {
@@ -9685,7 +9577,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
 
             goto try_except_handler_1;
         }
-        UPDATE_STRING_DICT1(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[128], tmp_assign_source_8);
+        UPDATE_STRING_DICT1(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[123], tmp_assign_source_8);
     }
     {
         PyObject *tmp_assign_source_9;
@@ -9696,11 +9588,11 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             tmp_assign_source_9 = IMPORT_NAME_OR_MODULE(
                 tmp_import_name_from_3,
                 (PyObject *)moduledict_app$viwe,
-                mod_consts[129],
-                mod_consts[89]
+                mod_consts[124],
+                mod_consts[84]
             );
         } else {
-            tmp_assign_source_9 = IMPORT_NAME(tmp_import_name_from_3, mod_consts[129]);
+            tmp_assign_source_9 = IMPORT_NAME(tmp_import_name_from_3, mod_consts[124]);
         }
 
         if (tmp_assign_source_9 == NULL) {
@@ -9713,7 +9605,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
 
             goto try_except_handler_1;
         }
-        UPDATE_STRING_DICT1(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[129], tmp_assign_source_9);
+        UPDATE_STRING_DICT1(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[124], tmp_assign_source_9);
     }
     goto try_end_1;
     // Exception handler code:
@@ -9750,11 +9642,11 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         PyObject *tmp_locals_arg_name_5;
         PyObject *tmp_fromlist_name_5;
         PyObject *tmp_level_name_5;
-        tmp_name_name_5 = mod_consts[130];
+        tmp_name_name_5 = mod_consts[125];
         tmp_globals_arg_name_5 = (PyObject *)moduledict_app$viwe;
         tmp_locals_arg_name_5 = Py_None;
-        tmp_fromlist_name_5 = mod_consts[131];
-        tmp_level_name_5 = mod_consts[89];
+        tmp_fromlist_name_5 = mod_consts[126];
+        tmp_level_name_5 = mod_consts[84];
         frame_0d0056312d302b118372fb504e722a98->m_frame.f_lineno = 6;
         tmp_import_name_from_4 = IMPORT_MODULE5(tmp_name_name_5, tmp_globals_arg_name_5, tmp_locals_arg_name_5, tmp_fromlist_name_5, tmp_level_name_5);
         if (tmp_import_name_from_4 == NULL) {
@@ -9771,11 +9663,11 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             tmp_assign_source_10 = IMPORT_NAME_OR_MODULE(
                 tmp_import_name_from_4,
                 (PyObject *)moduledict_app$viwe,
-                mod_consts[49],
-                mod_consts[89]
+                mod_consts[53],
+                mod_consts[84]
             );
         } else {
-            tmp_assign_source_10 = IMPORT_NAME(tmp_import_name_from_4, mod_consts[49]);
+            tmp_assign_source_10 = IMPORT_NAME(tmp_import_name_from_4, mod_consts[53]);
         }
 
         Py_DECREF(tmp_import_name_from_4);
@@ -9789,7 +9681,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
 
             goto frame_exception_exit_1;
         }
-        UPDATE_STRING_DICT1(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[49], tmp_assign_source_10);
+        UPDATE_STRING_DICT1(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[53], tmp_assign_source_10);
     }
     {
         PyObject *tmp_assign_source_11;
@@ -9799,11 +9691,11 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         PyObject *tmp_locals_arg_name_6;
         PyObject *tmp_fromlist_name_6;
         PyObject *tmp_level_name_6;
-        tmp_name_name_6 = mod_consts[132];
+        tmp_name_name_6 = mod_consts[127];
         tmp_globals_arg_name_6 = (PyObject *)moduledict_app$viwe;
         tmp_locals_arg_name_6 = Py_None;
-        tmp_fromlist_name_6 = mod_consts[133];
-        tmp_level_name_6 = mod_consts[89];
+        tmp_fromlist_name_6 = mod_consts[128];
+        tmp_level_name_6 = mod_consts[84];
         frame_0d0056312d302b118372fb504e722a98->m_frame.f_lineno = 7;
         tmp_import_name_from_5 = IMPORT_MODULE5(tmp_name_name_6, tmp_globals_arg_name_6, tmp_locals_arg_name_6, tmp_fromlist_name_6, tmp_level_name_6);
         if (tmp_import_name_from_5 == NULL) {
@@ -9821,7 +9713,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
                 tmp_import_name_from_5,
                 (PyObject *)moduledict_app$viwe,
                 mod_consts[46],
-                mod_consts[89]
+                mod_consts[84]
             );
         } else {
             tmp_assign_source_11 = IMPORT_NAME(tmp_import_name_from_5, mod_consts[46]);
@@ -9856,7 +9748,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         PyObject *tmp_dict_arg_name_2;
         PyObject *tmp_key_name_2;
         PyObject *tmp_bases_name_1;
-        tmp_key_name_1 = mod_consts[134];
+        tmp_key_name_1 = mod_consts[129];
         CHECK_OBJECT(tmp_class_creation_1__class_decl_dict);
         tmp_dict_arg_name_1 = tmp_class_creation_1__class_decl_dict;
         tmp_res = DICT_HAS_ITEM(tmp_dict_arg_name_1, tmp_key_name_1);
@@ -9870,7 +9762,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         condexpr_true_1:;
         CHECK_OBJECT(tmp_class_creation_1__class_decl_dict);
         tmp_dict_arg_name_2 = tmp_class_creation_1__class_decl_dict;
-        tmp_key_name_2 = mod_consts[134];
+        tmp_key_name_2 = mod_consts[129];
         tmp_metaclass_name_1 = DICT_GET_ITEM_WITH_ERROR(tmp_dict_arg_name_2, tmp_key_name_2);
         if (tmp_metaclass_name_1 == NULL) {
             assert(ERROR_OCCURRED());
@@ -9887,7 +9779,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         tmp_metaclass_name_1 = (PyObject *)&PyType_Type;
         Py_INCREF(tmp_metaclass_name_1);
         condexpr_end_1:;
-        tmp_bases_name_1 = mod_consts[135];
+        tmp_bases_name_1 = mod_consts[130];
         tmp_assign_source_13 = SELECT_METACLASS(tmp_metaclass_name_1, tmp_bases_name_1);
         Py_DECREF(tmp_metaclass_name_1);
         if (tmp_assign_source_13 == NULL) {
@@ -9907,7 +9799,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         nuitka_bool tmp_condition_result_2;
         PyObject *tmp_key_name_3;
         PyObject *tmp_dict_arg_name_3;
-        tmp_key_name_3 = mod_consts[134];
+        tmp_key_name_3 = mod_consts[129];
         CHECK_OBJECT(tmp_class_creation_1__class_decl_dict);
         tmp_dict_arg_name_3 = tmp_class_creation_1__class_decl_dict;
         tmp_res = DICT_HAS_ITEM(tmp_dict_arg_name_3, tmp_key_name_3);
@@ -9922,7 +9814,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
     branch_yes_1:;
     CHECK_OBJECT(tmp_class_creation_1__class_decl_dict);
     tmp_dictdel_dict = tmp_class_creation_1__class_decl_dict;
-    tmp_dictdel_key = mod_consts[134];
+    tmp_dictdel_key = mod_consts[129];
     tmp_result = DICT_REMOVE_ITEM(tmp_dictdel_dict, tmp_dictdel_key);
     if (tmp_result == false) {
         assert(ERROR_OCCURRED());
@@ -9940,7 +9832,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         PyObject *tmp_expression_name_1;
         CHECK_OBJECT(tmp_class_creation_1__metaclass);
         tmp_expression_name_1 = tmp_class_creation_1__metaclass;
-        tmp_result = HAS_ATTR_BOOL(tmp_expression_name_1, mod_consts[136]);
+        tmp_result = HAS_ATTR_BOOL(tmp_expression_name_1, mod_consts[131]);
         tmp_condition_result_3 = (tmp_result) ? NUITKA_BOOL_TRUE : NUITKA_BOOL_FALSE;
         if (tmp_condition_result_3 == NUITKA_BOOL_TRUE) {
             goto branch_yes_2;
@@ -9957,7 +9849,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         PyObject *tmp_kwargs_name_1;
         CHECK_OBJECT(tmp_class_creation_1__metaclass);
         tmp_expression_name_2 = tmp_class_creation_1__metaclass;
-        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_2, mod_consts[136]);
+        tmp_called_name_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_2, mod_consts[131]);
         if (tmp_called_name_1 == NULL) {
             assert(ERROR_OCCURRED());
 
@@ -9968,7 +9860,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
 
             goto try_except_handler_2;
         }
-        tmp_args_name_1 = mod_consts[137];
+        tmp_args_name_1 = mod_consts[132];
         CHECK_OBJECT(tmp_class_creation_1__class_decl_dict);
         tmp_kwargs_name_1 = tmp_class_creation_1__class_decl_dict;
         frame_0d0056312d302b118372fb504e722a98->m_frame.f_lineno = 10;
@@ -9993,7 +9885,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         PyObject *tmp_expression_name_3;
         CHECK_OBJECT(tmp_class_creation_1__prepared);
         tmp_expression_name_3 = tmp_class_creation_1__prepared;
-        tmp_result = HAS_ATTR_BOOL(tmp_expression_name_3, mod_consts[138]);
+        tmp_result = HAS_ATTR_BOOL(tmp_expression_name_3, mod_consts[133]);
         tmp_operand_name_1 = (tmp_result) ? Py_True : Py_False;
         tmp_res = CHECK_IF_TRUE(tmp_operand_name_1);
         if (tmp_res == -1) {
@@ -10024,11 +9916,11 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         PyObject *tmp_getattr_attr_1;
         PyObject *tmp_getattr_default_1;
         tmp_raise_type_1 = PyExc_TypeError;
-        tmp_left_name_1 = mod_consts[139];
+        tmp_left_name_1 = mod_consts[134];
         CHECK_OBJECT(tmp_class_creation_1__metaclass);
         tmp_getattr_target_1 = tmp_class_creation_1__metaclass;
-        tmp_getattr_attr_1 = mod_consts[140];
-        tmp_getattr_default_1 = mod_consts[141];
+        tmp_getattr_attr_1 = mod_consts[135];
+        tmp_getattr_default_1 = mod_consts[136];
         tmp_tuple_element_1 = BUILTIN_GETATTR(tmp_getattr_target_1, tmp_getattr_attr_1, tmp_getattr_default_1);
         if (tmp_tuple_element_1 == NULL) {
             assert(ERROR_OCCURRED());
@@ -10049,7 +9941,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             tmp_type_arg_1 = tmp_class_creation_1__prepared;
             tmp_expression_name_4 = BUILTIN_TYPE1(tmp_type_arg_1);
             assert(!(tmp_expression_name_4 == NULL));
-            tmp_tuple_element_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_4, mod_consts[140]);
+            tmp_tuple_element_1 = LOOKUP_ATTRIBUTE(tmp_expression_name_4, mod_consts[135]);
             Py_DECREF(tmp_expression_name_4);
             if (tmp_tuple_element_1 == NULL) {
                 assert(ERROR_OCCURRED());
@@ -10111,8 +10003,8 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         }
         // Tried code:
         // Tried code:
-        tmp_dictset_value = mod_consts[142];
-        tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[143], tmp_dictset_value);
+        tmp_dictset_value = mod_consts[137];
+        tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[138], tmp_dictset_value);
         if (tmp_res != 0) {
             assert(ERROR_OCCURRED());
 
@@ -10124,7 +10016,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             goto try_except_handler_4;
         }
         tmp_dictset_value = mod_consts[36];
-        tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[144], tmp_dictset_value);
+        tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[139], tmp_dictset_value);
         if (tmp_res != 0) {
             assert(ERROR_OCCURRED());
 
@@ -10136,7 +10028,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             goto try_except_handler_4;
         }
         tmp_dictset_value = PyDict_New();
-        tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[145], tmp_dictset_value);
+        tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[140], tmp_dictset_value);
         Py_DECREF(tmp_dictset_value);
         if (tmp_res != 0) {
             assert(ERROR_OCCURRED());
@@ -10193,14 +10085,14 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             PyObject *tmp_subscript_name_1;
             PyObject *tmp_ass_subscribed_1;
             PyObject *tmp_ass_subscript_1;
-            tmp_expression_name_5 = PyObject_GetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[127]);
+            tmp_expression_name_5 = PyObject_GetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[122]);
 
             if (tmp_expression_name_5 == NULL) {
                 if (CHECK_AND_CLEAR_KEY_ERROR_OCCURRED()) {
-                    tmp_expression_name_5 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[127]);
+                    tmp_expression_name_5 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[122]);
 
                     if (unlikely(tmp_expression_name_5 == NULL)) {
-                        tmp_expression_name_5 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[127]);
+                        tmp_expression_name_5 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[122]);
                     }
 
                     if (tmp_expression_name_5 == NULL) {
@@ -10254,11 +10146,11 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
                 type_description_2 = "o";
                 goto frame_exception_exit_2;
             }
-            tmp_ass_subscribed_1 = PyObject_GetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[145]);
+            tmp_ass_subscribed_1 = PyObject_GetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[140]);
 
             if (unlikely(tmp_ass_subscribed_1 == NULL && CHECK_AND_CLEAR_KEY_ERROR_OCCURRED())) {
                 Py_DECREF(tmp_ass_subvalue_1);
-                FORMAT_NAME_ERROR(&exception_type, &exception_value, mod_consts[145]);
+                FORMAT_NAME_ERROR(&exception_type, &exception_value, mod_consts[140]);
                 NORMALIZE_EXCEPTION(&exception_type, &exception_value, &exception_tb);
                 CHAIN_EXCEPTION(exception_value);
 
@@ -10292,8 +10184,8 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
                 goto frame_exception_exit_2;
             }
         }
-        tmp_dictset_value = mod_consts[86];
-        tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[91], tmp_dictset_value);
+        tmp_dictset_value = mod_consts[81];
+        tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[86], tmp_dictset_value);
         if (tmp_res != 0) {
             assert(ERROR_OCCURRED());
 
@@ -10305,7 +10197,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             goto frame_exception_exit_2;
         }
         tmp_dictset_value = mod_consts[15];
-        tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[90], tmp_dictset_value);
+        tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[85], tmp_dictset_value);
         if (tmp_res != 0) {
             assert(ERROR_OCCURRED());
 
@@ -10320,7 +10212,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
 
         tmp_dictset_value = MAKE_FUNCTION_app$viwe$$$function__1___init__();
 
-        tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[146], tmp_dictset_value);
+        tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[141], tmp_dictset_value);
         Py_DECREF(tmp_dictset_value);
         if (tmp_res != 0) {
             assert(ERROR_OCCURRED());
@@ -10335,14 +10227,14 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
         {
             PyObject *tmp_called_name_2;
             PyObject *tmp_args_element_name_1;
-            tmp_called_name_2 = PyObject_GetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[148]);
+            tmp_called_name_2 = PyObject_GetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[143]);
 
             if (tmp_called_name_2 == NULL) {
                 if (CHECK_AND_CLEAR_KEY_ERROR_OCCURRED()) {
-                    tmp_called_name_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[148]);
+                    tmp_called_name_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[143]);
 
                     if (unlikely(tmp_called_name_2 == NULL)) {
-                        tmp_called_name_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[148]);
+                        tmp_called_name_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[143]);
                     }
 
                     if (tmp_called_name_2 == NULL) {
@@ -10402,7 +10294,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 60;
+            exception_lineno = 55;
             type_description_2 = "o";
             goto frame_exception_exit_2;
         }
@@ -10418,7 +10310,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 81;
+            exception_lineno = 76;
             type_description_2 = "o";
             goto frame_exception_exit_2;
         }
@@ -10429,15 +10321,15 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             PyObject *tmp_expression_name_6;
             PyObject *tmp_subscript_name_2;
             PyObject *tmp_tuple_element_2;
-            tmp_dict_key_1 = mod_consts[154];
-            tmp_expression_name_6 = PyObject_GetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[128]);
+            tmp_dict_key_1 = mod_consts[149];
+            tmp_expression_name_6 = PyObject_GetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[123]);
 
             if (tmp_expression_name_6 == NULL) {
                 if (CHECK_AND_CLEAR_KEY_ERROR_OCCURRED()) {
-                    tmp_expression_name_6 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[128]);
+                    tmp_expression_name_6 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[123]);
 
                     if (unlikely(tmp_expression_name_6 == NULL)) {
-                        tmp_expression_name_6 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[128]);
+                        tmp_expression_name_6 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[123]);
                     }
 
                     if (tmp_expression_name_6 == NULL) {
@@ -10446,7 +10338,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
                         FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                        exception_lineno = 128;
+                        exception_lineno = 123;
                         type_description_2 = "o";
                         goto frame_exception_exit_2;
                     }
@@ -10454,14 +10346,14 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
                 }
             }
 
-            tmp_tuple_element_2 = PyObject_GetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[155]);
+            tmp_tuple_element_2 = PyObject_GetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[150]);
 
             if (tmp_tuple_element_2 == NULL) {
                 if (CHECK_AND_CLEAR_KEY_ERROR_OCCURRED()) {
-                    tmp_tuple_element_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[155]);
+                    tmp_tuple_element_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[150]);
 
                     if (unlikely(tmp_tuple_element_2 == NULL)) {
-                        tmp_tuple_element_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[155]);
+                        tmp_tuple_element_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[150]);
                     }
 
                     if (tmp_tuple_element_2 == NULL) {
@@ -10470,7 +10362,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
                         FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
                         Py_DECREF(tmp_expression_name_6);
 
-                        exception_lineno = 128;
+                        exception_lineno = 123;
                         type_description_2 = "o";
                         goto frame_exception_exit_2;
                     }
@@ -10480,14 +10372,14 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
 
             tmp_subscript_name_2 = PyTuple_New(2);
             PyTuple_SET_ITEM(tmp_subscript_name_2, 0, tmp_tuple_element_2);
-            tmp_tuple_element_2 = PyObject_GetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[155]);
+            tmp_tuple_element_2 = PyObject_GetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[150]);
 
             if (tmp_tuple_element_2 == NULL) {
                 if (CHECK_AND_CLEAR_KEY_ERROR_OCCURRED()) {
-                    tmp_tuple_element_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[155]);
+                    tmp_tuple_element_2 = GET_STRING_DICT_VALUE(moduledict_app$viwe, (Nuitka_StringObject *)mod_consts[150]);
 
                     if (unlikely(tmp_tuple_element_2 == NULL)) {
-                        tmp_tuple_element_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[155]);
+                        tmp_tuple_element_2 = GET_MODULE_VARIABLE_VALUE_FALLBACK(mod_consts[150]);
                     }
 
                     if (tmp_tuple_element_2 == NULL) {
@@ -10496,7 +10388,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
                         FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                        exception_lineno = 128;
+                        exception_lineno = 123;
                         type_description_2 = "o";
                         goto tuple_build_exception_2;
                     }
@@ -10522,7 +10414,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 128;
+                exception_lineno = 123;
                 type_description_2 = "o";
                 goto frame_exception_exit_2;
             }
@@ -10534,7 +10426,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
 
             tmp_dictset_value = MAKE_FUNCTION_app$viwe$$$function__5_ChangePositionAndShowButtonLang(tmp_annotations_1);
 
-            tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[104], tmp_dictset_value);
+            tmp_res = PyObject_SetItem(locals_app$viwe$$$class__1_Windows_10, mod_consts[99], tmp_dictset_value);
             Py_DECREF(tmp_dictset_value);
             if (tmp_res != 0) {
                 assert(ERROR_OCCURRED());
@@ -10542,7 +10434,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
                 FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-                exception_lineno = 128;
+                exception_lineno = 123;
                 type_description_2 = "o";
                 goto frame_exception_exit_2;
             }
@@ -10559,7 +10451,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             FETCH_ERROR_OCCURRED(&exception_type, &exception_value, &exception_tb);
 
 
-            exception_lineno = 147;
+            exception_lineno = 142;
             type_description_2 = "o";
             goto frame_exception_exit_2;
         }
@@ -10629,7 +10521,7 @@ PyObject *modulecode_app$viwe(PyObject *module, struct Nuitka_MetaPathBasedLoade
             tmp_tuple_element_3 = mod_consts[36];
             tmp_args_name_2 = PyTuple_New(3);
             PyTuple_SET_ITEM0(tmp_args_name_2, 0, tmp_tuple_element_3);
-            tmp_tuple_element_3 = mod_consts[135];
+            tmp_tuple_element_3 = mod_consts[130];
             PyTuple_SET_ITEM0(tmp_args_name_2, 1, tmp_tuple_element_3);
             tmp_tuple_element_3 = locals_app$viwe$$$class__1_Windows_10;
             PyTuple_SET_ITEM0(tmp_args_name_2, 2, tmp_tuple_element_3);

@@ -159,7 +159,7 @@ static PyObject *MAKE_GENERATOR_pynput$keyboard$_base$$$function__17_modifiers$$
 static PyObject *MAKE_GENERATOR_pynput$keyboard$_base$$$function__22__resolve$$$genexpr__1_genexpr(struct Nuitka_CellObject **closure);
 
 
-NUITKA_CROSS_MODULE PyObject *impl___main__$$$function__1__mro_entries_conversion(PyObject **python_pars);
+NUITKA_CROSS_MODULE PyObject *impl___main__$$$function__3__mro_entries_conversion(PyObject **python_pars);
 
 
 NUITKA_CROSS_MODULE PyObject *impl___main__$$$function__11_complex_call_helper_keywords_star_dict(PyObject **python_pars);
@@ -18257,7 +18257,7 @@ PyObject *modulecode_pynput$keyboard$_base(PyObject *module, struct Nuitka_MetaP
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_1};
-            tmp_assign_source_11 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+            tmp_assign_source_11 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
         }
         if (tmp_assign_source_11 == NULL) {
             assert(ERROR_OCCURRED());
@@ -19323,7 +19323,7 @@ PyObject *modulecode_pynput$keyboard$_base(PyObject *module, struct Nuitka_MetaP
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_2};
-            tmp_assign_source_19 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+            tmp_assign_source_19 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
         }
         if (tmp_assign_source_19 == NULL) {
             assert(ERROR_OCCURRED());
@@ -20701,7 +20701,7 @@ PyObject *modulecode_pynput$keyboard$_base(PyObject *module, struct Nuitka_MetaP
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_3};
-            tmp_assign_source_26 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+            tmp_assign_source_26 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
         }
         if (tmp_assign_source_26 == NULL) {
             assert(ERROR_OCCURRED());
@@ -21209,7 +21209,7 @@ PyObject *modulecode_pynput$keyboard$_base(PyObject *module, struct Nuitka_MetaP
 
             {
                 PyObject *dir_call_args[] = {tmp_dircall_arg1_4};
-                tmp_assign_source_33 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+                tmp_assign_source_33 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
             }
             if (tmp_assign_source_33 == NULL) {
                 assert(ERROR_OCCURRED());
@@ -21812,7 +21812,7 @@ PyObject *modulecode_pynput$keyboard$_base(PyObject *module, struct Nuitka_MetaP
 
             {
                 PyObject *dir_call_args[] = {tmp_dircall_arg1_5};
-                tmp_assign_source_40 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+                tmp_assign_source_40 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
             }
             if (tmp_assign_source_40 == NULL) {
                 assert(ERROR_OCCURRED());
@@ -23453,7 +23453,7 @@ PyObject *modulecode_pynput$keyboard$_base(PyObject *module, struct Nuitka_MetaP
 
         {
             PyObject *dir_call_args[] = {tmp_dircall_arg1_6};
-            tmp_assign_source_48 = impl___main__$$$function__1__mro_entries_conversion(dir_call_args);
+            tmp_assign_source_48 = impl___main__$$$function__3__mro_entries_conversion(dir_call_args);
         }
         if (tmp_assign_source_48 == NULL) {
             assert(ERROR_OCCURRED());
