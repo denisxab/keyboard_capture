@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 ## Meaning projects
 The meaning of the program is to work conveniently with the keyboard layout
 
@@ -41,8 +33,9 @@ keyboard~=0.13.5
 ## Examples
 
 1.
+    - Alt + Z
     >![П1](https://i.imgur.com/gZNsziH.gif)
-    >
+    - Ctr + C and Alt + Z
     >![П2](https://i.imgur.com/4ngSiFV.gif)
 2.
     - Написать "Ghdbtn vbh" нажать Alt_l + Alt_l 
